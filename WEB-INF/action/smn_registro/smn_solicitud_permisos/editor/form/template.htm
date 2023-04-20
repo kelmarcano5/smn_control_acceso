@@ -7,8 +7,8 @@
 	<link rel="stylesheet" type="text/css" href="${def:context}/dinamica_bkp.css" />
 	<link rel="stylesheet" type="text/css" href="${def:context}/main.css" />
 	<link rel="stylesheet" type="text/css" href="${def:context}/select2.min.css" />
-	
-<!--biblioteca generica JS/Dinamica-->
+
+	<!--biblioteca generica JS/Dinamica-->
 	<script type="text/javascript" src="${def:context}/action/script"></script>
 	<script type="text/javascript" src="${def:context}/action/jquery"></script>
 	<script type="text/javascript" src="${def:context}/action/select2"></script>
@@ -17,652 +17,627 @@
 
 <body>
 
-<!--banner-->
-<div class="bannerDialog" id="encabezado_tabla">
-	${lbl:b_requests_permissions}
-	<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog(); parent.search();" title="${lbl:b_close_button}" style="float:right; cursor:pointer;">
-	${req:progress}
-</div>
+	<!--banner-->
+	<div class="bannerDialog" id="encabezado_tabla">
+		${lbl:b_requests_permissions}
+		<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog(); parent.search();" title="${lbl:b_close_button}" style="float:right; cursor:pointer;">
+		${req:progress}
+	</div>
 
-<!--formulario addnew/edit-->
-<form name="form1" onsubmit="return save()" style="width:500px;">
+	<!--formulario addnew/edit-->
+	<form name="form1" onsubmit="return save()" style="width:500px;">
 
-	<!-- titulo -->
-	<h1 id="formTitle">${lbl:b_add_record}</h1>
+		<!-- titulo -->
+		<h1 id="formTitle">${lbl:b_add_record}</h1>
 
-	<table>
+		<table>
 
-		<!--ancho de la columna de etiquetas-->
-		<col width="30%">
+			<!--ancho de la columna de etiquetas-->
+			<col width="30%">
 
-		<!--campos-->
-		<tr>
-			<td>${lbl:b_tipo_permiso}*</td>
-			<td>
-				<select name="cju_tipo_permiso" id="cju_tipo_permiso" onchange="chgCombo2(cju_tipo_permiso.options[cju_tipo_permiso.selectedIndex].text,'cju_tipo_permiso_name');">
-				<option value="">[Seleccione tipo permiso]</option>
-				<option value="VA">${lbl:b_vacation}</option>
-				<!-- <option value="SA">${lbl:b_health}</option>  -->
-				<option value="OT">${lbl:b_others}</option>
-
-				</select> 
-				<input id="cju_tipo_permiso_name" name="cju_tipo_permiso_name" type="hidden">
-			</td>
-		</tr>
+			<!--campos-->
 			<tr>
-		<td>${lbl:b_personal}*</td>
-		<td>
-			<select name="smn_personal_id" id="smn_personal_id" onchange="chgCombo1(smn_personal_id.options[smn_personal_id.selectedIndex].text,'smn_personal_id_name'); buscarvacaciones(); buscaregla();">
-				<option value="">[Cualquiera]</option>
-				<smn_personal_id_rows>
-				<option value="${fld:id}">${fld:item}</option>
+				<td>${lbl:b_tipo_permiso}*</td>
+				<td>
+					<select name="cju_tipo_permiso" id="cju_tipo_permiso" onchange="chgCombo2(cju_tipo_permiso.options[cju_tipo_permiso.selectedIndex].text,'cju_tipo_permiso_name');">
+						<option value="">[Seleccione tipo permiso]</option>
+						<option value="VA">${lbl:b_vacation}</option>
+						<!-- <option value="SA">${lbl:b_health}</option>  -->
+						<option value="OT">${lbl:b_others}</option>
 
-				</smn_personal_id_rows>
-			</select> 
-			<input id="smn_personal_id_name" name="smn_personal_id_name" type="hidden">
-		</td>
-	</tr>
-	<tr>
-		<td>${lbl:b_documento}*</td>
-		<td>
-			<select name="spe_documento_rf" id="spe_documento_rf" onchange="chgCombo(spe_documento_rf.options[spe_documento_rf.selectedIndex].text,'spe_documento_rf_name');">
-				<option value="">[Cualquiera]</option>
-				<spe_documento_rf_rows>
-				<option value="${fld:id}">${fld:item}</option>
+					</select>
+					<input id="cju_tipo_permiso_name" name="cju_tipo_permiso_name" type="hidden">
+				</td>
+			</tr>
+			<tr>
+				<td>${lbl:b_personal}*</td>
+				<td>
+					<select name="smn_personal_id" id="smn_personal_id" onchange="chgCombo1(smn_personal_id.options[smn_personal_id.selectedIndex].text,'smn_personal_id_name'); buscarvacaciones(); buscaregla();">
+						<option value="">[Cualquiera]</option>
+						<smn_personal_id_rows>
+							<option value="${fld:id}">${fld:item}</option>
 
-				</spe_documento_rf_rows>
-			</select> 
-			<input id="spe_documento_rf_name" name="spe_documento_rf_name" type="hidden">
-		</td>
-	</tr>
-	<tr>
-		<td>${lbl:b_justification_category}*</td>
-		<td>
-			<select name="spe_categoria_justif_rf" id="spe_categoria_justif_rf" onchange="chgCombo(spe_categoria_justif_rf.options[spe_categoria_justif_rf.selectedIndex].text,'spe_categoria_justif_rf_name');">
-				<option value="">[Cualquiera]</option>
-				<spe_categoria_justif_rf_rows>
-				<option value="${fld:id}">${fld:item}</option>
+						</smn_personal_id_rows>
+					</select>
+					<input id="smn_personal_id_name" name="smn_personal_id_name" type="hidden">
+				</td>
+			</tr>
+			<tr>
+				<td>${lbl:b_documento}*</td>
+				<td>
+					<select name="spe_documento_rf" id="spe_documento_rf" onchange="chgCombo(spe_documento_rf.options[spe_documento_rf.selectedIndex].text,'spe_documento_rf_name');">
+						<option value="">[Cualquiera]</option>
+						<spe_documento_rf_rows>
+							<option value="${fld:id}">${fld:item}</option>
 
-				</spe_categoria_justif_rf_rows>
-			</select> 
-			<input id="spe_categoria_justif_rf_name" name="spe_categoria_justif_rf_name" type="hidden">
-		</td>
-	</tr>
-	
-		<tr id="detalle_" name="detalle_">
+						</spe_documento_rf_rows>
+					</select>
+					<input id="spe_documento_rf_name" name="spe_documento_rf_name" type="hidden">
+				</td>
+			</tr>
+			<tr>
+				<td>${lbl:b_justification_category}*</td>
+				<td>
+					<select name="spe_categoria_justif_rf" id="spe_categoria_justif_rf" onchange="chgCombo(spe_categoria_justif_rf.options[spe_categoria_justif_rf.selectedIndex].text,'spe_categoria_justif_rf_name');">
+						<option value="">[Cualquiera]</option>
+						<spe_categoria_justif_rf_rows>
+							<option value="${fld:id}">${fld:item}</option>
+
+						</spe_categoria_justif_rf_rows>
+					</select>
+					<input id="spe_categoria_justif_rf_name" name="spe_categoria_justif_rf_name" type="hidden">
+				</td>
+			</tr>
+
+			<tr id="detalle_" name="detalle_">
 				<td>${lbl:b_vacation_pend}*</td>
 				<td id="detalle" name="detalle">
-					<smn_control_vacaciones_id_rows> 
+					<smn_control_vacaciones_id_rows>
 						<input name="smn_control_vacaciones_id" id="smn_control_vacaciones_id" type="checkbox" value="${fld:smn_control_vacaciones_id}" style="width: 10px" onclick="sumar('${fld:cva_cantidad_dias_pendientes}')"><br>
 					</smn_control_vacaciones_id_rows>
 				</td>
-		</tr>
-		<tr id="cant_dia">
-		<td>${lbl:b_days_pend}*</td>
-				<td><input id="det_cantidad_dias_pend" name="det_cantidad_dias_pend"
-					type="text" maxlength="10" class="numeric" disabled="true"></td>
-		</tr>
-		<tr id="vac_frac">
-			<td>${lbl:b_vacation_fracc}</td>
-			<td>
-				<input id="rva_vacaciones_fraccionadas" name="rva_vacaciones_fraccionadas_name" type="text" maxlength="2">
-				
-			</td>
-		</tr>
-	
-		<tr>
-			<td>${lbl:b_inicial_date}*</td>
-			<td>
-			<input id="spe_fecha_desde" name="spe_fecha_desde" type="date" maxlength="10" onchange="calcularhoras();">
-				<!-- <img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('spe_fecha_desde'); calcularhoras();"> -->
-			</td>
-		</tr>
-		<tr>
-			<td>${lbl:b_cant_dia_sol}*</td>
-			<td>
-				<input id="spe_cantidad_dias" name="spe_cantidad_dias" type="text" maxlength="10" class="numeric" onchange="calcularhoras();">
-			</td>
-		</tr>
-		<tr>
-			<td>${lbl:b_end_date}*</td>
-			<td>
-				<input id="spe_fecha_hasta" name="spe_fecha_hasta" type="text" class="date" maxlength="10">
-				<!-- <img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('spe_fecha_hasta')"> -->
-			</td>
-		</tr>
-		<tr>
-			<td>${lbl:b_nro_horas}*</td>
-			<td>
-				<input id="spe_cantidad_horas" name="spe_cantidad_horas" type="text" maxlength="10" class="numeric">
-			</td>
-		</tr>
-		<tr style="display:none">
-			<td>${lbl:b_status}*</td>
-			<td>
-				<select name="spe_estatus_rf" id="spe_estatus_rf">
-				<!-- <option value="APR">${lbl:b_approved}</option>
+			</tr>
+			<tr id="cant_dia">
+				<td>${lbl:b_days_pend}*</td>
+				<td><input id="det_cantidad_dias_pend" name="det_cantidad_dias_pend" type="text" maxlength="10" class="numeric" disabled="true"></td>
+			</tr>
+			<tr id="vac_frac">
+				<td>${lbl:b_vacation_fracc}</td>
+				<td>
+					<input id="rva_vacaciones_fraccionadas" name="rva_vacaciones_fraccionadas_name" type="text" maxlength="2">
+
+				</td>
+			</tr>
+
+			<tr>
+				<td>${lbl:b_inicial_date}*</td>
+				<td>
+					<input id="spe_fecha_desde" name="spe_fecha_desde" type="date" maxlength="10" onchange="calcularhoras();">
+					<!-- <img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('spe_fecha_desde'); calcularhoras();"> -->
+				</td>
+			</tr>
+			<tr>
+				<td>${lbl:b_cant_dia_sol}*</td>
+				<td>
+					<input id="spe_cantidad_dias" name="spe_cantidad_dias" type="text" maxlength="10" class="numeric" onchange="calcularhoras();">
+				</td>
+			</tr>
+			<tr>
+				<td>${lbl:b_end_date}*</td>
+				<td>
+					<input id="spe_fecha_hasta" name="spe_fecha_hasta" type="text" class="date" maxlength="10">
+					<!-- <img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('spe_fecha_hasta')"> -->
+				</td>
+			</tr>
+			<tr>
+				<td>${lbl:b_nro_horas}*</td>
+				<td>
+					<input id="spe_cantidad_horas" name="spe_cantidad_horas" type="text" maxlength="10" class="numeric">
+				</td>
+			</tr>
+			<tr style="display:none">
+				<td>${lbl:b_status}*</td>
+				<td>
+					<select name="spe_estatus_rf" id="spe_estatus_rf">
+						<!-- <option value="APR">${lbl:b_approved}</option>
 				<option value="NAP">${lbl:b_not_approved}</option> -->
-				<option value="PEN">${lbl:b_pending}</option>
+						<option value="PEN">${lbl:b_pending}</option>
 
-				</select> 
-			</td>
-		</tr>
-		
-	<tr>
-		<td>${lbl:b_direct_boss}*</td>
-		<td>
-			<select name="spe_jefe_inmediato_rf" id="spe_jefe_inmediato_rf" onchange="chgCombo(spe_jefe_inmediato_rf.options[spe_jefe_inmediato_rf.selectedIndex].text,'spe_jefe_inmediato_rf_name');verificar_jefe();">
-				<option value="">[Cualquiera]</option>
-				<spe_jefe_inmediato_rf_rows>
-				<option value="${fld:id}">${fld:item}</option>
+					</select>
+				</td>
+			</tr>
 
-				</spe_jefe_inmediato_rf_rows>
-			</select> 
-			<input id="spe_jefe_inmediato_rf_name" name="spe_jefe_inmediato_rf_name" type="hidden">
-		</td>
-	</tr>
-		<tr>
-			<td>${lbl:b_details}</td>
-			<td>
-				<textarea id="spe_detalles" name="spe_detalles" cols="30" rows="3"></textarea>
-			</td>
-		</tr>
-		<tr style="display:none">
-			<td>${lbl:b_cause_not_approved}</td>
-			<td>
-				<textarea id="spe_causa" name="spe_causa" cols="30" rows="3"></textarea>
-			</td>
-		</tr>
+			<tr>
+				<td>${lbl:b_direct_boss}*</td>
+				<td>
+					<select name="spe_jefe_inmediato_rf" id="spe_jefe_inmediato_rf" onchange="chgCombo(spe_jefe_inmediato_rf.options[spe_jefe_inmediato_rf.selectedIndex].text,'spe_jefe_inmediato_rf_name');verificar_jefe();">
+						<option value="">[Cualquiera]</option>
+						<spe_jefe_inmediato_rf_rows>
+							<option value="${fld:id}">${fld:item}</option>
 
-	
-	</table>
+						</spe_jefe_inmediato_rf_rows>
+					</select>
+					<input id="spe_jefe_inmediato_rf_name" name="spe_jefe_inmediato_rf_name" type="hidden">
+				</td>
+			</tr>
+			<tr>
+				<td>${lbl:b_details}</td>
+				<td>
+					<textarea id="spe_detalles" name="spe_detalles" cols="30" rows="3"></textarea>
+				</td>
+			</tr>
+			<tr style="display:none">
+				<td>${lbl:b_cause_not_approved}</td>
+				<td>
+					<textarea id="spe_causa" name="spe_causa" cols="30" rows="3"></textarea>
+				</td>
+			</tr>
 
-	<!--botones-->
-	<input id="grabar" type="submit" value="${lbl:b_save_button}" class="button">
-	<input id="limpiar" type="button" value="${lbl:b_clean_button}" onclick="addNew()" class="button">	
-	<input id="copiar" type="button" value="${lbl:b_copy_button}" onclick="getFormValuesToCopy('form1')" class="button">
-	<input id="pegar" type="button" value="${lbl:b_paste_button}" onclick="getFormValuesToPaste('form1')" class="button">
-	<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog(); parent.search();" class="button">	
-	
-	<!-- PK-->
-<input type="hidden" name="id" value="">
 
-</form>
+		</table>
 
-<!--codigo de soporte del template-->
-<script type="text/javascript">
+		<!--botones-->
+		<input id="grabar" type="submit" value="${lbl:b_save_button}" class="button">
+		<input id="limpiar" type="button" value="${lbl:b_clean_button}" onclick="addNew()" class="button">
+		<input id="copiar" type="button" value="${lbl:b_copy_button}" onclick="getFormValuesToCopy('form1')" class="button">
+		<input id="pegar" type="button" value="${lbl:b_paste_button}" onclick="getFormValuesToPaste('form1')" class="button">
+		<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog(); parent.search();" class="button">
 
-	onload = function()
-	{ 
-		
-		
-		addNew();
-		$(document).ready(function() {
-			$('#detalle_').hide();
-			$('#cant_dia').hide();
-			$('#vac_frac').hide();
-		});
-		
-		document.form1.spe_categoria_justif_rf.disabled=true;
-		document.form1.spe_jefe_inmediato_rf.disabled=true;
-		document.form1.spe_fecha_hasta.disabled=true;
-		document.form1.spe_cantidad_horas.disabled=true;
-		// document.form1.spe_cantidad_dias.disabled=true;
+		<!-- PK-->
+		<input type="hidden" name="id" value="">
 
-		// document.form1.detalle_.disabled=true;
-		// document.form1.det_cantidad_dias_pend.disabled=true;
-		document.form1.rva_vacaciones_fraccionadas.disabled=true;
-		// var f = new Date();
-		// fecha = f.getDate() + "-" + (f.getMonth() +1) + "-" + f.getFullYear();
-		// document.getElementById('spe_fecha_desde').value = fecha;
-		//document.form1.spe_fecha_desde = monto_total
+	</form>
 
-		
+	<!--codigo de soporte del template-->
+	<script type="text/javascript">
+		onload = function() {
 
-		if (id!="")
-			edit(id);
-	} 
 
-	function verificar_jefe() {
-		var cod_jefe = document.getElementById('spe_jefe_inmediato_rf').value;
+			addNew();
+			$(document).ready(function() {
+				$('#detalle_').hide();
+				$('#cant_dia').hide();
+				$('#vac_frac').hide();
+			});
 
-		for (var i = 0; i < cod_jefe.length; i++) {
-			cod_jefe[i]
-			console.log(""+cod_jefe[i]);
+			document.form1.spe_categoria_justif_rf.disabled = true;
+			document.form1.spe_jefe_inmediato_rf.disabled = true;
+			document.form1.spe_fecha_hasta.disabled = true;
+			document.form1.spe_cantidad_horas.disabled = true;
+			document.form1.rva_vacaciones_fraccionadas.disabled = true;
+
+
+
+			if (id != "")
+				edit(id);
 		}
 
+		function verificar_jefe() {
+			var cod_jefe = document.getElementById('spe_jefe_inmediato_rf').value;
 
-	}
-
-
-	
-	function chgCombo(text,id)
-	{
-		document.getElementById(id).value = text;
-	}
-	
-	//configurar formulario para ingresar registro nuevo
-	function addNew()
-	{
-		document.getElementById("formTitle").innerHTML = "${lbl:b_add_record}";
-		document.getElementById("grabar").disabled=false;
-		clearForm("form1");
-		setFocusOnForm("form1");
-	}
-	
-	//retorna al estado previo que corresponde
-	//al estado actual de la pagina, cada llamada Ajax
-	//se encarga de definir cual es la funcion de goBack() que aplica
-	function goBack() 
-	{
-		_goBackFn()			
-	}
-	
-	//mostrar la actualizacion de un registro
-	function insert()
-	{		
-			clearErrorMessages();
-			document.getElementById("grabar").disabled=true;
-			var tipo = document.getElementById("cju_tipo_permiso").value;
-			if(tipo=="VA"){
-				return ajaxCall(httpMethod="POST", 
-							uri="${def:actionroot}/procesar", 
-							divResponse=null, 
-							divProgress="status", 
-							formName="form1", 
-							afterResponseFn=null, 
-							onErrorFn=retryAddnewOrEdit());	
-			
-			}else{
-				return ajaxCall(httpMethod="POST", 
-							uri="${def:actionroot}/insert", 
-							divResponse=null, 
-							divProgress="status", 
-							formName="form1", 
-							afterResponseFn=null, 
-							onErrorFn=retryAddnewOrEdit());	
+			for (var i = 0; i < cod_jefe.length; i++) {
+				cod_jefe[i]
+				console.log("" + cod_jefe[i]);
 			}
-			
-	}
-	
-	//restaurar el formulario en caso de error
-	function retryAddnewOrEdit() {
-		document.getElementById("grabar").disabled=false;
-		setFocusOnForm("form1");		
-	}
-	
-	var id = "${fld:id}"
-	
-	//grabar el formulario
-	function save()
-	{
-		//determina si es un insert o un update
-		if (document.form1.id.value=="")
-			return insert();
-		else
-			return update();
-	}
-	
-	//editar registro en formulario
-	function edit(id)
-	{
-			clearErrorMessages();
 
-			//llamada Ajax...
-			ajaxCall(httpMethod="GET", 
-							uri="${def:actionroot}/edit?id=" + id , 
-							divResponse=null, 
-							divProgress="status", 
-							formName=null, 
-							afterResponseFn=null, 
-							onErrorFn=null);	
-	}
-	
-	//actualizar registro en BD
-	function update()
-	{		
-			clearErrorMessages();
-			document.getElementById("grabar").disabled=true;
-			
-			//llamada Ajax...
-			return ajaxCall(httpMethod="POST", 
-							uri="${def:actionroot}/update", 
-							divResponse=null, 
-							divProgress="status", 
-							formName="form1", 
-							afterResponseFn=null, 
-							onErrorFn=retryAddnewOrEdit);	
-	}
 
-				//Author     : SIMONE
-	//Description: Set first element as selected value
-	//Return     : None
-	function setElementFirstIndex(id)
-	{
-		var combo = document.getElementById(id);
-		combo.selectedIndex = 0;
-	}
-
-	//Author     : SIMONE
-	//Description: Insert new value into combo box
-	//Return     : None
-	function insertComboBox(code, combo, description) {
-		var valueText = code;
-		if (description != null)
-		{
-			valueText = valueText + ' - ' + description;
 		}
-		//alert("Insert Combo: "+valueText);
-        combo.options[combo.options.length] = new Option(valueText);
-	}
-	
-	//Author     : SIMONE
-	//Description: Add new value to combo box
-	//Return     : None
-	function addValueToCombo(code, description, field) 
-	{
-	    var combo = document.getElementById(field);	    
-	    insertComboBox(code, combo, description);
-	}
-	
-	//Author     : SIMONE
-	//Description: Set selected index into combo box
-	//Return     : None
-	function setSelectedIndex(code, combo, description) 
-	{
-	    for (var i = 0; i < combo.options.length; i++) 
-	    {
+
+		function chgCombo(text, id) {
+			document.getElementById(id).value = text;
+		}
+
+		//configurar formulario para ingresar registro nuevo
+		function addNew() {
+			document.getElementById("formTitle").innerHTML = "${lbl:b_add_record}";
+			document.getElementById("grabar").disabled = false;
+			clearForm("form1");
+			setFocusOnForm("form1");
+		}
+
+		//retorna al estado previo que corresponde
+		//al estado actual de la pagina, cada llamada Ajax
+		//se encarga de definir cual es la funcion de goBack() que aplica
+		function goBack() {
+			_goBackFn()
+		}
+
+		//mostrar la actualizacion de un registro
+		function insert() {
+			clearErrorMessages();
+			document.getElementById("grabar").disabled = true;
+			var tipo = document.getElementById("cju_tipo_permiso").value;
+			if (tipo == "VA") {
+				return ajaxCall(httpMethod = "POST",
+					uri = "${def:actionroot}/procesar",
+					divResponse = null,
+					divProgress = "status",
+					formName = "form1",
+					afterResponseFn = null,
+					onErrorFn = retryAddnewOrEdit());
+
+			} else {
+				return ajaxCall(httpMethod = "POST",
+					uri = "${def:actionroot}/insert",
+					divResponse = null,
+					divProgress = "status",
+					formName = "form1",
+					afterResponseFn = null,
+					onErrorFn = retryAddnewOrEdit());
+			}
+
+		}
+
+		//restaurar el formulario en caso de error
+		function retryAddnewOrEdit() {
+			document.getElementById("grabar").disabled = false;
+			setFocusOnForm("form1");
+		}
+
+		var id = "${fld:id}"
+
+		//grabar el formulario
+		function save() {
+			//determina si es un insert o un update
+			if (document.form1.id.value == "")
+				return insert();
+			else
+				return update();
+		}
+
+		//editar registro en formulario
+		function edit(id) {
+			clearErrorMessages();
+
+			//llamada Ajax...
+			ajaxCall(httpMethod = "GET",
+				uri = "${def:actionroot}/edit?id=" + id,
+				divResponse = null,
+				divProgress = "status",
+				formName = null,
+				afterResponseFn = null,
+				onErrorFn = null);
+		}
+
+		//actualizar registro en BD
+		function update() {
+			clearErrorMessages();
+			document.getElementById("grabar").disabled = true;
+
+			//llamada Ajax...
+			return ajaxCall(httpMethod = "POST",
+				uri = "${def:actionroot}/update",
+				divResponse = null,
+				divProgress = "status",
+				formName = "form1",
+				afterResponseFn = null,
+				onErrorFn = retryAddnewOrEdit);
+		}
+
+		//Author     : SIMONE
+		//Description: Set first element as selected value
+		//Return     : None
+		function setElementFirstIndex(id) {
+			var combo = document.getElementById(id);
+			combo.selectedIndex = 0;
+		}
+
+		//Author     : SIMONE
+		//Description: Insert new value into combo box
+		//Return     : None
+		function insertComboBox(code, combo, description) {
 			var valueText = code;
-			if (description != null)
-			{
+			if (description != null) {
 				valueText = valueText + ' - ' + description;
 			}
-	        if (combo.options[i].text == valueText) 
-	        {
-	        	combo.options[i].selected = true;
-	            return;
-	        }
-	    }
-	}
-	
-	//Author     : SIMONE
-	//Description: Get text valueof selected index
-	//Return     : Text associated to index
-	function getSelectedIndex(combo) 
-	{
-	    for (var i = 0; i < combo.options.length; i++) 
-	    {
-	        if (combo.options[i].selected == true) 
-	        {
-	            return combo.options[i].text;
-	        }
-	    }
-	}
-	function getIDSelectedIndex(combo) 
-	{
-	    for (var i = 0; i < combo.options.length; i++) 
-	    {
-	        if (combo.options[i].selected == true) 
-	        {
-	            return combo.options[i].value;
-	        }
-	    }
-	}
-	
-
-	//Author     : SIMONE
-	//Description: Set value to combo box
-	//Parameters : code - it is code associated into each database table 
-	//             descripcion - it is description associated into each database table 
-	//             field - name combo field
-	//             id - identifier retrieved after transaction
-	//             linked - flag indicates 'true' when combos are linked and 'false' otherwise
-	//Return     : None
-	function setValueComboBox(code, description, field, linked)
-	{
-		//add value text to combo
-		addValueToCombo(code,description,field);
-
-		//get select object 
-		var combo = document.getElementById(field);
-		
-		//set element selected to field referenced
-		setSelectedIndex(code,combo, description);
-		
-		//set text value to combo field
-		var valueText = getSelectedIndex(combo);		
-		
-		//get hidden field in order to set any value
-		var combo = document.getElementById(field+'_name');
-		
-		//alert("Text: "+valueText+" - bdID: "+bdID);
-		
-		combo.text  = valueText;
-		combo.value = bdID;
-		
-		//enable linked fields
-		if (linked)
-		{
-			
+			//alert("Insert Combo: "+valueText);
+			combo.options[combo.options.length] = new Option(valueText);
 		}
-	}
+
+		//Author     : SIMONE
+		//Description: Add new value to combo box
+		//Return     : None
+		function addValueToCombo(code, description, field) {
+			var combo = document.getElementById(field);
+			insertComboBox(code, combo, description);
+		}
+
+		//Author     : SIMONE
+		//Description: Set selected index into combo box
+		//Return     : None
+		function setSelectedIndex(code, combo, description) {
+			for (var i = 0; i < combo.options.length; i++) {
+				var valueText = code;
+				if (description != null) {
+					valueText = valueText + ' - ' + description;
+				}
+				if (combo.options[i].text == valueText) {
+					combo.options[i].selected = true;
+					return;
+				}
+			}
+		}
+
+		//Author     : SIMONE
+		//Description: Get text valueof selected index
+		//Return     : Text associated to index
+		function getSelectedIndex(combo) {
+			for (var i = 0; i < combo.options.length; i++) {
+				if (combo.options[i].selected == true) {
+					return combo.options[i].text;
+				}
+			}
+		}
+
+		function getIDSelectedIndex(combo) {
+			for (var i = 0; i < combo.options.length; i++) {
+				if (combo.options[i].selected == true) {
+					return combo.options[i].value;
+				}
+			}
+		}
 
 
-	var geo_id1 = null;
-	function chgCombo1(text,id)
-	{		
-		document.form1.spe_jefe_inmediato_rf.disabled=false;
-		
-		var combo = document.getElementById('smn_personal_id');
-		var valueCombo = getIDSelectedIndex(combo);
-		geo_id1 = valueCombo.split("-").pop().trim();
-		
-		if (id!=null && id!="") 
-		{
-			return ajaxCall(	
-							httpMethod="GET", 
-							uri="${def:actionroot}/getJefe?id=" + geo_id1, 
-							divResponse=null, 
-							divProgress="status", 
-							formName="form1", 
-							afterResponseFn=setElementFirstIndex('spe_jefe_inmediato_rf'), //function 'setElementFirstIndex' select first element of combo list
-							onErrorFn=null);				
+		//Author     : SIMONE
+		//Description: Set value to combo box
+		//Parameters : code - it is code associated into each database table 
+		//             descripcion - it is description associated into each database table 
+		//             field - name combo field
+		//             id - identifier retrieved after transaction
+		//             linked - flag indicates 'true' when combos are linked and 'false' otherwise
+		//Return     : None
+		function setValueComboBox(code, description, field, linked) {
+			//add value text to combo
+			addValueToCombo(code, description, field);
+
+			//get select object 
+			var combo = document.getElementById(field);
+
+			//set element selected to field referenced
+			setSelectedIndex(code, combo, description);
+
+			//set text value to combo field
+			var valueText = getSelectedIndex(combo);
+
+			//get hidden field in order to set any value
+			var combo = document.getElementById(field + '_name');
+
+			//alert("Text: "+valueText+" - bdID: "+bdID);
+
+			combo.text = valueText;
+			combo.value = bdID;
+
+			//enable linked fields
+			if (linked) {
+
+			}
 		}
-		
-	}
-	function chgCombo2(text,id)
-	{		
-		document.form1.spe_categoria_justif_rf.disabled=false;
-		var tipo = document.getElementById("cju_tipo_permiso").value;
-		if(tipo=="VA"){
-		
-			$('#detalle_').show();
-			$('#cant_dia').show();
-			$('#vac_frac').show();
-		}else{
-			$('#detalle_').hide();
-			$('#cant_dia').hide();
-			$('#vac_frac').hide();
+
+
+		var geo_id1 = null;
+
+		function chgCombo1(text, id) {
+			document.form1.spe_jefe_inmediato_rf.disabled = false;
+
+			var combo = document.getElementById('smn_personal_id');
+			var valueCombo = getIDSelectedIndex(combo);
+			geo_id1 = valueCombo.split("-").pop().trim();
+
+			if (id != null && id != "") {
+				return ajaxCall(
+					httpMethod = "GET",
+					uri = "${def:actionroot}/getJefe?id=" + geo_id1,
+					divResponse = null,
+					divProgress = "status",
+					formName = "form1",
+					afterResponseFn = setElementFirstIndex('spe_jefe_inmediato_rf'), //function 'setElementFirstIndex' select first element of combo list
+					onErrorFn = null);
+			}
+
 		}
-		var combo = document.getElementById('cju_tipo_permiso');
-		var valueCombo = getIDSelectedIndex(combo);
-		
-		
-		if (id!=null && id!="") 
-		{
-			return ajaxCall(	
-							httpMethod="GET", 
-							uri="${def:actionroot}/getCategoria?id=" + valueCombo, 
-							divResponse=null, 
-							divProgress="status", 
-							formName="form1", 
-							afterResponseFn=setElementFirstIndex('spe_categoria_justif_rf'), //function 'setElementFirstIndex' select first element of combo list
-							onErrorFn=null);				
+
+		function chgCombo2(text, id) {
+			document.form1.spe_categoria_justif_rf.disabled = false;
+			var tipo = document.getElementById("cju_tipo_permiso").value;
+			if (tipo == "VA") {
+				$('#detalle_').show();
+				$('#cant_dia').show();
+				$('#vac_frac').show();
+			} else {
+				$('#detalle_').hide();
+				$('#cant_dia').hide();
+				$('#vac_frac').hide();
+			}
+			var combo = document.getElementById('cju_tipo_permiso');
+			var valueCombo = getIDSelectedIndex(combo);
+
+
+			if (id != null && id != "") {
+				return ajaxCall(
+					httpMethod = "GET",
+					uri = "${def:actionroot}/getCategoria?id=" + valueCombo,
+					divResponse = null,
+					divProgress = "status",
+					formName = "form1",
+					afterResponseFn = setElementFirstIndex('spe_categoria_justif_rf'), //function 'setElementFirstIndex' select first element of combo list
+					onErrorFn = null);
+			}
+
 		}
-		
-	}
-	function sumar(detalle, cantdias, input) {
-			
+
+		function sumar(detalle, cantdias, input) {
+
 			var monto_total = document.getElementById("det_cantidad_dias_pend").value;
-			
-			if (input.checked === true){
+			if (input.checked === true) {
 				monto_total = parseFloat(monto_total) + parseFloat(cantdias);
-			//	alert("total1: "+monto_total);
-		    } else {
-		    	monto_total = parseFloat(monto_total) - parseFloat(cantdias);
-		    	//alert("total2: "+monto_total);
-		    }
+				//	alert("total1: "+monto_total);
+			} else {
+				monto_total = parseFloat(monto_total) - parseFloat(cantdias);
+				//alert("total2: "+monto_total);
+			}
 			document.form1.det_cantidad_dias_pend.value = monto_total;
 
 			var fracc = document.getElementById("rva_vacaciones_fraccionadas").value;
-			if (fracc=="NO") {
+			if (fracc == "NO") {
 				document.form1.spe_cantidad_dias.value = monto_total;
-				document.form1.spe_cantidad_dias.disabled=true;
-			}else{
-				document.form1.spe_cantidad_dias.disabled=false;
+				document.form1.spe_cantidad_dias.disabled = true;
+			} else {
+				document.form1.spe_cantidad_dias.disabled = false;
 			}
-	}
+		}
 
-	function buscarvacaciones(){		
-			
+		function buscarvacaciones() {
+
 			document.form1.det_cantidad_dias_pend.value = 0;
-			
+
 
 			var valueCombo = document.getElementById("smn_personal_id").value;
-			
-			
-			
-				return ajaxCall(	
-								httpMethod="GET", 
-								uri="${def:actionroot}/getVacaciones?id=" + valueCombo,
-								divResponse=null, 
-								divProgress="status", 
-								formName="form1", 
-								afterResponseFn=null,
-								onErrorFn=null);				
-			
+
+
+
+			return ajaxCall(
+				httpMethod = "GET",
+				uri = "${def:actionroot}/getVacaciones?id=" + valueCombo,
+				divResponse = null,
+				divProgress = "status",
+				formName = "form1",
+				afterResponseFn = null,
+				onErrorFn = null);
+
 		}
-	function buscaregla()
-		{		
-			
+
+		function buscaregla() {
+
 			document.form1.rva_vacaciones_fraccionadas.value = '';
-			
+
 
 			var valueCombo = document.getElementById("smn_personal_id").value;
-			
-			
-				return ajaxCall(	
-								httpMethod="GET", 
-								uri="${def:actionroot}/getRegla?id=" + valueCombo,
-								divResponse=null, 
-								divProgress="status", 
-								formName="form1", 
-								afterResponseFn=null,
-								onErrorFn=null);				
-			
+
+
+			return ajaxCall(
+				httpMethod = "GET",
+				uri = "${def:actionroot}/getRegla?id=" + valueCombo,
+				divResponse = null,
+				divProgress = "status",
+				formName = "form1",
+				afterResponseFn = null,
+				onErrorFn = null);
+
 		}
 
-	function calcularhoras()
-		{	
-			
+		function calcularhoras() {
+
 			var cantdiaspend = parseInt(document.getElementById("det_cantidad_dias_pend").value);
 			var cantdias = parseInt(document.getElementById("spe_cantidad_dias").value);
 			var tipo = document.getElementById("cju_tipo_permiso").value;
-		
-			if (cantdias>cantdiaspend && tipo=="VA"){
+
+			if (cantdias > cantdiaspend && tipo == "VA") {
 				alert('Cantidad de dias Solicitados es mayor a los Pendientes');
 				document.getElementById("spe_cantidad_dias").value = 0;
 
-			}else{
-			var sep = '-';
-			var fecha1 = document.getElementById("spe_fecha_desde").value;
-			
-			// var dia1 = fecha1.substr(0,2);
-			// var mes1 = fecha1.substr(3,2);
-			// var anno1 = fecha1.substr(6,4);
+			} else {
+				var sep = '-';
+				var fecha1 = document.getElementById("spe_fecha_desde").value;
 
-			var dia1 = fecha1.substr(8,2);
-			var mes1 = fecha1.substr(5,2);
-			var anno1 = fecha1.substr(0,4);
-			
- 			fechainicial=mes1+sep+dia1+sep+anno1;
-			//alert("en fechainicial "+fechainicial);
-			// var fecha = new Date(fechainicial);
-			var fechaX = new Date(fechainicial);
-			var dias = parseInt(document.getElementById("spe_cantidad_dias").value);
+				// var dia1 = fecha1.substr(0,2);
+				// var mes1 = fecha1.substr(3,2);
+				// var anno1 = fecha1.substr(6,4);
 
-			var festivos = [[1],[15, 16],[],[1, 2, 19],[1],[24],[5, 24],[],[],[12],[],[25]];
+				var dia1 = fecha1.substr(8, 2);
+				var mes1 = fecha1.substr(5, 2);
+				var anno1 = fecha1.substr(0, 4);
 
-			var fecha = calculaEntrega(fechaX, dias, festivos);
-			// alert("Fecha inicial "+fechaX+" dias "+dias+" dias estivos"+festivos+" dia entrega "+fecha);
+				fechainicial = mes1 + sep + dia1 + sep + anno1;
+				//alert("en fechainicial "+fechainicial);
+				// var fecha = new Date(fechainicial);
+				var fechaX = new Date(fechainicial);
+				var dias = parseInt(document.getElementById("spe_cantidad_dias").value);
 
-			// fecha.setDate(fecha.getDate() + dias);
-			
-			var anno=fecha.getFullYear();
- 			var mes= fecha.getMonth()+1;
- 			var dia= fecha.getDate();
- 			mes = (mes < 10) ? ("0" + mes) : mes;
- 			dia = (dia < 10) ? ("0" + dia) : dia;
- 			var fechaFinal = dia+sep+mes+sep+anno;
-			
+				var festivos = [
+					[1],
+					[15, 16],
+					[],
+					[1, 2, 19],
+					[1],
+					[24],
+					[5, 24],
+					[],
+					[],
+					[12],
+					[],
+					[25]
+				];
 
-   			//document.getElementById("spe_fecha_hasta").value = fechaFinal;
-   			document.form1.spe_fecha_hasta.value = fechaFinal;
-			
-			var horas = dias * 8;
-			document.form1.spe_cantidad_horas.value = horas;
+				var fecha = calculaEntrega(fechaX, dias, festivos);
+				// alert("Fecha inicial "+fechaX+" dias "+dias+" dias estivos"+festivos+" dia entrega "+fecha);
 
-			
+				// fecha.setDate(fecha.getDate() + dias);
+
+				var anno = fecha.getFullYear();
+				var mes = fecha.getMonth() + 1;
+				var dia = fecha.getDate();
+				mes = (mes < 10) ? ("0" + mes) : mes;
+				dia = (dia < 10) ? ("0" + dia) : dia;
+				var fechaFinal = dia + sep + mes + sep + anno;
+
+
+				//document.getElementById("spe_fecha_hasta").value = fechaFinal;
+				document.form1.spe_fecha_hasta.value = fechaFinal;
+
+				var horas = dias * 8;
+				document.form1.spe_cantidad_horas.value = horas;
+
+
 			}
 		}
 
-	function calculaEntrega(diaPedido, diasPactados, festivos) {
-	    // diaPropuesto: almacena el mismo valor de diaPedido, en caso que diasPactados = 0, la función 
-	    // devolverá el valor de diaPedido (para mi tiene lógica)
-	    var diaPropuesto = new Date(diaPedido.getFullYear(), diaPedido.getMonth(), diaPedido.getDate());
+		function calculaEntrega(diaPedido, diasPactados, festivos) {
+			// diaPropuesto: almacena el mismo valor de diaPedido, en caso que diasPactados = 0, la función 
+			// devolverá el valor de diaPedido (para mi tiene lógica)
+			var diaPropuesto = new Date(diaPedido.getFullYear(), diaPedido.getMonth(), diaPedido.getDate());
 
-	    // iniciamos un contador en 1 para calcular la fecha de diaPropuesto.
-	    var i = 1;
-	    
-	    // El siguiente bucle se ejecutará hasta que se consuman los diasPactados
-	    while (diasPactados > 0 ) {
-	        // En cada iteración asumimos que el día no es festivo
-	        var festivo = false;
-	        // incrementamos en 1 el diaPropuesto para efectuar las verificaciones
-	        diaPropuesto = new Date(diaPedido.getFullYear(), diaPedido.getMonth(), diaPedido.getDate() + i);
-	        
-	        if (diaPropuesto.getDay() > 0 && diaPropuesto.getDay() < 6) {
-	            
+			// iniciamos un contador en 1 para calcular la fecha de diaPropuesto.
+			var i = 1;
 
-	            var m = diaPropuesto.getMonth();
-	            var dia = diaPropuesto.getDate();
+			// El siguiente bucle se ejecutará hasta que se consuman los diasPactados
+			while (diasPactados > 0) {
+				// En cada iteración asumimos que el día no es festivo
+				var festivo = false;
+				// incrementamos en 1 el diaPropuesto para efectuar las verificaciones
+				diaPropuesto = new Date(diaPedido.getFullYear(), diaPedido.getMonth(), diaPedido.getDate() + i);
 
-	            
+				if (diaPropuesto.getDay() > 0 && diaPropuesto.getDay() < 6) {
 
-	            for (var d in festivos[m]) {
-	                if (dia === festivos[m][d]) {
-	                    festivo = true;
-	                    //Aquí no hay mucho que aclarar, si es festivo ya no sigo comprobando el resto del mes.
-	                    break;
-	                }
-	            } // Fin bucle for
 
-	            if (!festivo) {
-	                // Si las condiciones son: Laborable y No Festivo, descuento el diaPactado.
-	                diasPactados--;
-	            }
-	        }
+					var m = diaPropuesto.getMonth();
+					var dia = diaPropuesto.getDate();
 
-	        // Por último, debemos incrementar el número de días que sumaremos al diaPropuesto
-	        // en cada iteración
-	        i++;
-    } // Fin de bucle while
 
-    // Devolvemos el resultado
-    return diaPropuesto;
 
-} // Fin función
-	
-</script>	
+					for (var d in festivos[m]) {
+						if (dia === festivos[m][d]) {
+							festivo = true;
+							//Aquí no hay mucho que aclarar, si es festivo ya no sigo comprobando el resto del mes.
+							break;
+						}
+					} // Fin bucle for
+
+					if (!festivo) {
+						// Si las condiciones son: Laborable y No Festivo, descuento el diaPactado.
+						diasPactados--;
+					}
+				}
+
+				// Por último, debemos incrementar el número de días que sumaremos al diaPropuesto
+				// en cada iteración
+				i++;
+			} // Fin de bucle while
+
+			// Devolvemos el resultado
+			return diaPropuesto;
+
+		} // Fin función
+	</script>
 </body>
+
 </html>

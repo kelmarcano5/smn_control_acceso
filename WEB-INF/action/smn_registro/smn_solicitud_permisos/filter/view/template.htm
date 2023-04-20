@@ -1,0 +1,56 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='3%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="11" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_personal_id","query-smnsolicitudpermisos.sql")'>${lbl:b_personal}</th>
+		<th class='sortable' onclick='sortBy("cju_nombre","query-smnsolicitudpermisos.sql")'>${lbl:b_activity_category}</th>
+		<th class='sortable' onclick='sortBy("spe_fecha_desde","query-smnsolicitudpermisos.sql")'>${lbl:b_inicial_date}</th>
+		<th class='sortable' onclick='sortBy("spe_fecha_hasta","query-smnsolicitudpermisos.sql")'>${lbl:b_end_date}</th>
+		<th class='sortable' onclick='sortBy("spe_cantidad_horas","query-smnsolicitudpermisos.sql")'>${lbl:b_nro_horas}</th>
+		<th class='sortable' onclick='sortBy("spe_estatus_rf","query-smnsolicitudpermisos.sql")'>${lbl:b_status}</th>
+		<th class='sortable' onclick='sortBy("spe_fecha_registro","query-smnsolicitudpermisos.sql")'>${lbl:b_store_date}</th>
+		<th>SP</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+	<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_solicitud_permisos_id}')" title="${lbl:b_view_detail}"></td>
+	<td><img src="${def:context}/images/delete.png"  onclick="verificarestatusdel('${fld:smn_solicitud_permisos_id}', '${fld:spe_estatus_rf}')" title="${lbl:b_delete_button}"></td>
+	<td><img src="${def:context}/images/edit.png"  onclick="verificarestatus('${fld:smn_solicitud_permisos_id}', '${fld:spe_estatus_rf}')" title="${lbl:b_edit_button}"></td>
+	<td align='left'>${fld:smn_personal_id}</td>
+	<td align='left'>${fld:cju_nombre}</td>
+	<td>${fld:spe_fecha_desde@dd-MM-yyyy}</td>
+	<td>${fld:spe_fecha_hasta@dd-MM-yyyy}</td>
+	<td align='right'>${fld:spe_cantidad_horas@#,###,##0.00}</td>
+	<td align='left'>${fld:spe_estatus_rf}</td>
+	<td>${fld:spe_fecha_registro@dd-MM-yyyy}</td>
+	<td><img src="${def:context}/images/icongrid/Detalle-impuesto.png" onclick="validasoporte('${fld:smn_solicitud_permisos_id}','${fld:smn_personal_id2}','${fld:cju_nombre}', '${fld:spe_documento_rf2}','${fld:aux_nombres}','${fld:aux_apellidos}')" title="${lbl:b_support}"></td>
+	</tr>
+	</rows>
+
+</table>

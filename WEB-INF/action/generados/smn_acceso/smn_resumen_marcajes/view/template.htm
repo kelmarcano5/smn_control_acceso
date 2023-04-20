@@ -1,0 +1,43 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="7">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th class='sortable' onclick='sortBy("igs_auxiliar_combo","query-smnresumenmarcajes.sql")'>${lbl:b_auxiliary}</th>
+		<th class='sortable' onclick='sortBy("igs_clase_auxiliar_combo","query-smnresumenmarcajes.sql")'>${lbl:b_auxiliary_class}</th>
+		<th class='sortable' onclick='sortBy("igs_control_acceso_id","query-smnresumenmarcajes.sql")'>${lbl:b_id_access_control}</th>
+		<th class='sortable' onclick='sortBy("igs_actividad_combo","query-smnresumenmarcajes.sql")'>${lbl:b_activity_type}</th>
+		<th class='sortable' onclick='sortBy("igs_tiempo_efectivo","query-smnresumenmarcajes.sql")'>${lbl:b_effective_time}</th>
+		<th class='sortable' onclick='sortBy("igs_fecha","query-smnresumenmarcajes.sql")'>${lbl:s_loginhist_col1}</th>
+		<th class='sortable' onclick='sortBy("igs_fecha_registro","query-smnresumenmarcajes.sql")'>${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td align='left'>${fld:igs_auxiliar_combo}</td>
+		<td align='left'>${fld:igs_clase_auxiliar_combo}</td>
+		<td align='left'>${fld:igs_control_acceso_id}</td>
+		<td align='left'>${fld:igs_actividad_combo}</td>
+		<td align='right'>${fld:igs_tiempo_efectivo@#,###,##0.00}</td>
+		<td>${fld:igs_fecha@dd-MM-yyyy}</td>
+		<td>${fld:igs_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

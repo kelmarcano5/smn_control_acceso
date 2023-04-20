@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='mrk_auxiliar' type='integer' required='true' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='mrk_clase_auxiliar' type='integer' required='true' label='${lbl:b_auxiliary_class}' maxlen='10'/>
+	<parameter id='mrk_control_acceso_id' type='varchar' required='true' label='${lbl:b_id_access_control}' maxlen='16'/>
+	<parameter id='mrk_empresa' type='integer' required='true' label='${lbl:b_entity}' maxlen='2'/>
+	<parameter id='mrk_sucursal' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='mrk_area_servicio' type='integer' required='false' label='${lbl:b_service_area}' maxlen='10'/>
+	<parameter id='mrk_unidad_servicio' type='integer' required='false' label='${lbl:b_service_unit}' maxlen='10'/>
+	<parameter id='mrk_centro_costo' type='integer' required='false' label='${lbl:b_cost_centers}' maxlen='10'/>
+	<parameter id='mrk_cargo' type='integer' required='true' label='${lbl:b_positions}' maxlen='10'/>
+	<parameter id='mrk_categoria_cargo' type='integer' required='true' label='${lbl:b_position_category}' maxlen='10'/>
+	<parameter id='mrk_marcaje_id' type='varchar' required='true' label='${lbl:b_check}' maxlen='16'/>
+	<parameter id='mrk_dispositivo_codigo' type='varchar' required='true' label='${lbl:b_device}' maxlen='16'/>
+	<parameter id='mrk_marcaje_fecha' type='date' required='true' label='${lbl:b_transaction_date}' maxlen='10'/>
+	<parameter id='mrk_marcaje_hora' type='varchar' required='false' label='${lbl:b_transaction_time}' maxlen='5'/>
+	<parameter id='mrk_marcaje_dia' type='varchar' required='true' label='${lbl:b_day_name}' maxlen='2'/>
+	<parameter id='mrk_marcaje_tipo' type='varchar' required='true' label='${lbl:b_device_type}' maxlen='3'/>
+	<parameter id='mrk_tiempo_efectivo' type='double' required='false' label='${lbl:b_effective_time}' maxlen='10'/>
+	<parameter id='mrk_turno' type='integer' required='true' label='${lbl:b_turno}' maxlen='10'/>
+	<parameter id='mrk_consecutivo' type='varchar' required='true' label='${lbl:b_consecutivo} ' maxlen='16'/>
+
+	<custom-validator
+		classname='dinamica.validators.DuplicatedKeyValidator'
+			on-error-label='${lbl:b_record_not_duplicated}.'
+			sql='buscarCodigo.sql'
+			id='mrk_dispositivo_codigo'/>
+
+
+</validator>

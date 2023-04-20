@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnmovimientomarcajes.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="10" cellStep="0" name="${lbl:b_marking_movement}"/>
+	
+	<excel 
+		recordset='query-smnmovimientomarcajes.sql' 
+		sheetname='${lbl:b_marking_movement}' 
+		filename='${lbl:b_marking_movement}.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='smn_item_combo' label='${lbl:b_auxiliary}' />
+		<col id='cla_nombre_combo' label='${lbl:b_auxiliary_class}' />
+		<col id='mrk_control_acceso_id' label='${lbl:b_id_access_control}' />
+		<col id='ent_descripcion_corta_combo' label='${lbl:b_entity}' />
+		<col id='suc_nombre_combo' label='${lbl:b_subsidiary}' />
+		<col id='ase_descripcion_combo' label='${lbl:b_service_area}' />
+		<col id='uns_descripcion_combo' label='${lbl:b_service_unit}' />
+		<col id='cco_descripcion_corta_combo' label='${lbl:b_cost_centers}' />
+		<col id='job_nombre_combo' label='${lbl:b_positions}' />
+		<col id='cat_nombre_combo' label='${lbl:b_position_category}' />
+		<col id='mrk_marcaje_id' label='${lbl:b_check}' />
+		<col id='mrk_dispositivo_codigo' label='${lbl:b_device}' />
+		<col id='mrk_marcaje_fecha' label='${lbl:b_transaction_date}' />
+		<col id='mrk_marcaje_hora' label='${lbl:b_transaction_time}' />
+		<col id='mrk_marcaje_dia_combo' label='${lbl:b_day_name}' />
+		<col id='mrk_marcaje_tipo_combo' label='${lbl:b_device_type}' />
+		<col id='mrk_tiempo_efectivo' label='${lbl:b_effective_time}' />
+		<col id='mrk_turno' label='${lbl:b_turno}' />
+		<col id='mrk_consecutivo' label='${lbl:b_consecutivo} ' />
+		<col id='mrk_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

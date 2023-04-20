@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnpermisossoporte.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+
+	<pdf-title>${lbl:b_load_permission_file}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+
+	<pdf-report pageSize="letter" rotate="false">
+		<table recordset='query-smnpermisossoporte.sql' width='100' spacingBefore='40'>
+			<col name='spe_estatus_rf_pl0' title='${lbl:b_requests_permissions}' width='11' align='left' />
+			<col name='pma_persona_ref_combo' title='${lbl:b_personal}' width='11' align='left' format='######' />
+			<col name='pma_archivo' title='${lbl:b_file}' width='11' align='left' />
+			<col name='pma_contenido' title='${lbl:b_content}' width='11' align='left' />
+			<col name='pma_tamano' title='${lbl:b_size}' width='11' align='center' format='######' />
+			<col name='pma_idioma' title='${lbl:s_profile_lang}' width='11' align='left' />
+			<col name='pma_usuario' title='${lbl:b_users}' width='11' align='left' />
+			<col name='pma_fecha_registro' title='${lbl:b_store_date}' width='11' align='center' format='dd-MM-yyyy' />
+			<col name='pma_hora' title='${lbl:s_loginhist_col2}' width='11' align='left' />
+		</table>
+
+	</pdf-report>
+</config>

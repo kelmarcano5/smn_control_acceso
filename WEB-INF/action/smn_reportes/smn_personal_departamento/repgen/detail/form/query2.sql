@@ -1,0 +1,22 @@
+select
+		smn_control_acceso.smn_personal.psl_num_control,
+	smn_control_acceso.smn_personal.psl_esquema_rotacion_rf,
+	smn_control_acceso.smn_personal.psl_fecha_inicio_calculo,
+	smn_control_acceso.smn_personal.psl_categoria_personal_rf,
+	smn_control_acceso.smn_personal.psl_clase_auxiliar_rf,
+	smn_control_acceso.smn_personal.psl_auxiliar_rf,
+	smn_control_acceso.smn_personal.psl_empresa_rf,
+	smn_control_acceso.smn_personal.psl_sucursal_rf,
+	smn_control_acceso.smn_personal.psl_area_servicio_rf,
+	smn_control_acceso.smn_personal.psl_unidad_servicio_rf,
+	smn_control_acceso.smn_personal.psl_centro_costo_rf,
+	smn_control_acceso.smn_personal.psl_estructura_organizacional_rf,
+	smn_control_acceso.smn_personal.psl_cargo_rf,
+	smn_control_acceso.smn_personal.psl_categoria_cargo_rf,
+	smn_control_acceso.smn_personal.psl_habilita_acceso_rf,
+	smn_control_acceso.smn_personal.psl_id_control_acceso,
+	smn_control_acceso.smn_personal.psl_fecha_registro
+from
+	smn_control_acceso.smn_personal 
+where
+	smn_control_acceso.smn_personal.smn_personal_id = ${fld:id}

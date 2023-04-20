@@ -1,0 +1,2 @@
+ and
+ 	smn_control_acceso.smn_visitantes.smn_estructura_organizativa_rf=${fld:smn_estructura_organizativa_rf}

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_mov_marcajes>
+	<detail>
+		<rows>		
+		<record mrk_fecha_registro="${fld:mrk_fecha_registro}"    mrk_transaccion_rf="${fld:mrk_transaccion_rf}"    mrk_consecutivo="${fld:mrk_consecutivo}"    mrk_turno_rf="${fld:mrk_turno_rf}"    mrk_marcaje_tipo_rf="${fld:mrk_marcaje_tipo_rf}"    mrk_marcaje_dia_rf="${fld:mrk_marcaje_dia_rf}"    mrk_marcaje_fecha="${fld:mrk_marcaje_fecha}"    mrk_marcaje_id="${fld:mrk_marcaje_id}"    mrk_dispositivo_codigo="${fld:mrk_dispositivo_codigo}"    mrk_control_acceso_id="${fld:mrk_control_acceso_id}"    cac_nombre
+
+b_access_control="${fld:cac_nombre
+
+b_access_control}"    job_nombre="${fld:job_nombre}"    smn_item="${fld:smn_item}"    cla_nombre="${fld:cla_nombre}"    cco_descripcion_corta="${fld:cco_descripcion_corta}"    uns_descripcion="${fld:uns_descripcion}"    ase_descripcion="${fld:ase_descripcion}"    suc_nombre="${fld:suc_nombre}"    ent_descripcion_corta="${fld:ent_descripcion_corta}"    mrk_sede="${fld:mrk_sede}"    dcm_nombre="${fld:dcm_nombre}"    />
+		</rows>
+	</detail>
+</smn_mov_marcajes>

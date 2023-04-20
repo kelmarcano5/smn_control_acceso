@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		Ejecutar consulta y enrutar dependiendo de que un recordset
+		tenga o no registros
+	</summary>
+
+	<log>false</log>
+
+	<!--configura el control de paginacion-->
+	<set-request-attribute id="paging.recordset" value="query-smnvisitantes.sql" />
+	<set-request-attribute id="paging.pagesize" value="10" />
+
+	<!--soporte de auditoria-->
+	<audit>
+		<!--de donde saca los datos, por defecto es "_request"-->
+		<recordset></recordset>
+		<!--que campos extrae para el registro descriptivo-->
+		<cols>
+			<colname>smn_entidad_rf</colname>
+			<colname>smn_sucursal_rf</colname>
+			<colname>smn_estructura_organizativa_rf</colname>
+			<colname>vis_documento_identidad</colname>
+			<colname>vis_nombre</colname>
+			<colname>vis_empresa</colname>
+			<colname>smn_numero_carnet_asignado_id</colname>
+			<colname>vis_fecha_registro_ini</colname>
+			<colname>vis_fecha_registro_fin</colname>
+		
+		</cols>
+		<table>smn_control_acceso.smn_visitantes</table>
+		<oper>CONSULTA</oper>
+		<area>Consulta</area>
+		<!-- 
+ 			para auditoria de consulta permite obtener la cantidad de registro obtenidos
+ 			de la busqueda (opcional)
+ 		-->
+		<recordCount recordset="query-smnvisitantes.sql"/>
+	</audit>
+
+	<transaction>
+		<classname>dinamica.audit.AuditableSearch</classname>
+		<validator>true</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+	</transaction>
+	
+	<searchCols>vis_documento_identidad;smn_estructura_organizativa_rf;smn_sucursal_rf;smn_entidad_rf;vis_fecha_registro_ini;smn_numero_carnet_asignado_id;vis_empresa;vis_nombre;vis_fecha_registro_fin;</searchCols>
+
+	<on-exit return-code="0" forward-to="/action/initview" />
+	<on-exit return-code="1" forward-to="${def:actionroot}/notfound" />
+
+</config>

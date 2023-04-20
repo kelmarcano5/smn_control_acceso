@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id="view.record" onerror="/action/error/validation/dialog">
+	<parameter id="id" type="integer" required="true" label="ID" maxlen="10" />
+	<parameter id='psl_num_control_filter' type='varchar' required='false' label='${lbl:b_number_of_control}' maxlen='16'/>
+	<parameter id='psl_clase_auxiliar_filter' type='integer' required='false' label='${lbl:b_auxiliary_class}' maxlen='10'/>
+	<parameter id='psl_auxiliar_filter' type='integer' required='false' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='psl_habilita_acceso_filter' type='varchar' required='false' label='${lbl:b_enables_access_control}' maxlen='1'/>
+	<parameter id='psl_id_control_acceso_filter' type='varchar' required='false' label='${lbl:b_id_access_control}' maxlen='16'/>
+</validator>

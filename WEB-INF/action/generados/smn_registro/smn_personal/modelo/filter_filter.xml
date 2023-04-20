@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<model>
+	<summary>${lbl:b_personal}</summary>
+	<filter>
+		<row field='psl_auxiliar_rf' id='psl_auxiliar_rf' label='${lbl:b_auxiliary}@{select smn_base.smn_v_auxiliar.smn_v_auxiliar_id as id, smn_base.smn_v_auxiliar.smn_codigo || &quot; - &quot; || smn_base.smn_v_auxiliar.smn_item as item from smn_base.smn_v_auxiliar order by smn_base.smn_v_auxiliar.smn_item}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_personal' len='10'/>
+		<row field='psl_empresa_rf' id='psl_empresa_rf' label='${lbl:b_entity}@{select smn_base.smn_entidades.smn_entidades_id as id, smn_base.smn_entidades.ent_codigo|| &quot; - &quot;&apos; || smn_base.smn_entidades.ent_descripcion_corta as item from smn_base.smn_entidades order by smn_base.smn_entidades.ent_descripcion_corta}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_personal' len='10'/>
+		<row field='psl_sucursal_rf' id='psl_sucursal_rf' label='${lbl:b_subsidiary}@{select smn_base.smn_sucursales.smn_sucursales_id as id, smn_base.smn_sucursales.suc_codigo || &quot; - &quot; || smn_base.smn_sucursales.suc_nombre as item from smn_base.smn_sucursales order by smn_base.smn_sucursales.suc_nombre}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_personal' len='10'/>
+		<row field='psl_area_servicio_rf' id='psl_area_servicio_rf' label='${lbl:b_service_area}@{select smn_base.smn_areas_servicios.smn_areas_servicios_id as id, smn_base.smn_areas_servicios.ase_codigo || &quot; - &quot; || smn_base.smn_areas_servicios.ase_descripcion as item from smn_base.smn_areas_servicios order by smn_base.smn_areas_servicios.ase_descripcion}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_personal' len='10'/>
+		<row field='psl_unidad_servicio_rf' id='psl_unidad_servicio_rf' label='${lbl:b_service_unit}@{select smn_base.smn_unidades_servicios.smn_unidades_servicios_id as id, smn_base.smn_unidades_servicios.uns_codigo ||&quot; - &quot; || smn_base.smn_unidades_servicios.uns_descripcion as item from smn_base.smn_unidades_servicios order by smn_base.smn_unidades_servicios.uns_descripcion}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_personal' len='10'/>
+		<row field='psl_estructura_organizacional_rf' id='psl_estructura_organizacional_rf' label='${lbl:b_organizational_structure}@{select smn_base.smn_estructura_organizacional.smn_estructura_organizacional_id as id, smn_base.smn_estructura_organizacional.eor_codigo || &quot; - &quot; || smn_base.smn_estructura_organizacional.eor_nombre as item from smn_base.smn_estructura_organizacional order by smn_base.smn_estructura_organizacional.eor_nombre}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_personal' len='10'/>
+		<row field='psl_cargo_rf' id='psl_cargo_rf' label='${lbl:b_positions}@{select smn_gip.smn_cargos.smn_cargos_id as id, smn_gip.smn_cargos.job_codigo|| &quot; - &quot; || smn_gip.smn_cargos.job_nombre as item from smn_gip.smn_cargos order by smn_gip.smn_cargos.job_nombre}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_personal' len='10'/>
+		<row field='psl_id_control_acceso' id='psl_id_control_acceso' label='${lbl:b_id_access_control}' required='NO' fk='' mSelection='' condiction='Comienza por' type='varchar' tableName='smn_personal' len='16'/>
+		<row field='psl_fecha_registro' id='psl_fecha_registro_ini' label='${lbl:b_store_date_grater_than}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='date' tableName='smn_personal' len='10'/>
+		<row field='psl_fecha_registro' id='psl_fecha_registro_fin' label='${lbl:b_store_date_less_than}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='date' tableName='smn_personal' len='10'/>
+	</filter>
+	<detail>SI</detail>
+	<insert>SI</insert>
+	<edit>SI</edit>
+	<delete>SI</delete>
+	<audit>Consulta</audit>
+	<grid>
+		<row field='psl_auxiliar_rf' label='${lbl:b_auxiliary}@{select smn_base.smn_v_auxiliar.smn_v_auxiliar_id as id, smn_base.smn_v_auxiliar.smn_codigo || &quot; - &quot; || smn_base.smn_v_auxiliar.smn_item as item from smn_base.smn_v_auxiliar order by smn_base.smn_v_auxiliar.smn_item}' fk='' tableName='smn_personal' len='10' type='integer' align='left'/>
+		<row field='psl_empresa_rf' label='${lbl:b_entity}@{select smn_base.smn_entidades.smn_entidades_id as id, smn_base.smn_entidades.ent_codigo|| &quot; - &quot;&apos; || smn_base.smn_entidades.ent_descripcion_corta as item from smn_base.smn_entidades order by smn_base.smn_entidades.ent_descripcion_corta}' fk='' tableName='smn_personal' len='10' type='integer' align='left'/>
+		<row field='psl_sucursal_rf' label='${lbl:b_subsidiary}@{select smn_base.smn_sucursales.smn_sucursales_id as id, smn_base.smn_sucursales.suc_codigo || &quot; - &quot; || smn_base.smn_sucursales.suc_nombre as item from smn_base.smn_sucursales order by smn_base.smn_sucursales.suc_nombre}' fk='' tableName='smn_personal' len='10' type='integer' align='left'/>
+		<row field='psl_cargo_rf' label='${lbl:b_positions}@{select smn_gip.smn_cargos.smn_cargos_id as id, smn_gip.smn_cargos.job_codigo|| &quot; - &quot; || smn_gip.smn_cargos.job_nombre as item from smn_gip.smn_cargos order by smn_gip.smn_cargos.job_nombre}' fk='' tableName='smn_personal' len='10' type='integer' align='left'/>
+		<row field='psl_habilita_acceso_rf' label='${lbl:b_enables_access_control}@{S=${lbl:b_yes}|N=${lbl:b_not}}' fk='' tableName='smn_personal' len='1' type='varchar' align='center'/>
+		<row field='psl_id_control_acceso' label='${lbl:b_id_access_control}' fk='' tableName='smn_personal' len='16' type='varchar' align='left'/>
+		<row field='psl_fecha_registro' label='${lbl:b_store_date}@{${def:date}}' fk='' tableName='smn_personal' len='10' type='date' align='center'/>
+	</grid>
+	<mobile>false</mobile>
+</model>

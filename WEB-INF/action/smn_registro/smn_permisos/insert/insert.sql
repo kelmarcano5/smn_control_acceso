@@ -1,0 +1,38 @@
+INSERT INTO smn_control_acceso.smn_solicitud_permisos
+(
+	smn_solicitud_permisos_id,
+	smn_personal_id,
+	spe_detalles,
+	spe_categoria_justif,
+	spe_fecha_desde,
+	spe_fecha_hasta,
+	spe_nro_horas,
+	spe_aprobado_por,
+	spe_archivo,
+	spe_datos_imagen,
+	spe_tamano,
+	spe_contenido,
+	spe_idioma,
+	spe_usuario,
+	spe_fecha_registro,
+	spe_hora
+)
+VALUES
+(
+	${seq:nextval@smn_control_acceso.seq_smn_solicitud_permisos},
+	${fld:smn_personal_id},
+	${fld:spe_detalles},
+	${fld:spe_categoria_justif},
+	${fld:spe_fecha_desde},
+	${fld:spe_fecha_hasta},
+	${fld:spe_nro_horas},
+	${fld:spe_aprobado_por},
+	${fld:_filename},
+	?,
+	${fld:_filesize},
+	${fld:_contenttype},
+	'${def:locale}',
+	'${def:user}',
+	{d '${def:date}'},
+	'${def:time}'
+)

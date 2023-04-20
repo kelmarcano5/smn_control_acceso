@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		Ejecutar consulta y enrutar dependiendo de que un recordset
+		tenga o no registros
+	</summary>
+
+	<log>false</log>
+
+	<!--configura el control de paginacion-->
+	<set-request-attribute id="paging.recordset" value="query-smnpersonalvisitantes.sql" />
+	<set-request-attribute id="paging.pagesize" value="10" />
+
+	<!--soporte de auditoria-->
+	<audit>
+		<!--de donde saca los datos, por defecto es "_request"-->
+		<recordset></recordset>
+		<!--que campos extrae para el registro descriptivo-->
+		<cols>
+			<colname>smn_personal_id</colname>
+			<colname>smn_entidad_rf</colname>
+			<colname>smn_sucursal_rf</colname>
+			<colname>smn_cedula_rf</colname>
+			<colname>smn_estructura_organizacional_rf</colname>
+			<colname>rpv_fecha_evento</colname>
+			<colname>rpv_razon_visita</colname>
+			<colname>rpv_autorizado_almorzar</colname>
+			<colname>rpv_autorizador</colname>
+			<colname>rpv_estatus</colname>
+			<colname>rpv_fecha_registro</colname>
+		
+		</cols>
+		<table>smn_control_acceso.smn_personal_visitantes</table>
+		<oper>CONSULTA</oper>
+		<area>Consulta</area>
+		<!-- 
+ 			para auditoria de consulta permite obtener la cantidad de registro obtenidos
+ 			de la busqueda (opcional)
+ 		-->
+		<recordCount recordset="query-smnpersonalvisitantes.sql"/>
+	</audit>
+
+	<transaction>
+		<classname>dinamica.audit.AuditableSearch</classname>
+		<validator>true</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+	</transaction>
+	
+	<searchCols>smn_personal_id;rpv_fecha_registro;smn_entidad_rf;smn_sucursal_rf;smn_cedula_rf;smn_estructura_organizacional_rf;rpv_fecha_evento;rpv_razon_visita;rpv_autorizado_almorzar;rpv_autorizador;rpv_estatus;</searchCols>
+
+	<on-exit return-code="0" forward-to="/action/initview" />
+	<on-exit return-code="1" forward-to="${def:actionroot}/notfound" />
+
+</config>

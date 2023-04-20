@@ -1,0 +1,926 @@
+[INFO] 2020-12-02 00:48:36,582 MarcajeSinAsistencia.main main - --INICIO DE PROCESO: --
+[INFO] 2020-12-02 00:48:37,679 MarcajeSinAsistencia.main main - Cantida de Asistencias programadas =4574
+[INFO] 2020-12-02 00:48:37,679 MarcajeSinAsistencia.main main - Cantida de Movimientos de marcaje =460
+[INFO] 2020-12-02 00:48:37,679 MarcajeSinAsistencia.main main - Cantida de PERSONAL asignados a las Asistencias programadas =326
+[INFO] 2020-12-02 00:48:37,976 MarcajeSinAsistencia.resumen leerListas - ID personal 707 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:38,102 MarcajeSinAsistencia.resumen leerListas - ID personal 707 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:38,236 MarcajeSinAsistencia.resumen leerListas - ID personal 707 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:38,369 MarcajeSinAsistencia.resumen leerListas - ID personal 407 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:38,486 MarcajeSinAsistencia.resumen leerListas - ID personal 411 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:38,601 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:38,726 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:38,877 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:39,011 MarcajeSinAsistencia.resumen leerListas - ID personal 94 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:39,127 MarcajeSinAsistencia.resumen leerListas - ID personal 94 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:39,261 MarcajeSinAsistencia.resumen leerListas - ID personal 643 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:39,377 MarcajeSinAsistencia.resumen leerListas - ID personal 383 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:39,494 MarcajeSinAsistencia.resumen leerListas - ID personal 385 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:39,611 MarcajeSinAsistencia.resumen leerListas - ID personal 448 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:39,727 MarcajeSinAsistencia.resumen leerListas - ID personal 109 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:39,843 MarcajeSinAsistencia.resumen leerListas - ID personal 376 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:39,960 MarcajeSinAsistencia.resumen leerListas - ID personal 269 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:40,076 MarcajeSinAsistencia.resumen leerListas - ID personal 161 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:40,202 MarcajeSinAsistencia.resumen leerListas - ID personal 389 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:40,318 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:40,435 MarcajeSinAsistencia.resumen leerListas - ID personal 473 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:40,552 MarcajeSinAsistencia.resumen leerListas - ID personal 137 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:40,667 MarcajeSinAsistencia.resumen leerListas - ID personal 282 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:40,785 MarcajeSinAsistencia.resumen leerListas - ID personal 637 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:40,902 MarcajeSinAsistencia.resumen leerListas - ID personal 274 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,018 MarcajeSinAsistencia.resumen leerListas - ID personal 359 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,135 MarcajeSinAsistencia.resumen leerListas - ID personal 381 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,266 MarcajeSinAsistencia.resumen leerListas - ID personal 93 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,383 MarcajeSinAsistencia.resumen leerListas - ID personal 240 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,501 MarcajeSinAsistencia.resumen leerListas - ID personal 240 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,635 MarcajeSinAsistencia.resumen leerListas - ID personal 421 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,751 MarcajeSinAsistencia.resumen leerListas - ID personal 193 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,867 MarcajeSinAsistencia.resumen leerListas - ID personal 50 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:41,992 MarcajeSinAsistencia.resumen leerListas - ID personal 127 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:42,118 MarcajeSinAsistencia.resumen leerListas - ID personal 324 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:42,243 MarcajeSinAsistencia.resumen leerListas - ID personal 176 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:42,359 MarcajeSinAsistencia.resumen leerListas - ID personal 471 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:42,476 MarcajeSinAsistencia.resumen leerListas - ID personal 233 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:42,592 MarcajeSinAsistencia.resumen leerListas - ID personal 246 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:42,709 MarcajeSinAsistencia.resumen leerListas - ID personal 130 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:42,825 MarcajeSinAsistencia.resumen leerListas - ID personal 344 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:42,942 MarcajeSinAsistencia.resumen leerListas - ID personal 97 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:43,080 MarcajeSinAsistencia.resumen leerListas - ID personal 320 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:43,201 MarcajeSinAsistencia.resumen leerListas - ID personal 636 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:43,318 MarcajeSinAsistencia.resumen leerListas - ID personal 148 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:43,433 MarcajeSinAsistencia.resumen leerListas - ID personal 704 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:43,549 MarcajeSinAsistencia.resumen leerListas - ID personal 704 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:43,676 MarcajeSinAsistencia.resumen leerListas - ID personal 704 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:43,793 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:43,891 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:44,044 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:44,158 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:44,274 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:44,435 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:44,591 MarcajeSinAsistencia.resumen leerListas - ID personal 103 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:44,727 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:44,858 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:45,025 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:45,202 MarcajeSinAsistencia.resumen leerListas - ID personal 211 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:45,377 MarcajeSinAsistencia.resumen leerListas - ID personal 145 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:45,508 MarcajeSinAsistencia.resumen leerListas - ID personal 111 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:45,627 MarcajeSinAsistencia.resumen leerListas - ID personal 306 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:45,743 MarcajeSinAsistencia.resumen leerListas - ID personal 297 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:45,858 MarcajeSinAsistencia.resumen leerListas - ID personal 338 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:45,975 MarcajeSinAsistencia.resumen leerListas - ID personal 278 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:46,091 MarcajeSinAsistencia.resumen leerListas - ID personal 307 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:46,210 MarcajeSinAsistencia.resumen leerListas - ID personal 704 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:46,343 MarcajeSinAsistencia.resumen leerListas - ID personal 704 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:46,477 MarcajeSinAsistencia.resumen leerListas - ID personal 704 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:46,610 MarcajeSinAsistencia.resumen leerListas - ID personal 191 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:46,735 MarcajeSinAsistencia.resumen leerListas - ID personal 374 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:46,852 MarcajeSinAsistencia.resumen leerListas - ID personal 73 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:46,966 MarcajeSinAsistencia.resumen leerListas - ID personal 345 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:47,083 MarcajeSinAsistencia.resumen leerListas - ID personal 402 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:47,202 MarcajeSinAsistencia.resumen leerListas - ID personal 460 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:47,308 MarcajeSinAsistencia.resumen leerListas - ID personal 429 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:47,424 MarcajeSinAsistencia.resumen leerListas - ID personal 354 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:47,541 MarcajeSinAsistencia.resumen leerListas - ID personal 396 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:47,657 MarcajeSinAsistencia.resumen leerListas - ID personal 17 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:47,785 MarcajeSinAsistencia.resumen leerListas - ID personal 293 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:47,902 MarcajeSinAsistencia.resumen leerListas - ID personal 700 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:48,018 MarcajeSinAsistencia.resumen leerListas - ID personal 700 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:48,177 MarcajeSinAsistencia.resumen leerListas - ID personal 700 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:48,310 MarcajeSinAsistencia.resumen leerListas - ID personal 413 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:48,435 MarcajeSinAsistencia.resumen leerListas - ID personal 142 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:48,543 MarcajeSinAsistencia.resumen leerListas - ID personal 99 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:48,660 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:48,776 MarcajeSinAsistencia.resumen leerListas - ID personal 587 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:48,893 MarcajeSinAsistencia.resumen leerListas - ID personal 253 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,010 MarcajeSinAsistencia.resumen leerListas - ID personal 410 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,126 MarcajeSinAsistencia.resumen leerListas - ID personal 167 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,243 MarcajeSinAsistencia.resumen leerListas - ID personal 153 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,360 MarcajeSinAsistencia.resumen leerListas - ID personal 277 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,476 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,593 MarcajeSinAsistencia.resumen leerListas - ID personal 316 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,710 MarcajeSinAsistencia.resumen leerListas - ID personal 415 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,826 MarcajeSinAsistencia.resumen leerListas - ID personal 89 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:49,943 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:48:50,060 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:48:50,191 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:50,326 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:50,451 MarcajeSinAsistencia.resumen leerListas - ID personal 6 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:50,568 MarcajeSinAsistencia.resumen leerListas - ID personal 102 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:50,674 MarcajeSinAsistencia.resumen leerListas - ID personal 340 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:50,790 MarcajeSinAsistencia.resumen leerListas - ID personal 234 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:50,907 MarcajeSinAsistencia.resumen leerListas - ID personal 256 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:51,026 MarcajeSinAsistencia.resumen leerListas - ID personal 87 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:51,143 MarcajeSinAsistencia.resumen leerListas - ID personal 91 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:51,259 MarcajeSinAsistencia.resumen leerListas - ID personal 66 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:51,368 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:51,484 MarcajeSinAsistencia.resumen leerListas - ID personal 635 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:51,609 MarcajeSinAsistencia.resumen leerListas - ID personal 69 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:51,734 MarcajeSinAsistencia.resumen leerListas - ID personal 178 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:51,859 MarcajeSinAsistencia.resumen leerListas - ID personal 583 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:51,968 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:52,084 MarcajeSinAsistencia.resumen leerListas - ID personal 144 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:52,193 MarcajeSinAsistencia.resumen leerListas - ID personal 128 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:52,301 MarcajeSinAsistencia.resumen leerListas - ID personal 72 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:52,409 MarcajeSinAsistencia.resumen leerListas - ID personal 19 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:52,518 MarcajeSinAsistencia.resumen leerListas - ID personal 270 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:52,634 MarcajeSinAsistencia.resumen leerListas - ID personal 432 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:52,751 MarcajeSinAsistencia.resumen leerListas - ID personal 353 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:52,859 MarcajeSinAsistencia.resumen leerListas - ID personal 341 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:52,968 MarcajeSinAsistencia.resumen leerListas - ID personal 419 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:53,084 MarcajeSinAsistencia.resumen leerListas - ID personal 85 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:53,215 MarcajeSinAsistencia.resumen leerListas - ID personal 647 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:53,334 MarcajeSinAsistencia.resumen leerListas - ID personal 115 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:53,448 MarcajeSinAsistencia.resumen leerListas - ID personal 240 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:53,584 MarcajeSinAsistencia.resumen leerListas - ID personal 171 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:53,709 MarcajeSinAsistencia.resumen leerListas - ID personal 424 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:53,809 MarcajeSinAsistencia.resumen leerListas - ID personal 2 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:53,926 MarcajeSinAsistencia.resumen leerListas - ID personal 343 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:54,038 MarcajeSinAsistencia.resumen leerListas - ID personal 168 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:54,159 MarcajeSinAsistencia.resumen leerListas - ID personal 76 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:54,267 MarcajeSinAsistencia.resumen leerListas - ID personal 437 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:54,382 MarcajeSinAsistencia.resumen leerListas - ID personal 29 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:54,501 MarcajeSinAsistencia.resumen leerListas - ID personal 363 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:54,609 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:54,726 MarcajeSinAsistencia.resumen leerListas - ID personal 447 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:54,842 MarcajeSinAsistencia.resumen leerListas - ID personal 283 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:54,959 MarcajeSinAsistencia.resumen leerListas - ID personal 346 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,076 MarcajeSinAsistencia.resumen leerListas - ID personal 208 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,192 MarcajeSinAsistencia.resumen leerListas - ID personal 218 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,301 MarcajeSinAsistencia.resumen leerListas - ID personal 181 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,409 MarcajeSinAsistencia.resumen leerListas - ID personal 379 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,526 MarcajeSinAsistencia.resumen leerListas - ID personal 443 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,642 MarcajeSinAsistencia.resumen leerListas - ID personal 108 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,759 MarcajeSinAsistencia.resumen leerListas - ID personal 295 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,867 MarcajeSinAsistencia.resumen leerListas - ID personal 245 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:55,984 MarcajeSinAsistencia.resumen leerListas - ID personal 9 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:56,101 MarcajeSinAsistencia.resumen leerListas - ID personal 703 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:56,209 MarcajeSinAsistencia.resumen leerListas - ID personal 703 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:56,342 MarcajeSinAsistencia.resumen leerListas - ID personal 703 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:56,467 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:56,575 MarcajeSinAsistencia.resumen leerListas - ID personal 140 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:56,700 MarcajeSinAsistencia.resumen leerListas - ID personal 455 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:56,817 MarcajeSinAsistencia.resumen leerListas - ID personal 156 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:56,934 MarcajeSinAsistencia.resumen leerListas - ID personal 465 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:48:57,050 MarcajeSinAsistencia.resumen leerListas - ID personal 119 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:57,159 MarcajeSinAsistencia.resumen leerListas - ID personal 200 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:57,267 MarcajeSinAsistencia.resumen leerListas - ID personal 450 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:57,375 MarcajeSinAsistencia.resumen leerListas - ID personal 312 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:57,492 MarcajeSinAsistencia.resumen leerListas - ID personal 157 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:57,609 MarcajeSinAsistencia.resumen leerListas - ID personal 152 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:57,725 MarcajeSinAsistencia.resumen leerListas - ID personal 687 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:48:57,842 MarcajeSinAsistencia.resumen leerListas - ID personal 315 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:57,959 MarcajeSinAsistencia.resumen leerListas - ID personal 334 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:58,075 MarcajeSinAsistencia.resumen leerListas - ID personal 107 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:58,192 MarcajeSinAsistencia.resumen leerListas - ID personal 436 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:58,317 MarcajeSinAsistencia.resumen leerListas - ID personal 392 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:58,431 MarcajeSinAsistencia.resumen leerListas - ID personal 331 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:58,550 MarcajeSinAsistencia.resumen leerListas - ID personal 86 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:58,667 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:58,781 MarcajeSinAsistencia.resumen leerListas - ID personal 34 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:58,898 MarcajeSinAsistencia.resumen leerListas - ID personal 384 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:59,014 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:59,131 MarcajeSinAsistencia.resumen leerListas - ID personal 266 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:48:59,250 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:48:59,384 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:59,525 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:59,658 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:48:59,775 MarcajeSinAsistencia.resumen leerListas - ID personal 221 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:48:59,892 MarcajeSinAsistencia.resumen leerListas - ID personal 221 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:49:00,025 MarcajeSinAsistencia.resumen leerListas - ID personal 221 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:00,155 MarcajeSinAsistencia.resumen leerListas - ID personal 221 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:00,292 MarcajeSinAsistencia.resumen leerListas - ID personal 221 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:49:00,422 MarcajeSinAsistencia.resumen leerListas - ID personal 221 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:49:00,558 MarcajeSinAsistencia.resumen leerListas - ID personal 221 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:49:00,683 MarcajeSinAsistencia.resumen leerListas - ID personal 221 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:00,817 MarcajeSinAsistencia.resumen leerListas - ID personal 348 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:00,933 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:01,050 MarcajeSinAsistencia.resumen leerListas - ID personal 123 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:01,167 MarcajeSinAsistencia.resumen leerListas - ID personal 699 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:01,283 MarcajeSinAsistencia.resumen leerListas - ID personal 699 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:01,408 MarcajeSinAsistencia.resumen leerListas - ID personal 699 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:01,564 MarcajeSinAsistencia.resumen leerListas - ID personal 699 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:01,692 MarcajeSinAsistencia.resumen leerListas - ID personal 699 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:01,822 MarcajeSinAsistencia.resumen leerListas - ID personal 699 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:01,950 MarcajeSinAsistencia.resumen leerListas - ID personal 243 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:02,058 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:02,192 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:02,333 MarcajeSinAsistencia.resumen leerListas - ID personal 708 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:02,472 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:02,597 MarcajeSinAsistencia.resumen leerListas - ID personal 229 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:02,714 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:02,830 MarcajeSinAsistencia.resumen leerListas - ID personal 597 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:02,947 MarcajeSinAsistencia.resumen leerListas - ID personal 569 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:03,081 MarcajeSinAsistencia.resumen leerListas - ID personal 82 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:03,200 MarcajeSinAsistencia.resumen leerListas - ID personal 597 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:03,339 MarcajeSinAsistencia.resumen leerListas - ID personal 465 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:03,475 MarcajeSinAsistencia.resumen leerListas - ID personal 69 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:03,606 MarcajeSinAsistencia.resumen leerListas - ID personal 416 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:03,722 MarcajeSinAsistencia.resumen leerListas - ID personal 11 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:03,839 MarcajeSinAsistencia.resumen leerListas - ID personal 597 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:03,972 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:04,100 MarcajeSinAsistencia.resumen leerListas - ID personal 44 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:04,216 MarcajeSinAsistencia.resumen leerListas - ID personal 51 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:04,330 MarcajeSinAsistencia.resumen leerListas - ID personal 695 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:04,447 MarcajeSinAsistencia.resumen leerListas - ID personal 59 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:04,563 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:04,691 MarcajeSinAsistencia.resumen leerListas - ID personal 124 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:04,808 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:04,938 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:05,075 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:05,205 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:05,341 MarcajeSinAsistencia.resumen leerListas - ID personal 72 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:05,463 MarcajeSinAsistencia.resumen leerListas - ID personal 51 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:05,591 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:05,721 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:05,858 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:05,991 MarcajeSinAsistencia.resumen leerListas - ID personal 117 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:06,105 MarcajeSinAsistencia.resumen leerListas - ID personal 146 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:06,225 MarcajeSinAsistencia.resumen leerListas - ID personal 131 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:06,338 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:06,483 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:06,621 MarcajeSinAsistencia.resumen leerListas - ID personal 193 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:06,775 MarcajeSinAsistencia.resumen leerListas - ID personal 376 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:06,921 MarcajeSinAsistencia.resumen leerListas - ID personal 473 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:07,058 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:07,188 MarcajeSinAsistencia.resumen leerListas - ID personal 458 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:07,305 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:07,433 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:07,599 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:07,724 MarcajeSinAsistencia.resumen leerListas - ID personal 389 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:07,855 MarcajeSinAsistencia.resumen leerListas - ID personal 111 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:07,983 MarcajeSinAsistencia.resumen leerListas - ID personal 443 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:08,116 MarcajeSinAsistencia.resumen leerListas - ID personal 130 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:08,247 MarcajeSinAsistencia.resumen leerListas - ID personal 379 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:08,380 MarcajeSinAsistencia.resumen leerListas - ID personal 93 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:08,516 MarcajeSinAsistencia.resumen leerListas - ID personal 421 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:08,658 MarcajeSinAsistencia.resumen leerListas - ID personal 253 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:08,788 MarcajeSinAsistencia.resumen leerListas - ID personal 354 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:08,924 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:09,054 MarcajeSinAsistencia.resumen leerListas - ID personal 383 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:09,183 MarcajeSinAsistencia.resumen leerListas - ID personal 385 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:09,316 MarcajeSinAsistencia.resumen leerListas - ID personal 402 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:09,455 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:09,599 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:09,732 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:09,871 MarcajeSinAsistencia.resumen leerListas - ID personal 687 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:10,008 MarcajeSinAsistencia.resumen leerListas - ID personal 331 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:10,138 MarcajeSinAsistencia.resumen leerListas - ID personal 240 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:10,274 MarcajeSinAsistencia.resumen leerListas - ID personal 76 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:10,404 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:10,557 MarcajeSinAsistencia.resumen leerListas - ID personal 75 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:10,691 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:10,829 MarcajeSinAsistencia.resumen leerListas - ID personal 97 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:10,966 MarcajeSinAsistencia.resumen leerListas - ID personal 450 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:11,096 MarcajeSinAsistencia.resumen leerListas - ID personal 471 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:11,224 MarcajeSinAsistencia.resumen leerListas - ID personal 274 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:11,354 MarcajeSinAsistencia.resumen leerListas - ID personal 72 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:11,482 MarcajeSinAsistencia.resumen leerListas - ID personal 51 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:11,612 MarcajeSinAsistencia.resumen leerListas - ID personal 711 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:11,729 MarcajeSinAsistencia.resumen leerListas - ID personal 711 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:11,857 MarcajeSinAsistencia.resumen leerListas - ID personal 695 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:11,987 MarcajeSinAsistencia.resumen leerListas - ID personal 320 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:12,116 MarcajeSinAsistencia.resumen leerListas - ID personal 307 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:12,246 MarcajeSinAsistencia.resumen leerListas - ID personal 278 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:12,382 MarcajeSinAsistencia.resumen leerListas - ID personal 34 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:12,517 MarcajeSinAsistencia.resumen leerListas - ID personal 218 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:12,657 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:12,787 MarcajeSinAsistencia.resumen leerListas - ID personal 282 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:12,929 MarcajeSinAsistencia.resumen leerListas - ID personal 381 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:13,065 MarcajeSinAsistencia.resumen leerListas - ID personal 359 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:13,196 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:49:13,354 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:13,490 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:13,621 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:49:13,757 MarcajeSinAsistencia.resumen leerListas - ID personal 316 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:13,890 MarcajeSinAsistencia.resumen leerListas - ID personal 343 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:14,020 MarcajeSinAsistencia.resumen leerListas - ID personal 341 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:14,149 MarcajeSinAsistencia.resumen leerListas - ID personal 108 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:14,295 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:14,432 MarcajeSinAsistencia.resumen leerListas - ID personal 407 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:14,562 MarcajeSinAsistencia.resumen leerListas - ID personal 411 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:14,715 MarcajeSinAsistencia.resumen leerListas - ID personal 191 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:14,863 MarcajeSinAsistencia.resumen leerListas - ID personal 82 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:14,999 MarcajeSinAsistencia.resumen leerListas - ID personal 338 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:15,128 MarcajeSinAsistencia.resumen leerListas - ID personal 429 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:15,257 MarcajeSinAsistencia.resumen leerListas - ID personal 295 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:15,395 MarcajeSinAsistencia.resumen leerListas - ID personal 277 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:15,532 MarcajeSinAsistencia.resumen leerListas - ID personal 324 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:15,662 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:15,799 MarcajeSinAsistencia.resumen leerListas - ID personal 102 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:15,937 MarcajeSinAsistencia.resumen leerListas - ID personal 415 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:16,074 MarcajeSinAsistencia.resumen leerListas - ID personal 123 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:16,203 MarcajeSinAsistencia.resumen leerListas - ID personal 346 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:16,349 MarcajeSinAsistencia.resumen leerListas - ID personal 168 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:16,479 MarcajeSinAsistencia.resumen leerListas - ID personal 181 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:16,615 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:16,745 MarcajeSinAsistencia.resumen leerListas - ID personal 344 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:16,899 MarcajeSinAsistencia.resumen leerListas - ID personal 176 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:17,037 MarcajeSinAsistencia.resumen leerListas - ID personal 17 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:17,165 MarcajeSinAsistencia.resumen leerListas - ID personal 396 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:17,295 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:17,425 MarcajeSinAsistencia.resumen leerListas - ID personal 345 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:17,554 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:17,682 MarcajeSinAsistencia.resumen leerListas - ID personal 587 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:17,812 MarcajeSinAsistencia.resumen leerListas - ID personal 103 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:17,940 MarcajeSinAsistencia.resumen leerListas - ID personal 59 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:18,120 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:18,248 MarcajeSinAsistencia.resumen leerListas - ID personal 229 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:18,412 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:18,549 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:18,674 MarcajeSinAsistencia.resumen leerListas - ID personal 637 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:18,803 MarcajeSinAsistencia.resumen leerListas - ID personal 353 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:18,932 MarcajeSinAsistencia.resumen leerListas - ID personal 211 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:19,074 MarcajeSinAsistencia.resumen leerListas - ID personal 153 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:19,203 MarcajeSinAsistencia.resumen leerListas - ID personal 245 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:19,340 MarcajeSinAsistencia.resumen leerListas - ID personal 250 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:19,457 MarcajeSinAsistencia.resumen leerListas - ID personal 250 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:19,586 MarcajeSinAsistencia.resumen leerListas - ID personal 416 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:19,723 MarcajeSinAsistencia.resumen leerListas - ID personal 167 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:19,865 MarcajeSinAsistencia.resumen leerListas - ID personal 142 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:19,995 MarcajeSinAsistencia.resumen leerListas - ID personal 413 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:20,131 MarcajeSinAsistencia.resumen leerListas - ID personal 99 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:20,262 MarcajeSinAsistencia.resumen leerListas - ID personal 161 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:20,398 MarcajeSinAsistencia.resumen leerListas - ID personal 86 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:20,561 MarcajeSinAsistencia.resumen leerListas - ID personal 127 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:20,698 MarcajeSinAsistencia.resumen leerListas - ID personal 246 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:20,828 MarcajeSinAsistencia.resumen leerListas - ID personal 89 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:20,965 MarcajeSinAsistencia.resumen leerListas - ID personal 293 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:21,095 MarcajeSinAsistencia.resumen leerListas - ID personal 334 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:21,231 MarcajeSinAsistencia.resumen leerListas - ID personal 85 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:21,365 MarcajeSinAsistencia.resumen leerListas - ID personal 107 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:21,503 MarcajeSinAsistencia.resumen leerListas - ID personal 145 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:21,656 MarcajeSinAsistencia.resumen leerListas - ID personal 152 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:21,786 MarcajeSinAsistencia.resumen leerListas - ID personal 297 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:21,915 MarcajeSinAsistencia.resumen leerListas - ID personal 312 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:22,044 MarcajeSinAsistencia.resumen leerListas - ID personal 118 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:22,170 MarcajeSinAsistencia.resumen leerListas - ID personal 118 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:22,306 MarcajeSinAsistencia.resumen leerListas - ID personal 460 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:22,436 MarcajeSinAsistencia.resumen leerListas - ID personal 256 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:22,565 MarcajeSinAsistencia.resumen leerListas - ID personal 455 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:22,694 MarcajeSinAsistencia.resumen leerListas - ID personal 91 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:22,823 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:22,953 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:23,090 MarcajeSinAsistencia.resumen leerListas - ID personal 109 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:23,219 MarcajeSinAsistencia.resumen leerListas - ID personal 157 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:23,348 MarcajeSinAsistencia.resumen leerListas - ID personal 432 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:23,506 MarcajeSinAsistencia.resumen leerListas - ID personal 374 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:23,636 MarcajeSinAsistencia.resumen leerListas - ID personal 87 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:23,781 MarcajeSinAsistencia.resumen leerListas - ID personal 270 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:23,911 MarcajeSinAsistencia.resumen leerListas - ID personal 200 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:24,048 MarcajeSinAsistencia.resumen leerListas - ID personal 208 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:24,177 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:24,314 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:24,444 MarcajeSinAsistencia.resumen leerListas - ID personal 384 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:24,581 MarcajeSinAsistencia.resumen leerListas - ID personal 115 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:24,711 MarcajeSinAsistencia.resumen leerListas - ID personal 171 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:24,848 MarcajeSinAsistencia.resumen leerListas - ID personal 315 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:24,989 MarcajeSinAsistencia.resumen leerListas - ID personal 348 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:25,119 MarcajeSinAsistencia.resumen leerListas - ID personal 144 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:25,256 MarcajeSinAsistencia.resumen leerListas - ID personal 410 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:25,386 MarcajeSinAsistencia.resumen leerListas - ID personal 636 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:25,523 MarcajeSinAsistencia.resumen leerListas - ID personal 148 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:25,669 MarcajeSinAsistencia.resumen leerListas - ID personal 448 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:25,814 MarcajeSinAsistencia.resumen leerListas - ID personal 447 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:25,939 MarcajeSinAsistencia.resumen leerListas - ID personal 635 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:26,070 MarcajeSinAsistencia.resumen leerListas - ID personal 44 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:26,198 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:26,327 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:26,464 MarcajeSinAsistencia.resumen leerListas - ID personal 140 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:26,594 MarcajeSinAsistencia.resumen leerListas - ID personal 119 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:26,723 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2020-12-01 06:00 hFin 2020-12-01 15:00
+
+[INFO] 2020-12-02 00:49:26,852 MarcajeSinAsistencia.resumen leerListas - ID personal 424 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:26,981 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:27,111 MarcajeSinAsistencia.resumen leerListas - ID personal 156 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:27,239 MarcajeSinAsistencia.resumen leerListas - ID personal 647 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:27,369 MarcajeSinAsistencia.resumen leerListas - ID personal 178 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:27,497 MarcajeSinAsistencia.resumen leerListas - ID personal 283 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:27,627 MarcajeSinAsistencia.resumen leerListas - ID personal 363 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:27,756 MarcajeSinAsistencia.resumen leerListas - ID personal 19 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:27,897 MarcajeSinAsistencia.resumen leerListas - ID personal 9 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:28,027 MarcajeSinAsistencia.resumen leerListas - ID personal 437 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:28,164 MarcajeSinAsistencia.resumen leerListas - ID personal 340 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:28,294 MarcajeSinAsistencia.resumen leerListas - ID personal 306 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:28,452 MarcajeSinAsistencia.resumen leerListas - ID personal 124 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:28,589 MarcajeSinAsistencia.resumen leerListas - ID personal 446 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:28,706 MarcajeSinAsistencia.resumen leerListas - ID personal 446 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:28,836 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:28,972 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:29,102 MarcajeSinAsistencia.resumen leerListas - ID personal 702 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:29,239 MarcajeSinAsistencia.resumen leerListas - ID personal 392 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:29,369 MarcajeSinAsistencia.resumen leerListas - ID personal 436 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:29,506 MarcajeSinAsistencia.resumen leerListas - ID personal 266 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:29,644 MarcajeSinAsistencia.resumen leerListas - ID personal 583 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:29,789 MarcajeSinAsistencia.resumen leerListas - ID personal 11 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:29,931 MarcajeSinAsistencia.resumen leerListas - ID personal 29 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:30,060 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:30,189 MarcajeSinAsistencia.resumen leerListas - ID personal 234 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:30,318 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:49:30,447 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:30,576 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:30,722 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:49:30,851 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:49:30,989 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:31,118 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:31,255 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:49:31,385 MarcajeSinAsistencia.resumen leerListas - ID personal 2 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:31,522 MarcajeSinAsistencia.resumen leerListas - ID personal 66 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:31,651 MarcajeSinAsistencia.resumen leerListas - ID personal 72 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:31,805 MarcajeSinAsistencia.resumen leerListas - ID personal 569 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:31,943 MarcajeSinAsistencia.resumen leerListas - ID personal 597 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:32,080 MarcajeSinAsistencia.resumen leerListas - ID personal 51 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:32,210 MarcajeSinAsistencia.resumen leerListas - ID personal 6 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:32,339 MarcajeSinAsistencia.resumen leerListas - ID personal 73 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:32,468 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:32,597 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:32,726 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:32,855 MarcajeSinAsistencia.resumen leerListas - ID personal 137 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:32,985 MarcajeSinAsistencia.resumen leerListas - ID personal 146 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:33,114 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:33,243 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:33,372 MarcajeSinAsistencia.resumen leerListas - ID personal 706 Horario ID 20 hInicio 2020-12-01 06:00 hFin 2020-12-01 05:59
+
+[INFO] 2020-12-02 00:49:33,535 MarcajeSinAsistencia.resumen leerListas - ID personal 643 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:33,672 MarcajeSinAsistencia.resumen leerListas - ID personal 269 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:33,802 MarcajeSinAsistencia.resumen leerListas - ID personal 233 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:33,930 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2020-12-01 08:00 hFin 2020-12-01 16:00
+
+[INFO] 2020-12-02 00:49:34,051 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:34,172 MarcajeSinAsistencia.resumen leerListas - ID personal 131 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:34,293 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:34,401 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:34,523 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:49:34,647 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:49:34,776 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:34,914 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:35,047 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:49:35,176 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:49:35,313 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:35,444 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2020-12-01 08:00 hFin 2020-12-01 17:00
+
+[INFO] 2020-12-02 00:49:35,580 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 21 hInicio 2020-12-01 07:00 hFin 2020-12-01 19:00
+
+[INFO] 2020-12-02 00:49:35,709 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 8 hInicio 2020-12-01 19:00 hFin 2020-12-01 07:00
+
+[INFO] 2020-12-02 00:49:35,847 MarcajeSinAsistencia.resumen leerListas - ID personal 458 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:35,976 MarcajeSinAsistencia.resumen leerListas - ID personal 458 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:36,105 MarcajeSinAsistencia.resumen leerListas - ID personal 458 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:36,234 MarcajeSinAsistencia.resumen leerListas - ID personal 50 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:36,372 MarcajeSinAsistencia.resumen leerListas - ID personal 128 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:36,501 MarcajeSinAsistencia.resumen leerListas - ID personal 117 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:36,638 MarcajeSinAsistencia.resumen leerListas - ID personal 75 Horario ID 12 hInicio 2020-12-01 07:00 hFin 2020-12-01 12:00
+
+[INFO] 2020-12-02 00:49:36,776 MarcajeSinAsistencia.main main - --FIN DE PROCESO: --
+

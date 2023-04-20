@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		${lbl:b_personal_visitors}
+	</summary>
+
+	<log>false</log>
+	
+	<set-request-attribute id="progress" value="file:/WEB-INF/action/progress/progress.htm"/>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>true</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id='query-smn_personal_id.sql' source='sql' scope='transaction'/>
+		<recordset id='query-smn_codigo_variable_1.sql' source='sql' scope='transaction'/>
+		<recordset id='query-smn_codigo_variable_2.sql' source='sql' scope='transaction'/>
+		<recordset id='query-rpv_autorizador.sql' source='sql' scope='transaction'/>
+		<recordset id='query-smn_carnet_identificacion.sql' source='sql' scope='transaction'/>
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericOutput</classname>
+		<template>template.htm</template>
+		<set-http-headers>true</set-http-headers>
+		<content-type>text/html</content-type>
+		<print mode='table' recordset='query-smn_personal_id.sql' tag='smn_personal_id_rows'/>
+		<print mode='table' recordset='query-smn_codigo_variable_1.sql' tag='smn_codigo_variable_1_rows'/>
+		<print mode='table' recordset='query-smn_codigo_variable_2.sql' tag='smn_codigo_variable_2_rows'/>
+		<print mode='table' recordset='query-rpv_autorizador.sql' tag='rpv_autorizador_rows'/>
+		<print mode='table' recordset='query-smn_carnet_identificacion.sql' tag='rpv_numero_carnet_asignado_rows'/>
+		<print mode="form" recordset="_request" /> 
+	</output>
+
+</config>

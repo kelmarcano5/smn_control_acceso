@@ -1,0 +1,44 @@
+INSERT INTO smn_control_acceso.smn_asistencias
+(
+	smn_asistencias_id,
+	asi_id_control_acceso,
+	asi_clase_auxiliar_rf,
+	asi_auxiliar_rf,
+	asi_fecha,
+	asi_estatus_permiso_rf,
+	asi_turno_rf,
+	asi_esquema_rotacion_rf,
+	asi_hora_ent_turno1,
+	asi_hora_sal_turno1,
+	asi_hora_ent_turno2,
+	asi_hora_sal_turno2,
+	asi_horas_trabajadas,
+	asi_horas_descansos,
+	asi_estatus_asistencia_rf,
+	asi_idioma,
+	asi_usuario,
+	asi_fecha_registro,
+	asi_hora
+)
+VALUES
+(
+	${seq:currval@smn_control_acceso.seq_smn_asistencias},
+	${fld:asi_id_control_acceso},
+	${fld:asi_clase_auxiliar_rf},
+	${fld:asi_auxiliar_rf},
+	${fld:asi_fecha},
+	${fld:asi_estatus_permiso_rf},
+	${fld:asi_turno_rf},
+	${fld:asi_esquema_rotacion_rf},
+	${fld:asi_hora_ent_turno1},
+	${fld:asi_hora_sal_turno1},
+	${fld:asi_hora_ent_turno2},
+	${fld:asi_hora_sal_turno2},
+	${fld:asi_horas_trabajadas},
+	${fld:asi_horas_descansos},
+	${fld:asi_estatus_asistencia_rf},
+	'${def:locale}',
+	'${def:user}',
+	{d '${def:date}'},
+	'${def:time}'
+)

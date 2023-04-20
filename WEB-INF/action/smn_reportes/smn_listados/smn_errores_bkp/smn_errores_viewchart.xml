@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<model>
+	<summary>${lbl:b_transactions_denormalize}</summary>
+	<filter>
+		<row field='trd_sede' id='trd_sede' label='${lbl:b_subsidiary} ' required='NO' fk='' mSelection='' condiction='Contiene' type='varchar' tableName='smn_transacciones_desnorm' len='48'/>
+		<row field='trd_dispositivo' id='trd_dispositivo' label='${lbl:b_device_code}' required='NO' fk='' mSelection='' condiction='Contiene' type='varchar' tableName='smn_transacciones_desnorm' len='48'/>
+		<row field='trd_identificacion' id='trd_identificacion' label='${lbl:b_indentification} ' required='NO' fk='' mSelection='' condiction='Comienza por' type='varchar' tableName='smn_transacciones_desnorm' len='16'/>
+		<row field='trd_status' id='trd_status' label='${lbl:b_status}' required='NO' fk='' mSelection='' condiction='Contiene' type='varchar' tableName='smn_transacciones_desnorm' len='3'/>
+		<row field='trd_fecha_registro' id='trd_fecha_registro_ini' label='${lbl:b_store_date_grater_than}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='date' tableName='smn_transacciones_desnorm' len='10'/>
+		<row field='trd_fecha_registro' id='trd_fecha_registro_fin' label='${lbl:b_store_date_less_than}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='date' tableName='smn_transacciones_desnorm' len='10'/>
+	</filter>
+	<searchQuery><![CDATA[select 
+	tipos_estatus.id as id, 
+	tipos_estatus.descripcion as item, 
+	count(*) as subtotal 
+from 
+	smn_control_acceso.smn_transacciones_desnorm as transacc,
+	(select 
+		row_number() over() as id, 
+		transacc_intern.descripcion
+	 from 
+		(select 
+			smn_control_acceso.smn_transacciones_desnorm.trd_status as descripcion,
+			count(*) as total
+		 from
+			smn_control_acceso.smn_transacciones_desnorm
+		 group by
+			smn_control_acceso.smn_transacciones_desnorm.trd_status) transacc_intern
+	) as tipos_estatus
+where 
+	tipos_estatus.descripcion = transacc.trd_status
+	${filter}
+group by
+	tipos_estatus.id, 
+	tipos_estatus.descripcion
+order by 
+	subtotal desc
+	]]></searchQuery>
+	<col1>Estatus</col1>
+	<col2>Total</col2>
+	<chartName>PieChart3D</chartName>
+	<detail>
+		<description label='Estatus' field='descripcion' queryDesc='select
+	trans_estatus.id,
+	trans_estatus.descripcion
+from	
+	(select 
+		row_number() over() as id,
+		smn_control_acceso.smn_transacciones_desnorm.trd_status as descripcion,
+		count(*) as total
+	from
+		smn_control_acceso.smn_transacciones_desnorm		
+	group by
+		smn_control_acceso.smn_transacciones_desnorm.trd_status) trans_estatus
+where
+	trans_estatus.id = ${id}'/>
+		<row field='descripcion' label='Estatus' align='left' type='varchar'/>
+		<queryGrid><![CDATA[select 
+	trans_estatus.id,
+	smn_control_acceso.smn_transacciones_desnorm.trd_status as descripcion
+from
+	smn_control_acceso.smn_transacciones_desnorm,
+	(select 
+		row_number() over() as id,
+		smn_control_acceso.smn_transacciones_desnorm.trd_status as descripcion,
+		count(*) as total
+	 from
+		smn_control_acceso.smn_transacciones_desnorm		
+	 group by
+		smn_control_acceso.smn_transacciones_desnorm.trd_status) trans_estatus
+where
+	smn_control_acceso.smn_transacciones_desnorm.trd_status = trans_estatus.descripcion
+and
+	trans_estatus.id = ${id}]]></queryGrid>
+	</detail>
+	<mobile>false</mobile>
+</model>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='cpa_status' type='varchar' required='false' label='${lbl:b_status}' maxlen='2'/>
+	<parameter id='cpa_fecha_vigencia_ini' type='date' required='false' label='${lbl:b_effectivity_date}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_effectivity_date} mayor o igual que] no puede ser mayor que [${lbl:b_effectivity_date} menor o igual que].' date1='cpa_fecha_vigencia_ini' date2='cpa_fecha_vigencia_fin' id='cpa_fecha_vigencia_ini' />
+	<parameter id='cpa_fecha_vigencia_fin' type='date' required='false' label='${lbl:b_effectivity_date}' maxlen='10'/>
+	<parameter id='cpa_fecha_registro_ini' type='date' required='false' label='${lbl:b_store_date}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_store_date} mayor o igual que] no puede ser mayor que [${lbl:b_store_date} menor o igual que].' date1='cpa_fecha_registro_ini' date2='cpa_fecha_registro_fin' id='cpa_fecha_registro_ini' />
+	<parameter id='cpa_fecha_registro_fin' type='date' required='false' label='${lbl:b_store_date}' maxlen='10'/>
+	<parameter id='smn_empresa_rf' type='integer' required='false' label='${lbl:b_company}' maxlen='10'/>
+<!-- 	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='smn_empresa_rf' rule='like' /> -->
+	<parameter id='smn_sucursal_rf' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<!-- <custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='smn_sucursal_rf' rule='like' /> -->
+	<parameter id='smn_estructura_organizacional_rf' type='integer' required='false' label='${lbl:b_organizacional_structure}' maxlen='10'/>
+	<!-- <custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='smn_estructura_organizacional_rf' rule='like' /> -->
+	<parameter id='smn_esquema_rotacion_id' type='integer' required='false' label='${lbl:b_rotation_scheme}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='smn_esquema_rotacion_id' rule='like' />
+	<parameter id='cpa_fecha_desde_cal' type='date' required='false' label='${lbl:b_inicial_date}' maxlen='10'/>
+	<parameter id='cpa_fecha_hasta_cal' type='date' required='false' label='${lbl:b_end_date}' maxlen='10'/>
+	<parameter id='cpa_fecha_generado_ini' type='date' required='false' label='${lbl:b_generate_date}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_generate_date} mayor o igual que] no puede ser mayor que [${lbl:b_generate_date} menor o igual que].' date1='cpa_fecha_generado_ini' date2='cpa_fecha_generado_fin' id='cpa_fecha_generado_ini' />
+	<parameter id='cpa_fecha_generado_fin' type='date' required='false' label='${lbl:b_generate_date}' maxlen='10'/>
+	<parameter id='cpa_ano' type='integer' required='false' label='${lbl:b_year}' maxlen='10'/>
+	<parameter id='cpa_num_semana_ini' type='integer' required='false' label='${lbl:b_num_week_ini}' maxlen='10'/>
+	<parameter id='cpa_num_semana_fin' type='integer' required='false' label='${lbl:b_num_week_end}' maxlen='10'/>
+</validator>

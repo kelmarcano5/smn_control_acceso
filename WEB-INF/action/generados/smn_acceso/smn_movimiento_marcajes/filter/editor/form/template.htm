@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="${def:context}/dinamica.css" />
+	
+	<!--biblioteca generica JS/Dinamica-->
+	<script type="text/javascript" src="${def:context}/action/script">
+	</script>
+
+</head>
+
+<body>
+
+<!--banner-->
+<div class="bannerDialog">
+	${lbl:b_marking_movement}
+	<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog()" title="Cerrar" style="float:right; cursor:pointer;">
+	${req:progress}
+</div>
+
+<!--formulario addnew/edit-->
+<form name="form1" onsubmit="return save()" style="width:500px;">
+
+	<!-- titulo -->
+	<h1 id="formTitle">Añadir registro</h1>
+
+	<table>
+
+		<!--ancho de la columna de etiquetas-->
+		<col width="30%">
+
+		<!--campos-->
+			<tr>
+		<td>${lbl:b_auxiliary}*</td>
+		<td>
+			<select name="mrk_auxiliar" id="mrk_auxiliar" onchange="chgCombo(mrk_auxiliar.options[mrk_auxiliar.selectedIndex].text,'mrk_auxiliar_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_auxiliar_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_auxiliar_rows>
+			</select> 
+			<input id="mrk_auxiliar_name" name="mrk_auxiliar_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_auxiliary_class}*</td>
+		<td>
+			<select name="mrk_clase_auxiliar" id="mrk_clase_auxiliar" onchange="chgCombo(mrk_clase_auxiliar.options[mrk_clase_auxiliar.selectedIndex].text,'mrk_clase_auxiliar_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_clase_auxiliar_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_clase_auxiliar_rows>
+			</select> 
+			<input id="mrk_clase_auxiliar_name" name="mrk_clase_auxiliar_name" type="hidden">
+		</td>
+	</tr>
+		<tr>
+			<td>${lbl:b_id_access_control}*</td>
+			<td>
+				<input id="mrk_control_acceso_id" name="mrk_control_acceso_id" type="text" maxlength="16" >
+			</td>
+		</tr>
+	<tr>
+		<td>${lbl:b_entity}*</td>
+		<td>
+			<select name="mrk_empresa" id="mrk_empresa" onchange="chgCombo(mrk_empresa.options[mrk_empresa.selectedIndex].text,'mrk_empresa_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_empresa_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_empresa_rows>
+			</select> 
+			<input id="mrk_empresa_name" name="mrk_empresa_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_subsidiary}</td>
+		<td>
+			<select name="mrk_sucursal" id="mrk_sucursal" onchange="chgCombo(mrk_sucursal.options[mrk_sucursal.selectedIndex].text,'mrk_sucursal_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_sucursal_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_sucursal_rows>
+			</select> 
+			<input id="mrk_sucursal_name" name="mrk_sucursal_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_service_area}</td>
+		<td>
+			<select name="mrk_area_servicio" id="mrk_area_servicio" onchange="chgCombo(mrk_area_servicio.options[mrk_area_servicio.selectedIndex].text,'mrk_area_servicio_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_area_servicio_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_area_servicio_rows>
+			</select> 
+			<input id="mrk_area_servicio_name" name="mrk_area_servicio_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_service_unit}</td>
+		<td>
+			<select name="mrk_unidad_servicio" id="mrk_unidad_servicio" onchange="chgCombo(mrk_unidad_servicio.options[mrk_unidad_servicio.selectedIndex].text,'mrk_unidad_servicio_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_unidad_servicio_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_unidad_servicio_rows>
+			</select> 
+			<input id="mrk_unidad_servicio_name" name="mrk_unidad_servicio_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_cost_centers}</td>
+		<td>
+			<select name="mrk_centro_costo" id="mrk_centro_costo" onchange="chgCombo(mrk_centro_costo.options[mrk_centro_costo.selectedIndex].text,'mrk_centro_costo_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_centro_costo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_centro_costo_rows>
+			</select> 
+			<input id="mrk_centro_costo_name" name="mrk_centro_costo_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_positions}*</td>
+		<td>
+			<select name="mrk_cargo" id="mrk_cargo" onchange="chgCombo(mrk_cargo.options[mrk_cargo.selectedIndex].text,'mrk_cargo_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_cargo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_cargo_rows>
+			</select> 
+			<input id="mrk_cargo_name" name="mrk_cargo_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_position_category}*</td>
+		<td>
+			<select name="mrk_categoria_cargo" id="mrk_categoria_cargo" onchange="chgCombo(mrk_categoria_cargo.options[mrk_categoria_cargo.selectedIndex].text,'mrk_categoria_cargo_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_categoria_cargo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_categoria_cargo_rows>
+			</select> 
+			<input id="mrk_categoria_cargo_name" name="mrk_categoria_cargo_name" type="hidden">
+		</td>
+	</tr>
+		<tr>
+			<td>${lbl:b_check}*</td>
+			<td>
+				<input id="mrk_marcaje_id" name="mrk_marcaje_id" type="text" maxlength="16" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_device}*</td>
+			<td>
+				<input id="mrk_dispositivo_codigo" name="mrk_dispositivo_codigo" type="text" maxlength="16" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_transaction_date}*</td>
+			<td>
+				<input id="mrk_marcaje_fecha" name="mrk_marcaje_fecha" type="text" class="date" maxlength="10">
+				<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('mrk_marcaje_fecha')">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_transaction_time}</td>
+			<td>
+				<input id="mrk_marcaje_hora" name="mrk_marcaje_hora" type="text" maxlength="5" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_day_name}*</td>
+			<td>
+				<select name="mrk_marcaje_dia" id="mrk_marcaje_dia">
+				<option value="DO">${lbl:b_sunday}</option>
+				<option value="LU">${lbl:b_monday}</option>
+				<option value="MA">${lbl:b_tuesday}</option>
+				<option value="MI">${lbl:b_wednesday}</option>
+				<option value="JU">${lbl:b_thursday}</option>
+				<option value="VI">${lbl:b_friday}</option>
+				<option value="SA">${lbl:b_saturday}</option>
+
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_device_type}*</td>
+			<td>
+				<select name="mrk_marcaje_tipo" id="mrk_marcaje_tipo">
+				<option value="ENT">${lbl:b_entry}</option>
+				<option value="SAL">${lbl:b_exit}</option>
+				<option value="ESL">${lbl:b_entry_exit}</option>
+
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_effective_time}</td>
+			<td>
+				<input id="mrk_tiempo_efectivo" name="mrk_tiempo_efectivo" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_turno}*</td>
+			<td>
+				<input id="mrk_turno" name="mrk_turno" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_consecutivo} *</td>
+			<td>
+				<input id="mrk_consecutivo" name="mrk_consecutivo" type="text" maxlength="16" >
+			</td>
+		</tr>
+
+
+	</table>
+
+	<!--botones-->
+	<input id="grabar" type="submit" value="Grabar" class="button">
+	<input id="cancelar" type="button" value="Cancelar" onclick="addNew()" class="button">	
+	
+	<!-- PK-->
+<input type="hidden" name="id" value="" alt="numeric">
+
+</form>
+
+<!--codigo de soporte del template-->
+<script type="text/javascript">
+
+	onload = function()
+	{ 
+		addNew();
+		document.form1.mrk_marcaje_fecha.onkeypress = keypressDate;
+		var txt_mrk_tiempo_efectivo = new NumericInput(document.form1.mrk_tiempo_efectivo);
+		var txt_mrk_turno = new NumericInput(document.form1.mrk_turno, 0);
+
+		if (id!="")
+			edit(id);
+	} 
+	
+
+
+	function chgCombo(text,id)
+	{
+		document.getElementById(id).value = text;
+	}
+	//configurar formulario para ingresar registro nuevo
+	function addNew()
+	{
+		document.getElementById("formTitle").innerHTML = "Añadir registro";
+		document.getElementById("grabar").disabled=false;
+		clearForm("form1");
+		setFocusOnForm("form1");
+	}
+	
+	//retorna al estado previo que corresponde
+	//al estado actual de la pagina, cada llamada Ajax
+	//se encarga de definir cual es la funcion de goBack() que aplica
+	function goBack() 
+	{
+		_goBackFn()			
+	}
+	
+	//mostrar la actualizacion de un registro
+	function insert()
+	{		
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/insert", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+	
+	//restaurar el formulario en caso de error
+	function retryAddnewOrEdit() {
+		document.getElementById("grabar").disabled=false;
+		setFocusOnForm("form1");		
+	}
+	
+	var id = "${fld:id}"
+	
+	//grabar el formulario
+	function save()
+	{
+		//determina si es un insert o un update
+		if (document.form1.id.value=="")
+			return insert();
+		else
+			return update();
+	}
+	
+	//editar registro en formulario
+	function edit(id)
+	{
+			clearErrorMessages();
+
+			//llamada Ajax...
+			ajaxCall(httpMethod="GET", 
+							uri="${def:actionroot}/edit?id=" + id , 
+							divResponse=null, 
+							divProgress="status", 
+							formName=null, 
+							afterResponseFn=null, 
+							onErrorFn=null);	
+	}
+	
+	//actualizar registro en BD
+	function update()
+	{		
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/update", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+
+	
+</script>	
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='smn_personal_id' type='integer' required='false' maxlen='10'/>
+	<parameter id='spe_documento_rf_desc_ref' type='varchar' required='true' maxlen='16'/>
+	<parameter id='spe_categoria_justif_rf_desc_ref' type='varchar' required='true' maxlen='64'/>
+	<parameter id='spe_fecha_desde' type='date' required='true' maxlen='10'/>
+	<parameter id='spe_fecha_hasta' type='date' required='true' maxlen='10'/>
+	<parameter id='spe_cantidad_horas' type='double' required='true' maxlen='10'/>
+	<parameter id='spe_estatus_rf' type='varchar' required='true' maxlen='3'/>
+	<parameter id='spe_jefe_inmediato_rf_desc_ref' type='varchar' required='true' maxlen='60'/>
+	<parameter id='spe_detalles' type='varchar' required='false' maxlen='4000'/>
+	<parameter id='spe_causa' type='varchar' required='false' maxlen='1024'/>
+	<parameter id='spe_documento_rf_ref' type='integer' required='false' maxlen='16'/>
+	<parameter id='spe_categoria_justif_rf_ref' type='integer' required='false' maxlen='64'/>
+	<parameter id='spe_jefe_inmediato_rf_ref' type='integer' required='false' maxlen='60'/>
+
+
+
+
+</validator>

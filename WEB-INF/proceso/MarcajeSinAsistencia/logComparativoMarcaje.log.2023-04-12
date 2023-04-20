@@ -1,0 +1,988 @@
+[INFO] 2023-04-12 00:03:26,935 MarcajeSinAsistencia.main main - --INICIO DE PROCESO: --
+[INFO] 2023-04-12 00:03:49,133 MarcajeSinAsistencia.main main - Cantida de Asistencias programadas =323902
+[INFO] 2023-04-12 00:03:49,134 MarcajeSinAsistencia.main main - Cantida de Movimientos de marcaje =454
+[INFO] 2023-04-12 00:03:49,134 MarcajeSinAsistencia.main main - Cantida de PERSONAL asignados a las Asistencias programadas =229
+[INFO] 2023-04-12 00:03:50,135 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-27 18:00 hFin 2022-10-27 06:00
+
+[ERROR] 2023-04-12 00:03:50,145 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-27, Horas 2022-10-27 18:00 2022-10-27 06:00
+[ERROR] 2023-04-12 00:03:50,145 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-27 null:00"
+[INFO] 2023-04-12 00:03:50,168 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-27 18:00 hFin 2022-10-27 06:00
+
+[ERROR] 2023-04-12 00:03:50,170 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-27, Horas 2022-10-27 18:00 2022-10-27 06:00
+[ERROR] 2023-04-12 00:03:50,170 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-27 null:00"
+[INFO] 2023-04-12 00:03:50,206 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-27 18:00 hFin 2022-10-27 06:00
+
+[ERROR] 2023-04-12 00:03:50,212 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-27, Horas 2022-10-27 18:00 2022-10-27 06:00
+[ERROR] 2023-04-12 00:03:50,212 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-27 null:00"
+[INFO] 2023-04-12 00:03:50,253 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-30 18:00 hFin 2022-10-30 06:00
+
+[ERROR] 2023-04-12 00:03:50,255 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-30, Horas 2022-10-30 18:00 2022-10-30 06:00
+[ERROR] 2023-04-12 00:03:50,255 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-30 null:00"
+[INFO] 2023-04-12 00:03:50,277 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-31 18:00 hFin 2022-10-31 06:00
+
+[ERROR] 2023-04-12 00:03:50,286 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-31, Horas 2022-10-31 18:00 2022-10-31 06:00
+[ERROR] 2023-04-12 00:03:50,287 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-31 null:00"
+[INFO] 2023-04-12 00:03:50,314 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-31 18:00 hFin 2022-10-31 06:00
+
+[ERROR] 2023-04-12 00:03:50,319 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-31, Horas 2022-10-31 18:00 2022-10-31 06:00
+[ERROR] 2023-04-12 00:03:50,319 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-31 null:00"
+[INFO] 2023-04-12 00:03:50,341 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-01 18:00 hFin 2022-11-01 06:00
+
+[ERROR] 2023-04-12 00:03:50,342 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-01, Horas 2022-11-01 18:00 2022-11-01 06:00
+[ERROR] 2023-04-12 00:03:50,342 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-01 null:00"
+[INFO] 2023-04-12 00:03:50,364 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-01 18:00 hFin 2022-11-01 06:00
+
+[ERROR] 2023-04-12 00:03:50,364 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-01, Horas 2022-11-01 18:00 2022-11-01 06:00
+[ERROR] 2023-04-12 00:03:50,364 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-01 null:00"
+[INFO] 2023-04-12 00:03:50,386 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-01 18:00 hFin 2022-11-01 06:00
+
+[ERROR] 2023-04-12 00:03:50,386 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-01, Horas 2022-11-01 18:00 2022-11-01 06:00
+[ERROR] 2023-04-12 00:03:50,387 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-01 null:00"
+[INFO] 2023-04-12 00:03:50,409 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-03 18:00 hFin 2022-11-03 06:00
+
+[ERROR] 2023-04-12 00:03:50,413 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-03, Horas 2022-11-03 18:00 2022-11-03 06:00
+[ERROR] 2023-04-12 00:03:50,413 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-03 null:00"
+[INFO] 2023-04-12 00:03:50,435 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-03 18:00 hFin 2022-11-03 06:00
+
+[ERROR] 2023-04-12 00:03:50,435 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-03, Horas 2022-11-03 18:00 2022-11-03 06:00
+[ERROR] 2023-04-12 00:03:50,435 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-03 null:00"
+[INFO] 2023-04-12 00:03:50,456 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-03 18:00 hFin 2022-11-03 06:00
+
+[ERROR] 2023-04-12 00:03:50,457 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-03, Horas 2022-11-03 18:00 2022-11-03 06:00
+[ERROR] 2023-04-12 00:03:50,457 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-03 null:00"
+[INFO] 2023-04-12 00:03:50,479 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-07 18:00 hFin 2022-11-07 06:00
+
+[ERROR] 2023-04-12 00:03:50,480 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-07, Horas 2022-11-07 18:00 2022-11-07 06:00
+[ERROR] 2023-04-12 00:03:50,480 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-07 null:00"
+[INFO] 2023-04-12 00:03:50,502 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-07 18:00 hFin 2022-11-07 06:00
+
+[ERROR] 2023-04-12 00:03:50,502 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-07, Horas 2022-11-07 18:00 2022-11-07 06:00
+[ERROR] 2023-04-12 00:03:50,502 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-07 null:00"
+[INFO] 2023-04-12 00:03:50,523 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-07 18:00 hFin 2022-11-07 06:00
+
+[ERROR] 2023-04-12 00:03:50,524 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-07, Horas 2022-11-07 18:00 2022-11-07 06:00
+[ERROR] 2023-04-12 00:03:50,524 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-07 null:00"
+[INFO] 2023-04-12 00:03:50,547 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-08 18:00 hFin 2022-11-08 06:00
+
+[ERROR] 2023-04-12 00:03:50,547 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-08, Horas 2022-11-08 18:00 2022-11-08 06:00
+[ERROR] 2023-04-12 00:03:50,547 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-08 null:00"
+[INFO] 2023-04-12 00:03:50,570 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-08 18:00 hFin 2022-11-08 06:00
+
+[ERROR] 2023-04-12 00:03:50,570 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-08, Horas 2022-11-08 18:00 2022-11-08 06:00
+[ERROR] 2023-04-12 00:03:50,570 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-08 null:00"
+[INFO] 2023-04-12 00:03:50,592 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-08 18:00 hFin 2022-11-08 06:00
+
+[ERROR] 2023-04-12 00:03:50,593 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-08, Horas 2022-11-08 18:00 2022-11-08 06:00
+[ERROR] 2023-04-12 00:03:50,593 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-08 null:00"
+[INFO] 2023-04-12 00:03:50,614 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-09 18:00 hFin 2022-11-09 06:00
+
+[ERROR] 2023-04-12 00:03:50,615 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-09, Horas 2022-11-09 18:00 2022-11-09 06:00
+[ERROR] 2023-04-12 00:03:50,615 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-09 null:00"
+[INFO] 2023-04-12 00:03:50,637 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-09 18:00 hFin 2022-11-09 06:00
+
+[ERROR] 2023-04-12 00:03:50,637 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-09, Horas 2022-11-09 18:00 2022-11-09 06:00
+[ERROR] 2023-04-12 00:03:50,638 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-09 null:00"
+[INFO] 2023-04-12 00:03:50,659 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-09 18:00 hFin 2022-11-09 06:00
+
+[ERROR] 2023-04-12 00:03:50,659 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-09, Horas 2022-11-09 18:00 2022-11-09 06:00
+[ERROR] 2023-04-12 00:03:50,659 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-09 null:00"
+[INFO] 2023-04-12 00:03:50,681 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-10 18:00 hFin 2022-11-10 06:00
+
+[ERROR] 2023-04-12 00:03:50,681 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-10, Horas 2022-11-10 18:00 2022-11-10 06:00
+[ERROR] 2023-04-12 00:03:50,682 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-10 null:00"
+[INFO] 2023-04-12 00:03:50,704 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-10 18:00 hFin 2022-11-10 06:00
+
+[ERROR] 2023-04-12 00:03:50,705 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-10, Horas 2022-11-10 18:00 2022-11-10 06:00
+[ERROR] 2023-04-12 00:03:50,705 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-10 null:00"
+[INFO] 2023-04-12 00:03:50,726 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-10 18:00 hFin 2022-11-10 06:00
+
+[ERROR] 2023-04-12 00:03:50,726 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-10, Horas 2022-11-10 18:00 2022-11-10 06:00
+[ERROR] 2023-04-12 00:03:50,726 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-10 null:00"
+[INFO] 2023-04-12 00:03:50,749 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-13 18:00 hFin 2022-11-13 06:00
+
+[ERROR] 2023-04-12 00:03:50,749 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-13, Horas 2022-11-13 18:00 2022-11-13 06:00
+[ERROR] 2023-04-12 00:03:50,749 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-13 null:00"
+[INFO] 2023-04-12 00:03:50,770 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2023-04-12 00:03:50,771 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2023-04-12 00:03:50,771 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2023-04-12 00:03:50,792 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2023-04-12 00:03:50,793 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2023-04-12 00:03:50,793 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2023-04-12 00:03:50,814 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2023-04-12 00:03:50,814 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2023-04-12 00:03:50,814 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2023-04-12 00:03:50,835 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2023-04-12 00:03:50,836 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2023-04-12 00:03:50,836 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2023-04-12 00:03:50,857 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2023-04-12 00:03:50,857 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2023-04-12 00:03:50,858 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2023-04-12 00:03:50,879 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-15 18:00 hFin 2022-11-15 06:00
+
+[ERROR] 2023-04-12 00:03:50,879 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-15, Horas 2022-11-15 18:00 2022-11-15 06:00
+[ERROR] 2023-04-12 00:03:50,879 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-15 null:00"
+[INFO] 2023-04-12 00:03:50,901 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-15 18:00 hFin 2022-11-15 06:00
+
+[ERROR] 2023-04-12 00:03:50,902 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-15, Horas 2022-11-15 18:00 2022-11-15 06:00
+[ERROR] 2023-04-12 00:03:50,903 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-15 null:00"
+[INFO] 2023-04-12 00:03:50,924 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-16 18:00 hFin 2022-11-16 06:00
+
+[ERROR] 2023-04-12 00:03:50,924 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-16, Horas 2022-11-16 18:00 2022-11-16 06:00
+[ERROR] 2023-04-12 00:03:50,924 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-16 null:00"
+[INFO] 2023-04-12 00:03:50,946 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-16 18:00 hFin 2022-11-16 06:00
+
+[ERROR] 2023-04-12 00:03:50,946 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-16, Horas 2022-11-16 18:00 2022-11-16 06:00
+[ERROR] 2023-04-12 00:03:50,946 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-16 null:00"
+[INFO] 2023-04-12 00:03:50,968 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-17 18:00 hFin 2022-11-17 06:00
+
+[ERROR] 2023-04-12 00:03:50,968 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-17, Horas 2022-11-17 18:00 2022-11-17 06:00
+[ERROR] 2023-04-12 00:03:50,971 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-17 null:00"
+[INFO] 2023-04-12 00:03:50,992 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-17 18:00 hFin 2022-11-17 06:00
+
+[ERROR] 2023-04-12 00:03:50,992 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-17, Horas 2022-11-17 18:00 2022-11-17 06:00
+[ERROR] 2023-04-12 00:03:50,993 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-17 null:00"
+[INFO] 2023-04-12 00:03:51,014 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-17 18:00 hFin 2022-11-17 06:00
+
+[ERROR] 2023-04-12 00:03:51,015 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-17, Horas 2022-11-17 18:00 2022-11-17 06:00
+[ERROR] 2023-04-12 00:03:51,015 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-17 null:00"
+[INFO] 2023-04-12 00:03:51,075 MarcajeSinAsistencia.resumen leerListas - ID personal 839 Horario ID 7 hInicio 2023-03-29 08:00 hFin 2023-03-29 16:00
+
+[INFO] 2023-04-12 00:03:51,449 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 8 hInicio 2023-04-11 19:00 hFin 2023-04-11 07:00
+
+[INFO] 2023-04-12 00:03:51,799 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 21 hInicio 2023-04-11 07:00 hFin 2023-04-11 19:00
+
+[INFO] 2023-04-12 00:03:52,140 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 21 hInicio 2023-04-11 07:00 hFin 2023-04-11 19:00
+
+[INFO] 2023-04-12 00:03:52,487 MarcajeSinAsistencia.resumen leerListas - ID personal 119 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:52,835 MarcajeSinAsistencia.resumen leerListas - ID personal 897 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:03:53,180 MarcajeSinAsistencia.resumen leerListas - ID personal 897 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:03:53,529 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:53,877 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:54,223 MarcajeSinAsistencia.resumen leerListas - ID personal 389 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:54,570 MarcajeSinAsistencia.resumen leerListas - ID personal 110 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:54,917 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:03:55,271 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:03:55,628 MarcajeSinAsistencia.resumen leerListas - ID personal 382 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:55,989 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:56,330 MarcajeSinAsistencia.resumen leerListas - ID personal 899 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:03:56,671 MarcajeSinAsistencia.resumen leerListas - ID personal 234 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:57,012 MarcajeSinAsistencia.resumen leerListas - ID personal 369 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:57,354 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:57,743 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:58,090 MarcajeSinAsistencia.resumen leerListas - ID personal 97 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:58,432 MarcajeSinAsistencia.resumen leerListas - ID personal 95 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:58,774 MarcajeSinAsistencia.resumen leerListas - ID personal 448 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:59,114 MarcajeSinAsistencia.resumen leerListas - ID personal 114 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:59,455 MarcajeSinAsistencia.resumen leerListas - ID personal 295 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:03:59,802 MarcajeSinAsistencia.resumen leerListas - ID personal 168 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:00,137 MarcajeSinAsistencia.resumen leerListas - ID personal 46 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:00,466 MarcajeSinAsistencia.resumen leerListas - ID personal 454 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:00,808 MarcajeSinAsistencia.resumen leerListas - ID personal 322 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:01,131 MarcajeSinAsistencia.resumen leerListas - ID personal 76 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:01,461 MarcajeSinAsistencia.resumen leerListas - ID personal 109 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:01,801 MarcajeSinAsistencia.resumen leerListas - ID personal 213 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:02,125 MarcajeSinAsistencia.resumen leerListas - ID personal 801 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:02,454 MarcajeSinAsistencia.resumen leerListas - ID personal 218 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:02,780 MarcajeSinAsistencia.resumen leerListas - ID personal 799 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:03,107 MarcajeSinAsistencia.resumen leerListas - ID personal 194 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:03,436 MarcajeSinAsistencia.resumen leerListas - ID personal 372 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:03,766 MarcajeSinAsistencia.resumen leerListas - ID personal 418 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:04,095 MarcajeSinAsistencia.resumen leerListas - ID personal 421 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:04,418 MarcajeSinAsistencia.resumen leerListas - ID personal 183 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:04,748 MarcajeSinAsistencia.resumen leerListas - ID personal 94 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:05,077 MarcajeSinAsistencia.resumen leerListas - ID personal 5 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:05,406 MarcajeSinAsistencia.resumen leerListas - ID personal 842 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:05,736 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:06,065 MarcajeSinAsistencia.resumen leerListas - ID personal 324 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:06,394 MarcajeSinAsistencia.resumen leerListas - ID personal 148 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:06,723 MarcajeSinAsistencia.resumen leerListas - ID personal 206 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:07,047 MarcajeSinAsistencia.resumen leerListas - ID personal 310 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:07,376 MarcajeSinAsistencia.resumen leerListas - ID personal 345 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:07,699 MarcajeSinAsistencia.resumen leerListas - ID personal 884 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:08,029 MarcajeSinAsistencia.resumen leerListas - ID personal 729 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:08,358 MarcajeSinAsistencia.resumen leerListas - ID personal 772 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:08,687 MarcajeSinAsistencia.resumen leerListas - ID personal 587 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:09,016 MarcajeSinAsistencia.resumen leerListas - ID personal 274 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:09,358 MarcajeSinAsistencia.resumen leerListas - ID personal 396 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:09,688 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:10,036 MarcajeSinAsistencia.resumen leerListas - ID personal 152 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:10,358 MarcajeSinAsistencia.resumen leerListas - ID personal 176 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:10,681 MarcajeSinAsistencia.resumen leerListas - ID personal 334 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:11,011 MarcajeSinAsistencia.resumen leerListas - ID personal 318 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:11,334 MarcajeSinAsistencia.resumen leerListas - ID personal 304 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:11,657 MarcajeSinAsistencia.resumen leerListas - ID personal 263 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:11,981 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:12,304 MarcajeSinAsistencia.resumen leerListas - ID personal 316 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:12,638 MarcajeSinAsistencia.resumen leerListas - ID personal 781 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:04:12,962 MarcajeSinAsistencia.resumen leerListas - ID personal 781 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:04:13,292 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:13,615 MarcajeSinAsistencia.resumen leerListas - ID personal 809 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:13,938 MarcajeSinAsistencia.resumen leerListas - ID personal 45 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:14,262 MarcajeSinAsistencia.resumen leerListas - ID personal 852 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:14,585 MarcajeSinAsistencia.resumen leerListas - ID personal 102 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:14,914 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:15,238 MarcajeSinAsistencia.resumen leerListas - ID personal 437 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:15,561 MarcajeSinAsistencia.resumen leerListas - ID personal 140 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:15,903 MarcajeSinAsistencia.resumen leerListas - ID personal 128 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:16,220 MarcajeSinAsistencia.resumen leerListas - ID personal 856 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:16,537 MarcajeSinAsistencia.resumen leerListas - ID personal 222 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:16,848 MarcajeSinAsistencia.resumen leerListas - ID personal 432 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:17,166 MarcajeSinAsistencia.resumen leerListas - ID personal 123 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:17,477 MarcajeSinAsistencia.resumen leerListas - ID personal 395 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:17,860 MarcajeSinAsistencia.resumen leerListas - ID personal 854 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:18,202 MarcajeSinAsistencia.resumen leerListas - ID personal 738 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:18,519 MarcajeSinAsistencia.resumen leerListas - ID personal 450 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:18,854 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:19,172 MarcajeSinAsistencia.resumen leerListas - ID personal 296 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:19,491 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:19,813 MarcajeSinAsistencia.resumen leerListas - ID personal 455 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:20,129 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2023-04-11 06:00 hFin 2023-04-11 15:00
+
+[INFO] 2023-04-12 00:04:20,441 MarcajeSinAsistencia.resumen leerListas - ID personal 137 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:20,758 MarcajeSinAsistencia.resumen leerListas - ID personal 246 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:21,147 MarcajeSinAsistencia.resumen leerListas - ID personal 414 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:21,491 MarcajeSinAsistencia.resumen leerListas - ID personal 313 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:21,813 MarcajeSinAsistencia.resumen leerListas - ID personal 262 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:22,124 MarcajeSinAsistencia.resumen leerListas - ID personal 200 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:22,466 MarcajeSinAsistencia.resumen leerListas - ID personal 233 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:22,777 MarcajeSinAsistencia.resumen leerListas - ID personal 885 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:23,100 MarcajeSinAsistencia.resumen leerListas - ID personal 115 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:23,417 MarcajeSinAsistencia.resumen leerListas - ID personal 441 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:23,732 MarcajeSinAsistencia.resumen leerListas - ID personal 898 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:24,040 MarcajeSinAsistencia.resumen leerListas - ID personal 417 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:24,351 MarcajeSinAsistencia.resumen leerListas - ID personal 433 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:24,663 MarcajeSinAsistencia.resumen leerListas - ID personal 164 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:24,980 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:25,297 MarcajeSinAsistencia.resumen leerListas - ID personal 87 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:25,609 MarcajeSinAsistencia.resumen leerListas - ID personal 893 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:25,920 MarcajeSinAsistencia.resumen leerListas - ID personal 436 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:26,232 MarcajeSinAsistencia.resumen leerListas - ID personal 797 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:26,543 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:26,854 MarcajeSinAsistencia.resumen leerListas - ID personal 186 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:27,165 MarcajeSinAsistencia.resumen leerListas - ID personal 363 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:27,477 MarcajeSinAsistencia.resumen leerListas - ID personal 127 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:27,789 MarcajeSinAsistencia.resumen leerListas - ID personal 297 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:28,094 MarcajeSinAsistencia.resumen leerListas - ID personal 215 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:28,399 MarcajeSinAsistencia.resumen leerListas - ID personal 800 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:28,704 MarcajeSinAsistencia.resumen leerListas - ID personal 798 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:29,015 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:29,328 MarcajeSinAsistencia.resumen leerListas - ID personal 89 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:29,638 MarcajeSinAsistencia.resumen leerListas - ID personal 100 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:29,950 MarcajeSinAsistencia.resumen leerListas - ID personal 38 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:30,255 MarcajeSinAsistencia.resumen leerListas - ID personal 449 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:30,560 MarcajeSinAsistencia.resumen leerListas - ID personal 635 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:30,867 MarcajeSinAsistencia.resumen leerListas - ID personal 145 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:31,179 MarcajeSinAsistencia.resumen leerListas - ID personal 848 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:31,482 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:31,824 MarcajeSinAsistencia.resumen leerListas - ID personal 315 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:32,135 MarcajeSinAsistencia.resumen leerListas - ID personal 85 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:32,452 MarcajeSinAsistencia.resumen leerListas - ID personal 898 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:32,763 MarcajeSinAsistencia.resumen leerListas - ID personal 104 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:33,082 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:33,386 MarcajeSinAsistencia.resumen leerListas - ID personal 169 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:33,692 MarcajeSinAsistencia.resumen leerListas - ID personal 178 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:33,997 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:34,309 MarcajeSinAsistencia.resumen leerListas - ID personal 796 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:34,614 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:34,925 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:35,236 MarcajeSinAsistencia.resumen leerListas - ID personal 885 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:35,542 MarcajeSinAsistencia.resumen leerListas - ID personal 81 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:35,848 MarcajeSinAsistencia.resumen leerListas - ID personal 331 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:36,153 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:36,452 MarcajeSinAsistencia.resumen leerListas - ID personal 898 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:36,765 MarcajeSinAsistencia.resumen leerListas - ID personal 44 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:37,080 MarcajeSinAsistencia.resumen leerListas - ID personal 399 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:37,386 MarcajeSinAsistencia.resumen leerListas - ID personal 469 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:37,698 MarcajeSinAsistencia.resumen leerListas - ID personal 881 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:38,003 MarcajeSinAsistencia.resumen leerListas - ID personal 898 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:38,314 MarcajeSinAsistencia.resumen leerListas - ID personal 898 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:38,625 MarcajeSinAsistencia.resumen leerListas - ID personal 695 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:38,925 MarcajeSinAsistencia.resumen leerListas - ID personal 340 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:39,230 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:39,530 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:39,835 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:40,140 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2023-04-11 06:00 hFin 2023-04-11 15:00
+
+[INFO] 2023-04-12 00:04:40,446 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:40,751 MarcajeSinAsistencia.resumen leerListas - ID personal 47 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:41,092 MarcajeSinAsistencia.resumen leerListas - ID personal 51 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:41,392 MarcajeSinAsistencia.resumen leerListas - ID personal 7 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:41,716 MarcajeSinAsistencia.resumen leerListas - ID personal 305 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:42,050 MarcajeSinAsistencia.resumen leerListas - ID personal 880 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:42,387 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:42,715 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:43,028 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:43,336 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:43,631 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:43,936 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:44,236 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:44,535 MarcajeSinAsistencia.resumen leerListas - ID personal 236 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:44,835 MarcajeSinAsistencia.resumen leerListas - ID personal 354 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:45,134 MarcajeSinAsistencia.resumen leerListas - ID personal 852 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:45,451 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:04:45,787 MarcajeSinAsistencia.resumen leerListas - ID personal 441 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:46,092 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:04:46,397 MarcajeSinAsistencia.resumen leerListas - ID personal 891 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:46,697 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:47,002 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:47,307 MarcajeSinAsistencia.resumen leerListas - ID personal 99 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:47,607 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:04:47,906 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:04:48,325 MarcajeSinAsistencia.resumen leerListas - ID personal 146 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:48,618 MarcajeSinAsistencia.resumen leerListas - ID personal 296 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:48,918 MarcajeSinAsistencia.resumen leerListas - ID personal 5 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:49,211 MarcajeSinAsistencia.resumen leerListas - ID personal 296 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:49,511 MarcajeSinAsistencia.resumen leerListas - ID personal 38 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:49,817 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:50,122 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:50,428 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:50,727 MarcajeSinAsistencia.resumen leerListas - ID personal 404 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:51,026 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:51,326 MarcajeSinAsistencia.resumen leerListas - ID personal 891 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:51,631 MarcajeSinAsistencia.resumen leerListas - ID personal 404 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:51,930 MarcajeSinAsistencia.resumen leerListas - ID personal 404 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:52,237 MarcajeSinAsistencia.resumen leerListas - ID personal 893 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:52,535 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:52,835 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:53,134 MarcajeSinAsistencia.resumen leerListas - ID personal 854 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:53,433 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:53,732 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:54,032 MarcajeSinAsistencia.resumen leerListas - ID personal 854 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:54,331 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:54,625 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:54,924 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:55,223 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:55,523 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:04:55,816 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:04:56,115 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:56,409 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:56,708 MarcajeSinAsistencia.resumen leerListas - ID personal 149 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:57,002 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:57,302 MarcajeSinAsistencia.resumen leerListas - ID personal 454 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:57,600 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:04:57,899 MarcajeSinAsistencia.resumen leerListas - ID personal 38 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:58,193 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:58,487 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:58,822 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:59,115 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2023-04-11 08:00 hFin 2023-04-11 17:00
+
+[INFO] 2023-04-12 00:04:59,403 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:04:59,703 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:00,001 MarcajeSinAsistencia.resumen leerListas - ID personal 454 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:00,301 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:00,601 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:00,900 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2023-04-11 06:00 hFin 2023-04-11 15:00
+
+[INFO] 2023-04-12 00:05:01,194 MarcajeSinAsistencia.resumen leerListas - ID personal 183 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:01,492 MarcajeSinAsistencia.resumen leerListas - ID personal 81 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:01,802 MarcajeSinAsistencia.resumen leerListas - ID personal 145 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:02,096 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:02,401 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2023-04-11 06:00 hFin 2023-04-11 15:00
+
+[INFO] 2023-04-12 00:05:02,700 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:02,993 MarcajeSinAsistencia.resumen leerListas - ID personal 801 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:03,286 MarcajeSinAsistencia.resumen leerListas - ID personal 399 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:03,580 MarcajeSinAsistencia.resumen leerListas - ID personal 801 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:03,867 MarcajeSinAsistencia.resumen leerListas - ID personal 419 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:04,155 MarcajeSinAsistencia.resumen leerListas - ID personal 236 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:04,443 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:04,747 MarcajeSinAsistencia.resumen leerListas - ID personal 46 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:05,035 MarcajeSinAsistencia.resumen leerListas - ID personal 236 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:05,322 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:05,615 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:05,903 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:06,190 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:06,478 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:06,765 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:07,053 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:07,340 MarcajeSinAsistencia.resumen leerListas - ID personal 47 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:07,645 MarcajeSinAsistencia.resumen leerListas - ID personal 178 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:07,939 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:08,226 MarcajeSinAsistencia.resumen leerListas - ID personal 399 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:08,519 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:08,807 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:09,095 MarcajeSinAsistencia.resumen leerListas - ID personal 46 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:09,394 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:09,694 MarcajeSinAsistencia.resumen leerListas - ID personal 880 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:09,993 MarcajeSinAsistencia.resumen leerListas - ID personal 881 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:10,286 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:10,573 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:10,867 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:11,160 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:11,454 MarcajeSinAsistencia.resumen leerListas - ID personal 104 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:11,753 MarcajeSinAsistencia.resumen leerListas - ID personal 148 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:12,053 MarcajeSinAsistencia.resumen leerListas - ID personal 109 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:12,353 MarcajeSinAsistencia.resumen leerListas - ID personal 295 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:12,650 MarcajeSinAsistencia.resumen leerListas - ID personal 206 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:12,945 MarcajeSinAsistencia.resumen leerListas - ID personal 313 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:13,244 MarcajeSinAsistencia.resumen leerListas - ID personal 76 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:13,538 MarcajeSinAsistencia.resumen leerListas - ID personal 297 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:13,831 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:14,126 MarcajeSinAsistencia.resumen leerListas - ID personal 274 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:14,419 MarcajeSinAsistencia.resumen leerListas - ID personal 246 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:14,713 MarcajeSinAsistencia.resumen leerListas - ID personal 152 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:15,007 MarcajeSinAsistencia.resumen leerListas - ID personal 316 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:15,317 MarcajeSinAsistencia.resumen leerListas - ID personal 89 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:15,611 MarcajeSinAsistencia.resumen leerListas - ID personal 334 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:15,910 MarcajeSinAsistencia.resumen leerListas - ID personal 310 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:16,203 MarcajeSinAsistencia.resumen leerListas - ID personal 263 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:16,499 MarcajeSinAsistencia.resumen leerListas - ID personal 194 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:16,790 MarcajeSinAsistencia.resumen leerListas - ID personal 389 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:17,085 MarcajeSinAsistencia.resumen leerListas - ID personal 186 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:17,378 MarcajeSinAsistencia.resumen leerListas - ID personal 404 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:17,671 MarcajeSinAsistencia.resumen leerListas - ID personal 404 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:17,964 MarcajeSinAsistencia.resumen leerListas - ID personal 87 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:18,257 MarcajeSinAsistencia.resumen leerListas - ID personal 99 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:18,700 MarcajeSinAsistencia.resumen leerListas - ID personal 95 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:18,994 MarcajeSinAsistencia.resumen leerListas - ID personal 146 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:19,293 MarcajeSinAsistencia.resumen leerListas - ID personal 127 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:19,594 MarcajeSinAsistencia.resumen leerListas - ID personal 94 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:19,917 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:20,222 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:20,534 MarcajeSinAsistencia.resumen leerListas - ID personal 448 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:20,839 MarcajeSinAsistencia.resumen leerListas - ID personal 215 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:21,144 MarcajeSinAsistencia.resumen leerListas - ID personal 47 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:21,456 MarcajeSinAsistencia.resumen leerListas - ID personal 421 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:21,845 MarcajeSinAsistencia.resumen leerListas - ID personal 97 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:22,156 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:22,474 MarcajeSinAsistencia.resumen leerListas - ID personal 781 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:05:22,766 MarcajeSinAsistencia.resumen leerListas - ID personal 85 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:23,060 MarcajeSinAsistencia.resumen leerListas - ID personal 100 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:23,353 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:23,646 MarcajeSinAsistencia.resumen leerListas - ID personal 114 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:23,946 MarcajeSinAsistencia.resumen leerListas - ID personal 331 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:24,251 MarcajeSinAsistencia.resumen leerListas - ID personal 432 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:24,565 MarcajeSinAsistencia.resumen leerListas - ID personal 395 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:24,867 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:25,163 MarcajeSinAsistencia.resumen leerListas - ID personal 433 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:25,454 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:25,748 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:05:26,041 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:05:26,335 MarcajeSinAsistencia.resumen leerListas - ID personal 164 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:26,628 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2023-04-11 06:00 hFin 2023-04-11 15:00
+
+[INFO] 2023-04-12 00:05:26,921 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2023-04-11 06:00 hFin 2023-04-11 15:00
+
+[INFO] 2023-04-12 00:05:27,215 MarcajeSinAsistencia.resumen leerListas - ID personal 115 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:27,508 MarcajeSinAsistencia.resumen leerListas - ID personal 369 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:27,801 MarcajeSinAsistencia.resumen leerListas - ID personal 110 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:28,089 MarcajeSinAsistencia.resumen leerListas - ID personal 738 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:28,382 MarcajeSinAsistencia.resumen leerListas - ID personal 455 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:28,670 MarcajeSinAsistencia.resumen leerListas - ID personal 418 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:28,963 MarcajeSinAsistencia.resumen leerListas - ID personal 417 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:29,256 MarcajeSinAsistencia.resumen leerListas - ID personal 262 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:29,544 MarcajeSinAsistencia.resumen leerListas - ID personal 363 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:29,833 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:30,143 MarcajeSinAsistencia.resumen leerListas - ID personal 469 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:30,436 MarcajeSinAsistencia.resumen leerListas - ID personal 213 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:30,729 MarcajeSinAsistencia.resumen leerListas - ID personal 123 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:31,023 MarcajeSinAsistencia.resumen leerListas - ID personal 382 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:31,316 MarcajeSinAsistencia.resumen leerListas - ID personal 304 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:31,610 MarcajeSinAsistencia.resumen leerListas - ID personal 450 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:31,903 MarcajeSinAsistencia.resumen leerListas - ID personal 797 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:32,190 MarcajeSinAsistencia.resumen leerListas - ID personal 140 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:32,503 MarcajeSinAsistencia.resumen leerListas - ID personal 44 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:32,795 MarcajeSinAsistencia.resumen leerListas - ID personal 318 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:33,083 MarcajeSinAsistencia.resumen leerListas - ID personal 102 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:33,382 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:33,669 MarcajeSinAsistencia.resumen leerListas - ID personal 236 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:33,957 MarcajeSinAsistencia.resumen leerListas - ID personal 234 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:34,250 MarcajeSinAsistencia.resumen leerListas - ID personal 324 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:34,544 MarcajeSinAsistencia.resumen leerListas - ID personal 168 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:34,836 MarcajeSinAsistencia.resumen leerListas - ID personal 200 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:35,136 MarcajeSinAsistencia.resumen leerListas - ID personal 372 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:35,430 MarcajeSinAsistencia.resumen leerListas - ID personal 399 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:35,723 MarcajeSinAsistencia.resumen leerListas - ID personal 119 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:36,016 MarcajeSinAsistencia.resumen leerListas - ID personal 449 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:36,310 MarcajeSinAsistencia.resumen leerListas - ID personal 695 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:36,603 MarcajeSinAsistencia.resumen leerListas - ID personal 842 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:36,897 MarcajeSinAsistencia.resumen leerListas - ID personal 218 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:37,190 MarcajeSinAsistencia.resumen leerListas - ID personal 345 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:37,483 MarcajeSinAsistencia.resumen leerListas - ID personal 414 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:37,777 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:38,070 MarcajeSinAsistencia.resumen leerListas - ID personal 46 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:38,363 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:38,651 MarcajeSinAsistencia.resumen leerListas - ID personal 587 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:38,944 MarcajeSinAsistencia.resumen leerListas - ID personal 149 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:39,232 MarcajeSinAsistencia.resumen leerListas - ID personal 801 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:39,523 MarcajeSinAsistencia.resumen leerListas - ID personal 801 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:39,811 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:40,116 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:40,409 MarcajeSinAsistencia.resumen leerListas - ID personal 772 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:40,703 MarcajeSinAsistencia.resumen leerListas - ID personal 848 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:40,996 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:41,290 MarcajeSinAsistencia.resumen leerListas - ID personal 809 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:41,589 MarcajeSinAsistencia.resumen leerListas - ID personal 305 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:41,888 MarcajeSinAsistencia.resumen leerListas - ID personal 45 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:42,193 MarcajeSinAsistencia.resumen leerListas - ID personal 798 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:42,493 MarcajeSinAsistencia.resumen leerListas - ID personal 856 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:42,786 MarcajeSinAsistencia.resumen leerListas - ID personal 900 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:43,074 MarcajeSinAsistencia.resumen leerListas - ID personal 900 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:43,367 MarcajeSinAsistencia.resumen leerListas - ID personal 396 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:43,660 MarcajeSinAsistencia.resumen leerListas - ID personal 176 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:43,954 MarcajeSinAsistencia.resumen leerListas - ID personal 222 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:44,247 MarcajeSinAsistencia.resumen leerListas - ID personal 322 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:44,541 MarcajeSinAsistencia.resumen leerListas - ID personal 315 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:44,828 MarcajeSinAsistencia.resumen leerListas - ID personal 635 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:45,122 MarcajeSinAsistencia.resumen leerListas - ID personal 884 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:45,415 MarcajeSinAsistencia.resumen leerListas - ID personal 475 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:45,709 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:46,002 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:46,295 MarcajeSinAsistencia.resumen leerListas - ID personal 796 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:46,588 MarcajeSinAsistencia.resumen leerListas - ID personal 854 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:46,882 MarcajeSinAsistencia.resumen leerListas - ID personal 854 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:47,175 MarcajeSinAsistencia.resumen leerListas - ID personal 437 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:47,469 MarcajeSinAsistencia.resumen leerListas - ID personal 47 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:47,762 MarcajeSinAsistencia.resumen leerListas - ID personal 454 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:48,050 MarcajeSinAsistencia.resumen leerListas - ID personal 436 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:48,343 MarcajeSinAsistencia.resumen leerListas - ID personal 169 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:48,637 MarcajeSinAsistencia.resumen leerListas - ID personal 799 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:48,930 MarcajeSinAsistencia.resumen leerListas - ID personal 7 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:49,223 MarcajeSinAsistencia.resumen leerListas - ID personal 296 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:49,516 MarcajeSinAsistencia.resumen leerListas - ID personal 296 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:49,810 MarcajeSinAsistencia.resumen leerListas - ID personal 233 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:50,103 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:50,402 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:50,696 MarcajeSinAsistencia.resumen leerListas - ID personal 800 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:50,989 MarcajeSinAsistencia.resumen leerListas - ID personal 340 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:51,282 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:51,570 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:51,864 MarcajeSinAsistencia.resumen leerListas - ID personal 886 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:52,151 MarcajeSinAsistencia.resumen leerListas - ID personal 895 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:52,448 MarcajeSinAsistencia.resumen leerListas - ID personal 877 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:05:52,738 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:53,031 MarcajeSinAsistencia.resumen leerListas - ID personal 137 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:53,325 MarcajeSinAsistencia.resumen leerListas - ID personal 38 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:53,618 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:53,911 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:54,205 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:54,498 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:54,857 MarcajeSinAsistencia.resumen leerListas - ID personal 38 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:55,151 MarcajeSinAsistencia.resumen leerListas - ID personal 38 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:55,444 MarcajeSinAsistencia.resumen leerListas - ID personal 724 Horario ID 8 hInicio 2023-04-11 19:00 hFin 2023-04-11 07:00
+
+[INFO] 2023-04-12 00:05:55,731 MarcajeSinAsistencia.resumen leerListas - ID personal 51 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:56,019 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:56,312 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:56,606 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2023-04-11 06:00 hFin 2023-04-11 15:00
+
+[INFO] 2023-04-12 00:05:56,899 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:57,192 MarcajeSinAsistencia.resumen leerListas - ID personal 897 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:05:57,480 MarcajeSinAsistencia.resumen leerListas - ID personal 897 Horario ID 22 hInicio 2023-04-11 07:00 hFin 2023-04-11 07:01
+
+[INFO] 2023-04-12 00:05:57,773 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 8 hInicio 2023-04-11 19:00 hFin 2023-04-11 07:00
+
+[INFO] 2023-04-12 00:05:58,061 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2023-04-11 08:00 hFin 2023-04-11 16:00
+
+[INFO] 2023-04-12 00:05:58,354 MarcajeSinAsistencia.resumen leerListas - ID personal 354 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:58,641 MarcajeSinAsistencia.resumen leerListas - ID personal 419 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:58,935 MarcajeSinAsistencia.resumen leerListas - ID personal 128 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:59,222 MarcajeSinAsistencia.resumen leerListas - ID personal 293 Horario ID 12 hInicio 2023-04-11 07:00 hFin 2023-04-11 12:00
+
+[INFO] 2023-04-12 00:05:59,490 MarcajeSinAsistencia.main main - --FIN DE PROCESO: --
+

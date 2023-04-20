@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_personal_id_name' type='varchar' required='true' label='${lbl:b_personal}'/>
+	<parameter id='smn_personal_id' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='spe_detalles' type='varchar' required='true' label='${lbl:b_details}' maxlen='5000'/>
+	<parameter id='spe_categoria_justif' type='integer' required='true' label='${lbl:b_activity_category}' maxlen='64'/>
+	<parameter id='spe_fecha_desde' type='date' required='false' label='${lbl:b_inicial_date}' maxlen='10'/>
+	<parameter id='spe_fecha_hasta' type='date' required='false' label='${lbl:b_end_date}' maxlen='10'/>
+	<parameter id='spe_nro_horas' type='double' required='false' label='${lbl:b_nro_horas}' maxlen='10'/>
+	<parameter id='spe_aprobado_por' type='varchar' required='false' label='${lbl:b_approved_by}' maxlen='60'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_requests_permissions}' maxlen='10'/>
+</validator>
+

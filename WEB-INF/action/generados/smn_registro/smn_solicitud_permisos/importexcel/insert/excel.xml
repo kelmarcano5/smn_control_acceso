@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='smn_personal_id' type='integer' required='false' maxlen='10'/>
+	<parameter id='spe_documento_rf' type='integer' required='true' maxlen='16'/>
+	<parameter id='spe_categoria_justif_rf' type='integer' required='true' maxlen='64'/>
+	<parameter id='spe_fecha_desde' type='date' required='true' maxlen='10'/>
+	<parameter id='spe_fecha_hasta' type='date' required='true' maxlen='10'/>
+	<parameter id='spe_cantidad_horas' type='double' required='true' maxlen='10'/>
+	<parameter id='spe_estatus_rf' type='varchar' required='true' maxlen='3'/>
+	<parameter id='spe_jefe_inmediato_rf' type='integer' required='true' maxlen='60'/>
+	<parameter id='spe_detalles' type='varchar' required='false' maxlen='4000'/>
+	<parameter id='spe_causa' type='varchar' required='false' maxlen='1024'/>
+	<custom-validator classname="dinamica.validators.NoRecordsFound" on-error-label="Este valor no se encuentra registrado en la base de datos." sql="duplicated-smn_personal_id.sql"  id="smn_personal_id" />
+</validator>

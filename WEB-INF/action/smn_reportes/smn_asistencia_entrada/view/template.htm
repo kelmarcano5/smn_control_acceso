@@ -1,0 +1,80 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<!-- <col width='3%'/> -->
+	<col width='3%'/>
+	<col width='5%'/>
+	<col width='8%'/>
+	<col width='7%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<!-- <col width='8%'/> -->
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="17" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<!-- <th></th> -->
+		<!-- <th></th> -->
+		<th class='sortable' onclick='sortBy("smn_plan_asistencia_id","query-smnasistencia.sql")'>${lbl:b_plan_asistency}</th>
+		<th class='sortable' onclick='sortBy("centro_costo_combo","query-smnasistencia.sql")'>Centro Costo</th>
+		<th class='sortable' onclick='sortBy("departamento","query-smnasistencia.sql")'>Departamento</th>
+		<th class='sortable' onclick='sortBy("cedula","query-smnasistencia.sql")'>Cedula</th>
+		<th class='sortable' onclick='sortBy("asi_personal_rf","query-smnasistencia.sql")'>${lbl:b_personal}</th>
+		<th class='sortable' onclick='sortBy("asi_fecha_evento","query-smnasistencia.sql")'>${lbl:b_event_date}</th>
+		<th class='sortable' onclick='sortBy("asi_esquema_rotacion_rf","query-smnasistencia.sql")'>${lbl:b_rotation_scheme}</th>
+		<th class='sortable' onclick='sortBy("asi_tipo_marcaje","query-smnasistencia.sql")'>${lbl:b_check_type}</th>
+		<th class='sortable' onclick='sortBy("asi_hora_tope_evento","query-smnasistencia.sql")'>${lbl:b_hora_tope}</th>
+		<th class='sortable' onclick='sortBy("asi_variable_1","query-smnasistencia.sql")'>Variable 1</th>
+		<th class='sortable' onclick='sortBy("asi_variable_2","query-smnasistencia.sql")'>Variable 2</th>
+		<th class='sortable' onclick='sortBy("asi_estatus_entrada","query-smnasistencia.sql")'>Estatus Entrada</th>
+		<th class='sortable' onclick='sortBy("asi_estatus_asistencia_rf","query-smnasistencia.sql")'>${lbl:b_assistance_status}</th>
+		<th class='sortable' onclick='sortBy("asi_fecha_registro","query-smnasistencia.sql")'>${lbl:b_store_date}</th>
+		<!-- <th class='sortable' onclick='sortBy("asi_estatus_marcaje","query-smnasistencia.sql")'>${lbl:b_estatus_marcaje}</th> -->
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_asistencia_id}')" title="${lbl:b_view_detail}"></td>
+		<!-- <td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_asistencia_id}')" title="${lbl:b_delete_button}"></td> -->
+		<!-- <td><img src="${def:context}/images/icongrid/Generar.png"  onclick="showEditor('${fld:smn_asistencia_id}')" title="${lbl:b_edit_button}"></td> -->
+		<td>${fld:smn_plan_asistencia_id}</td>
+		<td>${fld:centro_costo_combo}</td>
+		<td>${fld:departamento}</td>
+		<td>${fld:cedula}</td>
+		<td>${fld:asi_personal_rf}</td>
+
+		<td>${fld:asi_fecha_evento@dd-MM-yyyy}</td>
+		<td>${fld:asi_esquema_rotacion_rf}</td>
+		<td align='left'>${fld:asi_tipo_marcaje}</td>
+		<td align='left'>${fld:asi_hora_tope_evento}</td>
+		<td align='left'>${fld:asi_variable_1}</td>
+		<td align='left'>${fld:asi_variable_2}</td>
+		<td align='left'>${fld:asi_estatus_entrada}</td>
+		<td align='left'>${fld:asi_estatus_asistencia_rf}</td>
+		<td>${fld:asi_fecha_registro@dd-MM-yyyy}</td>
+		<!-- <td align='left'>${fld:asi_estatus_marcaje}</td> -->
+
+	</tr>
+	</rows>
+
+</table>

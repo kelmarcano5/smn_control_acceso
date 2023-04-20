@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='psl_num_control' type='varchar' required='true' label='${lbl:b_number_of_control}' maxlen='16'/>
+	<parameter id='psl_esquema_rotacion_rf' type='integer' required='true' label='${lbl:b_rotation_scheme}' maxlen='10'/>
+	<parameter id='psl_fecha_inicio_calculo' type='date' required='true' label='${fld:b_start_date_calculus}' maxlen='10'/>
+	<parameter id='psl_categoria_personal_rf' type='integer' required='true' label='${lbl:b_personal_category}' maxlen='10'/>
+	<parameter id='psl_clase_auxiliar_rf' type='integer' required='true' label='${lbl:b_auxiliary_class}' maxlen='10'/>
+	<parameter id='psl_auxiliar_rf' type='integer' required='true' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='psl_empresa_rf' type='integer' required='false' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='psl_sucursal_rf' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='psl_area_servicio_rf' type='integer' required='false' label='${lbl:b_service_area}' maxlen='10'/>
+	<parameter id='psl_unidad_servicio_rf' type='integer' required='false' label='${lbl:b_service_unit}' maxlen='10'/>
+	<parameter id='psl_centro_costo_rf' type='integer' required='false' label='${lbl:b_cost_centers}' maxlen='10'/>
+	<parameter id='psl_estructura_organizacional_rf' type='integer' required='false' label='${lbl:b_organizational_structure}' maxlen='10'/>
+	<parameter id='psl_cargo_rf' type='integer' required='false' label='${lbl:b_positions}' maxlen='10'/>
+	<parameter id='psl_categoria_cargo_rf' type='integer' required='false' label='${lbl:b_position_category}' maxlen='10'/>
+	<parameter id='psl_habilita_acceso_rf' type='varchar' required='true' label='${lbl:b_enables_access_control}' maxlen='1'/>
+	<parameter id='psl_id_control_acceso' type='varchar' required='false' label='${lbl:b_id_access_control}' maxlen='16'/>
+
+
+
+</validator>

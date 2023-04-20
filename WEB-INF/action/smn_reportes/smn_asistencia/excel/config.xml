@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnasistencia.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="8" cellStep="0" name="Asistencia"/>
+	
+	<excel 
+		recordset='query-smnasistencia.sql' 
+		sheetname='Asistencia' 
+		filename='Asistencia.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='smn_empresa_rf' label='${lbl:b_company}' />
+		<col id='smn_sucursal_rf' label='${lbl:b_subsidiary}' />
+		<col id='asi_personal_rf' label='Personal' />
+		<col id='fecha' label='Fecha' />
+		<col id='tipo_movimiento' label='Tipo Movimiento' />
+		<col id='hora' label='Hora' />
+		<col id='laborando' label='Laborando' />
+		<col id='reposo' label='Reposo' />
+		<col id='estatus' label='Estatus' />
+		<col id='asi_fecha_registro' label='Fecha Registro' />
+
+	</excel>
+
+</config>

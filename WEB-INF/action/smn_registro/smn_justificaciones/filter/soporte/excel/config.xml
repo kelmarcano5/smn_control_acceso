@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnjustificacionessoporte.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+	
+	<excel recordset='query-smnjustificacionessoporte.sql' sheetname='${lbl:b_justification_soport}' filename='soporte.xls'>
+		<col id='smn_justificaciones_id' label='${lbl:b_justification}' />
+		<col id='smn_personal_rf_combo' label='${lbl:b_personal}' />
+		<col id='jsa_description' label='${lbl:b_description}' />
+		<col id='jsa_imagen_size' label='${lbl:b_image_data}' />
+		<col id='filename' label='${lbl:b_filename}' />
+		<col id='content_type' label='${lbl:b_type_content}' />
+		<col id='jsa_idioma' label='${lbl:s_profile_lang}' />
+		<col id='jsa_usuario' label='${lbl:b_users}' />
+		<col id='jsa_fecha_registro' label='${lbl:b_store_date}' />
+		<col id='jsa_hora' label='${lbl:s_loginhist_col2}' />
+	</excel>
+
+</config>

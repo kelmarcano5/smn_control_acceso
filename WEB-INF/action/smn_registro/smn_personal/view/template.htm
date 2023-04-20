@@ -1,0 +1,61 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='9%'/>
+	<col width='14%'/>
+	<col width='3%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="13" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_auxiliar","query-smnpersonal.sql")'>${lbl:b_auxiliary}</th>
+		<th class='sortable' onclick='sortBy("ent_descripcion_corta","query-smnpersonal.sql")'>${lbl:b_entity}</th>
+		<th class='sortable' onclick='sortBy("suc_nombre","query-smnpersonal.sql")'>${lbl:b_subsidiary}</th>
+		<th class='sortable' onclick='sortBy("job_nombre","query-smnpersonal.sql")'>${lbl:b_positions}</th>
+		<th class='sortable' onclick='sortBy("psl_habilita_acceso_rf","query-smnpersonal.sql")'>${lbl:b_enables_access_control}</th>
+		<th class='sortable' onclick='sortBy("psl_id_control_acceso","query-smnpersonal.sql")'>${lbl:b_id_access_control}</th>
+			<th class='sortable' onclick='sortBy("psl_estatus","query-smnpersonal.sql")'>${lbl:b_estatus}</th>
+		<th class='sortable' onclick='sortBy("psl_fecha_registro","query-smnpersonal.sql")'>${lbl:b_store_date}</th>
+		<th></th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_personal_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_personal_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_personal_id}')" title="${lbl:b_edit_button}"></td>
+		<td><img src="${def:context}/images/accept.png" onclick="btn_aprob('${fld:smn_personal_id}')" title="Actualizar"></td>
+		<td align='left'>${fld:smn_auxiliar}</td>
+		<td align='left'>${fld:ent_descripcion_corta}</td>
+		<td align='left'>${fld:suc_nombre}</td>
+		<td align='left'>${fld:job_nombre}</td>
+		<td>${fld:psl_habilita_acceso_rf}</td>
+		<td align='center'>${fld:psl_id_control_acceso}</td>
+		<td align='center'>${fld:psl_estatus}</td>
+		<td>${fld:psl_fecha_registro@dd-MM-yyyy}</td>
+		<td><img src="${def:context}/images/icongrid/Detalle-impuesto.png" onclick="imagen('${fld:smn_personal_id}')" title="${lbl:b_image_personal}"></td>
+	</tr>
+	</rows>
+
+</table>

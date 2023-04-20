@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='repgen.filter' onerror='/action/error/validation/ajax'>
+
+	<parameter id='fdesde' type='date' required='false' label='Fecha desde'/>
+	<parameter id='fhasta' type='date' required='false' label='Fecha hasta'/>
+	
+	<parameter id='smn_personal_id' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='smn_entidad_rf' type='integer' required='false' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='smn_sucursal_rf' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='smn_estructura_organizacional_rf' type='integer' required='false' label='${lbl:b_departamento}' maxlen='10'/>
+	<parameter id='smn_cedula_rf' type='integer' required='false' label='${lbl:b_cedula}' maxlen='10'/>
+	<parameter id='rpv_fecha_evento' type='date' required='false' label='${lbl:b_event_date}' maxlen='10'/>
+	<parameter id='rpv_razon_visita' type='varchar' required='false' label='${lbl:b_razon_visita}' maxlen='200'/>
+	<parameter id='rpv_autorizado_almorzar' type='varchar' required='false' label='${lbl:b_lunch_authorizer}' maxlen='2'/>
+	<parameter id='rpv_autorizador' type='integer' required='false' label='${lbl:b_autorizador}' maxlen='10'/>
+	<parameter id='rpv_estatus' type='varchar' required='false' label='${lbl:b_status}' maxlen='2'/>
+	<parameter id='rpv_fecha_registro' type='date' required='false' label='${lbl:b_store_date}' maxlen='10'/>
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='rpv_razon_visita'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='rpv_autorizado_almorzar'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='rpv_estatus'
+		rule='contains' />
+
+
+
+	<custom-validator
+			classname='dinamica.validators.ArrayNotEmptyValidator'
+			on-error-label='Seleccione al menos un campo para la generaci�n del reporte.'
+			parameter-name='field_id' 
+			id='field_id' />
+
+	<custom-validator 
+			classname='dinamica.validators.ArrayToRecordset'
+			paramName='field_id' 
+			recordsetId='fields' 
+			colName='field_id' 
+			colType='integer' />
+				
+</validator>

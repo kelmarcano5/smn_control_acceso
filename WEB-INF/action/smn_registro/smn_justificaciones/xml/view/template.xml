@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_justificaciones>
+	<detail>
+		<rows>		
+		<record jus_fecha_registro="${fld:jus_fecha_registro}"    jus_causa="${fld:jus_causa}"    jus_descripcion="${fld:jus_descripcion}"    psl_id_control_acceso="${fld:psl_id_control_acceso}"    jus_estatus_rf="${fld:jus_estatus_rf}"    jus_tiempo_a_justificar="${fld:jus_tiempo_a_justificar}"    jus_fecha_incidencia="${fld:jus_fecha_incidencia}"    dcm_nombre="${fld:dcm_nombre}"    tya_nombre="${fld:tya_nombre}"    smn_personal_id="${fld:smn_personal_id}"    />
+		</rows>
+	</detail>
+</smn_justificaciones>

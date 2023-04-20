@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		Ejecutar consulta y enrutar dependiendo de que un recordset
+		tenga o no registros
+	</summary>
+
+	<log>false</log>
+
+	<!--configura el control de paginacion-->
+	<set-request-attribute id="paging.recordset" value="query-smnasistencia.sql" />
+	<set-request-attribute id="paging.pagesize" value="10" />
+
+	<!--soporte de auditoria-->
+	<audit>
+		<!--de donde saca los datos, por defecto es "_request"-->
+		<recordset></recordset>
+		<!--que campos extrae para el registro descriptivo-->
+		<cols>
+			<colname>smn_plan_asistencia_id</colname>
+			<colname>smn_estructura_organizacional_id</colname>
+			<colname>asi_personal_rf</colname>
+			<colname>asi_tipo_marcaje</colname>
+			<colname>asi_estatus_entrada</colname>
+			<colname>asi_fecha_evento_ini</colname>
+			<colname>asi_fecha_evento_fin</colname>
+		
+		</cols>
+		<table>smn_control_acceso.smn_asistencia</table>
+		<oper>CONSULTA</oper>
+		<area>Consulta</area>
+		<!-- 
+ 			para auditoria de consulta permite obtener la cantidad de registro obtenidos
+ 			de la busqueda (opcional)
+ 		-->
+		<recordCount recordset="query-smnasistencia.sql"/>
+	</audit>
+
+	<transaction>
+		<classname>dinamica.audit.AuditableSearch</classname>
+		<validator>true</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+	</transaction>
+	
+	<searchCols>smn_estructura_organizacional_id;smn_plan_asistencia_id;asi_personal_rf;asi_fecha_evento_ini;asi_fecha_evento_fin;asi_tipo_marcaje;asi_estatus_entrada;</searchCols>
+
+	<on-exit return-code="0" forward-to="/action/initview" />
+	<on-exit return-code="1" forward-to="${def:actionroot}/notfound" />
+
+</config>

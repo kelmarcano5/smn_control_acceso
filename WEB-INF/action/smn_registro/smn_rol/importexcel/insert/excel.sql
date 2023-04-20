@@ -1,0 +1,27 @@
+INSERT INTO smn_control_acceso.smn_rol
+(
+	smn_rol_id,
+	smn_usuario_id,
+	rol_tipo,
+	smn_corporacion_rf,
+	smn_entidad_rf,
+	smn_sucursal_rf,
+	smn_area_servicio_rf,
+	smn_unidad_servicio_rf,
+	smn_estructura_organizacional_rf,
+	rol_fecha_registro
+)
+VALUES
+(
+	${seq:nextval@smn_control_acceso.seq_smn_rol},
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	'${def:date
+}'
+)

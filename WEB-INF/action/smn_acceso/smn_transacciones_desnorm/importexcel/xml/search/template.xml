@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_transacciones_desnorm>
+	<detail>
+		<rows>		
+		<record trd_fecha_registro="${fld:trd_fecha_registro}"    trd_status="${fld:trd_status}"    trd_tiempo_efectivo_total="${fld:trd_tiempo_efectivo_total}"    trd_tiempo_efectivo="${fld:trd_tiempo_efectivo}"    trd_fecha_transaccion="${fld:trd_fecha_transaccion}"    trd_tipo_marcaje="${fld:trd_tipo_marcaje}"    trd_identificacion="${fld:trd_identificacion}"    trd_dispositivo="${fld:trd_dispositivo}"    trd_sede="${fld:trd_sede}"    />
+		</rows>
+	</detail>
+</smn_transacciones_desnorm>

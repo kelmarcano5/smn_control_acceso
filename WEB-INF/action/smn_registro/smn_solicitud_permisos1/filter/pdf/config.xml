@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnsolicitudpermisos.sql" source="session" scope="transaction" />
+		<recordset id="filter.params" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_requests_permissions}</pdf-title>
+	<pdf-logo url='/images/logo-simone-pdf.png' scale='100' align="left" />
+	<pdf-file-name>${lbl:b_requests_permissions}.pdf</pdf-file-name>
+
+	<pdf-report pageSize="letter" rotate="false" footer="true" header="true">
+		<record recordset='filter.params' title='${lbl:b_filter_find}' noFilterMsg='-- ${lbl:b_all_message} --' width='55' spacingBefore='15'>
+			<col name='spe_documento_rf' title='${lbl:b_documento}'   align='left' />
+			<!--<col name='cju_nombre' title='${lbl:b_activity_category}'   align='left' />-->
+			<col name='spe_fecha_desde' title='${lbl:b_inicial_date}'  format='dd-MM-yyyy' align='left' />
+			<col name='spe_fecha_hasta' title='${lbl:b_end_date}'  format='dd-MM-yyyy' align='left' />
+			<col name='spe_estatus_rf' title='${lbl:b_status}'  align='left' />
+			<!--<col name='psl_id_control_acceso' title='${lbl:b_direct_boss}'   align='left' />-->
+			<col name='spe_fecha_registro_ini' title='${lbl:b_store_date_grater_than}'  format='dd-MM-yyyy' align='left' />
+			<col name='spe_fecha_registro_fin' title='${lbl:b_store_date_less_than}'  format='dd-MM-yyyy' align='left' />
+
+		</record>
+		<record recordset='query-smnsolicitudpermisos.sql' width='100' spacingBefore='10'>
+			<col name='smn_personal_id' title='${lbl:b_personal}' width='9' align='left'  />
+			<col name='dcm_nombre' title='${lbl:b_documento}' width='9' align='left'  />
+			<!--<col name='cju_nombre' title='${lbl:b_activity_category}' width='9' align='left'  />-->
+			<col name='spe_fecha_desde' title='${lbl:b_inicial_date}' width='9' align='left' format='dd-MM-yyyy' />
+			<col name='spe_fecha_hasta' title='${lbl:b_end_date}' width='9' align='left' format='dd-MM-yyyy' />
+			<col name='spe_cantidad_horas' title='${lbl:b_nro_horas}' width='9' align='left' format='#,###,##0.00' />
+			<col name='spe_estatus_rf' title='${lbl:b_status}' width='9' align='left' />
+			<col name='spe_jefe_inmediato_rf' title='${lbl:b_direct_boss}' width='9' align='left'  />
+			<col name='spe_detalles' title='${lbl:b_details}' width='9' align='left' />
+			<col name='spe_causa' title='${lbl:b_cause_not_approved}' width='9' align='left' />
+			<col name='spe_fecha_registro' title='${lbl:b_store_date}' width='9' align='left' format='dd-MM-yyyy' />
+
+		</record>
+
+	</pdf-report>
+</config>

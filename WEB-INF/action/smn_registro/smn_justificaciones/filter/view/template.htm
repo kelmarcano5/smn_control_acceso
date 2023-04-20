@@ -1,0 +1,55 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='18%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='3%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="11" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_personal_id","query-smnjustificaciones.sql")'>${lbl:b_personal}</th>
+		<th class='sortable' onclick='sortBy("tya_nombre","query-smnjustificaciones.sql")'>${lbl:b_activity_type}</th>
+		<th class='sortable' onclick='sortBy("categoria","query-smnjustificaciones.sql")'>${lbl:b_activity_category}</th>
+		<th class='sortable' onclick='sortBy("jus_fecha_incidencia","query-smnjustificaciones.sql")'>${lbl:b_incidence_date}</th>
+		<th class='sortable' onclick='sortBy("jus_hora_incidencia","query-smnjustificaciones.sql")'>${lbl:b_time_incident}</th>
+		<th class='sortable' onclick='sortBy("jus_tiempo_a_justificar","query-smnjustificaciones.sql")'>${lbl:b_time_to_justify}</th>
+		<th class='sortable' onclick='sortBy("jus_estatus_rf","query-smnjustificaciones.sql")'>${lbl:b_status}</th>
+		<th class='sortable' onclick='sortBy("jus_fecha_registro","query-smnjustificaciones.sql")'>${lbl:b_store_date}</th>
+		<th>SP</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_justificaciones_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="verificarestatus('${fld:smn_justificaciones_id}','${fld:jus_estatus_rf}')" title="${lbl:b_edit_button}"></td>
+		<td align='left'>${fld:smn_personal_id}</td>
+		<td align='left'>${fld:tya_nombre}</td>
+		<td align='left'>${fld:categoria}</td>
+		<td>${fld:jus_fecha_incidencia@dd-MM-yyyy}</td>
+		<td align='right'>${fld:jus_hora_incidencia}</td>
+		<td align='right'>${fld:jus_tiempo_a_justificar@#,###,##0.00}</td>
+		<td align='left'>${fld:jus_estatus_rf}</td>
+		<td>${fld:jus_fecha_registro@dd-MM-yyyy}</td>
+		<td><img src="${def:context}/images/icongrid/Detalle-impuesto.png" onclick="validasoporte('${fld:smn_justificaciones_id}', '${fld:smn_personal_id2}','${fld:aux_nombres}','${fld:aux_apellidos}','${fld:anexo}')" title="${lbl:b_support}"></td>
+	</tr>
+	</rows>
+
+</table>

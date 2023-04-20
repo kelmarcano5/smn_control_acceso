@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='trn_dispositivo' type='varchar' required='true' label='${lbl:b_device_code}' maxlen='16'/>
+	<parameter id='trn_identificacion' type='varchar' required='true' label='${lbl:b_indentification} ' maxlen='16'/>
+	<parameter id='trn_fecha_transaccion' type='date' required='true' label='${lbl:b_transaction_date}' maxlen='10'/>
+	<parameter id='trn_hora_transaccion' type='varchar' required='true' label='${lbl:b_transaction_time}' maxlen='5'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_transactions}' maxlen='10'/>
+</validator>
+

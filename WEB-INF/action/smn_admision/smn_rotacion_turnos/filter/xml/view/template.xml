@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_rotacion_turnos>
+	<detail>
+		<rows>		
+		<record rot_fecha_registro="${fld:rot_fecha_registro}"    rot_dia="${fld:rot_dia}"    rot_consecutivo="${fld:rot_consecutivo}"    rot_turno="${fld:rot_turno}"    />
+		</rows>
+	</detail>
+</smn_rotacion_turnos>

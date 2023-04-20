@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_transacciones>
+	<detail>
+		<rows>		
+		<record trn_fecha_registro="${fld:trn_fecha_registro}"    trn_fecha_transaccion="${fld:trn_fecha_transaccion}"    trn_identificacion="${fld:trn_identificacion}"    trn_dispositivo="${fld:trn_dispositivo}"    />
+		</rows>
+	</detail>
+</smn_transacciones>

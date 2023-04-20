@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnpersonal.sql" source="session" scope="transaction" />
+		<recordset id="filter.params" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_personal}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+
+	<pdf-report pageSize="letter" rotate="false">
+		<record recordset='filter.params' title='Filtro de Búsqueda' noFilterMsg='-- Sin filtro de búsqueda --' width='55' spacingBefore='15'>
+			<col name='psl_num_control' title='${lbl:b_number_of_control}'  align='center' />
+		</record>
+		<table recordset='query-smnpersonal.sql' width='100' spacingBefore='10'>
+			<col name='psl_num_control' title='${lbl:b_number_of_control}' width='5' align='left' />
+			<col name='psl_esquema_rotacion_rf_combo' title='${lbl:b_rotation_scheme}' width='5' align='left' format='######' />
+			<col name='psl_fecha_inicio_calculo' title='${fld:b_start_date_calculus}' width='5' align='left' format='dd-MM-yyyy' />
+			<col name='psl_categoria_personal_rf_combo' title='${lbl:b_personal_category}' width='5' align='left' format='######' />
+			<col name='psl_clase_auxiliar_rf_combo' title='${lbl:b_auxiliary_class}' width='5' align='left' format='######' />
+			<col name='psl_auxiliar_rf_combo' title='${lbl:b_auxiliary}' width='5' align='left' format='######' />
+			<col name='psl_empresa_rf_combo' title='${lbl:b_entity}' width='5' align='left' format='######' />
+			<col name='psl_sucursal_rf_combo' title='${lbl:b_subsidiary}' width='5' align='left' format='######' />
+			<col name='psl_area_servicio_rf_combo' title='${lbl:b_service_area}' width='5' align='left' format='######' />
+			<col name='psl_unidad_servicio_rf_combo' title='${lbl:b_service_unit}' width='5' align='left' format='######' />
+			<col name='psl_centro_costo_rf_combo' title='${lbl:b_cost_centers}' width='5' align='left' format='######' />
+			<col name='psl_estructura_organizacional_rf_combo' title='${lbl:b_organizational_structure}' width='5' align='left' format='######' />
+			<col name='psl_cargo_rf_combo' title='${lbl:b_positions}' width='5' align='left' format='######' />
+			<col name='psl_categoria_cargo_rf_combo' title='${lbl:b_position_category}' width='5' align='left' format='######' />
+			<col name='psl_habilita_acceso_rf_combo' title='${lbl:b_enables_access_control}' width='5' align='left' />
+			<col name='psl_id_control_acceso' title='${lbl:b_id_access_control}' width='5' align='left' />
+			<col name='psl_fecha_registro' title='${lbl:b_store_date}' width='5' align='left' format='dd-MM-yyyy' />
+		</table>
+
+	</pdf-report>
+</config>

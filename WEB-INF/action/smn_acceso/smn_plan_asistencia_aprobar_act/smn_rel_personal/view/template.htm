@@ -1,0 +1,82 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<!--col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/-->
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+	<col width='6%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="16" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<!--th></th>
+		<th></th>
+		<th></th-->
+		<th class='sortable' onclick='sortBy("psl_num_control","query-smnpersonal.sql")'>${lbl:b_number_of_control}</th>
+		<th class='sortable' onclick='sortBy("psl_esquema_rotacion_rf","query-smnpersonal.sql")'>${lbl:b_rotation_scheme}</th>
+		<th class='sortable' onclick='sortBy("psl_fecha_inicio_calculo","query-smnpersonal.sql")'>${lbl:b_start_date_calculus}</th>
+		<th class='sortable' onclick='sortBy("cap_nombre","query-smnpersonal.sql")'>${lbl:b_personal_category}</th>
+		<th class='sortable' onclick='sortBy("cla_nombre","query-smnpersonal.sql")'>${lbl:b_auxiliary_class}</th>
+		<th class='sortable' onclick='sortBy("smn_item","query-smnpersonal.sql")'>${lbl:b_auxiliary}</th>
+		<th class='sortable' onclick='sortBy("ent_descripcion_corta","query-smnpersonal.sql")'>${lbl:b_entity}</th>
+		<th class='sortable' onclick='sortBy("suc_nombre","query-smnpersonal.sql")'>${lbl:b_subsidiary}</th>
+		<th class='sortable' onclick='sortBy("ase_descripcion","query-smnpersonal.sql")'>${lbl:b_service_area}</th>
+		<th class='sortable' onclick='sortBy("uns_descripcion","query-smnpersonal.sql")'>${lbl:b_service_unit}</th>
+		<th class='sortable' onclick='sortBy("cco_descripcion_corta","query-smnpersonal.sql")'>${lbl:b_cost_centers}</th>
+		<th class='sortable' onclick='sortBy("eor_nombre","query-smnpersonal.sql")'>${lbl:b_organizational_structure}</th>
+		<th class='sortable' onclick='sortBy("job_nombre","query-smnpersonal.sql")'>${lbl:b_positions}</th>
+		<th class='sortable' onclick='sortBy("cac_nombre","query-smnpersonal.sql")'>${lbl:b_position_category}</th>
+		<th class='sortable' onclick='sortBy("psl_habilita_acceso_rf","query-smnpersonal.sql")'>${lbl:b_enables_access_control}</th>
+		<th class='sortable' onclick='sortBy("psl_id_control_acceso","query-smnpersonal.sql")'>${lbl:b_id_access_control}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<!--td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_personal_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_personal_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_personal_id}')" title="${lbl:b_edit_button}"></td-->
+		<td align='left'>${fld:psl_num_control}</td>
+		<td>${fld:psl_esquema_rotacion_rf}</td>
+		<td>${fld:psl_fecha_inicio_calculo@dd-MM-yyyy}</td>
+		<td>${fld:cap_nombre}</td>
+		<td>${fld:cla_nombre}</td>
+		<td>${fld:smn_item}</td>
+		<td>${fld:ent_descripcion_corta}</td>
+		<td>${fld:suc_nombre}</td>
+		<td>${fld:ase_descripcion}</td>
+		<td>${fld:uns_descripcion}</td>
+		<td>${fld:cco_descripcion_corta}</td>
+		<td>${fld:eor_nombre}</td>
+		<td>${fld:job_nombre}</td>
+		<td>${fld:cac_nombre}</td>
+		<td align='left'>${fld:psl_habilita_acceso_rf}</td>
+		<td align='left'>${fld:psl_id_control_acceso}</td>
+
+	</tr>
+	</rows>
+
+</table>

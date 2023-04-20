@@ -1,0 +1,69 @@
+<Context>
+	<!-- 	
+	<Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="100" maxIdle="10" maxWait="5000"
+		username="postgres" password="postgres" 		
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost/demodb" validationQuery="select 1" testOnBorrow="true"/>	
+	-->
+ 
+	<Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="100" maxIdle="10" maxWait="5000"
+		username="postgres" password="postgres" 		
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://190.94.248.50:54322/simonedb_qa" validationQuery="select 1" testOnBorrow="true"/>	
+	
+ <!--
+	<Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="100" maxIdle="10" maxWait="5000"
+		username="postgres" password="1234" 		
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost/simonedb_qa" validationQuery="select 1" testOnBorrow="true"/>	
+
+	<Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="100" maxIdle="10" maxWait="5000"
+		username="postgres" password="postgres" 		
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost/equipodb" validationQuery="select 1" testOnBorrow="true"/>	
+-->	
+	<!-- 
+	<Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="100" maxIdle="10" maxWait="5000"
+		username="postgres" password="postgres" 		
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost/demodb" validationQuery="select 1" testOnBorrow="true"/>	
+	-->
+
+	<!--
+	<Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="100" maxIdle="10" maxWait="5000"
+		username="postgres" password="postgres" 		
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost/bdreclutamiento" validationQuery="select 1" testOnBorrow="true"/>
+	-->
+	
+
+
+	<!-- 
+	<Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="100" maxIdle="10" maxWait="3000"
+		username="postgres" password="postgres" 		
+		driverClassName="org.postgresql.Driver"
+		url="jdbc:postgresql://localhost/bdindutex" validationQuery="select 1" testOnBorrow="true"/>	
+	-->
+
+	<!--Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="20" maxIdle="5" maxWait="3000" 
+		username="db2admin"	password="basica" 
+		driverClassName="com.ibm.db2.jcc.DB2Driver" 
+		url="jdbc:db2://localhost:50000/demodb" validationQuery="select 1 from sysibm.sysdummy1" testOnBorrow="true/>
+		
+	<Resource name="jdbc/dinamica" auth="Container" type="javax.sql.DataSource"
+		initialSize="5" maxActive="100" maxIdle="10" maxWait="3000"
+		username="security" password="basica" 		
+		driverClassName="oracle.jdbc.driver.OracleDriver" 
+		url="jdbc:oracle:thin:@localhost:1521:XE" validationQuery="select 1 from dual" testOnBorrow="true"/>
+
+-->
+
+</Context>

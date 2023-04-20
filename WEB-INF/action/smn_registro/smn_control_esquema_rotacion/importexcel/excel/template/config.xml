@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smncontrolesquemarotacion.sql" source="session" scope="transaction" />
+		
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+		
+	<excel 
+		filename='${lbl:b_rotation_scheme_control}.xls' >
+		
+	<sheet recordset="query-table_stuck}.sql" sheetname="${lbl:b_rotation_scheme_control}">
+				<col id='smn_personal_id' label='${lbl:b_personal}' />
+		<col id='smn_esquema_rotacion_actual_rf' label='${lbl:b_current_rotation_scheme}' />
+		<col id='smn_esquema_rotacion_nuevo_rf' label='${lbl:b_new_rotation_scheme}' />
+		<col id='cer_fecha_vigencia' label='${lbl:b_store_date}' />
+		<col id='cer_fecha_registro' label='${lbl:b_store_date}' />
+
+	</sheet>
+	
+	</excel>
+
+</config>

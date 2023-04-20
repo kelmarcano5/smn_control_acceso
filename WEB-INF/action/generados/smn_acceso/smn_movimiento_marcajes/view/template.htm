@@ -1,0 +1,44 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="7">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th class='sortable' onclick='sortBy("mrk_auxiliar_combo","query-smnmovimientomarcajes.sql")'>${lbl:b_auxiliary}</th>
+		<th class='sortable' onclick='sortBy("mrk_control_acceso_id","query-smnmovimientomarcajes.sql")'>${lbl:b_id_access_control}
+</th>
+		<th class='sortable' onclick='sortBy("mrk_marcaje_fecha","query-smnmovimientomarcajes.sql")'>${lbl:b_transaction_date}</th>
+		<th class='sortable' onclick='sortBy("mrk_marcaje_dia_combo","query-smnmovimientomarcajes.sql")'>${lbl:b_day_name}</th>
+		<th class='sortable' onclick='sortBy("mrk_marcaje_tipo_combo","query-smnmovimientomarcajes.sql")'>${lbl:b_device_type}</th>
+		<th class='sortable' onclick='sortBy("mrk_tiempo_efectivo","query-smnmovimientomarcajes.sql")'>${lbl:b_effective_time}</th>
+		<th class='sortable' onclick='sortBy("mrk_fecha_registro","query-smnmovimientomarcajes.sql")'>${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td align='left'>${fld:mrk_auxiliar_combo}</td>
+		<td align='left'>${fld:mrk_control_acceso_id}</td>
+		<td>${fld:mrk_marcaje_fecha@dd-MM-yyyy}</td>
+		<td align='left'>${fld:mrk_marcaje_dia_combo}</td>
+		<td align='left'>${fld:mrk_marcaje_tipo_combo}</td>
+		<td align='right'>${fld:mrk_tiempo_efectivo@#,###,##0.00}</td>
+		<td>${fld:mrk_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

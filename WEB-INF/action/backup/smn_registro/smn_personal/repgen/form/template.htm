@@ -1,0 +1,704 @@
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="${def:context}/dinamica.css" />
+	
+	<!--biblioteca generica JS/Dinamica-->
+	<script type="text/javascript" src="${def:context}/action/script">
+	</script>
+	
+	<title>${lbl:b_report_generator}</title>
+
+</head>
+
+<body>
+
+<!--banner-->
+<div class="banner">
+	${lbl:b_report_generator}
+	<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog(); parent.search();" title="${lbl:b_close_button}" style="float:right; cursor:pointer;">
+	${req:progress}
+</div>
+
+<br>
+
+<!--formulario de filtro-->
+<div id="form">
+<form name="form1" onsubmit="return search()" style="width:500px;">
+
+<table style="width:500px;" class="formgrid">
+
+	<!--ancho de la columna de etiquetas-->
+	<col width="30%">
+	<col width="60%">
+	<col width="10%">
+
+	<!--titulo-->
+	<tr>
+		<th colspan="2">
+			${lbl:b_filter_find}
+		</th>
+	</tr>
+	
+	<!--separador-->
+	<tr height="10px">
+		<td colspan="2"></td>
+	</tr>
+	
+	<!--campos-->
+	<tr>
+		<td colspan="2">
+			${lbl:b_report_generator_fields}: 
+			<br>
+			<br>
+			${inc:${def:actionroot}/fields}
+			<div id="field_id_error" class="errormsg"></div>
+		</td>
+	</tr>
+	
+	<!--separador-->
+	<tr height="10px">
+		<td colspan="2"></td>
+	</tr>
+
+			<tr>
+		<td>${lbl:b_auxiliary}</td>
+		<td>
+			<select name="psl_auxiliar_filter" id="psl_auxiliar_filter" onchange="chgCombo(psl_auxiliar_filter.options[psl_auxiliar_filter.selectedIndex].text,'psl_auxiliar_filter_name');" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_auxiliar_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_auxiliar_rows>
+			</select> 
+			<input id="psl_auxiliar_filter_name" name="psl_auxiliar_filter_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_entity}</td>
+		<td>
+			<select name="psl_empresa_filter" id="psl_empresa_filter" onchange="chgCombo(psl_empresa_filter.options[psl_empresa_filter.selectedIndex].text,'psl_empresa_filter_name');" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_empresa_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_empresa_rows>
+			</select> 
+			<input id="psl_empresa_filter_name" name="psl_empresa_filter_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_subsidiary}</td>
+		<td>
+			<select name="psl_sucursal_filter" id="psl_sucursal_filter" onchange="chgCombo(psl_sucursal_filter.options[psl_sucursal_filter.selectedIndex].text,'psl_sucursal_filter_name');" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_sucursal_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_sucursal_rows>
+			</select> 
+			<input id="psl_sucursal_filter_name" name="psl_sucursal_filter_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_service_area}</td>
+		<td>
+			<select name="psl_area_servicio_filter" id="psl_area_servicio_filter" onchange="chgCombo(psl_area_servicio_filter.options[psl_area_servicio_filter.selectedIndex].text,'psl_area_servicio_filter_name');" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_area_servicio_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_area_servicio_rows>
+			</select> 
+			<input id="psl_area_servicio_filter_name" name="psl_area_servicio_filter_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_service_unit}</td>
+		<td>
+			<select name="psl_unidad_servicio_filter" id="psl_unidad_servicio_filter" onchange="chgCombo(psl_unidad_servicio_filter.options[psl_unidad_servicio_filter.selectedIndex].text,'psl_unidad_servicio_filter_name');" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_unidad_servicio_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_unidad_servicio_rows>
+			</select> 
+			<input id="psl_unidad_servicio_filter_name" name="psl_unidad_servicio_filter_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_cost_centers}</td>
+		<td>
+			<select name="psl_centro_costo_filter" id="psl_centro_costo_filter" onchange="chgCombo(psl_centro_costo_filter.options[psl_centro_costo_filter.selectedIndex].text,'psl_centro_costo_filter_name');" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_centro_costo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_centro_costo_rows>
+			</select> 
+			<input id="psl_centro_costo_filter_name" name="psl_centro_costo_filter_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_organizational_structure}</td>
+		<td>
+			<select name="psl_estructura_organiz_filter" id="psl_estructura_organiz_filter" onchange="chgCombo(psl_estructura_organiz_filter.options[psl_estructura_organiz_filter.selectedIndex].text,'psl_estructura_organiz_filter_name');" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_estructura_organiz_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_estructura_organiz_rows>
+			</select> 
+			<input id="psl_estructura_organiz_filter_name" name="psl_estructura_organiz_filter_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_positions}</td>
+		<td>
+			<select name="psl_cargo_filter" id="psl_cargo_filter" onchange="chgCombo(psl_cargo_filter.options[psl_cargo_filter.selectedIndex].text,'psl_cargo_filter_name');" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_cargo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_cargo_rows>
+			</select> 
+			<input id="psl_cargo_filter_name" name="psl_cargo_filter_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_enables_access_control}</td>
+		<td>
+			<select name="psl_habilita_acceso_filter" id="psl_habilita_acceso_filter" disabled >
+				<option value="">[${lbl:b_choose}]</option>
+				<option value="S">${lbl:b_yes}</option>
+				<option value="N">${lbl:b_not}</option>
+
+			</select> 
+		</td>
+	</tr>
+
+	
+
+	
+	<tr>
+		<td class="formlabel required">
+			${lbl:b_store_date_grater_than}:
+		</td>
+		<td>
+			<input id="fdesde" name="fdesde" type="text" size="10" value="" maxlength="10" disabled>
+		</td>
+		<td>
+			<img src="${def:context}/images/dropdown.png" title="${lbl:b_deploy_calendar}" onclick="calendarOpen('fdesde')">
+		</td>
+	</tr>
+	<tr>
+		<td class="formlabel required">
+			${lbl:b_store_date_less_than}:
+		</td>
+		<td>
+			<input id="fhasta" name="fhasta" type="text" size="10" value="" maxlength="10" disabled>
+		</td>
+		<td>
+			<img src="${def:context}/images/dropdown.png" title="${lbl:b_deploy_calendar}" onclick="calendarOpen('fhasta', 'fdesde')">
+		</td>
+	</tr>
+	
+	<!--separador-->
+	<tr height="10px">
+		<td colspan="2"></td>
+	</tr>
+
+</table>	
+
+<!--botones-->
+<input id="buscar" type="submit" value="${lbl:b_find_button}" class="button">
+<input id="grabar" type="button" value="${lbl:b_save_button}" onclick="insert()" class="button">	
+<input id="limpiar" type="button" value="${lbl:b_clean_button}" onclick="addNew()" class="button">	
+<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog(); parent.search();" class="button">	
+
+<br>
+
+</form>
+</div>
+
+<br>
+
+<!--panel de respuesta AJAX #1-->
+<div id="response" style="display:none;width:100%;margin-top:10px;"></div>
+
+<!--panel de respuesta AJAX #2-->
+<div id="detail" style="display:none;width:100%;margin-top:10px;"></div>
+
+<!--codigo de soporte del template-->
+<script type="text/javascript">
+
+		//apuntador a funcion para retornar dependiendo de donde este
+		var _goBackFn = null;
+
+		//inicializacion de la pagina cuando carga
+		onload = function()
+		{ 
+			document.form1.fdesde.focus();
+			document.forms[0].fdesde.onkeypress = keypressDate;
+			document.forms[0].fhasta.onkeypress = keypressDate;
+			loadConfiguration();
+		} 
+	
+		//mostrar filtro de busqueda
+		function showFilter()
+		{
+			document.getElementById("form").style.display="";
+			document.getElementById("response").style.display='none';
+			document.getElementById("detail").style.display='none';
+			document.form1.elements[0].focus();			
+		}
+		
+		//esconder filtro de busqueda	
+		function hideFilter() 
+		{
+			document.getElementById("form").style.display="none";
+		}
+
+		//ejecutar consulta
+		function search()
+		{
+			clearErrorMessages();
+			
+			//definir funcion goBack()
+			_goBackFn = showFilter;
+
+			//llamada Ajax...
+			return ajaxCall(	httpMethod="POST", 
+								uri="${def:actionroot}/search", 
+								divResponse="response", 
+								divProgress="status", 
+								formName="form1", 
+								afterResponseFn=null, 
+								onErrorFn=showFilter);
+		
+		}
+	
+		//retorna al estado previo que corresponde
+		//al estado actual de la pagina, cada llamada Ajax
+		//se encarga de definir cual es la funcion de goBack() que aplica
+		function goBack() 
+		{
+			_goBackFn()			
+		}
+	
+		//invoca la generacion de un PDF en un popup
+		function openPDF()
+		{
+			var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+			var url = "${def:context}${def:actionroot}/pdf?random=" + Math.random();
+			var w = window.open(url, null, features);
+		}
+
+		//invoca la generacion de un Excel en un popup
+		function openExcel()
+		{
+			var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+			var url = "${def:context}${def:actionroot}/excel?random=" + Math.random();
+			var w = window.open(url, null, features);
+		}
+		
+		//exportar a excel
+		function openXml() {
+			var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+			var url = "${def:context}${def:actionroot}/xml?random=" + Math.random();
+			var w = window.open(url, null, features);
+		}
+		
+		//exportar a excel
+		function openTxt() {
+			var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+			var url = "${def:context}${def:actionroot}/txt?random=" + Math.random();
+			var w = window.open(url, null, features);
+		}
+		
+		//envio de emails
+		function openEmails() {
+			var uri = "${def:context}${def:actionroot}/email/form";					
+			openDialog("editor0", uri, 750, 620);	
+		}
+	
+		//mostrar detalle de un registro
+		function drillDown(id)
+		{
+			//definir funcion goBack()
+			_goBackFn = showGrid;			
+		
+			//esconder grid principal
+			document.getElementById("response").style.display="none";
+	
+			//llamada Ajax...
+			return ajaxCall(httpMethod="GET", 
+							uri="${def:actionroot}/drilldown?id=" + id, 
+							divResponse="detail", 
+							divProgress="status", 
+							formName=null, 
+							afterResponseFn=null, 
+							onErrorFn=showGrid);		
+		}
+		
+		//mostrar grid principal
+		function showGrid()
+		{
+			document.getElementById("response").style.display="";
+			document.getElementById("detail").style.display='none';
+			
+			//restaura el goBack que corresponde a este estado
+			_goBackFn = showFilter;
+		}
+		
+		//define la url en donde se mostrara el resultado de consulta
+		function viewPage()
+		{
+			hideFilter(); //esconde el formulario cuando muestra el resultado
+			var url = "${def:actionroot}/view";
+			//llama a la funcion para ir a la pagina indicada 
+			gotoPage(url);
+		}
+		
+		function checkAll(field)
+		{
+			for (i = 0; i < field.length; i++)
+			{
+	   			field[i].checked = true;
+
+				if (field[i].value == 631)
+				{
+					document.getElementById('psl_auxiliar_filter').disabled=false;
+				}
+				if (field[i].value == 632)
+				{
+					document.getElementById('psl_empresa_filter').disabled=false;
+				}
+				if (field[i].value == 633)
+				{
+					document.getElementById('psl_sucursal_filter').disabled=false;
+				}
+				if (field[i].value == 634)
+				{
+					document.getElementById('psl_area_servicio_filter').disabled=false;
+				}
+				if (field[i].value == 635)
+				{
+					document.getElementById('psl_unidad_servicio_filter').disabled=false;
+				}
+				if (field[i].value == 636)
+				{
+					document.getElementById('psl_centro_costo_filter').disabled=false;
+				}
+				if (field[i].value == 637)
+				{
+					document.getElementById('psl_estructura_organiz_filter').disabled=false;
+				}
+				if (field[i].value == 638)
+				{
+					document.getElementById('psl_cargo_filter').disabled=false;
+				}
+				if (field[i].value == 640)
+				{
+					document.getElementById('psl_habilita_acceso_filter').disabled=false;
+				}
+				
+				//fecha desde y hasta
+	   			if (field[i].value == 642) 
+	   			{
+	   				document.getElementById("fdesde").disabled=false;
+	   				document.getElementById("fhasta").disabled=false;
+	   			}
+			}
+		}
+		
+		function uncheckAll(field)
+		{
+			for (i = 0; i < field.length; i++)
+			{
+	   			field[i].checked = false;
+
+				if (field[i].value == 631)
+				{
+					document.getElementById('psl_auxiliar_filter').disabled=true;
+				}
+				if (field[i].value == 632)
+				{
+					document.getElementById('psl_empresa_filter').disabled=true;
+				}
+				if (field[i].value == 633)
+				{
+					document.getElementById('psl_sucursal_filter').disabled=true;
+				}
+				if (field[i].value == 634)
+				{
+					document.getElementById('psl_area_servicio_filter').disabled=true;
+				}
+				if (field[i].value == 635)
+				{
+					document.getElementById('psl_unidad_servicio_filter').disabled=true;
+				}
+				if (field[i].value == 636)
+				{
+					document.getElementById('psl_centro_costo_filter').disabled=true;
+				}
+				if (field[i].value == 637)
+				{
+					document.getElementById('psl_estructura_organiz_filter').disabled=true;
+				}
+				if (field[i].value == 638)
+				{
+					document.getElementById('psl_cargo_filter').disabled=true;
+				}
+				if (field[i].value == 640)
+				{
+					document.getElementById('psl_habilita_acceso_filter').disabled=true;
+				}
+				
+				//fecha desde y hasta
+	   			if (field[i].value == 642) 
+	   			{
+	   				document.getElementById("fdesde").disabled=true;
+	   				document.getElementById("fhasta").disabled=true;
+	   			}
+			}
+		}
+		
+		function enableField(field_id, checked)
+		{
+			if (checked)
+			{
+				if (field_id == 631)
+				{
+					document.getElementById('psl_auxiliar_filter').disabled=false;
+				}
+				if (field_id == 632)
+				{
+					document.getElementById('psl_empresa_filter').disabled=false;
+				}
+				if (field_id == 633)
+				{
+					document.getElementById('psl_sucursal_filter').disabled=false;
+				}
+				if (field_id == 634)
+				{
+					document.getElementById('psl_area_servicio_filter').disabled=false;
+				}
+				if (field_id == 635)
+				{
+					document.getElementById('psl_unidad_servicio_filter').disabled=false;
+				}
+				if (field_id == 636)
+				{
+					document.getElementById('psl_centro_costo_filter').disabled=false;
+				}
+				if (field_id == 637)
+				{
+					document.getElementById('psl_estructura_organiz_filter').disabled=false;
+				}
+				if (field_id == 638)
+				{
+					document.getElementById('psl_cargo_filter').disabled=false;
+				}
+				if (field_id == 640)
+				{
+					document.getElementById('psl_habilita_acceso_filter').disabled=false;
+				}
+				
+				//fecha desde y hasta
+	   			if (field_id == 642) 
+	   			{
+	   				document.getElementById("fdesde").disabled=false;
+	   				document.getElementById("fhasta").disabled=false;
+	   			}
+			}
+			else
+			{
+				if (field_id == 631)
+				{
+					document.getElementById('psl_auxiliar_filter').disabled=true;
+				}
+				if (field_id == 632)
+				{
+					document.getElementById('psl_empresa_filter').disabled=true;
+				}
+				if (field_id == 633)
+				{
+					document.getElementById('psl_sucursal_filter').disabled=true;
+				}
+				if (field_id == 634)
+				{
+					document.getElementById('psl_area_servicio_filter').disabled=true;
+				}
+				if (field_id == 635)
+				{
+					document.getElementById('psl_unidad_servicio_filter').disabled=true;
+				}
+				if (field_id == 636)
+				{
+					document.getElementById('psl_centro_costo_filter').disabled=true;
+				}
+				if (field_id == 637)
+				{
+					document.getElementById('psl_estructura_organiz_filter').disabled=true;
+				}
+				if (field_id == 638)
+				{
+					document.getElementById('psl_cargo_filter').disabled=true;
+				}
+				if (field_id == 640)
+				{
+					document.getElementById('psl_habilita_acceso_filter').disabled=true;
+				}
+				
+				//fecha desde y hasta
+	   			if (field_id == 642) 
+	   			{
+	   				document.getElementById("fdesde").disabled=true;
+	   				document.getElementById("fhasta").disabled=true;
+	   			}				
+			}
+
+		}
+		
+		//configurar formulario para ingresar registro nuevo
+		function addNew()
+		{
+			document.getElementById("grabar").disabled=false;
+			clearForm("form1");
+			setFocusOnForm("form1");
+		}
+		
+		//mostrar la actualizacion de un registro
+		function insert()
+		{		
+				clearErrorMessages();
+				document.getElementById("grabar").disabled=true;
+				
+				var fields = getFormValuesToStore('form1');
+				
+//				//alert("${def:actionroot}/insert?cfg_descripcion=" + fields);
+				
+				//llamada Ajax...
+				return ajaxCall(httpMethod="POST", 
+								uri="${def:actionroot}/insert?cfg_descripcion=" + fields, 
+								divResponse=null, 
+								divProgress="status", 
+								formName="form1", 
+								afterResponseFn=null, 
+								onErrorFn=retryAddnewOrEdit);	
+		}
+		
+		//restaurar el formulario en caso de error
+		function retryAddnewOrEdit() {
+			document.getElementById("grabar").disabled=false;
+			setFocusOnForm("form1");		
+		}
+		
+		//ejecutar consulta
+		function loadConfiguration() {
+			ajaxCall(httpMethod="GET", 
+							uri="${def:actionroot}/cargar_config", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=null);
+		}
+		
+		//asignar configuración
+		var fields = '';
+		function setConfiguration(config) {
+			var cfg = config.split("|");
+			formElements = document.forms['form1'].elements;
+			for(var k = 0; k < cfg.length; k++) {
+				var variable = cfg[k].split("=");
+				var field = variable[0];
+				var value = variable[1];		
+				
+				var endWithDisabled = field.endsWith("_disabled");
+				var disabledField;
+				if (endWithDisabled)
+				{
+					disabledField = field.substring(0, field.indexOf("disabled") - 1);
+				}
+				
+				for (var i=formElements.length-1; i>=0; --i) 
+				{
+					if (formElements[i].name != "" && formElements[i].name == disabledField && formElements[i].name != 'field_id')
+					{
+						if ((value != null) && (value != ""))
+						{
+							if ((value == 'true') || (value == 'false'))
+							{
+								//alert("Disabled - Field = " + disabledField + " | Value = " + value)
+								if (value == 'true')
+								{
+									formElements[i].disabled = true;
+								}
+								else
+								{
+									formElements[i].disabled = false;
+								}
+							}
+						}
+					}
+					
+					if (formElements[i].name != "" && formElements[i].name == field && formElements[i].name != 'field_id')
+					{ 						
+						formElements[i].value = value;
+						if (formElements[i].value != null)
+						{
+							formElements[i].disabled = false;
+						}
+						break;
+					}
+					else
+					{						
+						//añade elementos radio y checkbox
+						if (formElements[i].type=="checkbox" || formElements[i].type=="radio")  
+						{
+							if (formElements[i].value != null)
+							{
+								if (formElements[i].value == value)
+								{
+									formElements[i].checked = 'true';
+									fields = fields + value + ";";
+									break;
+								}
+							}
+						}
+						
+					}
+				}
+			}
+			fields = fields.substring(0, fields.length - 1);
+		}
+		
+		//mostrar el detalle de un registro
+		function getDetail(id, psl_auxiliar_filter, psl_empresa_filter, psl_sucursal_filter, psl_area_servicio_filter, psl_unidad_servicio_filter, psl_centro_costo_filter, psl_estructura_organiz_filter, psl_cargo_filter, psl_habilita_acceso_filter)
+		{
+//			//alert('Colocar su código aquí.')
+			
+			//alert(uim_id_filter)
+			
+			var uri = "${def:context}${def:actionroot}/detail/form?id=" + id + 
+																 "&psl_auxiliar_filter=" + psl_auxiliar_filter + 
+																 "&psl_empresa_filter=" + psl_empresa_filter + 
+																 "&psl_sucursal_filter=" + psl_sucursal_filter + 
+																 "&psl_area_servicio_filter=" + psl_area_servicio_filter + 
+																 "&psl_unidad_servicio_filter=" + psl_unidad_servicio_filter + 
+																 "&psl_centro_costo_filter=" + psl_centro_costo_filter + 
+																 "&psl_estructura_organiz_filter=" + psl_estructura_organiz_filter + 
+																 "&psl_cargo_filter=" + psl_cargo_filter + 
+																 "&psl_habilita_acceso_filter=" + psl_habilita_acceso_filter; 
+			//alert(uri)
+			openDialog("dialog", uri, 650, 580);			
+		}
+
+</script>
+
+</body>
+
+</html>

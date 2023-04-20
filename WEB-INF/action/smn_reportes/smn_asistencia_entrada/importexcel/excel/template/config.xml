@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnasistencia.sql" source="session" scope="transaction" />
+		<recordset id='query-smnpersonal.sql' source='sql' scope='transaction' />
+	<recordset id='query-smncodigovariable.sql' source='sql' scope='transaction' />
+	
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+		
+	<excel 
+		filename='${lbl:b_attendance}.xls' >
+		
+	<sheet recordset="query-table_stuck}.sql" sheetname="${lbl:b_attendance}">
+				<col id='smn_plan_asistencia_id' label='${lbl:b_plan_asistency}' />
+		<col id='asi_id_control_acceso' label='${lbl:b_id_access_control}' />
+		<col id='asi_personal_rf' label='${lbl:b_personal}' />
+		<col id='asi_fecha_evento' label='${lbl:b_event_date}' />
+		<col id='asi_dia_evento' label='${lbl:b_event_day}' />
+		<col id='asi_turno_rf' label='${lbl:b_turno}' />
+		<col id='asi_esquema_rotacion_rf' label='${lbl:b_rotation_scheme}' />
+		<col id='asi_tipo_marcaje' label='${lbl:b_check_type}' />
+		<col id='asi_hora_tope_evento' label='${lbl:b_hora_tope}' />
+		<col id='asi_estatus_permiso_rf' label='${lbl:b_permission_status}' />
+		<col id='asi_estatus_asistencia_rf' label='${lbl:b_assistance_status}' />
+		<col id='asi_fecha_registro' label='${lbl:b_store_date}' />
+
+	</sheet>
+		<sheet recordset='query-smnpersonal.sql' sheetname=''>
+		<col id='psl_id_control_acceso' label='${lbl:}' />
+	</sheet>
+
+	<sheet recordset='query-smncodigovariable.sql' sheetname=''>
+		<col id='cva_descripcion' label='${lbl:b_description}' />
+	</sheet>
+
+
+	</excel>
+
+</config>

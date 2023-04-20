@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='repgen.filter' onerror='/action/error/validation/ajax'>
+
+	<parameter id='fdesde' type='date' required='false' label='Fecha desde'/>
+	<parameter id='fhasta' type='date' required='false' label='Fecha hasta'/>
+	
+	<parameter id='trd_sede' type='varchar' required='false' label='${lbl:b_subsidiary} ' maxlen='48'/>
+	<parameter id='trd_dispositivo' type='varchar' required='false' label='${lbl:b_device_code}' maxlen='48'/>
+	<parameter id='trd_identificacion' type='varchar' required='false' label='${lbl:b_indentification} ' maxlen='16'/>
+	<parameter id='trd_tipo_marcaje' type='varchar' required='false' label='${lbl:b_check_type}' maxlen='512'/>
+	<parameter id='trd_fecha_transaccion' type='varchar' required='false' label='${lbl:b_transaction_date}' maxlen='2048'/>
+	<parameter id='trd_hora_transaccion' type='varchar' required='false' label='${lbl:b_transaction_time}' maxlen='2048'/>
+	<parameter id='trd_tiempo_efectivo' type='varchar' required='false' label='${lbl:b_effective_time}' maxlen='512'/>
+	<parameter id='trd_tiempo_efectivo_total' type='double' required='false' label='${lbl:b_effective_time_total}' maxlen='10'/>
+	<parameter id='trd_status' type='varchar' required='false' label='${lbl:b_status}' maxlen='3'/>
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='trd_sede'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='trd_dispositivo'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='trd_identificacion'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='trd_tipo_marcaje'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='trd_fecha_transaccion'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='trd_hora_transaccion'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='trd_tiempo_efectivo'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='trd_status'
+		rule='contains' />
+
+
+
+	<custom-validator
+			classname='dinamica.validators.ArrayNotEmptyValidator'
+			on-error-label='Seleccione al menos un campo para la generación del reporte.'
+			parameter-name='field_id' 
+			id='field_id' />
+
+	<custom-validator 
+			classname='dinamica.validators.ArrayToRecordset'
+			paramName='field_id' 
+			recordsetId='fields' 
+			colName='field_id' 
+			colType='integer' />
+				
+</validator>

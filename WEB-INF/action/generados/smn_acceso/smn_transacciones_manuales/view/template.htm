@@ -1,0 +1,43 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="7">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th class='sortable' onclick='sortBy("trm_sede","query-smntransaccionesmanuales.sql")'>${lbl:b_subsidiary} </th>
+		<th class='sortable' onclick='sortBy("trm_identificacion","query-smntransaccionesmanuales.sql")'>${lbl:b_indentification} </th>
+		<th class='sortable' onclick='sortBy("trm_tipo_marcaje_combo","query-smntransaccionesmanuales.sql")'>${lbl:b_check_type}</th>
+		<th class='sortable' onclick='sortBy("trm_jutificacion","query-smntransaccionesmanuales.sql")'>${lbl:b_justification}</th>
+		<th class='sortable' onclick='sortBy("trm_fecha_transaccion","query-smntransaccionesmanuales.sql")'>${lbl:b_transaction_date}</th>
+		<th class='sortable' onclick='sortBy("trm_hora_transaccion","query-smntransaccionesmanuales.sql")'>${lbl:b_transaction_time}</th>
+		<th class='sortable' onclick='sortBy("trm_fecha_registro","query-smntransaccionesmanuales.sql")'>${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td align='left'>${fld:trm_sede}</td>
+		<td align='left'>${fld:trm_identificacion}</td>
+		<td align='left'>${fld:trm_tipo_marcaje_combo}</td>
+		<td align='left'>${fld:trm_jutificacion}</td>
+		<td>${fld:trm_fecha_transaccion@dd-MM-yyyy}</td>
+		<td>${fld:trm_hora_transaccion}</td>
+		<td>${fld:trm_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

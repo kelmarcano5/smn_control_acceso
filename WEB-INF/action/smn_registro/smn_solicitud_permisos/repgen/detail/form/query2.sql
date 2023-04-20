@@ -1,0 +1,15 @@
+select
+		smn_control_acceso.smn_solicitud_permisos.smn_personal_id,
+	smn_control_acceso.smn_solicitud_permisos.spe_documento_rf,
+	smn_control_acceso.smn_solicitud_permisos.spe_categoria_justif_rf,
+	smn_control_acceso.smn_solicitud_permisos.spe_fecha_desde,
+	smn_control_acceso.smn_solicitud_permisos.spe_fecha_hasta,
+	smn_control_acceso.smn_solicitud_permisos.spe_estatus_rf,
+	smn_control_acceso.smn_solicitud_permisos.spe_jefe_inmediato_rf,
+	smn_control_acceso.smn_solicitud_permisos.spe_detalles,
+	smn_control_acceso.smn_solicitud_permisos.spe_causa,
+	smn_control_acceso.smn_solicitud_permisos.spe_fecha_registro
+from
+	smn_control_acceso.smn_solicitud_permisos 
+where
+	smn_control_acceso.smn_solicitud_permisos.smn_solicitud_permisos_id = ${fld:id}

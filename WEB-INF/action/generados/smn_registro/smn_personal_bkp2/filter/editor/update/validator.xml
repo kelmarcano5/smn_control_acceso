@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='psl_num_control' type='varchar' required='true' label='${lbl:b_number_of_control}' maxlen='16'/>
+	<parameter id='psl_clase_auxiliar' type='integer' required='true' label='${lbl:b_auxiliary_class}' maxlen='10'/>
+	<parameter id='psl_auxiliar' type='integer' required='true' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='psl_habilita_acceso' type='varchar' required='true' label='${lbl:b_enables_access_control}' maxlen='1'/>
+	<parameter id='psl_id_control_acceso' type='varchar' required='false' label='${lbl:b_id_access_control}' maxlen='16'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_personal}' maxlen='10'/>
+</validator>
+

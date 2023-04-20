@@ -1,0 +1,968 @@
+[INFO] 2022-12-07 00:03:05,996 MarcajeSinAsistencia.main main - --INICIO DE PROCESO: --
+[INFO] 2022-12-07 00:03:25,029 MarcajeSinAsistencia.main main - Cantida de Asistencias programadas =264958
+[INFO] 2022-12-07 00:03:25,037 MarcajeSinAsistencia.main main - Cantida de Movimientos de marcaje =399
+[INFO] 2022-12-07 00:03:25,037 MarcajeSinAsistencia.main main - Cantida de PERSONAL asignados a las Asistencias programadas =224
+[INFO] 2022-12-07 00:03:26,020 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-22 18:00 hFin 2022-09-22 06:00
+
+[ERROR] 2022-12-07 00:03:26,021 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-22, Horas 2022-09-22 18:00 2022-09-22 06:00
+[ERROR] 2022-12-07 00:03:26,021 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-22 null:00"
+[INFO] 2022-12-07 00:03:26,046 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-22 18:00 hFin 2022-09-22 06:00
+
+[ERROR] 2022-12-07 00:03:26,046 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-22, Horas 2022-09-22 18:00 2022-09-22 06:00
+[ERROR] 2022-12-07 00:03:26,047 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-22 null:00"
+[INFO] 2022-12-07 00:03:26,068 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-22 18:00 hFin 2022-09-22 06:00
+
+[ERROR] 2022-12-07 00:03:26,068 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-22, Horas 2022-09-22 18:00 2022-09-22 06:00
+[ERROR] 2022-12-07 00:03:26,070 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-22 null:00"
+[INFO] 2022-12-07 00:03:26,095 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-26 18:00 hFin 2022-09-26 06:00
+
+[ERROR] 2022-12-07 00:03:26,100 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-26, Horas 2022-09-26 18:00 2022-09-26 06:00
+[ERROR] 2022-12-07 00:03:26,101 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-26 null:00"
+[INFO] 2022-12-07 00:03:26,152 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-27 18:00 hFin 2022-09-27 06:00
+
+[ERROR] 2022-12-07 00:03:26,156 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-27, Horas 2022-09-27 18:00 2022-09-27 06:00
+[ERROR] 2022-12-07 00:03:26,156 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-27 null:00"
+[INFO] 2022-12-07 00:03:26,175 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-27 18:00 hFin 2022-09-27 06:00
+
+[ERROR] 2022-12-07 00:03:26,182 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-27, Horas 2022-09-27 18:00 2022-09-27 06:00
+[ERROR] 2022-12-07 00:03:26,182 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-27 null:00"
+[INFO] 2022-12-07 00:03:26,202 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-27 18:00 hFin 2022-09-27 06:00
+
+[ERROR] 2022-12-07 00:03:26,202 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-27, Horas 2022-09-27 18:00 2022-09-27 06:00
+[ERROR] 2022-12-07 00:03:26,202 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-27 null:00"
+[INFO] 2022-12-07 00:03:26,222 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-28 18:00 hFin 2022-09-28 06:00
+
+[ERROR] 2022-12-07 00:03:26,222 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-28, Horas 2022-09-28 18:00 2022-09-28 06:00
+[ERROR] 2022-12-07 00:03:26,222 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-28 null:00"
+[INFO] 2022-12-07 00:03:26,242 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-28 18:00 hFin 2022-09-28 06:00
+
+[ERROR] 2022-12-07 00:03:26,242 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-28, Horas 2022-09-28 18:00 2022-09-28 06:00
+[ERROR] 2022-12-07 00:03:26,242 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-28 null:00"
+[INFO] 2022-12-07 00:03:26,262 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-28 18:00 hFin 2022-09-28 06:00
+
+[ERROR] 2022-12-07 00:03:26,263 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-28, Horas 2022-09-28 18:00 2022-09-28 06:00
+[ERROR] 2022-12-07 00:03:26,263 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-28 null:00"
+[INFO] 2022-12-07 00:03:26,282 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-29 18:00 hFin 2022-09-29 06:00
+
+[ERROR] 2022-12-07 00:03:26,282 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-29, Horas 2022-09-29 18:00 2022-09-29 06:00
+[ERROR] 2022-12-07 00:03:26,282 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-29 null:00"
+[INFO] 2022-12-07 00:03:26,301 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-29 18:00 hFin 2022-09-29 06:00
+
+[ERROR] 2022-12-07 00:03:26,302 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-29, Horas 2022-09-29 18:00 2022-09-29 06:00
+[ERROR] 2022-12-07 00:03:26,302 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-29 null:00"
+[INFO] 2022-12-07 00:03:26,321 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-09-29 18:00 hFin 2022-09-29 06:00
+
+[ERROR] 2022-12-07 00:03:26,321 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-09-29, Horas 2022-09-29 18:00 2022-09-29 06:00
+[ERROR] 2022-12-07 00:03:26,321 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-09-29 null:00"
+[INFO] 2022-12-07 00:03:26,342 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-03 18:00 hFin 2022-10-03 06:00
+
+[ERROR] 2022-12-07 00:03:26,342 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-03, Horas 2022-10-03 18:00 2022-10-03 06:00
+[ERROR] 2022-12-07 00:03:26,342 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-03 null:00"
+[INFO] 2022-12-07 00:03:26,361 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-04 18:00 hFin 2022-10-04 06:00
+
+[ERROR] 2022-12-07 00:03:26,362 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-04, Horas 2022-10-04 18:00 2022-10-04 06:00
+[ERROR] 2022-12-07 00:03:26,362 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-04 null:00"
+[INFO] 2022-12-07 00:03:26,382 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-04 18:00 hFin 2022-10-04 06:00
+
+[ERROR] 2022-12-07 00:03:26,382 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-04, Horas 2022-10-04 18:00 2022-10-04 06:00
+[ERROR] 2022-12-07 00:03:26,382 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-04 null:00"
+[INFO] 2022-12-07 00:03:26,402 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-04 18:00 hFin 2022-10-04 06:00
+
+[ERROR] 2022-12-07 00:03:26,402 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-04, Horas 2022-10-04 18:00 2022-10-04 06:00
+[ERROR] 2022-12-07 00:03:26,403 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-04 null:00"
+[INFO] 2022-12-07 00:03:26,422 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-05 18:00 hFin 2022-10-05 06:00
+
+[ERROR] 2022-12-07 00:03:26,423 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-05, Horas 2022-10-05 18:00 2022-10-05 06:00
+[ERROR] 2022-12-07 00:03:26,423 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-05 null:00"
+[INFO] 2022-12-07 00:03:26,442 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-05 18:00 hFin 2022-10-05 06:00
+
+[ERROR] 2022-12-07 00:03:26,442 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-05, Horas 2022-10-05 18:00 2022-10-05 06:00
+[ERROR] 2022-12-07 00:03:26,442 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-05 null:00"
+[INFO] 2022-12-07 00:03:26,461 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-05 18:00 hFin 2022-10-05 06:00
+
+[ERROR] 2022-12-07 00:03:26,462 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-05, Horas 2022-10-05 18:00 2022-10-05 06:00
+[ERROR] 2022-12-07 00:03:26,462 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-05 null:00"
+[INFO] 2022-12-07 00:03:26,481 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-06 18:00 hFin 2022-10-06 06:00
+
+[ERROR] 2022-12-07 00:03:26,481 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-06, Horas 2022-10-06 18:00 2022-10-06 06:00
+[ERROR] 2022-12-07 00:03:26,481 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-06 null:00"
+[INFO] 2022-12-07 00:03:26,500 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-06 18:00 hFin 2022-10-06 06:00
+
+[ERROR] 2022-12-07 00:03:26,501 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-06, Horas 2022-10-06 18:00 2022-10-06 06:00
+[ERROR] 2022-12-07 00:03:26,501 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-06 null:00"
+[INFO] 2022-12-07 00:03:26,519 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-06 18:00 hFin 2022-10-06 06:00
+
+[ERROR] 2022-12-07 00:03:26,521 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-06, Horas 2022-10-06 18:00 2022-10-06 06:00
+[ERROR] 2022-12-07 00:03:26,521 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-06 null:00"
+[INFO] 2022-12-07 00:03:26,541 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-09 18:00 hFin 2022-10-09 06:00
+
+[ERROR] 2022-12-07 00:03:26,541 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-09, Horas 2022-10-09 18:00 2022-10-09 06:00
+[ERROR] 2022-12-07 00:03:26,541 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-09 null:00"
+[INFO] 2022-12-07 00:03:26,560 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-10 18:00 hFin 2022-10-10 06:00
+
+[ERROR] 2022-12-07 00:03:26,560 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-10, Horas 2022-10-10 18:00 2022-10-10 06:00
+[ERROR] 2022-12-07 00:03:26,561 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-10 null:00"
+[INFO] 2022-12-07 00:03:26,579 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-10 18:00 hFin 2022-10-10 06:00
+
+[ERROR] 2022-12-07 00:03:26,580 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-10, Horas 2022-10-10 18:00 2022-10-10 06:00
+[ERROR] 2022-12-07 00:03:26,580 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-10 null:00"
+[INFO] 2022-12-07 00:03:26,598 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-10 18:00 hFin 2022-10-10 06:00
+
+[ERROR] 2022-12-07 00:03:26,599 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-10, Horas 2022-10-10 18:00 2022-10-10 06:00
+[ERROR] 2022-12-07 00:03:26,599 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-10 null:00"
+[INFO] 2022-12-07 00:03:26,618 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-11 18:00 hFin 2022-10-11 06:00
+
+[ERROR] 2022-12-07 00:03:26,618 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-11, Horas 2022-10-11 18:00 2022-10-11 06:00
+[ERROR] 2022-12-07 00:03:26,619 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-11 null:00"
+[INFO] 2022-12-07 00:03:26,637 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-11 18:00 hFin 2022-10-11 06:00
+
+[ERROR] 2022-12-07 00:03:26,638 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-11, Horas 2022-10-11 18:00 2022-10-11 06:00
+[ERROR] 2022-12-07 00:03:26,638 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-11 null:00"
+[INFO] 2022-12-07 00:03:26,657 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-11 18:00 hFin 2022-10-11 06:00
+
+[ERROR] 2022-12-07 00:03:26,657 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-11, Horas 2022-10-11 18:00 2022-10-11 06:00
+[ERROR] 2022-12-07 00:03:26,657 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-11 null:00"
+[INFO] 2022-12-07 00:03:26,676 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-12 18:00 hFin 2022-10-12 06:00
+
+[ERROR] 2022-12-07 00:03:26,676 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-12, Horas 2022-10-12 18:00 2022-10-12 06:00
+[ERROR] 2022-12-07 00:03:26,676 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-12 null:00"
+[INFO] 2022-12-07 00:03:26,695 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-12 18:00 hFin 2022-10-12 06:00
+
+[ERROR] 2022-12-07 00:03:26,696 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-12, Horas 2022-10-12 18:00 2022-10-12 06:00
+[ERROR] 2022-12-07 00:03:26,696 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-12 null:00"
+[INFO] 2022-12-07 00:03:26,715 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-12 18:00 hFin 2022-10-12 06:00
+
+[ERROR] 2022-12-07 00:03:26,715 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-12, Horas 2022-10-12 18:00 2022-10-12 06:00
+[ERROR] 2022-12-07 00:03:26,715 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-12 null:00"
+[INFO] 2022-12-07 00:03:26,735 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-13 18:00 hFin 2022-10-13 06:00
+
+[ERROR] 2022-12-07 00:03:26,735 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-13, Horas 2022-10-13 18:00 2022-10-13 06:00
+[ERROR] 2022-12-07 00:03:26,735 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-13 null:00"
+[INFO] 2022-12-07 00:03:26,754 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-13 18:00 hFin 2022-10-13 06:00
+
+[ERROR] 2022-12-07 00:03:26,755 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-13, Horas 2022-10-13 18:00 2022-10-13 06:00
+[ERROR] 2022-12-07 00:03:26,758 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-13 null:00"
+[INFO] 2022-12-07 00:03:26,777 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-13 18:00 hFin 2022-10-13 06:00
+
+[ERROR] 2022-12-07 00:03:26,777 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-13, Horas 2022-10-13 18:00 2022-10-13 06:00
+[ERROR] 2022-12-07 00:03:26,777 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-13 null:00"
+[INFO] 2022-12-07 00:03:26,797 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-17 18:00 hFin 2022-10-17 06:00
+
+[ERROR] 2022-12-07 00:03:26,797 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-17, Horas 2022-10-17 18:00 2022-10-17 06:00
+[ERROR] 2022-12-07 00:03:26,797 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-17 null:00"
+[INFO] 2022-12-07 00:03:26,816 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-17 18:00 hFin 2022-10-17 06:00
+
+[ERROR] 2022-12-07 00:03:26,820 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-17, Horas 2022-10-17 18:00 2022-10-17 06:00
+[ERROR] 2022-12-07 00:03:26,820 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-17 null:00"
+[INFO] 2022-12-07 00:03:26,843 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-17 18:00 hFin 2022-10-17 06:00
+
+[ERROR] 2022-12-07 00:03:26,843 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-17, Horas 2022-10-17 18:00 2022-10-17 06:00
+[ERROR] 2022-12-07 00:03:26,843 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-17 null:00"
+[INFO] 2022-12-07 00:03:26,862 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-18 18:00 hFin 2022-10-18 06:00
+
+[ERROR] 2022-12-07 00:03:26,862 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-18, Horas 2022-10-18 18:00 2022-10-18 06:00
+[ERROR] 2022-12-07 00:03:26,863 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-18 null:00"
+[INFO] 2022-12-07 00:03:26,881 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-18 18:00 hFin 2022-10-18 06:00
+
+[ERROR] 2022-12-07 00:03:26,883 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-18, Horas 2022-10-18 18:00 2022-10-18 06:00
+[ERROR] 2022-12-07 00:03:26,883 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-18 null:00"
+[INFO] 2022-12-07 00:03:26,903 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-19 18:00 hFin 2022-10-19 06:00
+
+[ERROR] 2022-12-07 00:03:26,905 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-19, Horas 2022-10-19 18:00 2022-10-19 06:00
+[ERROR] 2022-12-07 00:03:26,909 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-19 null:00"
+[INFO] 2022-12-07 00:03:26,931 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-19 18:00 hFin 2022-10-19 06:00
+
+[ERROR] 2022-12-07 00:03:26,932 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-19, Horas 2022-10-19 18:00 2022-10-19 06:00
+[ERROR] 2022-12-07 00:03:26,932 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-19 null:00"
+[INFO] 2022-12-07 00:03:26,951 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-20 18:00 hFin 2022-10-20 06:00
+
+[ERROR] 2022-12-07 00:03:26,951 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-20, Horas 2022-10-20 18:00 2022-10-20 06:00
+[ERROR] 2022-12-07 00:03:26,951 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-20 null:00"
+[INFO] 2022-12-07 00:03:26,970 MarcajeSinAsistencia.resumen leerListas - ID personal 853 Horario ID 24 hInicio 2022-10-20 18:00 hFin 2022-10-20 06:00
+
+[ERROR] 2022-12-07 00:03:26,970 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-20, Horas 2022-10-20 18:00 2022-10-20 06:00
+[ERROR] 2022-12-07 00:03:26,970 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-20 null:00"
+[INFO] 2022-12-07 00:03:26,990 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-27 18:00 hFin 2022-10-27 06:00
+
+[ERROR] 2022-12-07 00:03:26,991 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-27, Horas 2022-10-27 18:00 2022-10-27 06:00
+[ERROR] 2022-12-07 00:03:26,991 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-27 null:00"
+[INFO] 2022-12-07 00:03:27,011 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-27 18:00 hFin 2022-10-27 06:00
+
+[ERROR] 2022-12-07 00:03:27,011 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-27, Horas 2022-10-27 18:00 2022-10-27 06:00
+[ERROR] 2022-12-07 00:03:27,011 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-27 null:00"
+[INFO] 2022-12-07 00:03:27,030 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-27 18:00 hFin 2022-10-27 06:00
+
+[ERROR] 2022-12-07 00:03:27,031 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-27, Horas 2022-10-27 18:00 2022-10-27 06:00
+[ERROR] 2022-12-07 00:03:27,031 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-27 null:00"
+[INFO] 2022-12-07 00:03:27,050 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-30 18:00 hFin 2022-10-30 06:00
+
+[ERROR] 2022-12-07 00:03:27,050 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-30, Horas 2022-10-30 18:00 2022-10-30 06:00
+[ERROR] 2022-12-07 00:03:27,051 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-30 null:00"
+[INFO] 2022-12-07 00:03:27,071 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-31 18:00 hFin 2022-10-31 06:00
+
+[ERROR] 2022-12-07 00:03:27,071 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-31, Horas 2022-10-31 18:00 2022-10-31 06:00
+[ERROR] 2022-12-07 00:03:27,071 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-31 null:00"
+[INFO] 2022-12-07 00:03:27,091 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-10-31 18:00 hFin 2022-10-31 06:00
+
+[ERROR] 2022-12-07 00:03:27,091 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-10-31, Horas 2022-10-31 18:00 2022-10-31 06:00
+[ERROR] 2022-12-07 00:03:27,091 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-10-31 null:00"
+[INFO] 2022-12-07 00:03:27,112 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-01 18:00 hFin 2022-11-01 06:00
+
+[ERROR] 2022-12-07 00:03:27,112 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-01, Horas 2022-11-01 18:00 2022-11-01 06:00
+[ERROR] 2022-12-07 00:03:27,113 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-01 null:00"
+[INFO] 2022-12-07 00:03:27,132 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-01 18:00 hFin 2022-11-01 06:00
+
+[ERROR] 2022-12-07 00:03:27,133 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-01, Horas 2022-11-01 18:00 2022-11-01 06:00
+[ERROR] 2022-12-07 00:03:27,134 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-01 null:00"
+[INFO] 2022-12-07 00:03:27,153 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-01 18:00 hFin 2022-11-01 06:00
+
+[ERROR] 2022-12-07 00:03:27,153 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-01, Horas 2022-11-01 18:00 2022-11-01 06:00
+[ERROR] 2022-12-07 00:03:27,153 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-01 null:00"
+[INFO] 2022-12-07 00:03:27,172 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-03 18:00 hFin 2022-11-03 06:00
+
+[ERROR] 2022-12-07 00:03:27,173 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-03, Horas 2022-11-03 18:00 2022-11-03 06:00
+[ERROR] 2022-12-07 00:03:27,173 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-03 null:00"
+[INFO] 2022-12-07 00:03:27,192 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-03 18:00 hFin 2022-11-03 06:00
+
+[ERROR] 2022-12-07 00:03:27,192 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-03, Horas 2022-11-03 18:00 2022-11-03 06:00
+[ERROR] 2022-12-07 00:03:27,192 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-03 null:00"
+[INFO] 2022-12-07 00:03:27,212 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-03 18:00 hFin 2022-11-03 06:00
+
+[ERROR] 2022-12-07 00:03:27,212 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-03, Horas 2022-11-03 18:00 2022-11-03 06:00
+[ERROR] 2022-12-07 00:03:27,212 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-03 null:00"
+[INFO] 2022-12-07 00:03:27,232 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-07 18:00 hFin 2022-11-07 06:00
+
+[ERROR] 2022-12-07 00:03:27,232 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-07, Horas 2022-11-07 18:00 2022-11-07 06:00
+[ERROR] 2022-12-07 00:03:27,232 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-07 null:00"
+[INFO] 2022-12-07 00:03:27,251 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-07 18:00 hFin 2022-11-07 06:00
+
+[ERROR] 2022-12-07 00:03:27,251 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-07, Horas 2022-11-07 18:00 2022-11-07 06:00
+[ERROR] 2022-12-07 00:03:27,252 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-07 null:00"
+[INFO] 2022-12-07 00:03:27,270 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-07 18:00 hFin 2022-11-07 06:00
+
+[ERROR] 2022-12-07 00:03:27,271 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-07, Horas 2022-11-07 18:00 2022-11-07 06:00
+[ERROR] 2022-12-07 00:03:27,271 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-07 null:00"
+[INFO] 2022-12-07 00:03:27,290 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-08 18:00 hFin 2022-11-08 06:00
+
+[ERROR] 2022-12-07 00:03:27,291 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-08, Horas 2022-11-08 18:00 2022-11-08 06:00
+[ERROR] 2022-12-07 00:03:27,291 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-08 null:00"
+[INFO] 2022-12-07 00:03:27,311 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-08 18:00 hFin 2022-11-08 06:00
+
+[ERROR] 2022-12-07 00:03:27,311 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-08, Horas 2022-11-08 18:00 2022-11-08 06:00
+[ERROR] 2022-12-07 00:03:27,311 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-08 null:00"
+[INFO] 2022-12-07 00:03:27,333 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-08 18:00 hFin 2022-11-08 06:00
+
+[ERROR] 2022-12-07 00:03:27,333 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-08, Horas 2022-11-08 18:00 2022-11-08 06:00
+[ERROR] 2022-12-07 00:03:27,333 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-08 null:00"
+[INFO] 2022-12-07 00:03:27,354 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-09 18:00 hFin 2022-11-09 06:00
+
+[ERROR] 2022-12-07 00:03:27,354 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-09, Horas 2022-11-09 18:00 2022-11-09 06:00
+[ERROR] 2022-12-07 00:03:27,354 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-09 null:00"
+[INFO] 2022-12-07 00:03:27,373 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-09 18:00 hFin 2022-11-09 06:00
+
+[ERROR] 2022-12-07 00:03:27,374 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-09, Horas 2022-11-09 18:00 2022-11-09 06:00
+[ERROR] 2022-12-07 00:03:27,374 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-09 null:00"
+[INFO] 2022-12-07 00:03:27,393 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-09 18:00 hFin 2022-11-09 06:00
+
+[ERROR] 2022-12-07 00:03:27,393 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-09, Horas 2022-11-09 18:00 2022-11-09 06:00
+[ERROR] 2022-12-07 00:03:27,393 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-09 null:00"
+[INFO] 2022-12-07 00:03:27,412 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-10 18:00 hFin 2022-11-10 06:00
+
+[ERROR] 2022-12-07 00:03:27,413 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-10, Horas 2022-11-10 18:00 2022-11-10 06:00
+[ERROR] 2022-12-07 00:03:27,413 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-10 null:00"
+[INFO] 2022-12-07 00:03:27,432 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-10 18:00 hFin 2022-11-10 06:00
+
+[ERROR] 2022-12-07 00:03:27,432 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-10, Horas 2022-11-10 18:00 2022-11-10 06:00
+[ERROR] 2022-12-07 00:03:27,432 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-10 null:00"
+[INFO] 2022-12-07 00:03:27,452 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-10 18:00 hFin 2022-11-10 06:00
+
+[ERROR] 2022-12-07 00:03:27,454 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-10, Horas 2022-11-10 18:00 2022-11-10 06:00
+[ERROR] 2022-12-07 00:03:27,455 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-10 null:00"
+[INFO] 2022-12-07 00:03:27,474 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-13 18:00 hFin 2022-11-13 06:00
+
+[ERROR] 2022-12-07 00:03:27,474 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-13, Horas 2022-11-13 18:00 2022-11-13 06:00
+[ERROR] 2022-12-07 00:03:27,475 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-13 null:00"
+[INFO] 2022-12-07 00:03:27,494 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2022-12-07 00:03:27,494 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2022-12-07 00:03:27,494 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2022-12-07 00:03:27,514 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2022-12-07 00:03:27,515 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2022-12-07 00:03:27,515 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2022-12-07 00:03:27,534 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2022-12-07 00:03:27,534 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2022-12-07 00:03:27,534 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2022-12-07 00:03:27,553 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2022-12-07 00:03:27,553 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2022-12-07 00:03:27,553 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2022-12-07 00:03:27,572 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-14 18:00 hFin 2022-11-14 06:00
+
+[ERROR] 2022-12-07 00:03:27,572 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-14, Horas 2022-11-14 18:00 2022-11-14 06:00
+[ERROR] 2022-12-07 00:03:27,572 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-14 null:00"
+[INFO] 2022-12-07 00:03:27,592 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-15 18:00 hFin 2022-11-15 06:00
+
+[ERROR] 2022-12-07 00:03:27,592 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-15, Horas 2022-11-15 18:00 2022-11-15 06:00
+[ERROR] 2022-12-07 00:03:27,592 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-15 null:00"
+[INFO] 2022-12-07 00:03:27,611 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-15 18:00 hFin 2022-11-15 06:00
+
+[ERROR] 2022-12-07 00:03:27,612 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-15, Horas 2022-11-15 18:00 2022-11-15 06:00
+[ERROR] 2022-12-07 00:03:27,612 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-15 null:00"
+[INFO] 2022-12-07 00:03:27,632 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-16 18:00 hFin 2022-11-16 06:00
+
+[ERROR] 2022-12-07 00:03:27,634 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-16, Horas 2022-11-16 18:00 2022-11-16 06:00
+[ERROR] 2022-12-07 00:03:27,634 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-16 null:00"
+[INFO] 2022-12-07 00:03:27,653 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-16 18:00 hFin 2022-11-16 06:00
+
+[ERROR] 2022-12-07 00:03:27,654 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-16, Horas 2022-11-16 18:00 2022-11-16 06:00
+[ERROR] 2022-12-07 00:03:27,658 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-16 null:00"
+[INFO] 2022-12-07 00:03:27,677 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-17 18:00 hFin 2022-11-17 06:00
+
+[ERROR] 2022-12-07 00:03:27,677 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-17, Horas 2022-11-17 18:00 2022-11-17 06:00
+[ERROR] 2022-12-07 00:03:27,678 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-17 null:00"
+[INFO] 2022-12-07 00:03:27,697 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-17 18:00 hFin 2022-11-17 06:00
+
+[ERROR] 2022-12-07 00:03:27,697 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-17, Horas 2022-11-17 18:00 2022-11-17 06:00
+[ERROR] 2022-12-07 00:03:27,698 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-17 null:00"
+[INFO] 2022-12-07 00:03:27,717 MarcajeSinAsistencia.resumen leerListas - ID personal 855 Horario ID 24 hInicio 2022-11-17 18:00 hFin 2022-11-17 06:00
+
+[ERROR] 2022-12-07 00:03:27,718 MarcajeSinAsistencia.resumen leerListas - Error Con fecha 2022-11-17, Horas 2022-11-17 18:00 2022-11-17 06:00
+[ERROR] 2022-12-07 00:03:27,718 MarcajeSinAsistencia.resumen leerListas - java.text.ParseException: Unparseable date: "2022-11-17 null:00"
+[INFO] 2022-12-07 00:03:27,744 MarcajeSinAsistencia.resumen leerListas - ID personal 421 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:28,060 MarcajeSinAsistencia.resumen leerListas - ID personal 119 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:28,371 MarcajeSinAsistencia.resumen leerListas - ID personal 795 Horario ID 1 hInicio 2022-12-06 08:00 hFin 2022-12-06 17:00
+
+[INFO] 2022-12-07 00:03:28,676 MarcajeSinAsistencia.resumen leerListas - ID personal 385 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:28,982 MarcajeSinAsistencia.resumen leerListas - ID personal 791 Horario ID 22 hInicio 2022-12-06 07:00 hFin 2022-12-06 07:01
+
+[INFO] 2022-12-07 00:03:29,307 MarcajeSinAsistencia.resumen leerListas - ID personal 389 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:29,629 MarcajeSinAsistencia.resumen leerListas - ID personal 772 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:29,944 MarcajeSinAsistencia.resumen leerListas - ID personal 729 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:30,258 MarcajeSinAsistencia.resumen leerListas - ID personal 369 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:30,575 MarcajeSinAsistencia.resumen leerListas - ID personal 771 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:30,893 MarcajeSinAsistencia.resumen leerListas - ID personal 183 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:31,208 MarcajeSinAsistencia.resumen leerListas - ID personal 218 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:31,532 MarcajeSinAsistencia.resumen leerListas - ID personal 97 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:31,845 MarcajeSinAsistencia.resumen leerListas - ID personal 168 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:32,156 MarcajeSinAsistencia.resumen leerListas - ID personal 109 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:32,468 MarcajeSinAsistencia.resumen leerListas - ID personal 46 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:32,780 MarcajeSinAsistencia.resumen leerListas - ID personal 110 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:33,113 MarcajeSinAsistencia.resumen leerListas - ID personal 454 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:33,421 MarcajeSinAsistencia.resumen leerListas - ID personal 295 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:33,761 MarcajeSinAsistencia.resumen leerListas - ID personal 381 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:34,076 MarcajeSinAsistencia.resumen leerListas - ID personal 206 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:34,450 MarcajeSinAsistencia.resumen leerListas - ID personal 382 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:34,771 MarcajeSinAsistencia.resumen leerListas - ID personal 148 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:35,081 MarcajeSinAsistencia.resumen leerListas - ID personal 127 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:35,407 MarcajeSinAsistencia.resumen leerListas - ID personal 194 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:35,717 MarcajeSinAsistencia.resumen leerListas - ID personal 293 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:36,040 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:36,346 MarcajeSinAsistencia.resumen leerListas - ID personal 29 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:36,652 MarcajeSinAsistencia.resumen leerListas - ID personal 263 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:36,959 MarcajeSinAsistencia.resumen leerListas - ID personal 274 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:37,269 MarcajeSinAsistencia.resumen leerListas - ID personal 152 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:37,574 MarcajeSinAsistencia.resumen leerListas - ID personal 587 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:37,885 MarcajeSinAsistencia.resumen leerListas - ID personal 404 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:38,197 MarcajeSinAsistencia.resumen leerListas - ID personal 313 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:38,532 MarcajeSinAsistencia.resumen leerListas - ID personal 345 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:38,831 MarcajeSinAsistencia.resumen leerListas - ID personal 316 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:39,131 MarcajeSinAsistencia.resumen leerListas - ID personal 842 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:39,430 MarcajeSinAsistencia.resumen leerListas - ID personal 396 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:39,729 MarcajeSinAsistencia.resumen leerListas - ID personal 176 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:40,016 MarcajeSinAsistencia.resumen leerListas - ID personal 318 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:40,304 MarcajeSinAsistencia.resumen leerListas - ID personal 417 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:40,604 MarcajeSinAsistencia.resumen leerListas - ID personal 334 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:40,915 MarcajeSinAsistencia.resumen leerListas - ID personal 372 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:41,197 MarcajeSinAsistencia.resumen leerListas - ID personal 469 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:41,478 MarcajeSinAsistencia.resumen leerListas - ID personal 354 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:41,760 MarcajeSinAsistencia.resumen leerListas - ID personal 234 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:42,041 MarcajeSinAsistencia.resumen leerListas - ID personal 357 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:42,322 MarcajeSinAsistencia.resumen leerListas - ID personal 262 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:42,604 MarcajeSinAsistencia.resumen leerListas - ID personal 140 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:42,885 MarcajeSinAsistencia.resumen leerListas - ID personal 312 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:43,173 MarcajeSinAsistencia.resumen leerListas - ID personal 863 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:43,466 MarcajeSinAsistencia.resumen leerListas - ID personal 856 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:43,754 MarcajeSinAsistencia.resumen leerListas - ID personal 76 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:44,035 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:44,317 MarcajeSinAsistencia.resumen leerListas - ID personal 738 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:44,598 MarcajeSinAsistencia.resumen leerListas - ID personal 114 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:44,879 MarcajeSinAsistencia.resumen leerListas - ID personal 436 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:45,162 MarcajeSinAsistencia.resumen leerListas - ID personal 200 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:45,442 MarcajeSinAsistencia.resumen leerListas - ID personal 450 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:45,729 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2022-12-06 06:00 hFin 2022-12-06 15:00
+
+[INFO] 2022-12-07 00:03:46,010 MarcajeSinAsistencia.resumen leerListas - ID personal 246 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:46,291 MarcajeSinAsistencia.resumen leerListas - ID personal 851 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:46,573 MarcajeSinAsistencia.resumen leerListas - ID personal 414 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:46,854 MarcajeSinAsistencia.resumen leerListas - ID personal 340 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:47,135 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:47,429 MarcajeSinAsistencia.resumen leerListas - ID personal 782 Horario ID 22 hInicio 2022-12-06 07:00 hFin 2022-12-06 07:01
+
+[INFO] 2022-12-07 00:03:47,705 MarcajeSinAsistencia.resumen leerListas - ID personal 233 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:47,980 MarcajeSinAsistencia.resumen leerListas - ID personal 817 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:48,263 MarcajeSinAsistencia.resumen leerListas - ID personal 137 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:48,543 MarcajeSinAsistencia.resumen leerListas - ID personal 186 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:48,831 MarcajeSinAsistencia.resumen leerListas - ID personal 809 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:49,119 MarcajeSinAsistencia.resumen leerListas - ID personal 60 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:49,400 MarcajeSinAsistencia.resumen leerListas - ID personal 69 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:49,705 MarcajeSinAsistencia.resumen leerListas - ID personal 635 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:49,986 MarcajeSinAsistencia.resumen leerListas - ID personal 72 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:50,280 MarcajeSinAsistencia.resumen leerListas - ID personal 222 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:50,562 MarcajeSinAsistencia.resumen leerListas - ID personal 857 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:50,855 MarcajeSinAsistencia.resumen leerListas - ID personal 123 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:51,143 MarcajeSinAsistencia.resumen leerListas - ID personal 256 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:51,424 MarcajeSinAsistencia.resumen leerListas - ID personal 432 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:51,778 MarcajeSinAsistencia.resumen leerListas - ID personal 128 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:52,083 MarcajeSinAsistencia.resumen leerListas - ID personal 66 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:52,376 MarcajeSinAsistencia.resumen leerListas - ID personal 582 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:52,652 MarcajeSinAsistencia.resumen leerListas - ID personal 395 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:52,939 MarcajeSinAsistencia.resumen leerListas - ID personal 235 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:53,221 MarcajeSinAsistencia.resumen leerListas - ID personal 178 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:53,496 MarcajeSinAsistencia.resumen leerListas - ID personal 296 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:53,778 MarcajeSinAsistencia.resumen leerListas - ID personal 455 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:54,065 MarcajeSinAsistencia.resumen leerListas - ID personal 81 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:54,346 MarcajeSinAsistencia.resumen leerListas - ID personal 310 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:54,727 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 22 hInicio 2022-12-06 07:00 hFin 2022-12-06 07:01
+
+[INFO] 2022-12-07 00:03:55,035 MarcajeSinAsistencia.resumen leerListas - ID personal 331 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:55,317 MarcajeSinAsistencia.resumen leerListas - ID personal 418 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:55,592 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:55,875 MarcajeSinAsistencia.resumen leerListas - ID personal 33 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:56,154 MarcajeSinAsistencia.resumen leerListas - ID personal 449 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:56,429 MarcajeSinAsistencia.resumen leerListas - ID personal 102 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:56,705 MarcajeSinAsistencia.resumen leerListas - ID personal 164 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:56,980 MarcajeSinAsistencia.resumen leerListas - ID personal 85 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:57,257 MarcajeSinAsistencia.resumen leerListas - ID personal 87 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:57,531 MarcajeSinAsistencia.resumen leerListas - ID personal 304 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:57,820 MarcajeSinAsistencia.resumen leerListas - ID personal 315 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:58,107 MarcajeSinAsistencia.resumen leerListas - ID personal 297 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:58,381 MarcajeSinAsistencia.resumen leerListas - ID personal 257 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:58,670 MarcajeSinAsistencia.resumen leerListas - ID personal 468 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:58,939 MarcajeSinAsistencia.resumen leerListas - ID personal 36 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:59,208 MarcajeSinAsistencia.resumen leerListas - ID personal 89 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:03:59,483 MarcajeSinAsistencia.resumen leerListas - ID personal 37 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:03:59,759 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:00,028 MarcajeSinAsistencia.resumen leerListas - ID personal 145 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:00,317 MarcajeSinAsistencia.resumen leerListas - ID personal 107 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:00,598 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:00,887 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:01,155 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:01,490 MarcajeSinAsistencia.resumen leerListas - ID personal 467 Horario ID 8 hInicio 2022-12-06 19:00 hFin 2022-12-06 07:00
+
+[INFO] 2022-12-07 00:04:01,772 MarcajeSinAsistencia.resumen leerListas - ID personal 68 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:02,041 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:02,317 MarcajeSinAsistencia.resumen leerListas - ID personal 441 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:02,587 MarcajeSinAsistencia.resumen leerListas - ID personal 236 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:02,862 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:03,137 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2022-12-06 06:00 hFin 2022-12-06 15:00
+
+[INFO] 2022-12-07 00:04:03,406 MarcajeSinAsistencia.resumen leerListas - ID personal 44 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:03,682 MarcajeSinAsistencia.resumen leerListas - ID personal 324 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:03,952 MarcajeSinAsistencia.resumen leerListas - ID personal 399 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:04,221 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:04,491 MarcajeSinAsistencia.resumen leerListas - ID personal 67 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:04,772 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:05,047 MarcajeSinAsistencia.resumen leerListas - ID personal 848 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:05,317 MarcajeSinAsistencia.resumen leerListas - ID personal 795 Horario ID 1 hInicio 2022-12-06 08:00 hFin 2022-12-06 17:00
+
+[INFO] 2022-12-07 00:04:05,591 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:05,854 MarcajeSinAsistencia.resumen leerListas - ID personal 47 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:06,130 MarcajeSinAsistencia.resumen leerListas - ID personal 403 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:06,400 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:06,669 MarcajeSinAsistencia.resumen leerListas - ID personal 839 Horario ID 1 hInicio 2022-12-06 08:00 hFin 2022-12-06 17:00
+
+[INFO] 2022-12-07 00:04:06,949 MarcajeSinAsistencia.resumen leerListas - ID personal 839 Horario ID 1 hInicio 2022-12-06 08:00 hFin 2022-12-06 17:00
+
+[INFO] 2022-12-07 00:04:07,220 MarcajeSinAsistencia.resumen leerListas - ID personal 724 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:07,490 MarcajeSinAsistencia.resumen leerListas - ID personal 724 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:07,766 MarcajeSinAsistencia.resumen leerListas - ID personal 8 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:08,029 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:08,292 MarcajeSinAsistencia.resumen leerListas - ID personal 7 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:08,556 MarcajeSinAsistencia.resumen leerListas - ID personal 305 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:08,833 MarcajeSinAsistencia.resumen leerListas - ID personal 696 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:09,095 MarcajeSinAsistencia.resumen leerListas - ID personal 117 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:09,365 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2022-12-06 06:00 hFin 2022-12-06 15:00
+
+[INFO] 2022-12-07 00:04:09,634 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:09,903 MarcajeSinAsistencia.resumen leerListas - ID personal 419 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:10,167 MarcajeSinAsistencia.resumen leerListas - ID personal 305 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:10,436 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:10,700 MarcajeSinAsistencia.resumen leerListas - ID personal 37 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:10,982 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:11,257 MarcajeSinAsistencia.resumen leerListas - ID personal 468 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:11,526 MarcajeSinAsistencia.resumen leerListas - ID personal 441 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:11,796 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:12,059 MarcajeSinAsistencia.resumen leerListas - ID personal 37 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:12,335 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2022-12-06 06:00 hFin 2022-12-06 15:00
+
+[INFO] 2022-12-07 00:04:12,604 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2022-12-06 06:00 hFin 2022-12-06 15:00
+
+[INFO] 2022-12-07 00:04:12,873 MarcajeSinAsistencia.resumen leerListas - ID personal 469 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:13,150 MarcajeSinAsistencia.resumen leerListas - ID personal 441 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:13,430 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:13,705 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:13,975 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:14,245 MarcajeSinAsistencia.resumen leerListas - ID personal 86 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:14,508 MarcajeSinAsistencia.resumen leerListas - ID personal 851 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:14,795 MarcajeSinAsistencia.resumen leerListas - ID personal 88 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:15,059 MarcajeSinAsistencia.resumen leerListas - ID personal 696 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:15,328 MarcajeSinAsistencia.resumen leerListas - ID personal 44 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:15,598 MarcajeSinAsistencia.resumen leerListas - ID personal 33 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:15,873 MarcajeSinAsistencia.resumen leerListas - ID personal 236 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:16,167 MarcajeSinAsistencia.resumen leerListas - ID personal 851 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:16,442 MarcajeSinAsistencia.resumen leerListas - ID personal 60 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:16,718 MarcajeSinAsistencia.resumen leerListas - ID personal 403 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:16,993 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:17,256 MarcajeSinAsistencia.resumen leerListas - ID personal 432 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:17,531 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:17,801 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:18,070 MarcajeSinAsistencia.resumen leerListas - ID personal 851 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:18,340 MarcajeSinAsistencia.resumen leerListas - ID personal 851 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:18,609 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:18,885 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:19,160 MarcajeSinAsistencia.resumen leerListas - ID personal 772 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:19,430 MarcajeSinAsistencia.resumen leerListas - ID personal 729 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:19,711 MarcajeSinAsistencia.resumen leerListas - ID personal 848 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:19,986 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:20,277 MarcajeSinAsistencia.resumen leerListas - ID personal 206 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:20,555 MarcajeSinAsistencia.resumen leerListas - ID personal 76 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:20,825 MarcajeSinAsistencia.resumen leerListas - ID personal 297 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:21,094 MarcajeSinAsistencia.resumen leerListas - ID personal 109 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:21,376 MarcajeSinAsistencia.resumen leerListas - ID personal 274 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:21,657 MarcajeSinAsistencia.resumen leerListas - ID personal 312 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:21,938 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:22,214 MarcajeSinAsistencia.resumen leerListas - ID personal 87 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:22,490 MarcajeSinAsistencia.resumen leerListas - ID personal 262 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:22,759 MarcajeSinAsistencia.resumen leerListas - ID personal 81 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:23,034 MarcajeSinAsistencia.resumen leerListas - ID personal 97 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:23,304 MarcajeSinAsistencia.resumen leerListas - ID personal 152 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:23,579 MarcajeSinAsistencia.resumen leerListas - ID personal 450 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:23,849 MarcajeSinAsistencia.resumen leerListas - ID personal 194 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:24,124 MarcajeSinAsistencia.resumen leerListas - ID personal 295 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:24,405 MarcajeSinAsistencia.resumen leerListas - ID personal 334 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:24,687 MarcajeSinAsistencia.resumen leerListas - ID personal 246 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:24,966 MarcajeSinAsistencia.resumen leerListas - ID personal 354 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:25,244 MarcajeSinAsistencia.resumen leerListas - ID personal 403 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:25,525 MarcajeSinAsistencia.resumen leerListas - ID personal 324 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:25,800 MarcajeSinAsistencia.resumen leerListas - ID personal 168 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:26,082 MarcajeSinAsistencia.resumen leerListas - ID personal 417 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:26,363 MarcajeSinAsistencia.resumen leerListas - ID personal 455 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:26,645 MarcajeSinAsistencia.resumen leerListas - ID personal 127 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:26,920 MarcajeSinAsistencia.resumen leerListas - ID personal 315 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:27,201 MarcajeSinAsistencia.resumen leerListas - ID personal 234 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:27,481 MarcajeSinAsistencia.resumen leerListas - ID personal 809 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:27,758 MarcajeSinAsistencia.resumen leerListas - ID personal 235 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:28,040 MarcajeSinAsistencia.resumen leerListas - ID personal 256 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:28,315 MarcajeSinAsistencia.resumen leerListas - ID personal 817 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:28,591 MarcajeSinAsistencia.resumen leerListas - ID personal 318 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:28,872 MarcajeSinAsistencia.resumen leerListas - ID personal 635 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:29,153 MarcajeSinAsistencia.resumen leerListas - ID personal 771 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:29,435 MarcajeSinAsistencia.resumen leerListas - ID personal 395 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:29,710 MarcajeSinAsistencia.resumen leerListas - ID personal 863 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:29,991 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:30,273 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:30,555 MarcajeSinAsistencia.resumen leerListas - ID personal 331 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:30,836 MarcajeSinAsistencia.resumen leerListas - ID personal 86 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:31,124 MarcajeSinAsistencia.resumen leerListas - ID personal 88 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:31,423 MarcajeSinAsistencia.resumen leerListas - ID personal 69 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:31,728 MarcajeSinAsistencia.resumen leerListas - ID personal 389 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:32,009 MarcajeSinAsistencia.resumen leerListas - ID personal 114 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:32,285 MarcajeSinAsistencia.resumen leerListas - ID personal 399 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:32,560 MarcajeSinAsistencia.resumen leerListas - ID personal 178 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:32,878 MarcajeSinAsistencia.resumen leerListas - ID personal 385 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:33,153 MarcajeSinAsistencia.resumen leerListas - ID personal 304 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:33,429 MarcajeSinAsistencia.resumen leerListas - ID personal 418 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:33,722 MarcajeSinAsistencia.resumen leerListas - ID personal 404 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:34,011 MarcajeSinAsistencia.resumen leerListas - ID personal 842 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:34,291 MarcajeSinAsistencia.resumen leerListas - ID personal 582 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:34,573 MarcajeSinAsistencia.resumen leerListas - ID personal 856 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:34,861 MarcajeSinAsistencia.resumen leerListas - ID personal 717 Horario ID 1 hInicio 2022-12-06 08:00 hFin 2022-12-06 17:00
+
+[INFO] 2022-12-07 00:04:35,146 MarcajeSinAsistencia.resumen leerListas - ID personal 717 Horario ID 1 hInicio 2022-12-06 08:00 hFin 2022-12-06 17:00
+
+[INFO] 2022-12-07 00:04:35,429 MarcajeSinAsistencia.resumen leerListas - ID personal 372 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:35,711 MarcajeSinAsistencia.resumen leerListas - ID personal 102 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:35,993 MarcajeSinAsistencia.resumen leerListas - ID personal 263 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:36,273 MarcajeSinAsistencia.resumen leerListas - ID personal 137 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:36,567 MarcajeSinAsistencia.resumen leerListas - ID personal 186 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:36,848 MarcajeSinAsistencia.resumen leerListas - ID personal 123 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:37,130 MarcajeSinAsistencia.resumen leerListas - ID personal 381 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:37,411 MarcajeSinAsistencia.resumen leerListas - ID personal 293 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:37,699 MarcajeSinAsistencia.resumen leerListas - ID personal 145 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:37,980 MarcajeSinAsistencia.resumen leerListas - ID personal 857 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:38,261 MarcajeSinAsistencia.resumen leerListas - ID personal 441 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:38,549 MarcajeSinAsistencia.resumen leerListas - ID personal 89 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:38,836 MarcajeSinAsistencia.resumen leerListas - ID personal 218 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:39,118 MarcajeSinAsistencia.resumen leerListas - ID personal 454 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:39,399 MarcajeSinAsistencia.resumen leerListas - ID personal 8 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:39,686 MarcajeSinAsistencia.resumen leerListas - ID personal 7 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:39,967 MarcajeSinAsistencia.resumen leerListas - ID personal 316 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:40,262 MarcajeSinAsistencia.resumen leerListas - ID personal 449 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:40,543 MarcajeSinAsistencia.resumen leerListas - ID personal 738 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:40,836 MarcajeSinAsistencia.resumen leerListas - ID personal 340 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:41,117 MarcajeSinAsistencia.resumen leerListas - ID personal 313 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:41,399 MarcajeSinAsistencia.resumen leerListas - ID personal 396 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:41,686 MarcajeSinAsistencia.resumen leerListas - ID personal 257 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:41,974 MarcajeSinAsistencia.resumen leerListas - ID personal 107 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:42,267 MarcajeSinAsistencia.resumen leerListas - ID personal 200 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:42,553 MarcajeSinAsistencia.resumen leerListas - ID personal 403 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:42,835 MarcajeSinAsistencia.resumen leerListas - ID personal 369 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:43,122 MarcajeSinAsistencia.resumen leerListas - ID personal 310 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:43,410 MarcajeSinAsistencia.resumen leerListas - ID personal 140 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:43,698 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:43,978 MarcajeSinAsistencia.resumen leerListas - ID personal 296 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:44,267 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:44,554 MarcajeSinAsistencia.resumen leerListas - ID personal 233 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:44,836 MarcajeSinAsistencia.resumen leerListas - ID personal 164 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:45,118 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:45,535 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:45,818 MarcajeSinAsistencia.resumen leerListas - ID personal 587 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:46,106 MarcajeSinAsistencia.resumen leerListas - ID personal 47 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:46,387 MarcajeSinAsistencia.resumen leerListas - ID personal 222 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:46,674 MarcajeSinAsistencia.resumen leerListas - ID personal 148 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:46,956 MarcajeSinAsistencia.resumen leerListas - ID personal 119 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:47,243 MarcajeSinAsistencia.resumen leerListas - ID personal 46 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:47,537 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:47,818 MarcajeSinAsistencia.resumen leerListas - ID personal 66 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:48,100 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:48,381 MarcajeSinAsistencia.resumen leerListas - ID personal 345 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:48,697 MarcajeSinAsistencia.resumen leerListas - ID personal 37 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:48,979 MarcajeSinAsistencia.resumen leerListas - ID personal 176 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:49,266 MarcajeSinAsistencia.resumen leerListas - ID personal 382 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:49,547 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:49,835 MarcajeSinAsistencia.resumen leerListas - ID personal 110 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:50,117 MarcajeSinAsistencia.resumen leerListas - ID personal 414 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:50,398 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2022-12-06 06:00 hFin 2022-12-06 15:00
+
+[INFO] 2022-12-07 00:04:50,679 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:50,967 MarcajeSinAsistencia.resumen leerListas - ID personal 436 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:51,254 MarcajeSinAsistencia.resumen leerListas - ID personal 36 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:51,541 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:51,823 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:52,110 MarcajeSinAsistencia.resumen leerListas - ID personal 72 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:52,398 MarcajeSinAsistencia.resumen leerListas - ID personal 68 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:52,679 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:52,966 MarcajeSinAsistencia.resumen leerListas - ID personal 851 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:53,254 MarcajeSinAsistencia.resumen leerListas - ID personal 851 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:53,542 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:53,830 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:54,117 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:54,404 MarcajeSinAsistencia.resumen leerListas - ID personal 67 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:54,686 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 8 hInicio 2022-12-06 19:00 hFin 2022-12-06 07:00
+
+[INFO] 2022-12-07 00:04:55,018 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:55,303 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:55,590 MarcajeSinAsistencia.resumen leerListas - ID personal 117 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:55,878 MarcajeSinAsistencia.resumen leerListas - ID personal 94 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:56,153 MarcajeSinAsistencia.resumen leerListas - ID personal 94 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:56,435 MarcajeSinAsistencia.resumen leerListas - ID personal 357 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:56,716 MarcajeSinAsistencia.resumen leerListas - ID personal 128 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:56,998 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2022-12-06 08:00 hFin 2022-12-06 16:00
+
+[INFO] 2022-12-07 00:04:57,280 MarcajeSinAsistencia.resumen leerListas - ID personal 146 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:57,590 MarcajeSinAsistencia.resumen leerListas - ID personal 146 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:57,872 MarcajeSinAsistencia.resumen leerListas - ID personal 467 Horario ID 8 hInicio 2022-12-06 19:00 hFin 2022-12-06 07:00
+
+[INFO] 2022-12-07 00:04:58,154 MarcajeSinAsistencia.resumen leerListas - ID personal 419 Horario ID 12 hInicio 2022-12-06 07:00 hFin 2022-12-06 12:00
+
+[INFO] 2022-12-07 00:04:58,494 MarcajeSinAsistencia.main main - --FIN DE PROCESO: --
+

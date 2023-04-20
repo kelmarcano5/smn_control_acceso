@@ -1,0 +1,30 @@
+select
+	smn_gip.smn_categoria_justificaciones.cju_nombre,
+	smn_gip.smn_documentos.dcm_usuario as dcm_nombre,
+	smn_control_acceso.smn_personal.psl_id_control_acceso,
+		smn_control_acceso.smn_solicitud_permisos.smn_solicitud_permisos_id,
+	smn_control_acceso.smn_solicitud_permisos.spe_estatus_rf as spe_estatus_rf_pl0,
+	smn_control_acceso.smn_permisos_soporte.smn_permisos_soporte_id,
+	smn_control_acceso.smn_permisos_soporte.pma_persona_ref,
+	smn_control_acceso.smn_permisos_soporte.pma_archivo,
+	smn_control_acceso.smn_permisos_soporte.pma_contenido,
+	smn_control_acceso.smn_permisos_soporte.pma_tamano,
+	smn_control_acceso.smn_permisos_soporte.pma_idioma,
+	smn_control_acceso.smn_permisos_soporte.pma_usuario,
+	smn_control_acceso.smn_permisos_soporte.pma_fecha_registro,
+	smn_control_acceso.smn_permisos_soporte.pma_hora
+	
+from
+	smn_control_acceso.smn_permisos_soporte
+	left outer join smn_control_acceso.smn_solicitud_permisos on smn_control_acceso.smn_solicitud_permisos.smn_solicitud_permisos_id = smn_control_acceso.smn_permisos_soporte.smn_solicitud_permisos_id
+	left outer join smn_gip.smn_categoria_justificaciones on smn_gip.smn_categoria_justificaciones.smn_categoria_justificaciones_id = smn_control_acceso.smn_solicitud_permisos.spe_categoria_justif_rf
+	left outer join smn_gip.smn_documentos on smn_gip.smn_documentos.smn_documentos_id = smn_control_acceso.smn_solicitud_permisos.spe_documento_rf
+	left outer join smn_control_acceso.smn_personal on smn_control_acceso.smn_personal.smn_personal_id = smn_control_acceso.smn_solicitud_permisos.smn_personal_id
+
+where
+	smn_permisos_soporte_id is not null
+		and 	smn_control_acceso.smn_solicitud_permisos.smn_solicitud_permisos_id=smn_control_acceso.smn_permisos_soporte.smn_solicitud_permisos_id
+	
+	${filter}
+order by
+		smn_permisos_soporte_id

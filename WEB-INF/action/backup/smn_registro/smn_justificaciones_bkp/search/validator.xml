@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/crud'>
+	<parameter id='jus_descripcion' type='varchar' required='false' label='${lbl:b_description}' maxlen='5000'/>
+	<parameter id='jus_fecha_incidencia' type='date' required='false' label='${lbl:b_incidence_date}' maxlen='10'/>
+	<parameter id='jus_hora_incidencia' type='varchar' required='false' label='${lbl:b_time_incident}' maxlen='5'/>
+	<parameter id='jus_tiempo_a_justificar' type='double' required='false' label='${lbl:b_time_to_justify}' maxlen='10'/>
+	<parameter id='jus_aprobado_por' type='varchar' required='false' label='${lbl:b_approved_by}' maxlen='60'/>
+	<parameter id='jus_archivo' type='varchar' required='false' label='${lbl:b_file}' maxlen='250'/>
+	<parameter id='jus_contenido' type='varchar' required='false' label='${lbl:b_content}' maxlen='100'/>
+	<parameter id='jus_tamano' type='integer' required='false' label='${lbl:b_size}' maxlen='10'/>
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="jus_descripcion" rule="like" />
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="jus_hora_incidencia" rule="like" />
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="jus_aprobado_por" rule="like" />
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="jus_archivo" rule="like" />
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="jus_contenido" rule="like" />
+</validator>

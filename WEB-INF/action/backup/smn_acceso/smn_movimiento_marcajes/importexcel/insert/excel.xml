@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='mrk_auxiliar_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='mrk_clase_auxiliar_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='mrk_control_acceso_id' type='varchar' required='true' maxlen='16'/>
+	<parameter id='mrk_empresa_desc_ref' type='varchar' required='true' maxlen='2'/>
+	<parameter id='mrk_sucursal_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='mrk_area_servicio_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='mrk_unidad_servicio_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='mrk_centro_costo_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='mrk_cargo_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='mrk_categoria_cargo_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='mrk_marcaje_id' type='varchar' required='true' maxlen='16'/>
+	<parameter id='mrk_dispositivo_codigo' type='varchar' required='true' maxlen='16'/>
+	<parameter id='mrk_marcaje_fecha' type='date' required='true' maxlen='10'/>
+	<parameter id='mrk_marcaje_hora' type='varchar' required='false' maxlen='5'/>
+	<parameter id='mrk_marcaje_dia' type='varchar' required='true' maxlen='2'/>
+	<parameter id='mrk_marcaje_tipo' type='varchar' required='true' maxlen='3'/>
+	<parameter id='mrk_tiempo_efectivo' type='double' required='false' maxlen='10'/>
+	<parameter id='mrk_turno' type='integer' required='true' maxlen='10'/>
+	<parameter id='mrk_consecutivo' type='varchar' required='true' maxlen='16'/>
+
+	<parameter id='mrk_auxiliar_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='mrk_clase_auxiliar_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='mrk_empresa_ref' type='integer' required='false' maxlen='2'/>
+	<parameter id='mrk_sucursal_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='mrk_area_servicio_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='mrk_unidad_servicio_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='mrk_centro_costo_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='mrk_cargo_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='mrk_categoria_cargo_ref' type='integer' required='false' maxlen='10'/>
+
+	<custom-validator
+		classname='dinamica.validators.DuplicatedKeyValidator'
+			on-error-label='${lbl:b_record_not_duplicated}.'
+			sql='buscarCodigo.sql'
+			id='mrk_dispositivo_codigo'/>
+
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_auxiliar' 
+		parameter='mrk_auxiliar_ref' 
+		sql='mrk_auxiliar.sql' 
+		id='mrk_auxiliar_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_clase_auxiliar' 
+		parameter='mrk_clase_auxiliar_ref' 
+		sql='mrk_clase_auxiliar.sql' 
+		id='mrk_clase_auxiliar_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_empresa' 
+		parameter='mrk_empresa_ref' 
+		sql='mrk_empresa.sql' 
+		id='mrk_empresa_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_sucursal' 
+		parameter='mrk_sucursal_ref' 
+		sql='mrk_sucursal.sql' 
+		id='mrk_sucursal_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_area_servicio' 
+		parameter='mrk_area_servicio_ref' 
+		sql='mrk_area_servicio.sql' 
+		id='mrk_area_servicio_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_unidad_servicio' 
+		parameter='mrk_unidad_servicio_ref' 
+		sql='mrk_unidad_servicio.sql' 
+		id='mrk_unidad_servicio_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_centro_costo' 
+		parameter='mrk_centro_costo_ref' 
+		sql='mrk_centro_costo.sql' 
+		id='mrk_centro_costo_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_cargo' 
+		parameter='mrk_cargo_ref' 
+		sql='mrk_cargo.sql' 
+		id='mrk_cargo_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: mrk_categoria_cargo' 
+		parameter='mrk_categoria_cargo_ref' 
+		sql='mrk_categoria_cargo.sql' 
+		id='mrk_categoria_cargo_ref'/>
+
+</validator>

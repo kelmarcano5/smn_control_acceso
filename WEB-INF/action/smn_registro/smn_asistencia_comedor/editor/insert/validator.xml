@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_asistencia_id' type='integer' required='false' label='${lbl:b_attendance}' maxlen='10'/>
+	<parameter id='smn_movimiento_marcaje_id' type='integer' required='false' label='${lbl:b_marking_movement}' maxlen='10'/>
+	<parameter id='smn_personal_id' type='integer' required='true' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='com_fecha_generada' type='date' required='true' label='${lbl:b_fecha_generada}' maxlen='10'/>
+	<parameter id='com_hora_generada' type='varchar' required='true' label='${lbl:b_hora_generada}' maxlen='8'/>
+	<parameter id='com_hora_marcaje' type='varchar' required='false' label='${lbl:b_hora_marcaje}' maxlen='8'/>
+	<parameter id='com_hora_entregada' type='varchar' required='false' label='${lbl:b_hora_entregada}' maxlen='8'/>
+	<parameter id='com_estatus' type='varchar' required='true' label='${lbl:b_estatus}' maxlen='2'/>
+
+
+</validator>

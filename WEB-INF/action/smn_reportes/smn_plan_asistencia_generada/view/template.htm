@@ -1,0 +1,46 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<!-- <col width='3%'/> -->
+	<col width="10%"/>
+	<col width="10%"/>
+<col width="10%"/>
+	<col width="10%"/>
+	<col width="10%"/>
+	<col width="10%"/>
+	<col width="10%"/>
+	<col width="10%"/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="8" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th class='sortable' onclick='sortBy("personal","query-base.sql")'>Personal</th>
+		<th class='sortable' onclick='sortBy("cedula","query-base.sql")'>Cedula</th>
+		<th class='sortable' onclick='sortBy("smn_estructura_organizacional_rf","query-base.sql")'>Departamento</th>
+		<th class='sortable' onclick='sortBy("auxiliar","query-base.sql")'>Auxiliar</th>
+		<th class='sortable' onclick='sortBy("smn_plan_asistencia_id","query-base.sql")'>Id Plan Asistencia</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_desde_cal","query-base.sql")'>Fecha Desde</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_hasta_cal","query-base.sql")'>Fecha Hasta</th>
+		<th class='sortable' onclick='sortBy("cpa_status","query-base.sql")'>Estatus</th>		
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td align="left">${fld:personal}</td>
+		<td align="left">${fld:cedula}</td>
+		<td align="left">${fld:smn_estructura_organizacional_rf}</td>
+		<td align="left">${fld:auxiliar}</td>
+		<td align="center">${fld:smn_plan_asistencia_id}</td>
+		<td align="center">${fld:cpa_fecha_desde_cal}</td>
+		<td align="center">${fld:cpa_fecha_hasta_cal}</td>
+		<td align="center">${fld:cpa_status}</td>	
+	</tr>
+	</rows>
+</table>

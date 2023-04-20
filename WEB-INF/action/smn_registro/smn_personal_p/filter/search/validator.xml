@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='psl_auxiliar_rf' type='integer' required='false' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='psl_empresa_rf' type='integer' required='false' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='psl_sucursal_rf' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='psl_area_servicio_rf' type='integer' required='false' label='${lbl:b_service_area}' maxlen='10'/>
+	<parameter id='psl_unidad_servicio_rf' type='integer' required='false' label='${lbl:b_service_unit}' maxlen='10'/>
+	<parameter id='psl_estructura_organizacional_rf' type='integer' required='false' label='${lbl:b_organizational_structure}' maxlen='10'/>
+	<parameter id='psl_cargo_rf' type='integer' required='false' label='${lbl:b_positions}' maxlen='10'/>
+	<parameter id='psl_id_control_acceso' type='varchar' required='false' label='${lbl:b_id_access_control}' maxlen='16'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='psl_id_control_acceso' rule='like' />
+	<parameter id='psl_fecha_registro_ini' type='date' required='false' label='${lbl:b_store_date_grater_than}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_store_date_grater_than} mayor o igual que] no puede ser mayor que [${lbl:b_store_date_less_than} menor o igual que].' date1='psl_fecha_registro_ini' date2='psl_fecha_registro_fin' id='psl_fecha_registro_ini' />
+	<parameter id='psl_fecha_registro_fin' type='date' required='false' label='${lbl:b_store_date_less_than}' maxlen='10'/>
+</validator>

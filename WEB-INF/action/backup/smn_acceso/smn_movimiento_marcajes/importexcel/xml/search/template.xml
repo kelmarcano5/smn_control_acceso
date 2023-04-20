@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_movimiento_marcajes>
+	<detail>
+		<rows>		
+		<record mrk_fecha_registro="${fld:mrk_fecha_registro}"    mrk_consecutivo="${fld:mrk_consecutivo}"    mrk_turno="${fld:mrk_turno}"    mrk_tiempo_efectivo="${fld:mrk_tiempo_efectivo}"    mrk_marcaje_tipo="${fld:mrk_marcaje_tipo}"    mrk_marcaje_dia="${fld:mrk_marcaje_dia}"    mrk_marcaje_fecha="${fld:mrk_marcaje_fecha}"    mrk_dispositivo_codigo="${fld:mrk_dispositivo_codigo}"    mrk_marcaje_id="${fld:mrk_marcaje_id}"    mrk_categoria_cargo="${fld:mrk_categoria_cargo}"    mrk_cargo="${fld:mrk_cargo}"    mrk_centro_costo="${fld:mrk_centro_costo}"    mrk_unidad_servicio="${fld:mrk_unidad_servicio}"    mrk_area_servicio="${fld:mrk_area_servicio}"    mrk_sucursal="${fld:mrk_sucursal}"    mrk_empresa="${fld:mrk_empresa}"    mrk_control_acceso_id="${fld:mrk_control_acceso_id}"    mrk_clase_auxiliar="${fld:mrk_clase_auxiliar}"    mrk_auxiliar="${fld:mrk_auxiliar}"    />
+		</rows>
+	</detail>
+</smn_movimiento_marcajes>

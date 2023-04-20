@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='trn_sede' type='varchar' required='false' label='${lbl:b_subsidiary} ' maxlen='48'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='trn_sede' rule='contains' />
+	<parameter id='trn_identificacion' type='varchar' required='false' label='${lbl:b_indentification} ' maxlen='16'/>
+	<parameter id='trn_fecha_transaccion_ini' type='date' required='false' label='${lbl:b_transaction_date_grater_than}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_transaction_date_grater_than} mayor o igual que] no puede ser mayor que [${lbl:b_transaction_date_less_than} menor o igual que].' date1='trn_fecha_transaccion_ini' date2='trn_fecha_transaccion_fin' id='trn_fecha_transaccion_ini' />
+	<parameter id='trn_fecha_transaccion_fin' type='date' required='false' label='${lbl:b_transaction_date_less_than}' maxlen='10'/>
+	<parameter id='trn_hora_transaccion_ini' type='varchar' required='false' label='${lbl:b_transaction_time_grater_than}' maxlen='5'/>
+	<parameter id='trn_hora_transaccion_fin' type='varchar' required='false' label='${lbl:b_transaction_time_less_than}' maxlen='5'/>
+	<parameter id='trn_fecha_registro_ini' type='date' required='false' label='${lbl:b_store_date_grater_than}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_store_date_grater_than} mayor o igual que] no puede ser mayor que [${lbl:b_store_date_less_than} menor o igual que].' date1='trn_fecha_registro_ini' date2='trn_fecha_registro_fin' id='trn_fecha_registro_ini' />
+	<parameter id='trn_fecha_registro_fin' type='date' required='false' label='${lbl:b_store_date_less_than}' maxlen='10'/>
+</validator>

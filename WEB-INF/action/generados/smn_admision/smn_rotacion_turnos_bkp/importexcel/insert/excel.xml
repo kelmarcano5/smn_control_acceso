@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='rot_turno' type='varchar' required='true' maxlen='16'/>
+	<parameter id='rot_consecutivo' type='varchar' required='true' maxlen='48'/>
+	<parameter id='rot_dia' type='varchar' required='true' maxlen='2'/>
+	<parameter id='rot_horario' type='varchar' required='true' maxlen='5'/>
+</validator>

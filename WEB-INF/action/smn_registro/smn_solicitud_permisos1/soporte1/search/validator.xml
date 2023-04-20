@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/crud'>
+	<parameter id='pma_archivo' type='varchar' required='false' label='${lbl:b_file}' maxlen='250'/>
+	<parameter id='pma_contenido' type='varchar' required='false' label='${lbl:b_content}' maxlen='100'/>
+	<parameter id='pma_tamano' type='integer' required='false' label='${lbl:b_size}' maxlen='10'/>
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="pma_archivo" rule="like" />
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="pma_contenido" rule="like" />
+</validator>

@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="viewchart.filter" source="session" scope="transaction" />
+		<recordset id="query-detail.sql" source="session" scope="transaction" />
+		<recordset id="item.sql" source="session" scope="transaction" />
+		<recordset id="total-detail" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+
+	<pdf-title>${lbl:b_transactions_denormalize}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+	
+	<pdf-report pageSize="letter" rotate="false">
+		<record recordset='item.sql' title='Detalle' width='40' spacingBefore='20'>
+			<col name='descripcion' title='Estatus'  align='center' />
+		</record>
+		<table recordset='query-detail.sql' width='60' spacingBefore='10' >
+			<col name='trd_sede' title='Sede' width='20' align='left' />
+			<col name='trd_dispositivo' title='N° Dispositivo' width='20' align='center' />
+			<col name='trd_identificacion' title='ID Usuario' width='20' align='left' />
+			<col name='trd_tiempo_efectivo_total' title='Tiempo Efectivo' width='20' align='right' format='#,###,##0.00'/>
+			<col name='status' title='Estatus' width='20' align='left' />
+		</table>
+		<after-table-row recordset='total-detail'>
+				<col value='TOTAL' align='right' colspan='4'/>
+				<col name='trd_tiempo_efectivo_total' format='#,###,##0.00' align='right'/>
+		</after-table-row>
+
+	</pdf-report>
+
+</config>

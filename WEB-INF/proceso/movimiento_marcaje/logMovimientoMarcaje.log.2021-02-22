@@ -1,0 +1,25 @@
+[INFO] 2021-02-22 11:16:26,901 movimientoMarcaje.mainMovMarcaje main - --INICIO DE PROCESO: --
+[ERROR] 2021-02-22 11:17:00,033 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202810 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:17:00,956 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 203554 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:17:04,649 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202803 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:17:05,656 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 203601 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:17:19,731 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 203605 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:17:30,237 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202746 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:17:45,502 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202818 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:18:13,482 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202477 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:20:54,466 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202528 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:07,221 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202800 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:10,148 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202787 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:20,455 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202526 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:21,440 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202801 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:22,235 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 203549 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:26,618 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 203572 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:28,910 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 203586 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:31,104 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202832 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[ERROR] 2021-02-22 11:21:32,685 movimientoMarcaje.movimientoMarcaje generarMovimiento - _ No se ha podido Modificar Registro en Comedor 202535 ) en la tabla 'smn_control_acceso.smn_asistencia_comedor'	 Error: NO executeUpdate()
+[INFO] 2021-02-22 11:22:28,879 movimientoMarcaje.mainMovMarcaje main - Cantidad de Transacciones leidas : 2124
+[INFO] 2021-02-22 11:22:28,879 movimientoMarcaje.mainMovMarcaje main - Cantidad de Transacciones Procesadas : 1906
+[INFO] 2021-02-22 11:22:28,883 movimientoMarcaje.mainMovMarcaje main - Cantidad de Transacciones NO Procesadas : 218
+[INFO] 2021-02-22 11:22:28,883 movimientoMarcaje.mainMovMarcaje main - Cantidad de Personal sin psl_estructura_organizacional_rf :218
+[INFO] 2021-02-22 11:22:28,883 movimientoMarcaje.mainMovMarcaje main - --FIN DE PROCESO: --
+

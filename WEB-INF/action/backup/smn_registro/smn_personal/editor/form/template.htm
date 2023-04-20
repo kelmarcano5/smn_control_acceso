@@ -1,0 +1,682 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="${def:context}/dinamica.css" />
+	
+	<!--biblioteca generica JS/Dinamica-->
+	<script type="text/javascript" src="${def:context}/action/script">
+	</script>
+
+</head>
+
+<body>
+
+<!--banner-->
+<div class="bannerDialog">
+	${lbl:b_personal}
+	<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog(); parent.search();" title="${lbl:b_close_button}" style="float:right; cursor:pointer;">
+	${req:progress}
+</div>
+
+<!--formulario addnew/edit-->
+<form name="form1" onsubmit="return save()" style="width:500px;">
+
+	<!-- titulo -->
+	<h1 id="formTitle">${lbl:b_add_record}</h1>
+
+	<table>
+
+	<!--ancho de la columna de etiquetas-->
+	<col width="30%">
+
+	<!--campos-->
+	<tr>
+		<td>${lbl:b_number_of_control}*</td>
+		<td>
+			<input id="psl_num_control" name="psl_num_control" type="text" maxlength="16" >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_group}*</td>
+		<td>
+			<select name="psl_grupo" id="psl_grupo" onchange="chgCombo(psl_grupo.options[psl_grupo.selectedIndex].text,'psl_grupo_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_grupo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_grupo_rows>
+			</select> 
+			<input id="psl_grupo_name" name="psl_grupo_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="grupo()" title="${lbl:b_service_area}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_start_date}*</td>
+		<td>
+			<input id="psl_grupo_fecha_inicio" name="psl_grupo_fecha_inicio" type="text" class="date" maxlength="10">
+			<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('psl_grupo_fecha_inicio')">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_auxiliary_class}*</td>
+		<td>
+			<select name="psl_clase_auxiliar" id="psl_clase_auxiliar" onchange="chgCombo0(psl_clase_auxiliar.options[psl_clase_auxiliar.selectedIndex].text,'psl_clase_auxiliar_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_clase_auxiliar_rows>
+				<option value="${fld:id}">${fld:item}</option>
+				</psl_clase_auxiliar_rows>
+			</select> 
+			<input id="psl_clase_auxiliar_name" name="psl_clase_auxiliar_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="claseauxiliar()" title="${lbl:b_auxiliary_class}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_auxiliary}*</td>
+		<td>
+			<select name="psl_auxiliar" id="psl_auxiliar" onchange="chgCombo(psl_auxiliar.options[psl_auxiliar.selectedIndex].text,'psl_auxiliar_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_auxiliar_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_auxiliar_rows>
+			</select> 
+			<input id="psl_auxiliar_name" name="psl_auxiliar_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="auxiliar()" title="${lbl:b_auxiliary}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_entity}</td>
+		<td>
+			<select name="psl_empresa" id="psl_empresa" onchange="chgCombo1(psl_empresa.options[psl_empresa.selectedIndex].text,'psl_empresa_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_empresa_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_empresa_rows>
+			</select> 
+			<input id="psl_empresa_name" name="psl_empresa_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="empresa()" title="${lbl:b_entity}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_subsidiary}</td>
+		<td>
+			<select name="psl_sucursal" id="psl_sucursal" onchange="chgCombo2(psl_sucursal.options[psl_sucursal.selectedIndex].text,'psl_sucursal_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_sucursal_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_sucursal_rows>
+			</select> 
+			<input id="psl_sucursal_name" name="psl_sucursal_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="sucursal()" title="${lbl:b_subsidiary}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_service_area}</td>
+		<td>
+			<select name="psl_area_servicio" id="psl_area_servicio" onchange="chgCombo3(psl_area_servicio.options[psl_area_servicio.selectedIndex].text,'psl_area_servicio_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_area_servicio_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_area_servicio_rows>
+			</select> 
+			<input id="psl_area_servicio_name" name="psl_area_servicio_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="areaservicio()" title="${lbl:b_service_area}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_service_unit}</td>
+		<td>
+			<select name="psl_unidad_servicio" id="psl_unidad_servicio" onchange="chgCombo4(psl_unidad_servicio.options[psl_unidad_servicio.selectedIndex].text,'psl_unidad_servicio_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_unidad_servicio_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_unidad_servicio_rows>
+			</select> 
+			<input id="psl_unidad_servicio_name" name="psl_unidad_servicio_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="unidadservicio()" title="${lbl:b_service_unit}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_cost_centers}</td>
+		<td>
+			<select name="psl_centro_costo" id="psl_centro_costo" onchange="chgCombo(psl_centro_costo.options[psl_centro_costo.selectedIndex].text,'psl_centro_costo_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_centro_costo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_centro_costo_rows>
+			</select> 
+			<input id="psl_centro_costo_name" name="psl_centro_costo_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="centrocostos()" title="${lbl:b_cost_centers}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_organizational_structure}</td>
+		<td>
+			<select name="psl_estructura_organiz" id="psl_estructura_organiz" onchange="chgCombo(psl_estructura_organiz.options[psl_estructura_organiz.selectedIndex].text,'psl_estructura_organiz_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_estructura_organiz_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_estructura_organiz_rows>
+			</select> 
+			<input id="psl_estructura_organiz_name" name="psl_estructura_organiz_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="posicionorganizacion()" title="${lbl:b_organizational_structure}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_position_category}</td>
+		<td>
+			<select name="psl_categoria_cargo" id="psl_categoria_cargo" onchange="chgCombo5(psl_categoria_cargo.options[psl_categoria_cargo.selectedIndex].text,'psl_categoria_cargo_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_categoria_cargo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_categoria_cargo_rows>
+			</select> 
+			<input id="psl_categoria_cargo_name" name="psl_categoria_cargo_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="categoriacargos()" title="${lbl:b_position_category}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_positions}</td>
+		<td>
+			<select name="psl_cargo" id="psl_cargo" onchange="chgCombo(psl_cargo.options[psl_cargo.selectedIndex].text,'psl_cargo_name');">
+				<option value="">[${lbl:b_choose}]</option>
+				<psl_cargo_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</psl_cargo_rows>
+			</select> 
+			<input id="psl_cargo_name" name="psl_cargo_name" type="hidden">
+		</td>
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="cargos()" title="${lbl:b_positions}" >
+		</td>
+		<td>&nbsp;&nbsp;</td>
+	</tr>
+		<tr>
+			<td>${lbl:b_enables_access_control}*</td>
+			<td>
+				<select name="psl_habilita_acceso" id="psl_habilita_acceso">
+				<option value="S">${lbl:b_yes}</option>
+				<option value="N">${lbl:b_not}</option>
+
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_id_access_control}</td>
+			<td>
+				<input id="psl_id_control_acceso" name="psl_id_control_acceso" type="text" maxlength="16" >
+			</td>
+		</tr>
+
+
+	</table>
+
+	<!--botones-->
+	<input id="grabar" type="submit" value="${lbl:b_save_button}" class="button">
+	<input id="limpiar" type="button" value="${lbl:b_clean_button}" onclick="addNew()" class="button">	
+	<input id="copiar" type="button" value="${lbl:b_copy_button}" onclick="getFormValuesToCopy('form1')" class="button">
+	<input id="pegar" type="button" value="${lbl:b_paste_button}" onclick="getFormValuesToPaste('form1')" class="button">
+	<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog(); parent.search();" class="button">	
+	
+	<!-- PK-->
+<input type="hidden" name="id" value="">
+
+</form>
+
+<!--codigo de soporte del template-->
+<script type="text/javascript">
+
+	onload = function()
+	{ 
+		addNew();
+		
+		//Disabled all combo linked
+		document.form1.psl_auxiliar.disabled = true;
+		
+		document.form1.psl_sucursal.disabled = true;
+		document.form1.psl_area_servicio.disabled = true;
+		document.form1.psl_unidad_servicio.disabled = true;
+		document.form1.psl_centro_costo.disabled = true;
+
+		document.form1.psl_cargo.disabled = true;
+
+		if (id!="")
+			edit(id);
+	} 
+	
+	//Author     : SIMONE
+	//Description: Set first element as selected value
+	//Return     : None
+	function setElementFirstIndex(id)
+	{
+		var combo = document.getElementById(id);
+		combo.selectedIndex = 0;
+	}
+
+	//Author     : SIMONE
+	//Description: Insert new value into combo box
+	//Return     : None
+	function insertComboBox(code, combo, description) {
+		var valueText = code;
+		if (description != null)
+		{
+			valueText = valueText + ' - ' + description;
+		}
+		//alert("Insert Combo: "+valueText);
+        combo.options[combo.options.length] = new Option(valueText);
+	}
+	
+	//Author     : SIMONE
+	//Description: Add new value to combo box
+	//Return     : None
+	function addValueToCombo(code, description, field) 
+	{
+	    var combo = document.getElementById(field);	    
+	    insertComboBox(code, combo, description);
+	}
+	
+	//Author     : SIMONE
+	//Description: Set selected index into combo box
+	//Return     : None
+	function setSelectedIndex(code, combo, description) 
+	{
+	    for (var i = 0; i < combo.options.length; i++) 
+	    {
+			var valueText = code;
+			if (description != null)
+			{
+				valueText = valueText + ' - ' + description;
+			}
+	        if (combo.options[i].text == valueText) 
+	        {
+	        	combo.options[i].selected = true;
+	            return;
+	        }
+	    }
+	}
+	
+	//Author     : SIMONE
+	//Description: Get text valueof selected index
+	//Return     : Text associated to index
+	function getSelectedIndex(combo) 
+	{
+	    for (var i = 0; i < combo.options.length; i++) 
+	    {
+	        if (combo.options[i].selected == true) 
+	        {
+	            return combo.options[i].text;
+	        }
+	    }
+	}
+	function getIDSelectedIndex(combo) 
+	{
+	    for (var i = 0; i < combo.options.length; i++) 
+	    {
+	        if (combo.options[i].selected == true) 
+	        {
+	            return combo.options[i].value;
+	        }
+	    }
+	}
+	
+	var bdID;
+	function setID(id)
+	{
+		bdID = id;
+	}
+
+	//Author     : SIMONE
+	//Description: Set value to combo box
+	//Parameters : code - it is code associated into each database table 
+	//             descripcion - it is description associated into each database table 
+	//             field - name combo field
+	//             id - identifier retrieved after transaction
+	//             linked - flag indicates 'true' when combos are linked and 'false' otherwise
+	//Return     : None
+	function setValueComboBox(code, description, field, linked)
+	{
+		//add value text to combo
+		addValueToCombo(code,description,field);
+
+		//get select object 
+		var combo = document.getElementById(field);
+		
+		//set element selected to field referenced
+		setSelectedIndex(code,combo, description);
+		
+		//set text value to combo field
+		var valueText = getSelectedIndex(combo);		
+		
+		//get hidden field in order to set any value
+		var combo = document.getElementById(field+'_name');
+		
+		//alert("Text: "+valueText+" - bdID: "+bdID);
+		
+		combo.text  = valueText;
+		combo.value = bdID;
+		
+		//enable linked fields
+		if (linked)
+		{
+			if (field == 'psl_clase_auxiliar')
+			{
+				document.form1.psl_auxiliar.disabled = false;
+			}
+			
+			if (field == 'psl_categoria_cargo')
+			{
+				document.form1.psl_cargo.disabled = false;
+			}
+			
+			
+			if (field == 'psl_empresa')
+			{
+				document.form1.psl_sucursal.disabled = false;
+			}
+			if (field == 'psl_sucursal')
+			{
+				document.form1.psl_area_servicio.disabled = false;
+			}
+			if (field == 'psl_area_servicio')
+			{
+				document.form1.psl_unidad_servicio.disabled = false;
+			}
+			if (field == 'psl_unidad_servicio')
+			{
+				document.form1.psl_centro_costo.disabled = false;
+			}
+			
+			if (field == 'psl_categoria_cargo')
+			{
+				document.form1.psl_categoria_cargo.disabled = false;
+			}
+			
+			if (field == 'psl_cargo')
+			{
+				document.form1.psl_cargo.disabled = false;
+			}
+		}
+	}
+	
+	function chgCombo(text,id)
+	{
+		document.getElementById(id).value = text;
+	}
+	
+	//Assign all values associated to before combo (only apply when combo are linked) 
+	var geo_id0 = null;	
+	function chgCombo0(text,id)
+	{		
+		document.form1.psl_auxiliar.disabled=false;
+		
+		var combo = document.getElementById('psl_clase_auxiliar');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id0 = valueCombo.split("-").pop().trim();
+		
+		//alert(geo_id0)
+				
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+							httpMethod="GET", 
+							uri="${def:actionroot}/getauxiliary?id=" + geo_id0, 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=setElementFirstIndex('psl_auxiliar'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);				
+		}
+	}
+	
+	//Assign all values associated to before combo (only apply when combo are linked) 
+	var geo_id1 = null;
+	function chgCombo1(text,id)
+	{				
+		document.form1.psl_sucursal.disabled=false;
+		document.form1.psl_area_servicio.disabled=false;
+		document.form1.psl_unidad_servicio.disabled=false;
+		document.form1.psl_centro_costo.disabled=false;
+		
+		var combo = document.getElementById('psl_empresa');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id1 = valueCombo.split("-").pop().trim();
+		
+		//alert(geo_id1)
+		
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+					httpMethod="GET", 
+					uri="${def:actionroot}/getsubsidiaries?id=" + geo_id1,  
+					divResponse=null, 
+					divProgress="status", 
+					formName="form1", 
+					afterResponseFn=setElementFirstIndex('psl_sucursal'), //function 'setElementFirstIndex' select first element of combo list
+					onErrorFn=null);			
+			
+		}
+	}
+	
+	//Assign all values associated to before combo (only apply when combo are linked) 
+	var geo_id2 = null;
+	function chgCombo2(text,id)
+	{				
+		var combo = document.getElementById('psl_sucursal');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id2 = valueCombo.split("-").pop().trim();
+		
+		//alert(geo_id1 + ' - ' + geo_id2)
+		
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+					httpMethod="GET", 
+					uri="${def:actionroot}/getservicearea?id=" + geo_id1 + "&" + "id2=" + geo_id2,  
+					divResponse=null, 
+					divProgress="status", 
+					formName="form1", 
+					afterResponseFn=setElementFirstIndex('psl_area_servicio'), //function 'setElementFirstIndex' select first element of combo list
+					onErrorFn=null);			
+			
+		}
+	}
+	
+	//Assign all values associated to before combo (only apply when combo are linked) 
+	var geo_id3 = null;
+	function chgCombo3(text,id)
+	{				
+		var combo = document.getElementById('psl_area_servicio');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id3 = valueCombo.split("-").pop().trim();
+		
+		//alert(geo_id1 + ' - ' + geo_id2 + ' - ' + geo_id3)
+		
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+					httpMethod="GET", 
+					uri="${def:actionroot}/getserviceunit?id=" + geo_id1 + "&" + "id2=" + geo_id2  + "&" + "id3=" + geo_id3,  
+					divResponse=null, 
+					divProgress="status", 
+					formName="form1", 
+					afterResponseFn=setElementFirstIndex('psl_unidad_servicio'), //function 'setElementFirstIndex' select first element of combo list
+					onErrorFn=null);			
+			
+		}
+	}
+	
+	//Assign all values associated to before combo (only apply when combo are linked) 
+	var geo_id4 = null;
+	function chgCombo4(text,id)
+	{				
+		var combo = document.getElementById('psl_unidad_servicio');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id4 = valueCombo.split("-").pop().trim();
+		
+		//alert(geo_id1 + ' - ' + geo_id2 + ' - ' + geo_id3 + ' - ' + geo_id4)
+		
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+					httpMethod="GET", 
+					uri="${def:actionroot}/getcostcenters?id=" + geo_id1 + "&" + "id2=" + geo_id2 + "&" + "id3=" + geo_id3 + "&" + "id4=" + geo_id4,  
+					divResponse=null, 
+					divProgress="status", 
+					formName="form1", 
+					afterResponseFn=setElementFirstIndex('psl_centro_costo'), //function 'setElementFirstIndex' select first element of combo list
+					onErrorFn=null);			
+			
+		}
+	}
+	
+	//Assign all values associated to before combo (only apply when combo are linked) 
+	var geo_id5 = null;	
+	function chgCombo5(text,id)
+	{		
+		document.form1.psl_cargo.disabled=false;
+		
+		var combo = document.getElementById('smn_categoria_cargos');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id5 = valueCombo.split("-").pop().trim();
+		
+		//alert(geo_id5)
+				
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+							httpMethod="GET", 
+							uri="${def:actionroot}/getjobtitle?id=" + geo_id5, 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=setElementFirstIndex('psl_cargo'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);				
+		}
+	}
+	
+	//configurar formulario para ingresar registro nuevo
+	function addNew()
+	{
+		document.getElementById("formTitle").innerHTML = "${lbl:b_add_record}";
+		document.getElementById("grabar").disabled=false;
+		clearForm("form1");
+		setFocusOnForm("form1");
+	}
+	
+	//retorna al estado previo que corresponde
+	//al estado actual de la pagina, cada llamada Ajax
+	//se encarga de definir cual es la funcion de goBack() que aplica
+	function goBack() 
+	{
+		_goBackFn()			
+	}
+	
+	//mostrar la actualizacion de un registro
+	function insert()
+	{		
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/insert", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+	
+	//restaurar el formulario en caso de error
+	function retryAddnewOrEdit() {
+		document.getElementById("grabar").disabled=false;
+		setFocusOnForm("form1");		
+	}
+	
+	var id = "${fld:id}"
+	
+	//grabar el formulario
+	function save()
+	{
+		//determina si es un insert o un update
+		if (document.form1.id.value=="")
+			return insert();
+		else
+			return update();
+	}
+	
+	//editar registro en formulario
+	function edit(id)
+	{
+			clearErrorMessages();
+
+			//llamada Ajax...
+			ajaxCall(httpMethod="GET", 
+							uri="${def:actionroot}/edit?id=" + id , 
+							divResponse=null, 
+							divProgress="status", 
+							formName=null, 
+							afterResponseFn=null, 
+							onErrorFn=null);	
+	}
+	
+	//actualizar registro en BD
+	function update()
+	{		
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/update", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+
+	
+</script>	
+</body>
+</html>

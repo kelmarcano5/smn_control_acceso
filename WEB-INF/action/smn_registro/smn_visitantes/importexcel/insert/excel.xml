@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='smn_entidad_rf' type='integer' required='true' maxlen='10'/>
+	<parameter id='smn_sucursal_rf' type='integer' required='true' maxlen='10'/>
+	<parameter id='smn_estructura_organizativa_rf' type='integer' required='true' maxlen='10'/>
+	<parameter id='smn_tipo_documento_identidad_rf' type='integer' required='true' maxlen='10'/>
+	<parameter id='vis_documento_identidad' type='integer' required='true' maxlen='10'/>
+	<parameter id='vis_nombre' type='varchar' required='true' maxlen='48'/>
+	<parameter id='vis_apellido' type='varchar' required='true' maxlen='48'/>
+	<parameter id='vis_empresa' type='varchar' required='false' maxlen='60'/>
+	<parameter id='smn_numero_carnet_asignado_id' type='integer' required='false' maxlen='10'/>
+	<parameter id='vis_hora_entrada' type='double' required='false' maxlen='10'/>
+	<parameter id='vis_hora_estimada_salida' type='double' required='false' maxlen='10'/>
+	<parameter id='vis_invitado_almuerzo' type='varchar' required='true' maxlen='2'/>
+	<parameter id='vis_estatus' type='varchar' required='true' maxlen='2'/>
+	<parameter id='smn_personal_id' type='integer' required='false' maxlen='10'/>
+	<parameter id='vis_fecha_vigencia' type='date' required='true' maxlen='10'/>
+
+
+	<custom-validator
+		classname='dinamica.validators.DuplicatedKeyValidator'
+			on-error-label='${lbl:b_record_not_duplicated}.'
+			sql='buscarNombre.sql'
+			id='vis_nombre'/>
+
+
+</validator>

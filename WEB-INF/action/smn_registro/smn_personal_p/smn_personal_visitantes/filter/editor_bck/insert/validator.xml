@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_personal_id' type='integer' required='true' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='smn_entidad_rf' type='integer' required='true' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='smn_sucursal_rf' type='integer' required='true' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='smn_estructura_organizacional_rf' type='integer' required='true' label='${lbl:b_departamento}' maxlen='10'/>
+	<parameter id='smn_cedula_rf' type='integer' required='true' label='${lbl:b_cedula}' maxlen='10'/>
+	<parameter id='rpv_fecha_evento' type='date' required='true' label='${lbl:b_event_date}' maxlen='10'/>
+	<parameter id='rpv_razon_visita' type='varchar' required='true' label='${lbl:b_razon_visita}' maxlen='200'/>
+	<parameter id='rpv_autorizado_almorzar' type='varchar' required='true' label='${lbl:b_lunch_authorizer}' maxlen='2'/>
+	<parameter id='rpv_autorizador' type='integer' required='false' label='${lbl:b_autorizador}' maxlen='10'/>
+	<parameter id='rpv_estatus' type='varchar' required='true' label='${lbl:b_status}' maxlen='2'/>
+	<parameter id='rpv_fecha_registro' type='date' required='true' label='${lbl:b_store_date}' maxlen='10'/>
+
+
+</validator>

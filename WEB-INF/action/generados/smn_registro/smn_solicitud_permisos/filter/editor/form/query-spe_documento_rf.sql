@@ -1,0 +1,1 @@
+select smn_gip.smn_documentos.smn_documentos_id as id, smn_gip.smn_documentos.dcm_codigo|| " - " || smn_gip.smn_documentos.dcm_nombre as item from smn_gip.smn_documentos order by smn_gip.smn_documentos.dcm_nombre

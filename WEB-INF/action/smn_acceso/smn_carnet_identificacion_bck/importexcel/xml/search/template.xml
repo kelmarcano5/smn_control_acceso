@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_carnet_identificacion>
+	<detail>
+		<rows>		
+		<record cid_fecha_registro="${fld:cid_fecha_registro}"    cid_fecha_vigente="${fld:cid_fecha_vigente}"    cid_estatus="${fld:cid_estatus}"    cid_descripcion="${fld:cid_descripcion}"    cid_codigo="${fld:cid_codigo}"    />
+		</rows>
+	</detail>
+</smn_carnet_identificacion>

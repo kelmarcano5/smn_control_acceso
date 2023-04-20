@@ -1,0 +1,834 @@
+[INFO] 2022-09-13 00:18:44,500 MarcajeSinAsistencia.main main - --INICIO DE PROCESO: --
+[INFO] 2022-09-13 00:18:59,508 MarcajeSinAsistencia.main main - Cantida de Asistencias programadas =222718
+[INFO] 2022-09-13 00:18:59,508 MarcajeSinAsistencia.main main - Cantida de Movimientos de marcaje =414
+[INFO] 2022-09-13 00:18:59,508 MarcajeSinAsistencia.main main - Cantida de PERSONAL asignados a las Asistencias programadas =228
+[INFO] 2022-09-13 00:19:00,000 MarcajeSinAsistencia.resumen leerListas - ID personal 781 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:00,283 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 8 hInicio 2022-09-11 19:00 hFin 2022-09-11 07:00
+
+[INFO] 2022-09-13 00:19:00,537 MarcajeSinAsistencia.resumen leerListas - ID personal 784 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:00,794 MarcajeSinAsistencia.resumen leerListas - ID personal 717 Horario ID 22 hInicio 2022-09-11 07:00 hFin 2022-09-11 07:01
+
+[INFO] 2022-09-13 00:19:01,069 MarcajeSinAsistencia.resumen leerListas - ID personal 782 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:01,333 MarcajeSinAsistencia.resumen leerListas - ID personal 782 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:01,597 MarcajeSinAsistencia.resumen leerListas - ID personal 791 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:01,878 MarcajeSinAsistencia.resumen leerListas - ID personal 791 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:02,153 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:02,416 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:02,686 MarcajeSinAsistencia.resumen leerListas - ID personal 700 Horario ID 20 hInicio 2022-09-11 06:00 hFin 2022-09-11 05:59
+
+[INFO] 2022-09-13 00:19:02,949 MarcajeSinAsistencia.resumen leerListas - ID personal 700 Horario ID 20 hInicio 2022-09-11 06:00 hFin 2022-09-11 05:59
+
+[INFO] 2022-09-13 00:19:03,213 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:03,477 MarcajeSinAsistencia.resumen leerListas - ID personal 691 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:03,752 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:04,015 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 1 hInicio 2022-09-11 08:00 hFin 2022-09-11 17:00
+
+[INFO] 2022-09-13 00:19:04,291 MarcajeSinAsistencia.resumen leerListas - ID personal 467 Horario ID 8 hInicio 2022-09-11 19:00 hFin 2022-09-11 07:00
+
+[INFO] 2022-09-13 00:19:04,554 MarcajeSinAsistencia.resumen leerListas - ID personal 692 Horario ID 8 hInicio 2022-09-11 19:00 hFin 2022-09-11 07:00
+
+[INFO] 2022-09-13 00:19:04,818 MarcajeSinAsistencia.resumen leerListas - ID personal 385 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:05,087 MarcajeSinAsistencia.resumen leerListas - ID personal 839 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:05,351 MarcajeSinAsistencia.resumen leerListas - ID personal 183 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:05,614 MarcajeSinAsistencia.resumen leerListas - ID personal 389 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:05,884 MarcajeSinAsistencia.resumen leerListas - ID personal 781 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:06,153 MarcajeSinAsistencia.resumen leerListas - ID personal 5 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:06,410 MarcajeSinAsistencia.resumen leerListas - ID personal 847 Horario ID 22 hInicio 2022-09-12 07:00 hFin 2022-09-12 07:01
+
+[INFO] 2022-09-13 00:19:06,682 MarcajeSinAsistencia.resumen leerListas - ID personal 847 Horario ID 22 hInicio 2022-09-12 07:00 hFin 2022-09-12 07:01
+
+[INFO] 2022-09-13 00:19:06,956 MarcajeSinAsistencia.resumen leerListas - ID personal 421 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:07,223 MarcajeSinAsistencia.resumen leerListas - ID personal 369 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:07,489 MarcajeSinAsistencia.resumen leerListas - ID personal 340 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:07,752 MarcajeSinAsistencia.resumen leerListas - ID personal 800 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:08,019 MarcajeSinAsistencia.resumen leerListas - ID personal 800 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:08,309 MarcajeSinAsistencia.resumen leerListas - ID personal 382 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:08,579 MarcajeSinAsistencia.resumen leerListas - ID personal 643 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:08,854 MarcajeSinAsistencia.resumen leerListas - ID personal 417 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:09,471 MarcajeSinAsistencia.resumen leerListas - ID personal 381 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:09,729 MarcajeSinAsistencia.resumen leerListas - ID personal 842 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:09,992 MarcajeSinAsistencia.resumen leerListas - ID personal 274 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:10,261 MarcajeSinAsistencia.resumen leerListas - ID personal 845 Horario ID 22 hInicio 2022-09-12 07:00 hFin 2022-09-12 07:01
+
+[INFO] 2022-09-13 00:19:10,519 MarcajeSinAsistencia.resumen leerListas - ID personal 789 Horario ID 22 hInicio 2022-09-12 07:00 hFin 2022-09-12 07:01
+
+[INFO] 2022-09-13 00:19:10,783 MarcajeSinAsistencia.resumen leerListas - ID personal 94 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:11,046 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:11,315 MarcajeSinAsistencia.resumen leerListas - ID personal 148 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:11,585 MarcajeSinAsistencia.resumen leerListas - ID personal 233 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:11,855 MarcajeSinAsistencia.resumen leerListas - ID personal 278 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:12,124 MarcajeSinAsistencia.resumen leerListas - ID personal 396 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:12,393 MarcajeSinAsistencia.resumen leerListas - ID personal 137 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:12,663 MarcajeSinAsistencia.resumen leerListas - ID personal 81 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:12,926 MarcajeSinAsistencia.resumen leerListas - ID personal 729 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:13,209 MarcajeSinAsistencia.resumen leerListas - ID personal 635 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:13,477 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:13,740 MarcajeSinAsistencia.resumen leerListas - ID personal 194 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:14,004 MarcajeSinAsistencia.resumen leerListas - ID personal 176 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:14,267 MarcajeSinAsistencia.resumen leerListas - ID personal 304 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:14,525 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:14,782 MarcajeSinAsistencia.resumen leerListas - ID personal 769 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:15,046 MarcajeSinAsistencia.resumen leerListas - ID personal 32 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:15,309 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:15,573 MarcajeSinAsistencia.resumen leerListas - ID personal 234 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:15,836 MarcajeSinAsistencia.resumen leerListas - ID personal 114 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:16,100 MarcajeSinAsistencia.resumen leerListas - ID personal 115 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:16,363 MarcajeSinAsistencia.resumen leerListas - ID personal 647 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:16,633 MarcajeSinAsistencia.resumen leerListas - ID personal 256 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:16,915 MarcajeSinAsistencia.resumen leerListas - ID personal 213 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:17,183 MarcajeSinAsistencia.resumen leerListas - ID personal 46 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:17,615 MarcajeSinAsistencia.resumen leerListas - ID personal 322 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:17,931 MarcajeSinAsistencia.resumen leerListas - ID personal 95 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:18,187 MarcajeSinAsistencia.resumen leerListas - ID personal 799 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:18,445 MarcajeSinAsistencia.resumen leerListas - ID personal 86 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:18,702 MarcajeSinAsistencia.resumen leerListas - ID personal 110 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:18,960 MarcajeSinAsistencia.resumen leerListas - ID personal 801 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:19,217 MarcajeSinAsistencia.resumen leerListas - ID personal 418 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:19,481 MarcajeSinAsistencia.resumen leerListas - ID personal 218 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:19,732 MarcajeSinAsistencia.resumen leerListas - ID personal 345 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:19,990 MarcajeSinAsistencia.resumen leerListas - ID personal 37 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:20,284 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:20,542 MarcajeSinAsistencia.resumen leerListas - ID personal 305 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:20,798 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:21,044 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:21,301 MarcajeSinAsistencia.resumen leerListas - ID personal 809 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:21,547 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:21,876 MarcajeSinAsistencia.resumen leerListas - ID personal 60 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:22,163 MarcajeSinAsistencia.resumen leerListas - ID personal 469 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:22,409 MarcajeSinAsistencia.resumen leerListas - ID personal 222 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:22,691 MarcajeSinAsistencia.resumen leerListas - ID personal 45 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:22,948 MarcajeSinAsistencia.resumen leerListas - ID personal 592 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:23,199 MarcajeSinAsistencia.resumen leerListas - ID personal 66 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:23,462 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:23,714 MarcajeSinAsistencia.resumen leerListas - ID personal 441 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:23,966 MarcajeSinAsistencia.resumen leerListas - ID personal 33 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:24,217 MarcajeSinAsistencia.resumen leerListas - ID personal 403 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:24,546 MarcajeSinAsistencia.resumen leerListas - ID personal 437 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:24,822 MarcajeSinAsistencia.resumen leerListas - ID personal 270 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:25,067 MarcajeSinAsistencia.resumen leerListas - ID personal 493 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:25,319 MarcajeSinAsistencia.resumen leerListas - ID personal 128 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:25,570 MarcajeSinAsistencia.resumen leerListas - ID personal 8 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:25,815 MarcajeSinAsistencia.resumen leerListas - ID personal 819 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:26,061 MarcajeSinAsistencia.resumen leerListas - ID personal 9 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:26,313 MarcajeSinAsistencia.resumen leerListas - ID personal 447 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:26,568 MarcajeSinAsistencia.resumen leerListas - ID personal 140 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:26,834 MarcajeSinAsistencia.resumen leerListas - ID personal 738 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:27,091 MarcajeSinAsistencia.resumen leerListas - ID personal 119 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:27,348 MarcajeSinAsistencia.resumen leerListas - ID personal 363 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:27,612 MarcajeSinAsistencia.resumen leerListas - ID personal 235 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:27,870 MarcajeSinAsistencia.resumen leerListas - ID personal 724 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:28,121 MarcajeSinAsistencia.resumen leerListas - ID personal 450 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:28,372 MarcajeSinAsistencia.resumen leerListas - ID personal 312 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:28,624 MarcajeSinAsistencia.resumen leerListas - ID personal 331 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:28,877 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:19:29,133 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:19:29,385 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:29,636 MarcajeSinAsistencia.resumen leerListas - ID personal 152 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:29,881 MarcajeSinAsistencia.resumen leerListas - ID personal 297 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:30,139 MarcajeSinAsistencia.resumen leerListas - ID personal 215 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:30,384 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 21 hInicio 2022-09-12 07:00 hFin 2022-09-12 19:00
+
+[INFO] 2022-09-13 00:19:30,630 MarcajeSinAsistencia.resumen leerListas - ID personal 324 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:30,881 MarcajeSinAsistencia.resumen leerListas - ID personal 796 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:31,126 MarcajeSinAsistencia.resumen leerListas - ID personal 70 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:31,373 MarcajeSinAsistencia.resumen leerListas - ID personal 716 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:31,618 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:31,870 MarcajeSinAsistencia.resumen leerListas - ID personal 822 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:32,134 MarcajeSinAsistencia.resumen leerListas - ID personal 822 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:32,397 MarcajeSinAsistencia.resumen leerListas - ID personal 315 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:32,642 MarcajeSinAsistencia.resumen leerListas - ID personal 433 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:32,894 MarcajeSinAsistencia.resumen leerListas - ID personal 44 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:33,151 MarcajeSinAsistencia.resumen leerListas - ID personal 334 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:33,415 MarcajeSinAsistencia.resumen leerListas - ID personal 798 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:33,690 MarcajeSinAsistencia.resumen leerListas - ID personal 236 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:33,948 MarcajeSinAsistencia.resumen leerListas - ID personal 38 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:34,199 MarcajeSinAsistencia.resumen leerListas - ID personal 169 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:34,445 MarcajeSinAsistencia.resumen leerListas - ID personal 844 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:34,696 MarcajeSinAsistencia.resumen leerListas - ID personal 431 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:34,941 MarcajeSinAsistencia.resumen leerListas - ID personal 53 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:35,193 MarcajeSinAsistencia.resumen leerListas - ID personal 69 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:35,496 MarcajeSinAsistencia.resumen leerListas - ID personal 797 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:35,750 MarcajeSinAsistencia.resumen leerListas - ID personal 797 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:36,002 MarcajeSinAsistencia.resumen leerListas - ID personal 59 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:36,253 MarcajeSinAsistencia.resumen leerListas - ID personal 178 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:36,504 MarcajeSinAsistencia.resumen leerListas - ID personal 792 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:36,756 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:37,007 MarcajeSinAsistencia.resumen leerListas - ID personal 127 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:37,265 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:37,522 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:37,774 MarcajeSinAsistencia.resumen leerListas - ID personal 257 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:38,025 MarcajeSinAsistencia.resumen leerListas - ID personal 104 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:38,271 MarcajeSinAsistencia.resumen leerListas - ID personal 57 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:38,523 MarcajeSinAsistencia.resumen leerListas - ID personal 57 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:38,779 MarcajeSinAsistencia.resumen leerListas - ID personal 29 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:39,031 MarcajeSinAsistencia.resumen leerListas - ID personal 463 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:39,282 MarcajeSinAsistencia.resumen leerListas - ID personal 243 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:39,534 MarcajeSinAsistencia.resumen leerListas - ID personal 6 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:39,786 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:40,037 MarcajeSinAsistencia.resumen leerListas - ID personal 848 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:40,282 MarcajeSinAsistencia.resumen leerListas - ID personal 88 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:40,528 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:40,780 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:41,043 MarcajeSinAsistencia.resumen leerListas - ID personal 89 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:41,313 MarcajeSinAsistencia.resumen leerListas - ID personal 68 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:41,564 MarcajeSinAsistencia.resumen leerListas - ID personal 7 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:41,810 MarcajeSinAsistencia.resumen leerListas - ID personal 793 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:42,055 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:42,313 MarcajeSinAsistencia.resumen leerListas - ID personal 85 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:42,567 MarcajeSinAsistencia.resumen leerListas - ID personal 795 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:42,821 MarcajeSinAsistencia.resumen leerListas - ID personal 795 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:43,079 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:43,330 MarcajeSinAsistencia.resumen leerListas - ID personal 399 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:43,582 MarcajeSinAsistencia.resumen leerListas - ID personal 47 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:43,840 MarcajeSinAsistencia.resumen leerListas - ID personal 744 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:44,087 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:44,348 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:44,600 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:19:44,845 MarcajeSinAsistencia.resumen leerListas - ID personal 797 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:45,103 MarcajeSinAsistencia.resumen leerListas - ID personal 800 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:45,358 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:45,612 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:45,869 MarcajeSinAsistencia.resumen leerListas - ID personal 781 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:46,121 MarcajeSinAsistencia.resumen leerListas - ID personal 784 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:46,366 MarcajeSinAsistencia.resumen leerListas - ID personal 784 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:46,618 MarcajeSinAsistencia.resumen leerListas - ID personal 718 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:46,869 MarcajeSinAsistencia.resumen leerListas - ID personal 88 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:47,121 MarcajeSinAsistencia.resumen leerListas - ID personal 797 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:47,390 MarcajeSinAsistencia.resumen leerListas - ID personal 800 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:47,641 MarcajeSinAsistencia.resumen leerListas - ID personal 824 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:47,893 MarcajeSinAsistencia.resumen leerListas - ID personal 582 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:48,138 MarcajeSinAsistencia.resumen leerListas - ID personal 822 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:48,402 MarcajeSinAsistencia.resumen leerListas - ID personal 687 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:19:48,653 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:48,905 MarcajeSinAsistencia.resumen leerListas - ID personal 304 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:49,156 MarcajeSinAsistencia.resumen leerListas - ID personal 467 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:49,408 MarcajeSinAsistencia.resumen leerListas - ID personal 467 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:19:49,660 MarcajeSinAsistencia.resumen leerListas - ID personal 577 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:49,924 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:50,193 MarcajeSinAsistencia.resumen leerListas - ID personal 51 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:50,457 MarcajeSinAsistencia.resumen leerListas - ID personal 823 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:50,714 MarcajeSinAsistencia.resumen leerListas - ID personal 468 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:50,978 MarcajeSinAsistencia.resumen leerListas - ID personal 578 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:51,254 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:51,523 MarcajeSinAsistencia.resumen leerListas - ID personal 88 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:51,792 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:52,062 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:52,331 MarcajeSinAsistencia.resumen leerListas - ID personal 399 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:52,612 MarcajeSinAsistencia.resumen leerListas - ID personal 717 Horario ID 22 hInicio 2022-09-12 07:00 hFin 2022-09-12 07:01
+
+[INFO] 2022-09-13 00:19:52,876 MarcajeSinAsistencia.resumen leerListas - ID personal 717 Horario ID 22 hInicio 2022-09-12 07:00 hFin 2022-09-12 07:01
+
+[INFO] 2022-09-13 00:19:53,145 MarcajeSinAsistencia.resumen leerListas - ID personal 822 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:53,420 MarcajeSinAsistencia.resumen leerListas - ID personal 149 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:53,690 MarcajeSinAsistencia.resumen leerListas - ID personal 826 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:53,957 MarcajeSinAsistencia.resumen leerListas - ID personal 825 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:54,221 MarcajeSinAsistencia.resumen leerListas - ID personal 830 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:54,484 MarcajeSinAsistencia.resumen leerListas - ID personal 820 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:54,748 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:55,018 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:55,293 MarcajeSinAsistencia.resumen leerListas - ID personal 829 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:55,562 MarcajeSinAsistencia.resumen leerListas - ID personal 821 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:55,842 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:56,119 MarcajeSinAsistencia.resumen leerListas - ID personal 297 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:56,389 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:56,658 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:56,921 MarcajeSinAsistencia.resumen leerListas - ID personal 73 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:57,185 MarcajeSinAsistencia.resumen leerListas - ID personal 88 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:57,454 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 21 hInicio 2022-09-12 07:00 hFin 2022-09-12 19:00
+
+[INFO] 2022-09-13 00:19:57,730 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:58,005 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:58,275 MarcajeSinAsistencia.resumen leerListas - ID personal 73 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:58,550 MarcajeSinAsistencia.resumen leerListas - ID personal 73 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:19:58,826 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 21 hInicio 2022-09-12 07:00 hFin 2022-09-12 19:00
+
+[INFO] 2022-09-13 00:19:59,095 MarcajeSinAsistencia.resumen leerListas - ID personal 418 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:59,364 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:59,627 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:19:59,891 MarcajeSinAsistencia.resumen leerListas - ID personal 88 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:00,154 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:00,418 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:20:00,681 MarcajeSinAsistencia.resumen leerListas - ID personal 687 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:20:00,968 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:01,232 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:01,490 MarcajeSinAsistencia.resumen leerListas - ID personal 687 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:20:01,760 MarcajeSinAsistencia.resumen leerListas - ID personal 821 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:02,022 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:02,286 MarcajeSinAsistencia.resumen leerListas - ID personal 274 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:02,549 MarcajeSinAsistencia.resumen leerListas - ID personal 829 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:02,819 MarcajeSinAsistencia.resumen leerListas - ID personal 821 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:03,082 MarcajeSinAsistencia.resumen leerListas - ID personal 95 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:03,339 MarcajeSinAsistencia.resumen leerListas - ID personal 57 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:03,608 MarcajeSinAsistencia.resumen leerListas - ID personal 171 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:03,866 MarcajeSinAsistencia.resumen leerListas - ID personal 455 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:04,123 MarcajeSinAsistencia.resumen leerListas - ID personal 455 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:04,381 MarcajeSinAsistencia.resumen leerListas - ID personal 421 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:04,650 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:04,914 MarcajeSinAsistencia.resumen leerListas - ID personal 826 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:05,177 MarcajeSinAsistencia.resumen leerListas - ID personal 825 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:05,435 MarcajeSinAsistencia.resumen leerListas - ID personal 312 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:05,692 MarcajeSinAsistencia.resumen leerListas - ID personal 450 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:05,956 MarcajeSinAsistencia.resumen leerListas - ID personal 687 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:20:06,220 MarcajeSinAsistencia.resumen leerListas - ID personal 687 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:20:06,496 MarcajeSinAsistencia.resumen leerListas - ID personal 396 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:06,758 MarcajeSinAsistencia.resumen leerListas - ID personal 334 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:07,022 MarcajeSinAsistencia.resumen leerListas - ID personal 104 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:07,286 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:07,567 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:07,843 MarcajeSinAsistencia.resumen leerListas - ID personal 578 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:08,106 MarcajeSinAsistencia.resumen leerListas - ID personal 820 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:08,369 MarcajeSinAsistencia.resumen leerListas - ID personal 830 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:08,633 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:08,908 MarcajeSinAsistencia.resumen leerListas - ID personal 49 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:09,190 MarcajeSinAsistencia.resumen leerListas - ID personal 127 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:09,453 MarcajeSinAsistencia.resumen leerListas - ID personal 824 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:09,723 MarcajeSinAsistencia.resumen leerListas - ID personal 718 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:10,010 MarcajeSinAsistencia.resumen leerListas - ID personal 176 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:10,279 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:10,543 MarcajeSinAsistencia.resumen leerListas - ID personal 220 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:10,806 MarcajeSinAsistencia.resumen leerListas - ID personal 389 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:11,070 MarcajeSinAsistencia.resumen leerListas - ID personal 152 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:11,333 MarcajeSinAsistencia.resumen leerListas - ID personal 183 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:11,602 MarcajeSinAsistencia.resumen leerListas - ID personal 81 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:11,866 MarcajeSinAsistencia.resumen leerListas - ID personal 194 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:12,130 MarcajeSinAsistencia.resumen leerListas - ID personal 88 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:12,393 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:12,669 MarcajeSinAsistencia.resumen leerListas - ID personal 119 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:12,938 MarcajeSinAsistencia.resumen leerListas - ID personal 331 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:13,213 MarcajeSinAsistencia.resumen leerListas - ID personal 115 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:13,477 MarcajeSinAsistencia.resumen leerListas - ID personal 243 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:13,752 MarcajeSinAsistencia.resumen leerListas - ID personal 797 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:14,051 MarcajeSinAsistencia.resumen leerListas - ID personal 797 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:14,321 MarcajeSinAsistencia.resumen leerListas - ID personal 233 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:14,590 MarcajeSinAsistencia.resumen leerListas - ID personal 340 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:14,859 MarcajeSinAsistencia.resumen leerListas - ID personal 431 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:15,124 MarcajeSinAsistencia.resumen leerListas - ID personal 218 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:15,393 MarcajeSinAsistencia.resumen leerListas - ID personal 236 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:15,656 MarcajeSinAsistencia.resumen leerListas - ID personal 6 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:15,926 MarcajeSinAsistencia.resumen leerListas - ID personal 688 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:20:16,195 MarcajeSinAsistencia.resumen leerListas - ID personal 577 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:16,458 MarcajeSinAsistencia.resumen leerListas - ID personal 689 Horario ID 11 hInicio 2022-09-12 06:00 hFin 2022-09-12 15:00
+
+[INFO] 2022-09-13 00:20:16,728 MarcajeSinAsistencia.resumen leerListas - ID personal 275 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:16,991 MarcajeSinAsistencia.resumen leerListas - ID personal 821 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:17,273 MarcajeSinAsistencia.resumen leerListas - ID personal 821 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:17,536 MarcajeSinAsistencia.resumen leerListas - ID personal 94 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:17,806 MarcajeSinAsistencia.resumen leerListas - ID personal 114 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:18,075 MarcajeSinAsistencia.resumen leerListas - ID personal 433 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:18,338 MarcajeSinAsistencia.resumen leerListas - ID personal 278 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:18,608 MarcajeSinAsistencia.resumen leerListas - ID personal 234 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:18,878 MarcajeSinAsistencia.resumen leerListas - ID personal 213 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:19,153 MarcajeSinAsistencia.resumen leerListas - ID personal 86 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:19,416 MarcajeSinAsistencia.resumen leerListas - ID personal 137 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:19,686 MarcajeSinAsistencia.resumen leerListas - ID personal 848 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:19,949 MarcajeSinAsistencia.resumen leerListas - ID personal 800 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:20,212 MarcajeSinAsistencia.resumen leerListas - ID personal 800 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:20,476 MarcajeSinAsistencia.resumen leerListas - ID personal 89 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:20,739 MarcajeSinAsistencia.resumen leerListas - ID personal 148 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:21,003 MarcajeSinAsistencia.resumen leerListas - ID personal 128 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:21,272 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:21,535 MarcajeSinAsistencia.resumen leerListas - ID personal 798 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:21,805 MarcajeSinAsistencia.resumen leerListas - ID personal 799 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:22,075 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:22,350 MarcajeSinAsistencia.resumen leerListas - ID personal 598 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:22,614 MarcajeSinAsistencia.resumen leerListas - ID personal 5 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:22,877 MarcajeSinAsistencia.resumen leerListas - ID personal 802 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:23,153 MarcajeSinAsistencia.resumen leerListas - ID personal 60 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:23,422 MarcajeSinAsistencia.resumen leerListas - ID personal 85 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:23,685 MarcajeSinAsistencia.resumen leerListas - ID personal 215 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:23,960 MarcajeSinAsistencia.resumen leerListas - ID personal 796 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:24,236 MarcajeSinAsistencia.resumen leerListas - ID personal 801 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:24,500 MarcajeSinAsistencia.resumen leerListas - ID personal 324 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:24,763 MarcajeSinAsistencia.resumen leerListas - ID personal 46 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:25,026 MarcajeSinAsistencia.resumen leerListas - ID personal 417 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:25,290 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:25,553 MarcajeSinAsistencia.resumen leerListas - ID personal 588 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:25,823 MarcajeSinAsistencia.resumen leerListas - ID personal 140 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:26,089 MarcajeSinAsistencia.resumen leerListas - ID personal 772 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:26,356 MarcajeSinAsistencia.resumen leerListas - ID personal 772 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:26,631 MarcajeSinAsistencia.resumen leerListas - ID personal 729 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:26,901 MarcajeSinAsistencia.resumen leerListas - ID personal 635 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:27,170 MarcajeSinAsistencia.resumen leerListas - ID personal 382 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:27,433 MarcajeSinAsistencia.resumen leerListas - ID personal 647 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:27,697 MarcajeSinAsistencia.resumen leerListas - ID personal 257 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:27,966 MarcajeSinAsistencia.resumen leerListas - ID personal 59 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:28,236 MarcajeSinAsistencia.resumen leerListas - ID personal 427 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:28,511 MarcajeSinAsistencia.resumen leerListas - ID personal 256 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:28,775 MarcajeSinAsistencia.resumen leerListas - ID personal 592 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:29,038 MarcajeSinAsistencia.resumen leerListas - ID personal 842 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:29,307 MarcajeSinAsistencia.resumen leerListas - ID personal 693 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:29,571 MarcajeSinAsistencia.resumen leerListas - ID personal 643 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:29,834 MarcajeSinAsistencia.resumen leerListas - ID personal 45 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:30,098 MarcajeSinAsistencia.resumen leerListas - ID personal 738 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:30,361 MarcajeSinAsistencia.resumen leerListas - ID personal 381 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:30,625 MarcajeSinAsistencia.resumen leerListas - ID personal 493 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:30,888 MarcajeSinAsistencia.resumen leerListas - ID personal 290 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:31,151 MarcajeSinAsistencia.resumen leerListas - ID personal 819 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:31,415 MarcajeSinAsistencia.resumen leerListas - ID personal 724 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:31,679 MarcajeSinAsistencia.resumen leerListas - ID personal 7 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:31,948 MarcajeSinAsistencia.resumen leerListas - ID personal 110 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:32,211 MarcajeSinAsistencia.resumen leerListas - ID personal 322 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:32,475 MarcajeSinAsistencia.resumen leerListas - ID personal 235 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:32,738 MarcajeSinAsistencia.resumen leerListas - ID personal 121 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:33,002 MarcajeSinAsistencia.resumen leerListas - ID personal 244 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:33,278 MarcajeSinAsistencia.resumen leerListas - ID personal 369 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:33,552 MarcajeSinAsistencia.resumen leerListas - ID personal 69 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:33,822 MarcajeSinAsistencia.resumen leerListas - ID personal 305 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:34,094 MarcajeSinAsistencia.resumen leerListas - ID personal 315 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:34,367 MarcajeSinAsistencia.resumen leerListas - ID personal 441 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:34,630 MarcajeSinAsistencia.resumen leerListas - ID personal 8 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:34,894 MarcajeSinAsistencia.resumen leerListas - ID personal 304 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:35,163 MarcajeSinAsistencia.resumen leerListas - ID personal 304 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:35,433 MarcajeSinAsistencia.resumen leerListas - ID personal 385 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:35,703 MarcajeSinAsistencia.resumen leerListas - ID personal 437 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:35,966 MarcajeSinAsistencia.resumen leerListas - ID personal 582 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:36,229 MarcajeSinAsistencia.resumen leerListas - ID personal 744 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:36,498 MarcajeSinAsistencia.resumen leerListas - ID personal 716 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:36,762 MarcajeSinAsistencia.resumen leerListas - ID personal 9 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:37,033 MarcajeSinAsistencia.resumen leerListas - ID personal 469 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:37,302 MarcajeSinAsistencia.resumen leerListas - ID personal 780 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:37,565 MarcajeSinAsistencia.resumen leerListas - ID personal 403 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:37,841 MarcajeSinAsistencia.resumen leerListas - ID personal 345 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:38,105 MarcajeSinAsistencia.resumen leerListas - ID personal 37 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:38,380 MarcajeSinAsistencia.resumen leerListas - ID personal 33 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:38,643 MarcajeSinAsistencia.resumen leerListas - ID personal 178 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:38,913 MarcajeSinAsistencia.resumen leerListas - ID personal 843 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:39,170 MarcajeSinAsistencia.resumen leerListas - ID personal 843 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:39,433 MarcajeSinAsistencia.resumen leerListas - ID personal 793 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:39,703 MarcajeSinAsistencia.resumen leerListas - ID personal 70 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:39,972 MarcajeSinAsistencia.resumen leerListas - ID personal 363 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:40,236 MarcajeSinAsistencia.resumen leerListas - ID personal 169 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:40,505 MarcajeSinAsistencia.resumen leerListas - ID personal 32 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:40,775 MarcajeSinAsistencia.resumen leerListas - ID personal 66 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:41,038 MarcajeSinAsistencia.resumen leerListas - ID personal 463 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:41,302 MarcajeSinAsistencia.resumen leerListas - ID personal 769 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:41,571 MarcajeSinAsistencia.resumen leerListas - ID personal 47 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:41,840 MarcajeSinAsistencia.resumen leerListas - ID personal 447 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:42,103 MarcajeSinAsistencia.resumen leerListas - ID personal 270 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:42,367 MarcajeSinAsistencia.resumen leerListas - ID personal 792 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:42,643 MarcajeSinAsistencia.resumen leerListas - ID personal 29 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:42,906 MarcajeSinAsistencia.resumen leerListas - ID personal 468 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:43,175 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:43,451 MarcajeSinAsistencia.resumen leerListas - ID personal 412 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:43,721 MarcajeSinAsistencia.resumen leerListas - ID personal 51 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:43,984 MarcajeSinAsistencia.resumen leerListas - ID personal 41 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:44,253 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:44,517 MarcajeSinAsistencia.resumen leerListas - ID personal 73 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:44,780 MarcajeSinAsistencia.resumen leerListas - ID personal 73 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:45,044 MarcajeSinAsistencia.resumen leerListas - ID personal 38 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:45,313 MarcajeSinAsistencia.resumen leerListas - ID personal 68 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:45,577 MarcajeSinAsistencia.resumen leerListas - ID personal 44 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:45,846 MarcajeSinAsistencia.resumen leerListas - ID personal 57 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:46,116 MarcajeSinAsistencia.resumen leerListas - ID personal 179 Horario ID 1 hInicio 2022-09-12 08:00 hFin 2022-09-12 17:00
+
+[INFO] 2022-09-13 00:20:46,379 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:46,643 MarcajeSinAsistencia.resumen leerListas - ID personal 292 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:46,906 MarcajeSinAsistencia.resumen leerListas - ID personal 847 Horario ID 22 hInicio 2022-09-12 07:00 hFin 2022-09-12 07:01
+
+[INFO] 2022-09-13 00:20:47,175 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:47,439 MarcajeSinAsistencia.resumen leerListas - ID personal 408 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:47,702 MarcajeSinAsistencia.resumen leerListas - ID personal 839 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:47,971 MarcajeSinAsistencia.resumen leerListas - ID personal 420 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:48,235 MarcajeSinAsistencia.resumen leerListas - ID personal 472 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:48,506 MarcajeSinAsistencia.resumen leerListas - ID personal 242 Horario ID 7 hInicio 2022-09-12 08:00 hFin 2022-09-12 16:00
+
+[INFO] 2022-09-13 00:20:48,774 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 21 hInicio 2022-09-12 07:00 hFin 2022-09-12 19:00
+
+[INFO] 2022-09-13 00:20:49,037 MarcajeSinAsistencia.resumen leerListas - ID personal 579 Horario ID 21 hInicio 2022-09-12 07:00 hFin 2022-09-12 19:00
+
+[INFO] 2022-09-13 00:20:49,300 MarcajeSinAsistencia.resumen leerListas - ID personal 149 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:49,564 MarcajeSinAsistencia.resumen leerListas - ID personal 293 Horario ID 12 hInicio 2022-09-12 07:00 hFin 2022-09-12 12:00
+
+[INFO] 2022-09-13 00:20:49,819 MarcajeSinAsistencia.main main - --FIN DE PROCESO: --
+

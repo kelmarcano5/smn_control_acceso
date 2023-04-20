@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnpersonal.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_personal}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+
+	<pdf-report pageSize="letter" rotate="false">
+		<table recordset='query-smnpersonal.sql' width='100' spacingBefore='40'>
+			<col name='psl_num_control' title='${lbl:b_number_of_control}' width='7' align='left' />
+			<col name='psl_clase_auxiliar_combo' title='${lbl:b_auxiliary_class}' width='7' align='left' format='######' />
+			<col name='psl_auxiliar_combo' title='${lbl:b_auxiliary}' width='7' align='left' format='######' />
+			<col name='psl_empresa_combo' title='${lbl:b_entity}' width='7' align='left' format='######' />
+			<col name='psl_sucursal_combo' title='${lbl:b_subsidiary}' width='7' align='left' format='######' />
+			<col name='psl_area_servicio_combo' title='${lbl:b_service_area}' width='7' align='left' format='######' />
+			<col name='psl_unidad_servicio_combo' title='${lbl:b_service_unit}' width='7' align='left' format='######' />
+			<col name='psl_centro_costo_combo' title='${lbl:b_cost_centers}' width='7' align='left' format='######' />
+			<col name='psl_estructura_organiz_combo' title='${lbl:b_organizational_structure}' width='7' align='left' format='######' />
+			<col name='psl_cargo_combo' title='${lbl:b_positions}' width='7' align='left' format='######' />
+			<col name='psl_categoria_cargo_combo' title='${lbl:b_position_category}' width='7' align='left' format='######' />
+			<col name='psl_habilita_acceso_combo' title='${lbl:b_enables_access_control}' width='7' align='left' />
+			<col name='psl_id_control_acceso' title='${lbl:b_id_access_control}' width='7' align='left' />
+			<col name='psl_fecha_registro' title='${lbl:b_store_date}' width='7' align='left' format='dd-MM-yyyy' />
+		</table>
+
+	</pdf-report>
+</config>

@@ -1,0 +1,2 @@
+ and
+ 	smn_control_acceso.smn_control_plan_asistencia.smn_estructura_organizacional_rf=${fld:smn_estructura_organizacional_rf}

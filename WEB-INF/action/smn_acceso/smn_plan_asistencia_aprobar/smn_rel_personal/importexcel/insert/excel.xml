@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='psl_num_control' type='varchar' required='true' maxlen='16'/>
+	<parameter id='psl_esquema_rotacion_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_fecha_inicio_calculo' type='date' required='true' maxlen='13'/>
+	<parameter id='psl_categoria_personal_rf_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='psl_clase_auxiliar_rf_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='psl_auxiliar_rf_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='psl_empresa_rf_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='psl_sucursal_rf_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='psl_area_servicio_rf_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='psl_unidad_servicio_rf_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='psl_centro_costo_rf_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='psl_estructura_organizacional_rf_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='psl_cargos_rf_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='psl_categoria_cargo_rf_desc_ref' type='varchar' required='false' maxlen='10'/>
+	<parameter id='psl_habilita_acceso_rf' type='varchar' required='true' maxlen='1'/>
+	<parameter id='psl_id_control_acceso' type='varchar' required='false' maxlen='16'/>
+
+	<parameter id='psl_categoria_personal_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_clase_auxiliar_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_auxiliar_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_empresa_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_sucursal_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_area_servicio_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_unidad_servicio_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_centro_costo_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_estructura_organizacional_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_cargos_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_categoria_cargo_rf_ref' type='integer' required='false' maxlen='10'/>
+
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_categoria_personal_rf' 
+		parameter='psl_categoria_personal_rf_ref' 
+		sql='psl_categoria_personal_rf.sql' 
+		id='psl_categoria_personal_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_clase_auxiliar_rf' 
+		parameter='psl_clase_auxiliar_rf_ref' 
+		sql='psl_clase_auxiliar_rf.sql' 
+		id='psl_clase_auxiliar_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_auxiliar_rf' 
+		parameter='psl_auxiliar_rf_ref' 
+		sql='psl_auxiliar_rf.sql' 
+		id='psl_auxiliar_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_empresa_rf' 
+		parameter='psl_empresa_rf_ref' 
+		sql='psl_empresa_rf.sql' 
+		id='psl_empresa_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_sucursal_rf' 
+		parameter='psl_sucursal_rf_ref' 
+		sql='psl_sucursal_rf.sql' 
+		id='psl_sucursal_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_area_servicio_rf' 
+		parameter='psl_area_servicio_rf_ref' 
+		sql='psl_area_servicio_rf.sql' 
+		id='psl_area_servicio_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_unidad_servicio_rf' 
+		parameter='psl_unidad_servicio_rf_ref' 
+		sql='psl_unidad_servicio_rf.sql' 
+		id='psl_unidad_servicio_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_centro_costo_rf' 
+		parameter='psl_centro_costo_rf_ref' 
+		sql='psl_centro_costo_rf.sql' 
+		id='psl_centro_costo_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_estructura_organizacional_rf' 
+		parameter='psl_estructura_organizacional_rf_ref' 
+		sql='psl_estructura_organizacional_rf.sql' 
+		id='psl_estructura_organizacional_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_cargos_rf' 
+		parameter='psl_cargos_rf_ref' 
+		sql='psl_cargos_rf.sql' 
+		id='psl_cargos_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_categoria_cargo_rf' 
+		parameter='psl_categoria_cargo_rf_ref' 
+		sql='psl_categoria_cargo_rf.sql' 
+		id='psl_categoria_cargo_rf_ref'/>
+
+</validator>

@@ -1,0 +1,43 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='23%'/>
+	<col width='43%'/>
+	<col width='33%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="6">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("tur_codigo","query-smnturnos.sql")'>${lbl:b_code}</th>
+		<th class='sortable' onclick='sortBy("tur_nombre","query-smnturnos.sql")'>${lbl:b_name} </th>
+		<th class='sortable' onclick='sortBy("tur_fecha_registro","query-smnturnos.sql")'>${lbl:b_store_date}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_turnos_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_turnos_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_turnos_id}')" title="${lbl:b_edit_button}"></td>
+		<td>${fld:tur_codigo}</td>
+		<td align='left'>${fld:tur_nombre}</td>
+		<td>${fld:tur_fecha_registro@dd-MM-yyyy}</td>
+
+	</tr>
+	</rows>
+
+</table>

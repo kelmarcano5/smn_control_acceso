@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_personal>
+	<detail>
+		<rows>		
+		<record psl_fecha_registro="${fld:psl_fecha_registro}"    psl_id_control_acceso="${fld:psl_id_control_acceso}"    psl_habilita_acceso="${fld:psl_habilita_acceso}"    psl_categoria_cargo="${fld:psl_categoria_cargo}"    psl_cargo="${fld:psl_cargo}"    psl_estructura_organiz="${fld:psl_estructura_organiz}"    psl_centro_costo="${fld:psl_centro_costo}"    psl_unidad_servicio="${fld:psl_unidad_servicio}"    psl_area_servicio="${fld:psl_area_servicio}"    psl_sucursal="${fld:psl_sucursal}"    psl_empresa="${fld:psl_empresa}"    psl_auxiliar="${fld:psl_auxiliar}"    psl_clase_auxiliar="${fld:psl_clase_auxiliar}"    psl_num_control="${fld:psl_num_control}"    />
+		</rows>
+	</detail>
+</smn_personal>

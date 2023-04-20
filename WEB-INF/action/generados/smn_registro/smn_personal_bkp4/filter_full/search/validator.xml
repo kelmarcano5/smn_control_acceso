@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='psl_grupo' type='integer' required='true' label='${fld:b_group}' maxlen='10'/>
+</validator>

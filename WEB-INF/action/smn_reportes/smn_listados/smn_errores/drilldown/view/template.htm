@@ -1,0 +1,52 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='8%'/>
+	<col width='10%'/>
+	<col width='8%'/>
+	<col width='17%'/>
+	<col width='15%'/>
+	<col width='15%'/>
+	<col width='15%'/>
+	<col width='8%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="8">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th class='sortable' onclick="sortBy('trd_sede','query-detail.sql')" >Sede</th>
+		<th class='sortable' onclick="sortBy('trd_dispositivo','query-detail.sql')" >N° Dispositivo</th>
+		<th class='sortable' onclick="sortBy('trd_identificacion','query-detail.sql')" >ID Usuario</th>
+		<th class='sortable' onclick="sortBy('trd_tipo_marcaje','query-detail.sql')" >Marcajes</th>
+		<th class='sortable' onclick="sortBy('trd_fecha_transaccion','query-detail.sql')" >Fecha Transacción</th>
+		<th class='sortable' onclick="sortBy('trd_hora_transaccion','query-detail.sql')" >Hora Transacción</th>
+		<th class='sortable' onclick="sortBy('trd_tiempo_efectivo','query-detail.sql')" >Tiempos Efectivos</th>
+		<th class='sortable' onclick="sortBy('trd_tiempo_efectivo_total','query-detail.sql')" >Total (En Minutos)</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td align="left">${fld:trd_sede}</td>
+		<td align="center">${fld:trd_dispositivo}</td>
+		<td align="left">${fld:trd_identificacion}</td>
+		<td align="left">${fld:trd_tipo_marcaje}</td>
+		<td align="left">${fld:trd_fecha_transaccion}</td>
+		<td align="left">${fld:trd_hora_transaccion}</td>
+		<td align="left">${fld:trd_tiempo_efectivo}</td>
+		<td align="right">${fld:trd_tiempo_efectivo_total@#,###,##0.00}</td>
+	</tr>
+	</rows>
+	
+		<tr>
+		<td align="right" colspan="7"><b>Total</b></td>
+		<td align="right">${fld:trd_tiempo_efectivo_total@#,###,##0.00}</td>
+	</tr>
+
+</table>

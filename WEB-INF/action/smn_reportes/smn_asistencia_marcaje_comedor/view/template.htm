@@ -1,0 +1,41 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='10%'/>
+	<col width="10%"/>
+	<col width="10%"/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="3" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+		
+	</tr>
+
+	<!--encabezados-->
+	<tr>		
+		<th class='sortable' onclick='sortBy("cedula","query-base.sql")'>Cedula</th>
+		<th class='sortable' onclick='sortBy("nombre","query-base.sql")'>Personal</th>
+		<th class='sortable' onclick='sortBy("estructura","query-base.sql")'>Departamento</th>	
+	</tr>
+	
+	<!--data-->
+	<rows>
+	<tr>
+		<td align="center">${fld:cedula}</td>
+		<td align="left">${fld:nombre}</td>
+		<td align="left">${fld:estructura}</td>
+	</tr>
+	</rows>
+</table>
+
+<table class="record" style="width:90%;">
+	<col width='3%'/>
+	<tr>
+		<td align="left">Total General</td>
+		<td></td>
+
+		<td align="right">${fld:total}</td>
+	</tr>
+</table>

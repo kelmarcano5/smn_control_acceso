@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_dispositivos>
+	<detail>
+		<rows>		
+		<record dis_fecha_registro="${fld:dis_fecha_registro}"    dis_ip_address="${fld:dis_ip_address}"    dis_serial="${fld:dis_serial}"    dis_tipo_dispositivo="${fld:dis_tipo_dispositivo}"    uns_descripcion="${fld:uns_descripcion}"    ase_descripcion="${fld:ase_descripcion}"    suc_nombre="${fld:suc_nombre}"    ent_descripcion_corta="${fld:ent_descripcion_corta}"    dis_nombre="${fld:dis_nombre}"    dis_codigo="${fld:dis_codigo}"    />
+		</rows>
+	</detail>
+</smn_dispositivos>

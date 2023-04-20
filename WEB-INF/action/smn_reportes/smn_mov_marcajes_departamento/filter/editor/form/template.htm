@@ -1,0 +1,699 @@
+<!doctype html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="${def:context}/dinamica_bkp.css" />
+<link rel="stylesheet" type="text/css" href="${def:context}/main.css" />
+	
+	<!--biblioteca generica JS/Dinamica-->
+	<script type="text/javascript" src="${def:context}/action/script">
+	</script>
+
+</head>
+
+<body>
+
+<!--banner-->
+<div class="bannerDialog" id="encabezado_tabla">
+	${lbl:b_marking_movement}
+	<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog(); parent.search();" title="${lbl:b_close_button}" style="float:right; cursor:pointer;">
+	${req:progress}
+</div>
+
+<!--formulario addnew/edit-->
+<form name="form1" onsubmit="return save()" style="width:500px;">
+
+	<!-- titulo -->
+	<h1 id="formTitle">${lbl:b_add_record}</h1>
+
+	<table>
+
+		<!--ancho de la columna de etiquetas-->
+		<col width="30%">
+
+		<!--campos-->
+			<tr>
+		<td>${lbl:b_documento}</td>
+		<td>
+			<select name="mrk_documento_rf" id="mrk_documento_rf" onchange="chgCombo(mrk_documento_rf.options[mrk_documento_rf.selectedIndex].text,'mrk_documento_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_documento_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_documento_rf_rows>
+			</select> 
+			<input id="mrk_documento_rf_name" name="mrk_documento_rf_name" type="hidden">
+		</td>
+	</tr>
+		<tr>
+			<td>${lbl:b_subsidiary} </td>
+			<td>
+				<input id="mrk_sede" name="mrk_sede" type="text" maxlength="48" >
+			</td>
+		</tr>
+	<tr>
+		<td>${lbl:b_entity}*</td>
+		<td>
+			<select name="mrk_empresa_rf" id="mrk_empresa_rf" onchange="chgCombo1(mrk_empresa_rf.options[mrk_empresa_rf.selectedIndex].text,'mrk_empresa_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_empresa_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_empresa_rf_rows>
+			</select> 
+			<input id="mrk_empresa_rf_name" name="mrk_empresa_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_subsidiary}</td>
+		<td>
+			<select name="mrk_sucursal_rf" id="mrk_sucursal_rf" onchange="chgCombo2(mrk_sucursal_rf.options[mrk_sucursal_rf.selectedIndex].text,'mrk_sucursal_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_sucursal_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_sucursal_rf_rows>
+			</select> 
+			<input id="mrk_sucursal_rf_name" name="mrk_sucursal_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_service_area}</td>
+		<td>
+			<select name="mrk_area_servicio_rf" id="mrk_area_servicio_rf" onchange="chgCombo3(mrk_area_servicio_rf.options[mrk_area_servicio_rf.selectedIndex].text,'mrk_area_servicio_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_area_servicio_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_area_servicio_rf_rows>
+			</select> 
+			<input id="mrk_area_servicio_rf_name" name="mrk_area_servicio_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_service_unit}</td>
+		<td>
+			<select name="mrk_unidad_servicio_rf" id="mrk_unidad_servicio_rf" onchange="chgCombo4(mrk_unidad_servicio_rf.options[mrk_unidad_servicio_rf.selectedIndex].text,'mrk_unidad_servicio_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_unidad_servicio_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_unidad_servicio_rf_rows>
+			</select> 
+			<input id="mrk_unidad_servicio_rf_name" name="mrk_unidad_servicio_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_cost_centers}</td>
+		<td>
+			<select name="mrk_centro_costo_rf" id="mrk_centro_costo_rf" onchange="chgCombo(mrk_centro_costo_rf.options[mrk_centro_costo_rf.selectedIndex].text,'mrk_centro_costo_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_centro_costo_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_centro_costo_rf_rows>
+			</select> 
+			<input id="mrk_centro_costo_rf_name" name="mrk_centro_costo_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_auxiliary_class}*</td>
+		<td>
+			<select name="mrk_clase_auxiliar_rf" id="mrk_clase_auxiliar_rf" onchange="chgCombo5(mrk_clase_auxiliar_rf.options[mrk_clase_auxiliar_rf.selectedIndex].text,'mrk_clase_auxiliar_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_clase_auxiliar_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_clase_auxiliar_rf_rows>
+			</select> 
+			<input id="mrk_clase_auxiliar_rf_name" name="mrk_clase_auxiliar_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_auxiliary}*</td>
+		<td>
+			<select name="mrk_auxiliar_rf" id="mrk_auxiliar_rf" onchange="chgCombo(mrk_auxiliar_rf.options[mrk_auxiliar_rf.selectedIndex].text,'mrk_auxiliar_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_auxiliar_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_auxiliar_rf_rows>
+			</select> 
+			<input id="mrk_auxiliar_rf_name" name="mrk_auxiliar_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_positions}*</td>
+		<td>
+			<select name="mrk_cargo_rf" id="mrk_cargo_rf" onchange="chgCombo6(mrk_cargo_rf.options[mrk_cargo_rf.selectedIndex].text,'mrk_cargo_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_cargo_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_cargo_rf_rows>
+			</select> 
+			<input id="mrk_cargo_rf_name" name="mrk_cargo_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_position_category}*</td>
+		<td>
+			<select name="mrk_categoria_cargo_rf" id="mrk_categoria_cargo_rf" onchange="chgCombo(mrk_categoria_cargo_rf.options[mrk_categoria_cargo_rf.selectedIndex].text,'mrk_categoria_cargo_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_categoria_cargo_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_categoria_cargo_rf_rows>
+			</select> 
+			<input id="mrk_categoria_cargo_rf_name" name="mrk_categoria_cargo_rf_name" type="hidden">
+		</td>
+	</tr>
+		<tr>
+			<td>${lbl:b_access_control}s*</td>
+			<td>
+				<input id="mrk_control_acceso_id" name="mrk_control_acceso_id" type="text" maxlength="16" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_device}</td>
+			<td>
+				<input id="mrk_dispositivo_codigo" name="mrk_dispositivo_codigo" type="text" maxlength="16" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_check}</td>
+			<td>
+				<input id="mrk_marcaje_id" name="mrk_marcaje_id" type="text" maxlength="16" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_transaction_date}</td>
+			<td>
+				<input id="mrk_marcaje_fecha" name="mrk_marcaje_fecha" type="text" class="date" maxlength="10">
+				<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('mrk_marcaje_fecha')">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_transaction_time}</td>
+			<td>
+				<input id="mrk_marcaje_hora" name="mrk_marcaje_hora" type="text" maxlength="5" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_day_name}</td>
+			<td>
+				<select name="mrk_marcaje_dia_rf" id="mrk_marcaje_dia_rf">
+				<option value="DO">${lbl:b_sunday}</option>
+				<option value="LU">${lbl:b_monday}</option>
+				<option value="MA">${lbl:b_tuesday}</option>
+				<option value="MI">${lbl:b_wednesday}</option>
+				<option value="JU">${lbl:b_thursday}</option>
+				<option value="VI">${lbl:b_friday}</option>
+				<option value="SA">${lbl:b_saturday}</option>
+
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_device_type}</td>
+			<td>
+				<select name="mrk_marcaje_tipo_rf" id="mrk_marcaje_tipo_rf">
+				<option value="ENT">${lbl:b_entry}</option>
+				<option value="SAL">${lbl:b_exit}</option>
+				<option value="ESL">${lbl:b_entry_exit}</option>
+
+				</select> 
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_turno}*</td>
+			<td>
+				<input id="mrk_turno_rf" name="mrk_turno_rf" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_consecutivo} *</td>
+			<td>
+				<input id="mrk_consecutivo" name="mrk_consecutivo" type="text" maxlength="16" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_transactions}</td>
+			<td>
+				<input id="mrk_transaccion_rf" name="mrk_transaccion_rf" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_amount_hours_delays}</td>
+			<td>
+				<input id="mrk_horas_retrasos" name="mrk_horas_retrasos" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_amount_hours_absences}</td>
+			<td>
+				<input id="mrk_horas_ausencias" name="mrk_horas_ausencias" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_rest_time}</td>
+			<td>
+				<input id="mrk_horas_descanso" name="mrk_horas_descanso" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+
+
+	</table>
+
+	<!--botones-->
+	<input id="grabar" type="submit" value="${lbl:b_save_button}" class="button">
+	<input id="limpiar" type="button" value="${lbl:b_clean_button}" onclick="addNew()" class="button">	
+	<input id="copiar" type="button" value="${lbl:b_copy_button}" onclick="getFormValuesToCopy('form1')" class="button">
+	<input id="pegar" type="button" value="${lbl:b_paste_button}" onclick="getFormValuesToPaste('form1')" class="button">
+	<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog(); parent.search();" class="button">	
+	
+	<!-- PK-->
+<input type="hidden" name="id" value="">
+
+</form>
+
+<!--codigo de soporte del template-->
+<script type="text/javascript">
+
+	onload = function()
+	{ 
+		addNew();
+
+		//Disabled all combo linked
+		document.form1.mrk_empresa_rf.disabled=false;
+		document.form1.mrk_sucursal_rf.disabled=true;
+		document.form1.mrk_area_servicio_rf.disabled=true;
+		document.form1.mrk_unidad_servicio_rf.disabled=true;
+		document.form1.mrk_auxiliar_rf.disabled=true;
+		document.form1.mrk_categoria_cargo_rf.disabled=true;
+		
+
+		//Set first value for all combo linked
+		setElementFirstIndex('mrk_sucursal_rf');
+		setElementFirstIndex('mrk_area_servicio_rf');
+		setElementFirstIndex('mrk_unidad_servicio_rf');
+		setElementFirstIndex('mrk_auxiliar_rf');
+		setElementFirstIndex('mrk_categoria_cargo_rf');
+
+		if (id!="")
+			edit(id);
+	} 
+	
+	function chgCombo(text,id)
+	{
+		document.getElementById(id).value = text;
+	}
+	
+	//configurar formulario para ingresar registro nuevo
+	function addNew()
+	{
+		document.getElementById("formTitle").innerHTML = "${lbl:b_add_record}";
+		document.getElementById("grabar").disabled=false;
+		clearForm("form1");
+		setFocusOnForm("form1");
+	}
+	
+	//retorna al estado previo que corresponde
+	//al estado actual de la pagina, cada llamada Ajax
+	//se encarga de definir cual es la funcion de goBack() que aplica
+	function goBack() 
+	{
+		_goBackFn()			
+	}
+	
+	//mostrar la actualizacion de un registro
+	function insert()
+	{		
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/insert", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+	
+	//restaurar el formulario en caso de error
+	function retryAddnewOrEdit() {
+		document.getElementById("grabar").disabled=false;
+		setFocusOnForm("form1");		
+	}
+	
+	var id = "${fld:id}"
+	
+	//grabar el formulario
+	function save()
+	{
+		//determina si es un insert o un update
+		if (document.form1.id.value=="")
+			return insert();
+		else
+			return update();
+	}
+	
+	//editar registro en formulario
+	function edit(id)
+	{
+			clearErrorMessages();
+
+			//llamada Ajax...
+			ajaxCall(httpMethod="GET", 
+							uri="${def:actionroot}/edit?id=" + id , 
+							divResponse=null, 
+							divProgress="status", 
+							formName=null, 
+							afterResponseFn=null, 
+							onErrorFn=null);	
+	}
+	
+	//actualizar registro en BD
+	function update()
+	{		
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/update", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+
+	//Author     : SIMONE
+	//Description: Set first element as selected value
+	//Return     : None
+	function setElementFirstIndex(id)
+	{
+		var combo = document.getElementById(id);
+		combo.selectedIndex = 0;
+	}
+
+	//Author     : SIMONE
+	//Description: Insert new value into combo box
+	//Return     : None
+	function insertComboBox(code, combo, description) {
+		var valueText = code;
+		if (description != null)
+		{
+			valueText = valueText + ' - ' + description;
+		}
+		//alert("Insert Combo: "+valueText);
+        combo.options[combo.options.length] = new Option(valueText);
+	}
+	
+	//Author     : SIMONE
+	//Description: Add new value to combo box
+	//Return     : None
+	function addValueToCombo(code, description, field) 
+	{
+	    var combo = document.getElementById(field);	    
+	    insertComboBox(code, combo, description);
+	}
+	
+	//Author     : SIMONE
+	//Description: Set selected index into combo box
+	//Return     : None
+	function setSelectedIndex(code, combo, description) 
+	{
+	    for (var i = 0; i < combo.options.length; i++) 
+	    {
+			var valueText = code;
+			if (description != null)
+			{
+				valueText = valueText + ' - ' + description;
+			}
+	        if (combo.options[i].text == valueText) 
+	        {
+	        	combo.options[i].selected = true;
+	            return;
+	        }
+	    }
+	}
+	
+	//Author     : SIMONE
+	//Description: Get text valueof selected index
+	//Return     : Text associated to index
+	function getSelectedIndex(combo) 
+	{
+	    for (var i = 0; i < combo.options.length; i++) 
+	    {
+	        if (combo.options[i].selected == true) 
+	        {
+	            return combo.options[i].text;
+	        }
+	    }
+	}
+	function getIDSelectedIndex(combo) 
+	{
+	    for (var i = 0; i < combo.options.length; i++) 
+	    {
+	        if (combo.options[i].selected == true) 
+	        {
+	            return combo.options[i].value;
+	        }
+	    }
+	}
+	
+
+	//Author     : SIMONE
+	//Description: Set value to combo box
+	//Parameters : code - it is code associated into each database table 
+	//             descripcion - it is description associated into each database table 
+	//             field - name combo field
+	//             id - identifier retrieved after transaction
+	//             linked - flag indicates 'true' when combos are linked and 'false' otherwise
+	//Return     : None
+	function setValueComboBox(code, description, field, linked)
+	{
+		//add value text to combo
+		addValueToCombo(code,description,field);
+
+		//get select object 
+		var combo = document.getElementById(field);
+		
+		//set element selected to field referenced
+		setSelectedIndex(code,combo, description);
+		
+		//set text value to combo field
+		var valueText = getSelectedIndex(combo);		
+		
+		//get hidden field in order to set any value
+		var combo = document.getElementById(field+'_name');
+		
+		//alert("Text: "+valueText+" - bdID: "+bdID);
+		
+		combo.text  = valueText;
+		combo.value = bdID;
+		
+		//enable linked fields
+		if (linked)
+		{
+			if (field == 'mrk_empresa_rf')
+			{
+				document.form1.mrk_empresa_rf.disabled = false;
+			}
+			if (field == 'mrk_sucursal_rf')
+			{
+				document.form1.mrk_sucursal_rf.disabled = false;
+			}
+			if (field == 'mrk_area_servicio_rf')
+			{
+				document.form1.mrk_area_servicio_rf.disabled = false;
+			}
+			if (field == 'mrk_unidad_servicio_rf')
+			{
+				document.form1.mrk_unidad_servicio_rf.disabled = false;
+			}
+			
+		}
+	}
+
+	var geo_id1 = null;
+	function chgCombo1(text,id)
+	{		
+		document.form1.mrk_sucursal_rf.disabled=false;
+		
+		var combo = document.getElementById('mrk_empresa_rf');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id1 = valueCombo.split("-").pop().trim();
+		
+		//findLocation(geo_id0, '');
+		
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+							httpMethod="GET", 
+							uri="${def:actionroot}/getsucursal?id=" + geo_id1, 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=setElementFirstIndex('mrk_sucursal_rf'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);				
+		}
+		
+	}
+
+	var geo_id2 = null;
+	function chgCombo2(text,id)
+	{		
+		document.form1.mrk_area_servicio_rf.disabled=false;
+		
+		var combo = document.getElementById('mrk_sucursal_rf');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id2 = valueCombo.split("-").pop().trim();
+		
+		//findLocation(geo_id0, '');
+		
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+							httpMethod="GET", 
+							uri="${def:actionroot}/getareaservicio?id=" + geo_id1 + "&" + "id2=" + geo_id2,
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=setElementFirstIndex('mrk_area_servicio_rf'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);				
+		}
+		
+	}
+
+	var geo_id4 = null;
+	function chgCombo3(text,id)
+	{		
+		document.form1.mrk_unidad_servicio_rf.disabled=false;
+		
+		var combo = document.getElementById('mrk_area_servicio_rf');
+		var valueCombo = getSelectedIndex(combo);
+		geo_id4 = valueCombo.split("-").pop().trim();
+		
+		//findLocation(geo_id0, '');
+		
+		if (id!=null && id!="") 
+		{
+			return ajaxCall(	
+							httpMethod="GET", 
+							uri="${def:actionroot}/getunidadservicio?id=" + geo_id4, 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=setElementFirstIndex('mrk_unidad_servicio_rf'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);				
+		}
+		
+	}
+
+	//Este codigo fue creado por SIMONE y ajustado en este crud por Kelvin Marcano
+	var geo_id0 = null;
+	function chgCombo5(text,id)
+	{		
+		document.form1.mrk_auxiliar_rf.disabled=false;
+		
+		
+		var combo = document.getElementById('mrk_clase_auxiliar_rf');
+		var valueCombo = getIDSelectedIndex(combo);
+		geo_id0 = valueCombo.split("-").pop().trim();
+		
+		//findLocation(geo_id0, '');
+		
+		if (id!=null && id!="") 
+		{
+			
+			return ajaxCall(	
+							httpMethod="GET", 
+							uri="${def:actionroot}/getAuxiliar?id=" + geo_id0, 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=setElementFirstIndex('mrk_auxiliar_rf'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);				
+		}
+		
+		
+	}
+
+	//Este codigo fue creado por SIMONE y ajustado en este crud por Kelvin Marcano
+	var geo_id0 = null;
+	function chgCombo6(text,id)
+	{		
+		document.form1.mrk_categoria_cargo_rf.disabled=false;
+		
+		
+		var combo = document.getElementById('mrk_cargo_rf');
+		var valueCombo = getIDSelectedIndex(combo);
+		geo_id0 = valueCombo.split("-").pop().trim();
+		
+		//findLocation(geo_id0, '');
+		
+		if (id!=null && id!="") 
+		{
+			
+			return ajaxCall(	
+							httpMethod="GET", 
+							uri="${def:actionroot}/getcategoriacargos?id=" + geo_id0, 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=setElementFirstIndex('mrk_categoria_cargo_rf'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);				
+		}
+		
+		
+	}
+
+	//Este codigo fue creado por SIMONE y ajustado por Kelvin Marcano para los botones de añadir un maestro
+	function areaservicio()
+		{
+		//alert ('Colocar su código aquí­.')
+			var uri = "/smn_base/action/smn_configuracion/smn_entidades/smn_areas_servicios/editor/form";	
+			openDialog("editor20", uri, 650, 580);
+		}
+
+	function unidadservicio()
+		{
+		//alert ('Colocar su código aquí­.')
+			var uri = "/smn_base/action/smn_configuracion/smn_entidades/smn_unidades_servicios/editor/form";	
+			openDialog("editor20", uri, 650, 580);
+		}
+
+	
+		function sucursales()
+		{
+		//alert ('Colocar su código aquí­.')
+			var uri = "/smn_base/action/smn_configuracion/smn_entidades/smn_sucursales/editor/form";	
+			openDialog("editor20", uri, 650, 580);
+		}
+
+		function entidades()
+		{
+		//alert ('Colocar su código aquí­.')
+			var uri = "/smn_base/action/smn_configuracion/smn_entidades/smn_entidades/editor/form";	
+			openDialog("editor20", uri, 650, 580);
+		}
+
+		
+		function usuario()
+		{
+		//alert ('Colocar su código aquí­.')
+			var uri = "/smn_base/action/smn_configuracion/smn_usuarios/smn_registros_usuarios/editor/form";	
+			openDialog("editor20", uri, 650, 580);
+		}
+
+
+	
+</script>	
+</body>
+</html>

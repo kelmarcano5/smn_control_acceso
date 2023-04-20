@@ -1,0 +1,84 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="21" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_empresa_rf","query-smnplanasistencia.sql")'>${lbl:b_company}</th>
+		<th class='sortable' onclick='sortBy("smn_sucursal_rf","query-smnplanasistencia.sql")'>${lbl:b_subsidiary}</th>
+		<th class='sortable' onclick='sortBy("smn_estructura_organizacional_rf","query-smnplanasistencia.sql")'>${lbl:b_organizacional_structure}</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_desde_cal","query-smnplanasistencia.sql")'>${lbl:b_inicial_date}</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_hasta_cal","query-smnplanasistencia.sql")'>${lbl:b_end_date}</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_generado","query-smnplanasistencia.sql")'>${lbl:b_generate_date}</th>
+		<th class='sortable' onclick='sortBy("smn_esquema_rotacion_id","query-smnplanasistencia.sql")'>${lbl:b_rotation_scheme}</th>
+		<th class='sortable' onclick='sortBy("cpa_ano","query-smnplanasistencia.sql")'>${lbl:b_year}</th>
+		<th class='sortable' onclick='sortBy("cpa_num_semana_ini","query-smnplanasistencia.sql")'>${lbl:b_num_week_ini}</th>
+		<th class='sortable' onclick='sortBy("cpa_num_semana_fin","query-smnplanasistencia.sql")'>${lbl:b_num_week_end}</th>
+		<th class='sortable' onclick='sortBy("cpa_status","query-smnplanasistencia.sql")'>${lbl:b_status}</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_vigencia","query-smnplanasistencia.sql")'>${lbl:b_effectivity_date}</th>
+		<th class='sortable' onclick='sortBy("cpa_idioma","query-smnplanasistencia.sql")'>${lbl:s_profile_lang}</th>
+		<th class='sortable' onclick='sortBy("cpa_usuario","query-smnplanasistencia.sql")'>${lbl:b_users}</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_registro","query-smnplanasistencia.sql")'>${lbl:b_store_date}</th>
+		<th class='sortable' onclick='sortBy("cpa_hora","query-smnplanasistencia.sql")'>${lbl:s_loginhist_col2}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_plan_asistencia_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_plan_asistencia_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_plan_asistencia_id}')" title="${lbl:b_edit_button}"></td>
+		<td>${fld:smn_empresa_rf}</td>
+		<td>${fld:smn_sucursal_rf}</td>
+		<td>${fld:smn_estructura_organizacional_rf}</td>
+		<td>${fld:cpa_fecha_desde_cal@dd-MM-yyyy}</td>
+		<td>${fld:cpa_fecha_hasta_cal@dd-MM-yyyy}</td>
+		<td>${fld:cpa_fecha_generado@dd-MM-yyyy}</td>
+		<td>${fld:smn_esquema_rotacion_id}</td>
+		<td>${fld:cpa_ano}</td>
+		<td>${fld:cpa_num_semana_ini}</td>
+		<td>${fld:cpa_num_semana_fin}</td>
+		<td align='left'>${fld:cpa_status}</td>
+		<td>${fld:cpa_fecha_vigencia@dd-MM-yyyy}</td>
+		<td align='left'>${fld:cpa_idioma}</td>
+		<td align='left'>${fld:cpa_usuario}</td>
+		<td>${fld:cpa_fecha_registro@dd-MM-yyyy}</td>
+		<td align='left'>${fld:cpa_hora}</td>
+
+	</tr>
+	</rows>
+
+</table>

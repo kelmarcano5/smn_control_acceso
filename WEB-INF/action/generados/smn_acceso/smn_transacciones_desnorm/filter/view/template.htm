@@ -1,0 +1,52 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='13%'/>
+	<col width='13%'/>
+	<col width='13%'/>
+	<col width='13%'/>
+	<col width='13%'/>
+	<col width='13%'/>
+	<col width='13%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="10">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick="sortBy('trd_sede','query-smntransaccionesdesnorm.sql')" >${lbl:b_subsidiary} </th>
+		<th class='sortable' onclick="sortBy('trd_dispositivo','query-smntransaccionesdesnorm.sql')" >${lbl:b_device_code}</th>
+		<th class='sortable' onclick="sortBy('trd_identificacion','query-smntransaccionesdesnorm.sql')" >${lbl:b_indentification} </th>
+		<th class='sortable' onclick="sortBy('trd_fecha_transaccion','query-smntransaccionesdesnorm.sql')" >${lbl:b_transaction_date}</th>
+		<th class='sortable' onclick="sortBy('trd_tiempo_efectivo_total','query-smntransaccionesdesnorm.sql')" >${lbl:b_effective_time_total}</th>
+		<th class='sortable' onclick="sortBy('trd_status','query-smntransaccionesdesnorm.sql')" >${lbl:b_status}</th>
+		<th class='sortable' onclick="sortBy('trd_fecha_registro','query-smntransaccionesdesnorm.sql')" >${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_transacciones_desnorm_id}')" title="Ver detalle"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_transacciones_desnorm_id}')" title="Eliminar"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_transacciones_desnorm_id}')" title="Editar"></td>
+		<td align="left">${fld:trd_sede}</td>
+		<td align="left">${fld:trd_dispositivo}</td>
+		<td align="left">${fld:trd_identificacion}</td>
+		<td align="left">${fld:trd_fecha_transaccion}</td>
+		<td align="right">${fld:trd_tiempo_efectivo_total@#,###,##0.00}</td>
+		<td align="left">${fld:trd_status}</td>
+		<td align="center">${fld:trd_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

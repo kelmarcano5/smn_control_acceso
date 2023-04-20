@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='dis_codigo' type='varchar' required='true' label='${lbl:b_code}' maxlen='16'/>
+	<parameter id='dis_nombre' type='varchar' required='true' label='${lbl:b_name}' maxlen='48'/>
+	<parameter id='dis_empresa' type='integer' required='true' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='dis_sucursal' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='dis_area_servicio' type='integer' required='false' label='${lbl:b_service_area}' maxlen='10'/>
+	<parameter id='dis_unidad_servicio' type='integer' required='false' label='${lbl:b_service_unit}' maxlen='10'/>
+	<parameter id='dis_tipo_dispositivo' type='varchar' required='true' label='${lbl:b_device_type}' maxlen='2'/>
+	<parameter id='dis_serial' type='varchar' required='false' label='${lbl:b_serial}' maxlen='32'/>
+	<parameter id='dis_ip_address' type='varchar' required='false' label='${lbl:b_direccion_ip}' maxlen='16' regexp="^(([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5]).){3}([1-9]?[0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])$" regexp-error-label="${lbl:b_error_ip_address}" />
+	<parameter id='id' type='integer' required='true' label='${lbl:b_device}' maxlen='10'/>
+
+</validator>

@@ -1,0 +1,31 @@
+[INFO] 2022-10-31 00:01:02,400 ComparativoMarcaje.main main - --INICIO DE PROCESO: --
+[INFO] 2022-10-31 00:01:23,130 ComparativoMarcaje.main main - Cantida de Asistencias programadas =244930
+[INFO] 2022-10-31 00:01:23,132 ComparativoMarcaje.main main - Cantida de Movimientos de marcaje =135040
+[INFO] 2022-10-31 00:01:23,132 ComparativoMarcaje.main main - Cantida de PERSONAL asignados a las Asistencias programadas =223
+[ERROR] 2022-10-31 00:02:09,953 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-29, Horas 2021-03-29 18:00 2021-03-29 06:00
+[ERROR] 2022-10-31 00:02:09,954 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-29 null:00"
+[ERROR] 2022-10-31 00:02:10,084 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-29, Horas 2021-03-29 18:00 2021-03-29 06:00
+[ERROR] 2022-10-31 00:02:10,084 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-29 null:00"
+[INFO] 2022-10-31 00:02:10,085 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2022-10-31 00:02:10,085 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-03-29)
+[INFO] 2022-10-31 00:02:10,085 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2022-10-31 00:02:10,085 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2022-10-31 00:02:10,086 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2022-10-31 00:02:47,280 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-30, Horas 2021-03-30 18:00 2021-03-30 06:00
+[ERROR] 2022-10-31 00:02:47,282 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-30 null:00"
+[ERROR] 2022-10-31 00:02:47,386 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-30, Horas 2021-03-30 18:00 2021-03-30 06:00
+[ERROR] 2022-10-31 00:02:47,386 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-30 null:00"
+[INFO] 2022-10-31 00:02:47,388 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2022-10-31 00:02:47,388 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-03-30)
+[INFO] 2022-10-31 00:02:47,388 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2022-10-31 00:02:47,390 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2022-10-31 00:02:47,390 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2022-10-31 00:03:15,579 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-31, Horas 2021-03-31 18:00 2021-03-31 06:00
+[ERROR] 2022-10-31 00:03:15,580 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-31 null:00"
+[ERROR] 2022-10-31 00:03:15,687 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-31, Horas 2021-03-31 18:00 2021-03-31 06:00
+[ERROR] 2022-10-31 00:03:15,688 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-31 null:00"
+[INFO] 2022-10-31 00:03:15,689 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2022-10-31 00:03:15,689 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-03-31)
+[INFO] 2022-10-31 00:03:15,689 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2022-10-31 00:03:15,689 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2022-10-31 00:03:15,690 ComparativoMarcaje.resumen leerListas - ************************************

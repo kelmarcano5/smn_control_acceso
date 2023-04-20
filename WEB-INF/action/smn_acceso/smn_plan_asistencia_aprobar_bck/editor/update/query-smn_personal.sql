@@ -1,0 +1,12 @@
+--select	* from smn_control_acceso.smn_personal
+--	inner join smn_base.smn_auxiliar on smn_base.smn_auxiliar.smn_auxiliar_id=smn_control_acceso.smn_personal.psl_auxiliar_rf
+select	
+	smn_control_acceso.smn_personal.smn_personal_id
+from
+	smn_control_acceso.smn_personal
+	inner join smn_control_acceso.smn_plan_asistencia on smn_control_acceso.smn_plan_asistencia.smn_estructura_organizacional_rf=smn_control_acceso.smn_personal.psl_estructura_organizacional_rf and
+	smn_control_acceso.smn_plan_asistencia.smn_esquema_rotacion_id=smn_control_acceso.smn_personal.psl_esquema_rotacion_rf
+where
+	smn_control_acceso.smn_personal.smn_personal_id is not null 
+	
+	and smn_control_acceso.smn_plan_asistencia.smn_plan_asistencia_id=${fld:id}

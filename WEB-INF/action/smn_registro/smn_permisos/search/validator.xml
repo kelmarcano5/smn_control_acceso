@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/crud'>
+	<parameter id='spe_detalles' type='varchar' required='false' label='${lbl:b_details}' maxlen='5000'/>
+	<parameter id='spe_fecha_desde' type='date' required='false' label='${lbl:b_inicial_date}' maxlen='10'/>
+	<parameter id='spe_fecha_hasta' type='date' required='false' label='${lbl:b_end_date}' maxlen='10'/>
+	<parameter id='spe_nro_horas' type='double' required='false' label='${lbl:b_nro_horas}' maxlen='10'/>
+	<parameter id='spe_aprobado_por' type='varchar' required='false' label='${lbl:b_approved_by}' maxlen='60'/>
+	<parameter id='spe_archivo' type='varchar' required='false' label='${lbl:b_file}' maxlen='250'/>
+	<parameter id='spe_contenido' type='varchar' required='false' label='${lbl:b_content}' maxlen='100'/>
+	<parameter id='spe_tamano' type='integer' required='false' label='${lbl:b_size}' maxlen='10'/>
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="spe_detalles" rule="like" />
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="spe_aprobado_por" rule="like" />
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="spe_archivo" rule="like" />
+	<custom-validator classname="dinamica.validators.SQLPatternTransformer" parameter="spe_contenido" rule="like" />
+</validator>

@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror="/action/error/validation/alert" id='smn_solicitud_id'>
+	<parameter id="id" type="varchar" required="false" label="ID" maxlen="100" />
+	<parameter id="id2" type="integer" required="false" label="ID" maxlen="100" />
+	<parameter id="nombre" type="varchar" required="false" label="descripcion" maxlen="50" />
+	<parameter id="documento" type="varchar" required="false" label="documento" maxlen="50" />
+	<parameter id="name" type="varchar" required="false" label="nombres" maxlen="50" />
+	<parameter id="lastname" type="varchar" required="false" label="apellidos" maxlen="50" />
+</validator>

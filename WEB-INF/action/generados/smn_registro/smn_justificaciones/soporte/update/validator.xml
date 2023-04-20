@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_justificaciones_id_name' type='varchar' required='true' label='${lbl:b_justifications}'/>
+	<parameter id='smn_justificaciones_id' type='integer' required='false' label='${lbl:b_justifications}' maxlen='10'/>
+	<parameter id='jsa_persona_rf' type='integer' required='true' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_load_justific_file}' maxlen='10'/>
+</validator>
+

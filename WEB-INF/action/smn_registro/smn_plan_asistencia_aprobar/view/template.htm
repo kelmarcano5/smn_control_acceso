@@ -1,0 +1,69 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width="12%"/>
+	<col width="12%"/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='3%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="15" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+			<th></th>
+		<th></th>
+		<th>GN</th>
+		<th>AP</th>
+		<th class='sortable' onclick='sortBy("smn_empresa_rf","query-smnplanasistencia.sql")'>${lbl:b_company}</th>
+		<th class='sortable' onclick='sortBy("smn_sucursal_rf","query-smnplanasistencia.sql")'>${lbl:b_subsidiary}</th>
+		<th class='sortable' onclick='sortBy("smn_estructura_organizacional_rf","query-smnplanasistencia.sql")'>${lbl:b_organizacional_structure}</th>
+		<th class='sortable' onclick='sortBy("smn_esquema_rotacion_id2","query-smnplanasistencia.sql")'>${lbl:b_rotation_scheme}</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_desde_cal","query-smnplanasistencia.sql")'>${lbl:b_inicial_date}</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_hasta_cal","query-smnplanasistencia.sql")'>${lbl:b_end_date}</th>
+		<th class='sortable' onclick='sortBy("cpa_ano","query-smnplanasistencia.sql")'>${lbl:b_year}</th>
+		<th class='sortable' onclick='sortBy("cpa_status2","query-smnplanasistencia.sql")'>${lbl:b_status}</th>
+		<th class='sortable' onclick='sortBy("cpa_fecha_registro","query-smnplanasistencia.sql")'>${lbl:b_store_date}</th>
+		<th>AS</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_plan_asistencia_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_plan_asistencia_id}','${fld:cpa_status}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_plan_asistencia_id}')" title="Editar"></td>
+		<td><img src="${def:context}/images/icongrid/Generar.png" onclick="getGenerarAsistencia('${fld:smn_plan_asistencia_id}','${fld:cpa_status}')" title="Generar"></td>
+		<td><img src="${def:context}/images/accept.png" onclick="cambiarEstatus('${fld:smn_plan_asistencia_id}','${fld:cpa_status}')" title="Aprobar"></td>
+		<td>${fld:smn_empresa_rf}</td>
+		<td>${fld:smn_sucursal_rf}</td>
+		<td>${fld:smn_estructura_organizacional_rf}</td>
+		<td>${fld:smn_esquema_rotacion_id2}</td>
+		<td>${fld:cpa_fecha_desde_cal@dd-MM-yyyy}</td>
+		<td>${fld:cpa_fecha_hasta_cal@dd-MM-yyyy}</td>
+		<td>${fld:cpa_ano}</td>
+		<td align='left'>${fld:cpa_status2}</td>
+		<td>${fld:cpa_fecha_registro@dd-MM-yyyy}</td>
+<!-- 		<td><img src="${def:context}/images/icongrid/Detalle-impuesto.png" onclick="relacion('${fld:smn_estructura_organizacional_rf}','${fld:smn_esquema_rotacion_id}','')" title="${lbl:b_persoal_bd}"></td> -->
+		<td><img src="${def:context}/images/icongrid/Detalle-impuesto.png" onclick="asistencia('${fld:smn_plan_asistencia_id}','${fld:smn_esquema_rotacion_id}','')" title="${lbl:b_attendance}"></td>
+
+	</tr>
+	</rows>
+
+</table>

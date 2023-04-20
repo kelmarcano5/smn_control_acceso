@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='trd_sede' type='varchar' required='true' label='${lbl:b_subsidiary} ' maxlen='48'/>
+	<parameter id='trd_dispositivo' type='varchar' required='true' label='${lbl:b_device_code}' maxlen='48'/>
+	<parameter id='trd_identificacion' type='varchar' required='true' label='${lbl:b_indentification} ' maxlen='16'/>
+	<parameter id='trd_tipo_marcaje' type='varchar' required='true' label='${lbl:b_check_type}' maxlen='512'/>
+	<parameter id='trd_fecha_transaccion' type='varchar' required='true' label='${lbl:b_transaction_date}' maxlen='2048'/>
+	<parameter id='trd_hora_transaccion' type='varchar' required='true' label='${lbl:b_transaction_time}' maxlen='2048'/>
+	<parameter id='trd_tiempo_efectivo' type='varchar' required='true' label='${lbl:b_effective_time}' maxlen='512'/>
+	<parameter id='trd_tiempo_efectivo_total' type='double' required='true' label='${lbl:b_effective_time_total}' maxlen='10'/>
+	<parameter id='trd_status' type='varchar' required='true' label='${lbl:b_status}' maxlen='3'/>
+
+
+</validator>

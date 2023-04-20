@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		${lbl:b_marking_movement}
+	</summary>
+
+	<log>false</log>
+	
+	<set-request-attribute id="progress" value="file:/WEB-INF/action/progress/progress.htm"/>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>true</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id='query-mrk_auxiliar.sql' source='sql' scope='transaction'/><recordset id='query-mrk_clase_auxiliar.sql' source='sql' scope='transaction'/><recordset id='query-mrk_empresa.sql' source='sql' scope='transaction'/><recordset id='query-mrk_sucursal.sql' source='sql' scope='transaction'/><recordset id='query-mrk_area_servicio.sql' source='sql' scope='transaction'/><recordset id='query-mrk_unidad_servicio.sql' source='sql' scope='transaction'/><recordset id='query-mrk_centro_costo.sql' source='sql' scope='transaction'/><recordset id='query-mrk_cargo.sql' source='sql' scope='transaction'/><recordset id='query-mrk_categoria_cargo.sql' source='sql' scope='transaction'/>
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericOutput</classname>
+		<template>template.htm</template>
+		<set-http-headers>true</set-http-headers>
+		<content-type>text/html</content-type>
+		<print mode='table' recordset='query-mrk_auxiliar.sql' tag='mrk_auxiliar_rows'/><print mode='table' recordset='query-mrk_clase_auxiliar.sql' tag='mrk_clase_auxiliar_rows'/><print mode='table' recordset='query-mrk_empresa.sql' tag='mrk_empresa_rows'/><print mode='table' recordset='query-mrk_sucursal.sql' tag='mrk_sucursal_rows'/><print mode='table' recordset='query-mrk_area_servicio.sql' tag='mrk_area_servicio_rows'/><print mode='table' recordset='query-mrk_unidad_servicio.sql' tag='mrk_unidad_servicio_rows'/><print mode='table' recordset='query-mrk_centro_costo.sql' tag='mrk_centro_costo_rows'/><print mode='table' recordset='query-mrk_cargo.sql' tag='mrk_cargo_rows'/><print mode='table' recordset='query-mrk_categoria_cargo.sql' tag='mrk_categoria_cargo_rows'/>
+		<print mode="form" recordset="_request" /> 
+	</output>
+
+</config>

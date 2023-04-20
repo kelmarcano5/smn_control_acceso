@@ -1,0 +1,1 @@
+  and rows.smn_plan_asistencia_id=${fld:smn_plan_asistencia_id}

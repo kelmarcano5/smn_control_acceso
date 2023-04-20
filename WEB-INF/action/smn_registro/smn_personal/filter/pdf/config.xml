@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnpersonal.sql" source="session" scope="transaction" />
+		<recordset id="filter.params" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_personal}</pdf-title>
+	<pdf-logo url='/images/logo-simone-pdf.png' scale='100' align="left" />
+	<pdf-file-name>${lbl:b_personal}.pdf</pdf-file-name>
+
+	<pdf-report pageSize="letter" rotate="false" footer="true" header="true">
+		<record recordset='filter.params' title='${lbl:b_filter_find}' noFilterMsg='-- ${lbl:b_all_message} --' width='55' spacingBefore='15'>
+			<col name='psl_auxiliar_rf' title='${lbl:b_auxiliary}'   align='left' />
+			<col name='ent_descripcion_corta' title='${lbl:b_entity}'   align='left' />
+			<col name='suc_nombre' title='${lbl:b_subsidiary}'   align='left' />
+			<col name='ase_descripcion' title='${lbl:b_service_area}'   align='left' />
+			<col name='uns_descripcion' title='${lbl:b_service_unit}'   align='left' />
+			<col name='eor_nombre' title='${lbl:b_organizational_structure}'   align='left' />
+			<col name='job_nombre' title='${lbl:b_positions}'   align='left' />
+			<col name='psl_id_control_acceso' title='${lbl:b_id_access_control}'  align='left' />
+			<col name='psl_fecha_registro_ini' title='${lbl:b_store_date_grater_than}'  format='dd-MM-yyyy' align='left' />
+			<col name='psl_fecha_registro_fin' title='${lbl:b_store_date_less_than}'  format='dd-MM-yyyy' align='left' />
+
+		</record>
+		<record recordset='query-smnpersonal.sql' width='100' spacingBefore='10'>
+			<col name='smn_item' title='${lbl:b_auxiliary}' width='14' align='left'  />
+			<col name='ent_descripcion_corta' title='${lbl:b_entity}' width='14' align='left'  />
+			<col name='suc_nombre' title='${lbl:b_subsidiary}' width='14' align='left'  />
+			<col name='job_nombre' title='${lbl:b_positions}' width='14' align='left'  />
+			<col name='psl_habilita_acceso_ref' title='${lbl:b_enables_access_control}' width='14' align='left' />
+			<col name='psl_id_control_acceso' title='${lbl:b_id_access_control}' width='14' align='left' />
+			<col name='smn_dispositivos_rf' title='${lbl:b_device}' align='left'  />
+			<col name='smn_clasificacion_horaria_rf' title='${lbl:b_time_clasificacion}' align='left'  />
+			<col name='psl_estatus' title='${lbl:b_estatus}' align='left'  />
+			<col name='psl_fecha_registro' title='${lbl:b_store_date}' width='14' align='left' format='dd-MM-yyyy' />
+
+		</record>
+
+	</pdf-report>
+</config>

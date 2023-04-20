@@ -1,0 +1,52 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='13%'/>
+	<col width='24%'/>
+	<col width='26%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="9" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("trd_sede","query-smntransaccionesdesnorm.sql")'>${lbl:b_headquarters}</th>
+		<th class='sortable' onclick='sortBy("trd_dispositivo","query-smntransaccionesdesnorm.sql")'>${lbl:b_device_code}</th>
+		<th class='sortable' onclick='sortBy("trd_identificacion","query-smntransaccionesdesnorm.sql")'>${lbl:b_indentification} </th>
+		<th class='sortable' onclick='sortBy("trd_fecha_transaccion","query-smntransaccionesdesnorm.sql")'>${lbl:b_transaction_date}</th>
+		<th class='sortable' onclick='sortBy("trd_tiempo_efectivo_total","query-smntransaccionesdesnorm.sql")'>${lbl:b_effective_time_total}</th>
+		<th class='sortable' onclick='sortBy("trd_status","query-smntransaccionesdesnorm.sql")'>${lbl:b_status}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_transacciones_desnorm_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_transacciones_desnorm_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_transacciones_desnorm_id}')" title="${lbl:b_edit_button}"></td>
+		<td align='left'>${fld:trd_sede}</td>
+		<td align='left'>${fld:trd_dispositivo}</td>
+		<td align='left'>${fld:trd_identificacion}</td>
+		<td>${fld:trd_fecha_transaccion}</td>
+		<td align='center'>${fld:trd_tiempo_efectivo_total@#,###,##0.00}</td>
+		<td align='left'>${fld:trd_status}</td>
+
+	</tr>
+	</rows>
+
+</table>

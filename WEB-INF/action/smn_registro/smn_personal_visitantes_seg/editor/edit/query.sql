@@ -1,0 +1,26 @@
+select	
+	smn_control_acceso.smn_personal_visitantes.smn_personal_visitantes_id,
+	smn_control_acceso.smn_personal_visitantes.smn_personal_id,
+	smn_control_acceso.smn_personal_visitantes.smn_cedula_rf,
+	smn_control_acceso.smn_personal_visitantes.rpv_fecha_evento,
+	smn_control_acceso.smn_personal_visitantes.rpv_hora_entrada,
+	smn_control_acceso.smn_personal_visitantes.rpv_hora_estimada_salida,
+	smn_control_acceso.smn_personal_visitantes.rpv_razon_visita,
+	smn_control_acceso.smn_personal_visitantes.rpv_autorizado_almorzar,
+	 smn_base.smn_entidades.ent_descripcion_corta as smn_entidad_rf,
+	  smn_base.smn_sucursales.suc_nombre as smn_sucursal_rf,
+		smn_base.smn_estructura_organizacional.eor_nombre as smn_estructura_organizacional_rf,
+	 smn_control_acceso.smn_personal_visitantes.rpv_estatus,
+	 smn_base.smn_entidades.smn_entidades_id,
+	 smn_base.smn_sucursales.smn_sucursales_id,
+	 smn_base.smn_estructura_organizacional.smn_estructura_organizacional_id 
+from 
+	smn_control_acceso.smn_personal_visitantes
+	inner join smn_base.smn_entidades on smn_base.smn_entidades.smn_entidades_id = smn_control_acceso.smn_personal_visitantes.smn_entidad_rf
+	inner join smn_base.smn_sucursales on smn_base.smn_sucursales.smn_sucursales_id = smn_control_acceso.smn_personal_visitantes.smn_sucursal_rf
+	inner join smn_base.smn_estructura_organizacional on smn_base.smn_estructura_organizacional.smn_estructura_organizacional_id = smn_control_acceso.smn_personal_visitantes.smn_estructura_organizacional_rf
+	
+where 
+	smn_personal_visitantes_id = ${fld:id}
+
+

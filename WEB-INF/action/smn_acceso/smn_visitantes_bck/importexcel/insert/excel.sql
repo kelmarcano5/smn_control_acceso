@@ -1,0 +1,40 @@
+INSERT INTO smn_control_acceso.smn_visitantes
+(
+	smn_visitantes_id,
+	smn_entidad_rf,
+	smn_sucursal_rf,
+	smn_estructura_organizativa_rf,
+	smn_tipo_documento_identidad_rf,
+	vis_documento_identidad,
+	vis_nombre,
+	vis_apellido,
+	vis_empresa,
+	smn_numero_carnet_asignado_id,
+	vis_hora_entrada,
+	vis_hora_estimada_salida,
+	vis_invitado_almuerzo,
+	vis_estatus,
+	smn_personal_id,
+	vis_fecha_vigencia,
+	vis_fecha_registro
+)
+VALUES
+(
+	${seq:nextval@smn_control_acceso.seq_smn_visitantes},
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	{d '${def:date}'}
+)

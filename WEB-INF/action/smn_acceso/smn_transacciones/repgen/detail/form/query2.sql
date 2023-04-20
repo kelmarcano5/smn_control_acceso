@@ -1,0 +1,12 @@
+select
+	smn_control_acceso.smn_transacciones.trn_sede,
+	smn_control_acceso.smn_transacciones.trn_dispositivo,
+	smn_control_acceso.smn_transacciones.trn_identificacion,
+	smn_control_acceso.smn_transacciones.trn_marcaje,
+	smn_control_acceso.smn_transacciones.trn_tipo_marcaje,
+	smn_control_acceso.smn_transacciones.trn_fecha_transaccion,
+	smn_control_acceso.smn_transacciones.trn_fecha_registro
+from
+	smn_control_acceso.smn_transacciones 
+where
+	smn_control_acceso.smn_transacciones.smn_transacciones_id = ${fld:id}

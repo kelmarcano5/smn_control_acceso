@@ -1,0 +1,32 @@
+INSERT INTO smn_control_acceso.smn_asistencia_comedor
+(
+	smn_asistencia_comedor_id,
+	smn_asistencia_id,
+	smn_movimiento_marcaje_id,
+	smn_personal_id,
+	com_fecha_generada,
+	com_hora_generada,
+	com_hora_marcaje,
+	com_hora_entregada,
+	com_estatus,
+	com_idioma,
+	com_usuario,
+	com_fecha_registro,
+	com_hora
+)
+VALUES
+(
+	${seq:currval@smn_control_acceso.seq_smn_asistencia_comedor},
+	${fld:smn_asistencia_id},
+	${fld:smn_movimiento_marcaje_id},
+	${fld:smn_personal_id},
+	${fld:com_fecha_generada},
+	${fld:com_hora_generada},
+	${fld:com_hora_marcaje},
+	${fld:com_hora_entregada},
+	${fld:com_estatus},
+	'${def:locale}',
+	'${def:user}',
+	{d '${def:date}'},
+	'${def:time}'
+)

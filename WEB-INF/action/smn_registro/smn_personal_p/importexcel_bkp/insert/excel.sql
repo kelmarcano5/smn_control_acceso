@@ -1,0 +1,48 @@
+INSERT INTO smn_control_acceso.smn_personal
+(
+	smn_personal_id,
+	psl_num_control,
+	psl_esquema_rotacion_rf,
+	psl_fecha_inicio_calculo,
+	psl_categoria_personal_rf,
+	psl_clase_auxiliar_rf,
+	psl_auxiliar_rf,
+	psl_empresa_rf,
+	psl_sucursal_rf,
+	psl_area_servicio_rf,
+	psl_unidad_servicio_rf,
+	psl_centro_costo_rf,
+	psl_estructura_organizacional_rf,
+	psl_cargo_rf,
+	psl_categoria_cargo_rf,
+	psl_habilita_acceso_rf,
+	psl_id_control_acceso,
+	psl_idioma,
+	psl_usuario,
+	psl_fecha_registro,
+	psl_hora
+)
+VALUES
+(
+	${seq:nextval@smn_control_acceso.seq_smn_personal},
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	'${def:locale}',
+	'${def:user}',
+	{d '${def:date}'},
+	'${def:time}'
+)

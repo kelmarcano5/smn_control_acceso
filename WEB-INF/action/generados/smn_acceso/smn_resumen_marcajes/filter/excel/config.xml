@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnresumenmarcajes.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+	
+	<excel recordset='query-smnresumenmarcajes.sql' sheetname='${lbl:b_marking_movement}' filename='filter.xls'>
+		<col id='igs_auxiliar_combo' label='${lbl:b_auxiliary}' />
+		<col id='igs_clase_auxiliar_combo' label='${lbl:b_auxiliary_class}' />
+		<col id='igs_control_acceso_id' label='${lbl:b_id_access_control}' />
+		<col id='igs_actividad_combo' label='${lbl:b_activity_type}' />
+		<col id='igs_tiempo_efectivo' label='${lbl:b_effective_time}' />
+		<col id='igs_fecha' label='${lbl:s_loginhist_col1}' />
+		<col id='igs_fecha_registro' label='${lbl:b_store_date}' />
+	</excel>
+
+</config>

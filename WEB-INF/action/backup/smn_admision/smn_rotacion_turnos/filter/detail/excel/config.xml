@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="2" cellStep="0" name="${lbl:b_rotacion_turnos}"/>
+	
+	<excel 
+		recordset='query.sql' 
+		sheetname='${lbl:b_rotacion_turnos}' 
+		filename='${lbl:b_rotacion_turnos}.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='rot_turno' label='${lbl:b_turno}' />
+		<col id='rot_consecutivo' label='${lbl:b_consecutivo} ' />
+		<col id='rot_dia_combo' label='${lbl:b_day_name}' />
+		<col id='rot_horario' label='${lbl:b_schedules}' />
+		<col id='rot_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

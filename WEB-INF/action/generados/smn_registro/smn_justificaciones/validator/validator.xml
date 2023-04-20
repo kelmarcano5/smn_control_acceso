@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator>
+	<parameter id='smn_justificaciones_id' type='integer' required='true' label='${lbl:b_justifications}' maxlen='10'/>
+	<parameter id='smn_personal_id' type='integer' required='true' label='${lbl:b_personal}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || " - " || smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' maxlen='10'/>
+	<parameter id='jus_tipo_actividad_rf' type='integer' required='true' label='${lbl:b_activity_category}@{select smn_gip.smn_tipo_actividades.smn_tipo_actividades_id as id, smn_gip.smn_tipo_actividades.tya_codigo || " - " || smn_gip.smn_tipo_actividades.tya_nombre as item from smn_gip.smn_tipo_actividades order by smn_gip.smn_tipo_actividades.tya_nombre}' maxlen='10'/>
+	<parameter id='jus_documento_rf' type='integer' required='true' label='${lbl:b_documento}@{select smn_gip.smn_documentos.smn_documentos_id as id, smn_gip.smn_documentos.dcm_codigo|| " - " || smn_gip.smn_documentos.dcm_nombre as item from smn_gip.smn_documentos order by smn_gip.smn_documentos.dcm_nombre}' maxlen='10'/>
+	<parameter id='jus_fecha_incidencia' type='date' required='true' label='${lbl:b_incidence_date}' maxlen='10'/>
+	<parameter id='jus_hora_incidencia' type='varchar' required='true' label='${lbl:b_time_incident}' maxlen='5'/>
+	<parameter id='jus_tiempo_a_justificar' type='double' required='true' label='${lbl:b_time_to_justify}' maxlen='10'/>
+	<parameter id='jus_estatus_rf' type='varchar' required='true' label='${lbl:b_status}@{APR=${lbl:b_approved}|NAP=${lbl:b_not_approved}|PEN=${lbl:b_pending}}' maxlen='3'/>
+	<parameter id='jus_jefe_inmediato_rf' type='integer' required='true' label='${lbl:b_direct_boss}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || " - " || smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' maxlen='60'/>
+	<parameter id='jus_descripcion' type='varchar' required='false' label='${lbl:b_description}' maxlen='4000'/>
+	<parameter id='jus_causa' type='varchar' required='false' label='${lbl:b_cause_not_approved}' maxlen='1024'/>
+	<parameter id='jus_idioma' type='varchar' required='true' label='${lbl:s_profile_lang}@{${def:locale}}' maxlen='2'/>
+	<parameter id='jus_usuario' type='varchar' required='true' label='${lbl:b_users}@{${def:user}}' maxlen='10'/>
+	<parameter id='jus_fecha_registro' type='date' required='true' label='${lbl:b_store_date}@{${def:date}}' maxlen='10'/>
+	<parameter id='jus_hora' type='varchar' required='true' label='${lbl:s_loginhist_col2}@{${def:time}}' maxlen='8'/>
+</validator>

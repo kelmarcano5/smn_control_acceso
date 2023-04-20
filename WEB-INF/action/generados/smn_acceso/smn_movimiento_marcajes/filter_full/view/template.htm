@@ -1,0 +1,89 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+	<col width='5%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="20">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+
+
+
+		<th class='sortable' onclick="sortBy('mrk_auxiliar_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_auxiliary}</th>
+		<th class='sortable' onclick="sortBy('mrk_clase_auxiliar_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_auxiliary_class}</th>
+		<th class='sortable' onclick="sortBy('mrk_control_acceso_id','query-smnmovimientomarcajes.sql')" >${lbl:b_id_access_control}
+</th>
+		<th class='sortable' onclick="sortBy('mrk_empresa_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_entity}</th>
+		<th class='sortable' onclick="sortBy('mrk_sucursal_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_subsidiary}</th>
+		<th class='sortable' onclick="sortBy('mrk_area_servicio_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_service_area}</th>
+		<th class='sortable' onclick="sortBy('mrk_unidad_servicio_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_service_unit}</th>
+		<th class='sortable' onclick="sortBy('mrk_centro_costo_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_cost_centers}</th>
+		<th class='sortable' onclick="sortBy('mrk_cargo_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_positions}</th>
+		<th class='sortable' onclick="sortBy('mrk_categoria_cargo_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_position_category}</th>
+		<th class='sortable' onclick="sortBy('mrk_marcaje_id','query-smnmovimientomarcajes.sql')" >${lbl:b_check}</th>
+		<th class='sortable' onclick="sortBy('mrk_dispositivo_codigo','query-smnmovimientomarcajes.sql')" >${lbl:b_device}</th>
+		<th class='sortable' onclick="sortBy('mrk_marcaje_fecha','query-smnmovimientomarcajes.sql')" >${lbl:b_transaction_date}</th>
+		<th class='sortable' onclick="sortBy('mrk_marcaje_hora','query-smnmovimientomarcajes.sql')" >${lbl:b_transaction_time}</th>
+		<th class='sortable' onclick="sortBy('mrk_marcaje_dia_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_day_name}</th>
+		<th class='sortable' onclick="sortBy('mrk_marcaje_tipo_combo','query-smnmovimientomarcajes.sql')" >${lbl:b_device_type}</th>
+		<th class='sortable' onclick="sortBy('mrk_tiempo_efectivo','query-smnmovimientomarcajes.sql')" >${lbl:b_effective_time}</th>
+		<th class='sortable' onclick="sortBy('mrk_turno','query-smnmovimientomarcajes.sql')" >${lbl:b_turno}</th>
+		<th class='sortable' onclick="sortBy('mrk_consecutivo','query-smnmovimientomarcajes.sql')" >${lbl:b_consecutivo} </th>
+		<th class='sortable' onclick="sortBy('mrk_fecha_registro','query-smnmovimientomarcajes.sql')" >${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+
+
+
+		<td align="left">${fld:mrk_auxiliar_combo}</td>
+		<td align="left">${fld:mrk_clase_auxiliar_combo}</td>
+		<td align="left">${fld:mrk_control_acceso_id}</td>
+		<td align="left">${fld:mrk_empresa_combo}</td>
+		<td align="left">${fld:mrk_sucursal_combo}</td>
+		<td align="left">${fld:mrk_area_servicio_combo}</td>
+		<td align="left">${fld:mrk_unidad_servicio_combo}</td>
+		<td align="left">${fld:mrk_centro_costo_combo}</td>
+		<td align="left">${fld:mrk_cargo_combo}</td>
+		<td align="left">${fld:mrk_categoria_cargo_combo}</td>
+		<td align="left">${fld:mrk_marcaje_id}</td>
+		<td align="left">${fld:mrk_dispositivo_codigo}</td>
+		<td align="left">${fld:mrk_marcaje_fecha@dd-MM-yyyy}</td>
+		<td align="left">${fld:mrk_marcaje_hora}</td>
+		<td align="left">${fld:mrk_marcaje_dia_combo}</td>
+		<td align="left">${fld:mrk_marcaje_tipo_combo}</td>
+		<td align="left">${fld:mrk_tiempo_efectivo@#,###,##0.00}</td>
+		<td align="left">${fld:mrk_turno}</td>
+		<td align="left">${fld:mrk_consecutivo}</td>
+		<td align="left">${fld:mrk_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

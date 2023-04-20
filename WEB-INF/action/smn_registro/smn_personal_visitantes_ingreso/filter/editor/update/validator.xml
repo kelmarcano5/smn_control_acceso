@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_personal_id' type='integer' required='true' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='smn_entidad_rf' type='varchar' required='false' label='${lbl:b_entity}' maxlen='100'/>
+	<parameter id='smn_sucursal_rf' type='varchar' required='false' label='${lbl:b_subsidiary}' maxlen='100'/>
+	<parameter id='smn_estructura_organizacional_rf' type='varchar' required='false' label='${lbl:b_departamento}' maxlen='100'/>
+	<parameter id='smn_cedula_rf' type='integer' required='true' label='${lbl:b_cedula}' maxlen='10'/>
+	<parameter id='rpv_fecha_evento' type='date' required='true' label='${lbl:b_event_date}' maxlen='10'/>
+	<parameter id='rpv_razon_visita' type='varchar' required='true' label='${lbl:b_razon_visita}' maxlen='200'/>
+	<parameter id='rpv_autorizado_almorzar' type='varchar' required='true' label='${lbl:b_lunch_authorizer}' maxlen='2'/>
+	<parameter id='rpv_autorizador' type='integer' required='false' label='${lbl:b_autorizador}' maxlen='10'/>
+	<parameter id='rpv_estatus' type='varchar' required='true' label='${lbl:b_status}' maxlen='2'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_personal_visitors}' maxlen='10'/>
+
+
+	<parameter id='smn_entidades_id' type='integer' required='false' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='smn_sucursales_id' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='smn_estructura_organizacional_id' type='integer' required='false' label='${lbl:b_departamento}' maxlen='10'/>
+
+	<parameter id='rpv_numero_carnet_asignado' type='integer' required='true' label='${lbl:b_cedula}' maxlen='10'/>
+	<parameter id='rpv_hora_entrada' type='varchar' required='true' label='${lbl:b_cedula}' maxlen='8'/>
+	<parameter id='rpv_hora_estimada_salida' type='varchar' required='true' label='${lbl:b_cedula}' maxlen='8'/>
+	<parameter id='smn_codigo_variable_1' type='integer' required='false' label='${lbl:b_cedula}' maxlen='10'/>
+	<parameter id='smn_valor_variable_1' type='varchar' required='false' label='${lbl:b_cedula}' maxlen='100'/>
+	<parameter id='smn_codigo_variable_2' type='integer' required='false' label='${lbl:b_cedula}' maxlen='10'/>
+	<parameter id='smn_valor_variable_2' type='varchar' required='false' label='${lbl:b_cedula}' maxlen='100'/>
+
+</validator>

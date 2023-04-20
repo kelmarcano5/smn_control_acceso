@@ -1,0 +1,30 @@
+INSERT INTO smn_control_acceso.smn_justificaciones_soporte
+(
+	smn_justificaciones_soporte_id,
+	smn_justificaciones_id,
+	smn_personal_rf,
+	jsa_description,
+	jsa_imagen_data,
+	filename,
+	jsa_imagen_size,
+	content_type,
+	jsa_idioma,
+	jsa_usuario,
+	jsa_fecha_registro,
+	jsa_hora
+)
+VALUES
+(
+	${seq:nextval@smn_control_acceso.seq_smn_justificaciones_soporte},
+	${fld:smn_justificaciones_id},
+	${fld:smn_personal_rf},
+	${fld:jsa_description},
+	?,
+	${fld:_filename},
+	${fld:_filesize},
+	${fld:_contenttype},
+	'${def:locale}',
+	'${def:user}',
+	{d '${def:date}'},
+	'${def:time}'
+)

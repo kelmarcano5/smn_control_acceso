@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='psl_num_control' type='varchar' required='true' maxlen='16'/>
+	<parameter id='psl_clase_auxiliar_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='psl_auxiliar_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='psl_habilita_acceso' type='varchar' required='true' maxlen='1'/>
+	<parameter id='psl_id_control_acceso' type='varchar' required='false' maxlen='16'/>
+
+	<parameter id='psl_clase_auxiliar_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_auxiliar_ref' type='integer' required='false' maxlen='10'/>
+
+
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_clase_auxiliar' 
+		parameter='psl_clase_auxiliar_ref' 
+		sql='psl_clase_auxiliar.sql' 
+		id='psl_clase_auxiliar_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: psl_auxiliar' 
+		parameter='psl_auxiliar_ref' 
+		sql='psl_auxiliar.sql' 
+		id='psl_auxiliar_ref'/>
+
+</validator>

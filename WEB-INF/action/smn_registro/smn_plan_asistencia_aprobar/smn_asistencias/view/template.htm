@@ -1,0 +1,64 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='8%'/>
+	<col width='12%'/>
+	<col width='9%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='7%'/>
+	<col width='8%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="13" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("asi_id_control_acceso","query-smnasistencias.sql")'>${lbl:b_id_access_control}</th>
+		<th class='sortable' onclick='sortBy("asi_personal_rf","query-smnasistencias.sql")'>Personal</th>
+		<th class='sortable' onclick='sortBy("asi_fecha_evento","query-smnasistencias.sql")'>Fecha</th>
+		<th class='sortable' onclick='sortBy("asi_dia_evento","query-smnasistencias.sql")'>Dia</th>
+		<th class='sortable' onclick='sortBy("asi_tipo_marcaje","query-smnasistencias.sql")'>Tipo Marcaje</th>
+		<th class='sortable' onclick='sortBy("asi_hora_tope_evento","query-smnasistencias.sql")'>Hora Tope</th>
+		<th class='sortable' onclick='sortBy("asi_estatus_permiso_rf","query-smnasistencias.sql")'>${lbl:b_requests_permissions}</th>
+		<th class='sortable' onclick='sortBy("tur_nombre","query-smnasistencias.sql")'>${lbl:b_turnos}</th>
+		<th class='sortable' onclick='sortBy("asi_estatus_asistencia_rf","query-smnasistencias.sql")'>${lbl:b_status}</th>
+		<th class='sortable' onclick='sortBy("asi_fecha_registro","query-smnasistencias.sql")'>${lbl:b_store_date}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_asistencias_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_asistencias_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_asistencias_id}')" title="${lbl:b_edit_button}"></td>
+		<td align='center'>${fld:asi_id_control_acceso}</td>
+		<td>${fld:asi_personal_rf}</td>
+		<td>${fld:asi_fecha_evento@dd-MM-yyyy}</td>
+		<td align="center">${fld:asi_dia_evento}</td>
+		<td align="center">${fld:asi_tipo_marcaje}</td>
+		<td align="center">${fld:asi_hora_tope_evento}</td>
+		<td align="center">${fld:asi_estatus_permiso_rf}</td>
+		<td>${fld:tur_nombre}</td>
+		<td align='center'>${fld:asi_estatus_asistencia_rf}</td>
+		<td>${fld:asi_fecha_registro@dd-MM-yyyy}</td>
+
+	</tr>
+	</rows>
+
+</table>

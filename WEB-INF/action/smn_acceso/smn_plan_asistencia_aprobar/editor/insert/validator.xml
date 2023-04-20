@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_empresa_rf' type='integer' required='true' label='${lbl:b_company}' maxlen='10'/>
+	<parameter id='smn_sucursal_rf' type='integer' required='true' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='smn_estructura_organizacional_rf' type='integer' required='true' label='${lbl:b_organizacional_structure}' maxlen='10'/>
+	<parameter id='smn_esquema_rotacion_id' type='integer' required='true' label='${lbl:b_rotation_scheme}' maxlen='10'/>
+	<parameter id='cpa_fecha_desde_cal' type='date' required='true' label='${lbl:b_inicial_date}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='Fecha Inicial no puede ser menor a la fecha actual' date1='today' date2='cpa_fecha_desde_cal' id='cpa_fecha_desde_cal' />
+	<parameter id='cpa_fecha_hasta_cal' type='date' required='true' label='${lbl:b_end_date}' maxlen='10'/>
+	<parameter id='cpa_fecha_generado' type='date' required='true' label='${lbl:b_generate_date}' maxlen='10'/>
+	<parameter id='cpa_ano' type='integer' required='true' label='${lbl:b_year}' maxlen='10'/>
+	<parameter id='cpa_num_semana_ini' type='integer' required='true' label='${lbl:b_num_week_ini}' maxlen='10'/>
+	<parameter id='cpa_num_semana_fin' type='integer' required='true' label='${lbl:b_num_week_end}' maxlen='10'/>
+	<parameter id='cpa_fecha_vigencia' type='date' required='true' label='${lbl:b_effectivity_date}' maxlen='10'/>
+	
+	<custom-validator classname='dinamica.validators.CreateRecordset' 
+		definition='recordset-personal.xml' 
+		sessionID='query-personal.sql' />
+
+	<custom-validator 
+		classname='dinamica.validators.ArrayNotEmptyValidator' 
+		on-error-label='Seleccione al menos un ítem.' 
+		parameter-name='personal_id' 
+		id='personal_id'/>
+	
+	<custom-validator 
+		classname='dinamica.validators.ArrayToRecordset' 
+		paramName='personal_id' 
+		recordsetId='query-personal.sql' 
+		colName='personal_id' 
+		colType='integer'/>
+
+</validator>

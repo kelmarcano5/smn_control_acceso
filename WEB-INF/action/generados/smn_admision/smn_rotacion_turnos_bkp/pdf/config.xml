@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnrotacionturnos.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_rotacion_turnos}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+
+	<pdf-report pageSize="letter" rotate="false">
+		<table recordset='query-smnrotacionturnos.sql' width='100' spacingBefore='40'>
+			<col name='rot_turno' title='${lbl:b_turno}' width='20' align='left' />
+			<col name='rot_consecutivo' title='${lbl:b_consecutivo} ' width='20' align='left' />
+			<col name='rot_dia_combo' title='${lbl:b_day_name}' width='20' align='left' />
+			<col name='rot_horario' title='${lbl:b_schedules}' width='20' align='left' />
+			<col name='rot_fecha_registro' title='${lbl:b_store_date}' width='20' align='center' format='dd-MM-yyyy' />
+		</table>
+
+	</pdf-report>
+</config>

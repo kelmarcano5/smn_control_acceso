@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='smn_personal_id_name' type='varchar' required='false' label='${lbl:b_personal}'/>
+	<parameter id='smn_personal_id' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='jus_tipo_actividad_rf' type='integer' required='false' label='${lbl:b_activity_category}' maxlen='10'/>
+	<parameter id='jus_fecha_incidencia' type='date' required='false' label='${lbl:b_incidence_date}' maxlen='10'/>
+	<parameter id='jus_hora_incidencia' type='varchar' required='false' label='${lbl:b_time_incident}' maxlen='5'/>
+	<parameter id='jus_estatus_rf' type='varchar' required='false' label='${lbl:b_status}' maxlen='3'/>
+	<parameter id='jus_jefe_inmediato_rf' type='integer' required='false' label='${lbl:b_direct_boss}' maxlen='60'/>
+	<parameter id='jus_fecha_registro_ini' type='date' required='false' label='${lbl:b_store_date_grater_than}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_store_date_grater_than} mayor o igual que] no puede ser mayor que [${lbl:b_store_date_less_than} menor o igual que].' date1='jus_fecha_registro_ini' date2='jus_fecha_registro_fin' id='jus_fecha_registro_ini' />
+	<parameter id='jus_fecha_registro_fin' type='date' required='false' label='${lbl:b_store_date_less_than}' maxlen='10'/>
+</validator>

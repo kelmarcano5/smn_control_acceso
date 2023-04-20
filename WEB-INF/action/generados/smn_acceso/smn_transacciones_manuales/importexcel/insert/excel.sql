@@ -1,0 +1,32 @@
+INSERT INTO smn_control_acceso.smn_transacciones_manuales
+(
+	smn_transacciones_manuales_id,
+	trm_sede,
+	trm_dispositivo,
+	trm_identificacion,
+	trm_marcaje,
+	trm_tipo_marcaje,
+	trm_fecha_transaccion,
+	trm_hora_transaccion,
+	trm_jutificacion,
+	trm_idioma,
+	trm_usuario,
+	trm_fecha_registro,
+	trm_hora
+)
+VALUES
+(
+	${seq:nextval@smn_control_acceso.seq_smn_transacciones_manuales},
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	'${def:locale}',
+	'${def:user}',
+	{d '${def:date}'},
+	'${def:time}'
+)

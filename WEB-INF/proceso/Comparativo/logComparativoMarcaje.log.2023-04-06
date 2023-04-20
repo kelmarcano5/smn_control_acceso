@@ -1,0 +1,257 @@
+[INFO] 2023-04-06 00:01:01,988 ComparativoMarcaje.main main - --INICIO DE PROCESO: --
+[INFO] 2023-04-06 00:01:28,950 ComparativoMarcaje.main main - Cantida de Asistencias programadas =322110
+[INFO] 2023-04-06 00:01:28,950 ComparativoMarcaje.main main - Cantida de Movimientos de marcaje =179065
+[INFO] 2023-04-06 00:01:28,951 ComparativoMarcaje.main main - Cantida de PERSONAL asignados a las Asistencias programadas =228
+[ERROR] 2023-04-06 00:02:20,886 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-29, Horas 2021-03-29 18:00 2021-03-29 06:00
+[ERROR] 2023-04-06 00:02:20,886 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-29 null:00"
+[INFO] 2023-04-06 00:02:22,501 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:02:22,502 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-03-29)
+[INFO] 2023-04-06 00:02:22,503 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:02:22,503 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:02:22,504 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:03:05,645 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-30, Horas 2021-03-30 18:00 2021-03-30 06:00
+[ERROR] 2023-04-06 00:03:05,645 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-30 null:00"
+[INFO] 2023-04-06 00:03:07,324 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:03:07,326 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-03-30)
+[INFO] 2023-04-06 00:03:07,327 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:03:07,327 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:03:07,327 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:03:41,625 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-31, Horas 2021-03-31 18:00 2021-03-31 06:00
+[ERROR] 2023-04-06 00:03:41,625 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-31 null:00"
+[INFO] 2023-04-06 00:03:43,303 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:03:43,304 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-03-31)
+[INFO] 2023-04-06 00:03:43,304 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:03:43,304 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:03:43,305 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:03:59,197 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-01, Horas 2021-04-01 18:00 2021-04-01 06:00
+[ERROR] 2023-04-06 00:03:59,198 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-01 null:00"
+[INFO] 2023-04-06 00:04:00,792 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:04:00,798 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-01)
+[INFO] 2023-04-06 00:04:00,798 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:04:00,799 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:04:00,799 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:04:17,605 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:04:17,605 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-02)
+[INFO] 2023-04-06 00:04:17,605 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:04:17,605 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:04:17,606 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:04:33,967 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:04:33,967 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-03)
+[INFO] 2023-04-06 00:04:33,967 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:04:33,968 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:04:33,968 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:04:49,070 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-04, Horas 2021-04-04 18:00 2021-04-04 06:00
+[ERROR] 2023-04-06 00:04:49,071 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-04 null:00"
+[INFO] 2023-04-06 00:04:50,650 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:04:50,651 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-04)
+[INFO] 2023-04-06 00:04:50,656 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:04:50,656 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:04:50,656 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:05:32,581 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-05, Horas 2021-04-05 18:00 2021-04-05 06:00
+[ERROR] 2023-04-06 00:05:32,592 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-05 null:00"
+[INFO] 2023-04-06 00:05:34,173 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:05:34,175 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-05)
+[INFO] 2023-04-06 00:05:34,175 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 59
+[INFO] 2023-04-06 00:05:34,175 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:05:34,175 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:05:57,430 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-06, Horas 2021-04-06 18:00 2021-04-06 06:00
+[ERROR] 2023-04-06 00:05:57,431 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-06 null:00"
+[INFO] 2023-04-06 00:05:59,032 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:05:59,032 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-06)
+[INFO] 2023-04-06 00:05:59,032 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 18
+[INFO] 2023-04-06 00:05:59,032 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:05:59,033 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:06:43,132 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-07, Horas 2021-04-07 18:00 2021-04-07 06:00
+[ERROR] 2023-04-06 00:06:43,132 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-07 null:00"
+[INFO] 2023-04-06 00:06:44,722 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:06:44,723 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-07)
+[INFO] 2023-04-06 00:06:44,723 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 75
+[INFO] 2023-04-06 00:06:44,723 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:06:44,723 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:07:02,834 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-08, Horas 2021-04-08 18:00 2021-04-08 06:00
+[ERROR] 2023-04-06 00:07:02,835 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-08 null:00"
+[INFO] 2023-04-06 00:07:04,423 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:07:04,431 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-08)
+[INFO] 2023-04-06 00:07:04,432 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 9
+[INFO] 2023-04-06 00:07:04,432 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:07:04,432 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:07:52,438 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:07:52,438 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-09)
+[INFO] 2023-04-06 00:07:52,438 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 78
+[INFO] 2023-04-06 00:07:52,439 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:07:52,439 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:08:08,869 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:08:08,870 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-10)
+[INFO] 2023-04-06 00:08:08,870 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:08:08,870 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:08:08,870 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:08:23,370 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-11, Horas 2021-04-11 18:00 2021-04-11 06:00
+[ERROR] 2023-04-06 00:08:23,370 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-11 null:00"
+[INFO] 2023-04-06 00:08:24,954 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:08:24,954 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-11)
+[INFO] 2023-04-06 00:08:24,954 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:08:24,954 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:08:24,954 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:09:08,635 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-12, Horas 2021-04-12 18:00 2021-04-12 06:00
+[ERROR] 2023-04-06 00:09:08,635 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-12 null:00"
+[INFO] 2023-04-06 00:09:10,323 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:09:10,323 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-12)
+[INFO] 2023-04-06 00:09:10,323 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 68
+[INFO] 2023-04-06 00:09:10,323 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:09:10,323 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:09:32,979 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-13, Horas 2021-04-13 18:00 2021-04-13 06:00
+[ERROR] 2023-04-06 00:09:32,979 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-13 null:00"
+[INFO] 2023-04-06 00:09:34,643 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:09:34,657 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-13)
+[INFO] 2023-04-06 00:09:34,657 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 20
+[INFO] 2023-04-06 00:09:34,658 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:09:34,658 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:10:16,014 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-14, Horas 2021-04-14 18:00 2021-04-14 06:00
+[ERROR] 2023-04-06 00:10:16,014 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-14 null:00"
+[INFO] 2023-04-06 00:10:17,613 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:10:17,614 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-14)
+[INFO] 2023-04-06 00:10:17,614 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 67
+[INFO] 2023-04-06 00:10:17,615 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:10:17,615 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:10:48,711 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-15, Horas 2021-04-15 18:00 2021-04-15 06:00
+[ERROR] 2023-04-06 00:10:48,711 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-15 null:00"
+[INFO] 2023-04-06 00:10:50,306 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:10:50,306 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-15)
+[INFO] 2023-04-06 00:10:50,306 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 49
+[INFO] 2023-04-06 00:10:50,307 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:10:50,307 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:11:33,180 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:11:33,180 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-16)
+[INFO] 2023-04-06 00:11:33,181 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 62
+[INFO] 2023-04-06 00:11:33,181 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:11:33,182 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:11:49,701 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:11:49,714 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-17)
+[INFO] 2023-04-06 00:11:49,714 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:11:49,720 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:11:49,720 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:12:04,616 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-18, Horas 2021-04-18 18:00 2021-04-18 06:00
+[ERROR] 2023-04-06 00:12:04,616 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-18 null:00"
+[INFO] 2023-04-06 00:12:06,194 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:12:06,194 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-18)
+[INFO] 2023-04-06 00:12:06,194 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:12:06,195 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:12:06,195 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:12:21,328 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-19, Horas 2021-04-19 18:00 2021-04-19 06:00
+[ERROR] 2023-04-06 00:12:21,328 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-19 null:00"
+[INFO] 2023-04-06 00:12:22,924 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:12:22,924 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-19)
+[INFO] 2023-04-06 00:12:22,925 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:12:22,925 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:12:22,925 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:13:11,326 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-20, Horas 2021-04-20 18:00 2021-04-20 06:00
+[ERROR] 2023-04-06 00:13:11,326 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-20 null:00"
+[INFO] 2023-04-06 00:13:12,924 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:13:12,924 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-20)
+[INFO] 2023-04-06 00:13:12,925 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 96
+[INFO] 2023-04-06 00:13:12,925 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:13:12,925 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:14:05,471 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-21, Horas 2021-04-21 18:00 2021-04-21 06:00
+[ERROR] 2023-04-06 00:14:05,481 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-21 null:00"
+[INFO] 2023-04-06 00:14:07,179 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:14:07,179 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-21)
+[INFO] 2023-04-06 00:14:07,179 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 100
+[INFO] 2023-04-06 00:14:07,179 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:14:07,180 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:14:47,791 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-22, Horas 2021-04-22 18:00 2021-04-22 06:00
+[ERROR] 2023-04-06 00:14:47,791 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-22 null:00"
+[INFO] 2023-04-06 00:14:49,423 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:14:49,424 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-22)
+[INFO] 2023-04-06 00:14:49,424 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 68
+[INFO] 2023-04-06 00:14:49,424 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:14:49,425 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:15:37,665 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:15:37,665 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-23)
+[INFO] 2023-04-06 00:15:37,665 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 89
+[INFO] 2023-04-06 00:15:37,665 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:15:37,665 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:15:53,690 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:15:53,698 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-24)
+[INFO] 2023-04-06 00:15:53,698 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:15:53,699 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:15:53,699 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:16:08,854 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-25, Horas 2021-04-25 18:00 2021-04-25 06:00
+[ERROR] 2023-04-06 00:16:08,854 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-25 null:00"
+[INFO] 2023-04-06 00:16:10,445 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:16:10,445 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-25)
+[INFO] 2023-04-06 00:16:10,445 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:16:10,445 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:16:10,446 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:16:52,342 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-26, Horas 2021-04-26 18:00 2021-04-26 06:00
+[ERROR] 2023-04-06 00:16:52,342 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-26 null:00"
+[INFO] 2023-04-06 00:16:53,933 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:16:53,935 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-26)
+[INFO] 2023-04-06 00:16:53,935 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 63
+[INFO] 2023-04-06 00:16:53,935 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:16:53,935 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:17:19,976 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-27, Horas 2021-04-27 18:00 2021-04-27 06:00
+[ERROR] 2023-04-06 00:17:19,977 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-27 null:00"
+[INFO] 2023-04-06 00:17:21,582 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:17:21,589 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-27)
+[INFO] 2023-04-06 00:17:21,589 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:17:21,589 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:17:21,589 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:18:05,958 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-28, Horas 2021-04-28 18:00 2021-04-28 06:00
+[ERROR] 2023-04-06 00:18:05,958 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-28 null:00"
+[INFO] 2023-04-06 00:18:07,688 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:18:07,688 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-28)
+[INFO] 2023-04-06 00:18:07,688 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2023-04-06 00:18:07,688 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:18:07,689 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:18:39,195 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-04-29, Horas 2021-04-29 18:00 2021-04-29 06:00
+[ERROR] 2023-04-06 00:18:39,195 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-04-29 null:00"
+[INFO] 2023-04-06 00:18:40,800 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:18:40,801 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-29)
+[INFO] 2023-04-06 00:18:40,801 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2023-04-06 00:18:40,807 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:18:40,807 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:19:17,852 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:19:17,852 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-04-30)
+[INFO] 2023-04-06 00:19:17,852 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:19:17,852 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:19:17,852 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:19:35,748 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:19:35,748 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-05-01)
+[INFO] 2023-04-06 00:19:35,749 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:19:35,749 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:19:35,749 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:19:51,938 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-05-02, Horas 2021-05-02 18:00 2021-05-02 06:00
+[ERROR] 2023-04-06 00:19:51,939 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-05-02 null:00"
+[INFO] 2023-04-06 00:19:53,650 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:19:53,650 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-05-02)
+[INFO] 2023-04-06 00:19:53,651 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:19:53,651 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:19:53,651 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:20:41,941 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-05-03, Horas 2021-05-03 18:00 2021-05-03 06:00
+[ERROR] 2023-04-06 00:20:41,941 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-05-03 null:00"
+[INFO] 2023-04-06 00:20:43,619 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:20:43,620 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-05-03)
+[INFO] 2023-04-06 00:20:43,620 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-04-06 00:20:43,620 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:20:43,620 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:21:08,592 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-05-04, Horas 2021-05-04 18:00 2021-05-04 06:00
+[ERROR] 2023-04-06 00:21:08,592 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-05-04 null:00"
+[INFO] 2023-04-06 00:21:10,179 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:21:10,179 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-05-04)
+[INFO] 2023-04-06 00:21:10,179 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2023-04-06 00:21:10,179 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:21:10,184 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:22:04,553 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-05-05, Horas 2021-05-05 18:00 2021-05-05 06:00
+[ERROR] 2023-04-06 00:22:04,553 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-05-05 null:00"
+[INFO] 2023-04-06 00:22:06,140 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:22:06,141 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-05-05)
+[INFO] 2023-04-06 00:22:06,141 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:22:06,141 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:22:06,141 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-04-06 00:22:29,730 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-05-06, Horas 2021-05-06 18:00 2021-05-06 06:00
+[ERROR] 2023-04-06 00:22:29,731 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-05-06 null:00"
+[INFO] 2023-04-06 00:22:31,324 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-04-06 00:22:31,324 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-05-06)
+[INFO] 2023-04-06 00:22:31,325 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-04-06 00:22:31,328 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-04-06 00:22:31,329 ComparativoMarcaje.resumen leerListas - ************************************

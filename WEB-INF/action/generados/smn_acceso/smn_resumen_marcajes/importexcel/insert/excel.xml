@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='igs_auxiliar' type='integer' required='true' maxlen='10'/>
+	<parameter id='igs_clase_auxiliar' type='integer' required='true' maxlen='10'/>
+	<parameter id='igs_control_acceso_id' type='varchar' required='true' maxlen='16'/>
+	<parameter id='igs_actividad' type='integer' required='true' maxlen='48'/>
+	<parameter id='igs_tiempo_efectivo' type='double' required='true' maxlen='10'/>
+	<parameter id='igs_fecha' type='date' required='true' maxlen='10'/>
+</validator>

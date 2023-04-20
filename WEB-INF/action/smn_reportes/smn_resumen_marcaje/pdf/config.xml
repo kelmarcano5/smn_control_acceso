@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnmovmarcajes.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>Lista Resumen Marcaje</pdf-title>
+	<pdf-logo url='/images/logo-simone-pdf.png' scale='100' />
+	<pdf-file-name>Lista Resumen Marcaje.pdf</pdf-file-name>
+
+	<pdf-report 
+		pageSize="letter" 
+		rotate="false"
+		footer="false" 
+		header="true">
+		<record recordset='query-smnmovmarcajes.sql' width='100' spacingBefore='40'>
+			<col name='smn_entidad_rf' title='${lbl:b_entity}' align='left'/>
+			<col name='smn_sucursal_rf' title='${lbl:b_subsidiary}' align='left'/>
+			<col name='departamento' title='Departamento' align='left' />
+			<col name='smn_horarios_id' title='Horario' align='left' format='dd-MM-yyyy'/>
+			<col name='smn_cargo_rf' title='${lbl:b_positions}' align='left'/>
+			<col name='fecha_marcaje' title='${lbl:b_date}' align='left' format='dd-MM-yyyy'/>
+			<col name='nombre' title='${lbl:b_name}' align='left'/>
+			<col name='cedula' title='Cedula' align='left'/>
+			<col name='rmk_tiempo_asistencia' title='${lbl:b_turno}' align='left'/>
+			<col name='rmk_tiempo_ausencias' title='Tiempo Ausencias' align='left'/>
+			<col name='rmk_tiempo_extras' title='Tiempo Extras' align='left'  />
+			<col name='rmk_tiempo_descanso' title='Tiempo Descansos' align='left'/>
+			<col name='rmk_tiempo_permisos' title='Tiempo Permisos' align='left'/>
+			<col name='rmk_tiempo_retrasos' title='Tiempo Retrasos' align='left'/>
+			<col name='rmk_fecha_registro' title='${lbl:b_store_date}' align='left' format='dd-MM-yyyy'/>
+
+		</record>
+
+	</pdf-report>
+</config>

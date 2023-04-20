@@ -1,0 +1,52 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='20%'/>
+	<col width='20%'/>
+	<col width='20%'/>
+	<col width='20%'/>
+	<col width='20%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="9" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_personal_id","query-smncontrolesquemarotacion.sql")'>${lbl:b_personal}</th>
+		<th class='sortable' onclick='sortBy("smn_esquema_rotacion_actual_rf","query-smncontrolesquemarotacion.sql")'>${lbl:b_current_rotation_scheme}</th>
+		<th class='sortable' onclick='sortBy("smn_esquema_rotacion_nuevo_rf","query-smncontrolesquemarotacion.sql")'>${lbl:b_new_rotation_scheme}</th>
+		<th class='sortable' onclick='sortBy("cer_fecha_vigencia","query-smncontrolesquemarotacion.sql")'>Fecha Vigencia</th>
+		<th class='sortable' onclick='sortBy("cer_fecha_registro","query-smncontrolesquemarotacion.sql")'>${lbl:b_store_date}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_control_esquema_rotacion_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_control_esquema_rotacion_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_control_esquema_rotacion_id}')" title="${lbl:b_edit_button}"></td>
+		<td><img src="${def:context}/images/accept.png" onclick="generar('${fld:smn_control_esquema_rotacion_id}','${fld:personal}','${fld:esquema_rotacion_nuevo}')" title="Generar"></td>
+		<td>${fld:smn_personal_id}</td>
+		<td>${fld:smn_esquema_rotacion_actual_rf}</td>
+		<td>${fld:smn_esquema_rotacion_nuevo_rf}</td>
+		<td>${fld:cer_fecha_vigencia@dd-MM-yyyy}</td>
+		<td>${fld:cer_fecha_registro@dd-MM-yyyy}</td>
+
+	</tr>
+	</rows>
+
+</table>

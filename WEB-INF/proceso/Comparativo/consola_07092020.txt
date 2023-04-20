@@ -1,0 +1,18 @@
+
+Conexion establecida con Postgers:org.postgresql.jdbc4.Jdbc4Connection@707f7052 
+
+--INICIO DE PROCESO: --
+DIA: 2020-09-07 -> lunes
+HORA: (12:54:09)
+Select * from smn_control_acceso.smn_asistencia INNER JOIN smn_control_acceso.smn_personal on smn_personal.smn_personal_id = smn_asistencia.asi_personal_rf INNER JOIN smn_control_acceso.smn_plan_asistencia on smn_plan_asistencia.smn_plan_asistencia_id = smn_asistencia.smn_plan_asistencia_id WHERE (asi_estatus_marcaje is null) and  smn_plan_asistencia.cpa_status = 'AP' ORDER BY smn_asistencia.asi_fecha_evento 
+Cantida de Asistencias programadas =5508
+Fecha de la primera =2020-06-15 52128
+Fecha de la ultima =2020-09-07 63106
+Cantida de Asistencias programadas =233
+select * from smn_control_acceso.smn_asistencia where asi_personal_rf  IN (206,279,29,237,352,431,430,168,124,282,363,153,69,473,100,299,110,246,156,200,401,67,419,250,84,418,174,407,146,313,94,178,357,392,425,149,167,222,395,383,343,36,260,256,382,292,578,235,37,171,334,504,181,476,446,421,131,75,417,115,221,51,444,169,64,220,86,91,114,143,43,243,402,47,244,393,475,127,103,356,215,118,119,274,72,173,38,44,455,403,95,32,88,145,375,374,278,257,266,50,396,152,66,122,365,307,310,142,105,338,214,340,295,399,130,359,385,262,123,450,121,247,273,579,433,449,437,424,211,65,57,46,448,381,5,97,413,398,293,408,140,447,290,344,176,463,454,411,354,322,312,35,104,283,386,304,144,53,412,208,465,394,420,193,85,270,331,109,245,472,584,164,368,269,443,107,139,432,384,416,574,102,255,19,154,33,318,569,41,17,469,89,117,40,460,341,161,427,93,248,73,305,68,320,306,242,296,2,458,324,34,289,198,7,353,52,348,83,99,277,49,351,108,31,218,197,76,90,345,436,229,233,148) and asi_fecha_evento between '2020-06-15' and '2020-09-07'
+Select * From smn_control_acceso.smn_mov_marcajes where mrk_marcaje_fecha BETWEEN '2020-06-15 00:00:00' and '2020-09-07 24:00:00' and mrk_marcaje_tipo_rf in ('ENT','SAL')  order by mrk_marcaje_fecha asc
+DIA: 2020-06-15 ID_PERSONAL: 206
+
+------------------------------------------------
+PSL: 206 | F: 2020-06-15 (lunes)| HRR: 12 DM1: N
+Marcajes sin asistencia No se hace nada

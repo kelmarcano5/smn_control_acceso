@@ -1,0 +1,64 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="15" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th colspan="4"></th>
+		<th class='sortable' onclick="sortBy('smn_personal_id_combo','query-smnsolicitudpermisos.sql')" >${lbl:b_personal}</th>
+		<th class='sortable' onclick="sortBy('spe_detalles','query-smnsolicitudpermisos.sql')" >${lbl:b_details}</th>
+		<th class='sortable' onclick="sortBy('spe_categoria_justif_combo','query-smnsolicitudpermisos.sql')" >${lbl:b_activity_category}</th>
+		<th class='sortable' onclick="sortBy('spe_fecha_desde','query-smnsolicitudpermisos.sql')" >${lbl:b_inicial_date}</th>
+		<th class='sortable' onclick="sortBy('spe_fecha_hasta','query-smnsolicitudpermisos.sql')" >${lbl:b_end_date}</th>
+		<th class='sortable' onclick="sortBy('spe_nro_horas','query-smnsolicitudpermisos.sql')" >${lbl:b_nro_horas}</th>
+		<th class='sortable' onclick="sortBy('spe_aprobado_por','query-smnsolicitudpermisos.sql')" >${lbl:b_approved_by}</th>
+		<th class='sortable' onclick="sortBy('spe_archivo','query-smnsolicitudpermisos.sql')" >${lbl:b_file}</th>
+		<th class='sortable' onclick="sortBy('spe_contenido','query-smnsolicitudpermisos.sql')" >${lbl:b_content}</th>
+		<th class='sortable' onclick="sortBy('spe_tamano','query-smnsolicitudpermisos.sql')" >${lbl:b_size}</th>
+		<th class='sortable' onclick="sortBy('spe_fecha_registro','query-smnsolicitudpermisos.sql')" >${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/download.png" onclick="downloadBlob('${fld:smn_solicitud_permisos_id}')" title="Descargar" ></td>
+		<td><img src="${def:context}/images/search.png" onclick="getImage('${fld:smn_solicitud_permisos_id}', '${fld:spe_contenido}')" title="Ver documento" ></td>
+		<td><img src="${def:context}/images/delete.png" onclick="deleteRecord('${fld:smn_solicitud_permisos_id}')" title="Eliminar"></td>
+		<td><img src="${def:context}/images/edit.png" onclick="edit('${fld:smn_solicitud_permisos_id}')" title="Editar"></td>
+		<td>${fld:smn_personal_id_combo}</td>
+		<td align="left">${fld:spe_detalles}</td>
+		<td>${fld:spe_categoria_justif_combo}</td>
+		<td align="center">${fld:spe_fecha_desde@dd-MM-yyyy}</td>
+		<td align="center">${fld:spe_fecha_hasta@dd-MM-yyyy}</td>
+		<td align="right">${fld:spe_nro_horas@#,###,##0.00}</td>
+		<td align="left">${fld:spe_aprobado_por}</td>
+		<td align="left">${fld:spe_archivo}</td>
+		<td align="left">${fld:spe_contenido}</td>
+		<td align="center">${fld:spe_tamano}</td>
+		<td align="center">${fld:spe_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

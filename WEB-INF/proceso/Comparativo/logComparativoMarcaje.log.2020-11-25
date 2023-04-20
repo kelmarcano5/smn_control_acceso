@@ -1,0 +1,794 @@
+[INFO] 2020-11-25 00:01:01,990 ComparativoMarcaje.main main - --INICIO DE PROCESO: --
+[INFO] 2020-11-25 00:01:05,258 ComparativoMarcaje.main main - Cantida de Asistencias programadas =1710
+[INFO] 2020-11-25 00:01:05,258 ComparativoMarcaje.main main - Cantida de Movimientos de marcaje =41010
+[INFO] 2020-11-25 00:01:05,259 ComparativoMarcaje.main main - Cantida de PERSONAL asignados a las Asistencias programadas =325
+[INFO] 2020-11-25 00:01:31,354 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:01:31,355 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-15)
+[INFO] 2020-11-25 00:01:31,355 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2020-11-25 00:01:31,355 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:01:31,356 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:01:57,012 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:01:57,012 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-16)
+[INFO] 2020-11-25 00:01:57,012 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:01:57,012 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:01:57,013 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:13,510 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:13,510 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-17)
+[INFO] 2020-11-25 00:02:13,510 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:02:13,511 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:02:13,511 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:22,894 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:22,896 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-18)
+[INFO] 2020-11-25 00:02:22,898 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:02:22,898 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:02:22,898 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:34,602 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:34,603 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-19)
+[INFO] 2020-11-25 00:02:34,603 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:02:34,603 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:02:34,603 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:39,078 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:39,078 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-20)
+[INFO] 2020-11-25 00:02:39,078 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:02:39,078 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:02:39,079 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:42,990 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:02:42,990 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-21)
+[INFO] 2020-11-25 00:02:42,991 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:02:42,991 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:02:42,991 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:03:13,046 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:03:13,046 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-22)
+[INFO] 2020-11-25 00:03:13,046 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:03:13,047 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:03:13,047 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:03:36,370 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:03:36,370 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-23)
+[INFO] 2020-11-25 00:03:36,371 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:03:36,371 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:03:36,371 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:03:39,859 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:03:39,860 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-24)
+[INFO] 2020-11-25 00:03:39,860 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:03:39,861 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:03:39,861 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:02,267 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:02,268 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-25)
+[INFO] 2020-11-25 00:04:02,268 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:04:02,268 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:04:02,268 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:23,874 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:23,875 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-26)
+[INFO] 2020-11-25 00:04:23,876 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:04:23,876 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:04:23,876 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:28,491 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:28,491 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-27)
+[INFO] 2020-11-25 00:04:28,491 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:04:28,491 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:04:28,492 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:32,206 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:32,206 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-28)
+[INFO] 2020-11-25 00:04:32,206 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:04:32,206 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:04:32,207 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:50,335 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:04:50,335 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-29)
+[INFO] 2020-11-25 00:04:50,336 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:04:50,336 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:04:50,336 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:05:02,323 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:05:02,323 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-30)
+[INFO] 2020-11-25 00:05:02,324 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:05:02,324 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:05:02,324 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:05:26,082 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:05:26,082 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-01)
+[INFO] 2020-11-25 00:05:26,083 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:05:26,083 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:05:26,083 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:05:46,180 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:05:46,181 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-02)
+[INFO] 2020-11-25 00:05:46,181 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:05:46,181 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:05:46,181 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:06:12,575 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:06:12,575 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-03)
+[INFO] 2020-11-25 00:06:12,575 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:06:12,576 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:06:12,576 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:06:17,500 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:06:17,500 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-04)
+[INFO] 2020-11-25 00:06:17,500 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:06:17,500 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:06:17,501 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:06:22,342 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:06:22,343 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-05)
+[INFO] 2020-11-25 00:06:22,343 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:06:22,343 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:06:22,343 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:06:51,680 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:06:51,681 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-06)
+[INFO] 2020-11-25 00:06:51,681 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:06:51,681 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:06:51,681 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:07:14,768 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:07:14,768 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-07)
+[INFO] 2020-11-25 00:07:14,768 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:07:14,768 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:07:14,769 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:07:41,790 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:07:41,790 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-08)
+[INFO] 2020-11-25 00:07:41,790 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:07:41,790 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:07:41,791 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:07:55,925 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:07:55,926 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-09)
+[INFO] 2020-11-25 00:07:55,926 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:07:55,926 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:07:55,926 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:09,582 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:09,584 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-10)
+[INFO] 2020-11-25 00:08:09,585 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:08:09,585 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:08:09,585 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:14,958 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:14,958 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-11)
+[INFO] 2020-11-25 00:08:14,958 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:08:14,958 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:08:14,958 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:18,260 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:18,260 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-12)
+[INFO] 2020-11-25 00:08:18,261 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:08:18,261 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:08:18,261 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:34,623 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:34,624 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-13)
+[INFO] 2020-11-25 00:08:34,624 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:08:34,624 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:08:34,624 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:43,177 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:43,178 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-14)
+[INFO] 2020-11-25 00:08:43,178 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:08:43,178 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:08:43,178 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:57,569 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:08:57,570 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-15)
+[INFO] 2020-11-25 00:08:57,570 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:08:57,570 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:08:57,570 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:06,498 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:06,498 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-16)
+[INFO] 2020-11-25 00:09:06,499 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:09:06,501 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:09:06,501 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:19,010 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:19,011 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-17)
+[INFO] 2020-11-25 00:09:19,011 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:09:19,011 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:09:19,011 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:24,883 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:24,883 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-18)
+[INFO] 2020-11-25 00:09:24,883 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:09:24,883 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:09:24,884 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:29,210 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:29,210 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-19)
+[INFO] 2020-11-25 00:09:29,210 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:09:29,210 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:09:29,210 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:48,372 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:09:48,372 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-20)
+[INFO] 2020-11-25 00:09:48,372 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:09:48,373 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:09:48,373 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:10:02,724 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:10:02,724 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-21)
+[INFO] 2020-11-25 00:10:02,724 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:10:02,724 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:10:02,725 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:10:28,775 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:10:28,775 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-22)
+[INFO] 2020-11-25 00:10:28,776 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:10:28,777 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:10:28,777 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:10:52,861 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:10:52,861 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-23)
+[INFO] 2020-11-25 00:10:52,862 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:10:52,862 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:10:52,862 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:04,158 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:04,158 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-24)
+[INFO] 2020-11-25 00:11:04,159 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:11:04,159 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:11:04,159 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:08,593 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:08,593 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-25)
+[INFO] 2020-11-25 00:11:08,593 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:11:08,593 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:11:08,594 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:13,891 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:13,892 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-26)
+[INFO] 2020-11-25 00:11:13,892 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:11:13,892 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:11:13,892 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:34,529 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:34,529 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-27)
+[INFO] 2020-11-25 00:11:34,529 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:11:34,529 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:11:34,530 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:45,765 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:11:45,766 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-28)
+[INFO] 2020-11-25 00:11:45,766 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:11:45,766 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:11:45,766 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:04,056 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:04,056 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-29)
+[INFO] 2020-11-25 00:12:04,056 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:12:04,056 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:12:04,056 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:14,615 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:14,615 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-30)
+[INFO] 2020-11-25 00:12:14,615 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:12:14,615 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:12:14,616 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:31,431 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:31,431 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-07-31)
+[INFO] 2020-11-25 00:12:31,431 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:12:31,431 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:12:31,431 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:37,510 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:37,510 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-01)
+[INFO] 2020-11-25 00:12:37,511 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:12:37,511 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:12:37,511 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:42,962 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:12:42,962 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-02)
+[INFO] 2020-11-25 00:12:42,962 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:12:42,963 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:12:42,963 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:13:03,906 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:13:03,906 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-03)
+[INFO] 2020-11-25 00:13:03,906 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:13:03,906 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:13:03,906 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:13:18,931 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:13:18,932 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-04)
+[INFO] 2020-11-25 00:13:18,932 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:13:18,932 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:13:18,932 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:13:40,741 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:13:40,742 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-05)
+[INFO] 2020-11-25 00:13:40,742 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:13:40,742 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:13:40,742 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:13:56,781 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:13:56,781 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-06)
+[INFO] 2020-11-25 00:13:56,781 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:13:56,782 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:13:56,782 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:14:18,051 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:14:18,052 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-07)
+[INFO] 2020-11-25 00:14:18,052 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:14:18,052 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:14:18,052 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:14:24,974 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:14:24,975 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-08)
+[INFO] 2020-11-25 00:14:24,975 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:14:24,975 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:14:24,975 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:14:28,791 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:14:28,791 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-09)
+[INFO] 2020-11-25 00:14:28,791 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:14:28,791 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:14:28,791 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:14:54,670 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:14:54,670 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-10)
+[INFO] 2020-11-25 00:14:54,670 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:14:54,670 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:14:54,670 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:15:19,312 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:15:19,313 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-11)
+[INFO] 2020-11-25 00:15:19,317 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:15:19,317 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:15:19,317 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:15:49,084 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:15:49,085 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-12)
+[INFO] 2020-11-25 00:15:49,085 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:15:49,085 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:15:49,085 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:16:13,522 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:16:13,522 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-13)
+[INFO] 2020-11-25 00:16:13,522 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:16:13,522 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:16:13,522 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:16:40,464 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:16:40,464 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-14)
+[INFO] 2020-11-25 00:16:40,465 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:16:40,465 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:16:40,465 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:16:46,249 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:16:46,249 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-15)
+[INFO] 2020-11-25 00:16:46,249 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:16:46,249 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:16:46,249 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:16:50,342 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:16:50,342 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-16)
+[INFO] 2020-11-25 00:16:50,342 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:16:50,342 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:16:50,342 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:17:19,950 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:17:19,950 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-17)
+[INFO] 2020-11-25 00:17:19,950 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:17:19,951 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:17:19,951 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:17:47,475 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:17:47,476 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-18)
+[INFO] 2020-11-25 00:17:47,476 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:17:47,476 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:17:47,476 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:18:17,834 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:18:17,835 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-19)
+[INFO] 2020-11-25 00:18:17,835 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:18:17,835 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:18:17,835 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:18:42,178 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:18:42,178 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-20)
+[INFO] 2020-11-25 00:18:42,179 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:18:42,181 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:18:42,181 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:19:10,376 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:19:10,376 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-21)
+[INFO] 2020-11-25 00:19:10,376 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:19:10,376 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:19:10,376 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:19:15,392 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:19:15,392 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-22)
+[INFO] 2020-11-25 00:19:15,392 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:19:15,393 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:19:15,393 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:19:20,858 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:19:20,858 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-23)
+[INFO] 2020-11-25 00:19:20,858 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:19:20,858 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:19:20,859 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:19:45,162 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:19:45,162 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-24)
+[INFO] 2020-11-25 00:19:45,162 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:19:45,162 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:19:45,163 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:20:05,783 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:20:05,784 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-25)
+[INFO] 2020-11-25 00:20:05,784 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:20:05,784 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:20:05,784 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:20:24,516 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:20:24,517 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-26)
+[INFO] 2020-11-25 00:20:24,517 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:20:24,517 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:20:24,517 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:20:41,184 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:20:41,184 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-27)
+[INFO] 2020-11-25 00:20:41,185 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:20:41,186 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:20:41,186 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:00,717 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:00,717 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-28)
+[INFO] 2020-11-25 00:21:00,717 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:21:00,717 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:21:00,717 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:05,139 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:05,140 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-29)
+[INFO] 2020-11-25 00:21:05,140 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:21:05,140 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:21:05,140 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:09,289 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:09,289 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-30)
+[INFO] 2020-11-25 00:21:09,289 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:21:09,289 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:21:09,290 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:27,579 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:27,580 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-08-31)
+[INFO] 2020-11-25 00:21:27,580 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:21:27,580 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:21:27,580 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:38,871 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:21:38,871 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-01)
+[INFO] 2020-11-25 00:21:38,871 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:21:38,871 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:21:38,872 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:22:03,493 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:22:03,493 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-02)
+[INFO] 2020-11-25 00:22:03,493 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:22:03,493 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:22:03,494 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:22:27,304 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:22:27,304 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-03)
+[INFO] 2020-11-25 00:22:27,305 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:22:27,305 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:22:27,305 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:22:55,400 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:22:55,400 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-04)
+[INFO] 2020-11-25 00:22:55,401 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:22:55,401 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:22:55,401 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:23:00,301 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:23:00,302 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-05)
+[INFO] 2020-11-25 00:23:00,302 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:23:00,302 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:23:00,302 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:23:05,125 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:23:05,125 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-06)
+[INFO] 2020-11-25 00:23:05,125 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:23:05,125 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:23:05,125 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:23:32,785 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:23:32,785 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-07)
+[INFO] 2020-11-25 00:23:32,785 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:23:32,786 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:23:32,786 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:23:52,063 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:23:52,064 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-08)
+[INFO] 2020-11-25 00:23:52,064 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:23:52,064 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:23:52,064 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:24:20,036 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:24:20,037 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-09)
+[INFO] 2020-11-25 00:24:20,037 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:24:20,037 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:24:20,037 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:24:46,983 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:24:46,983 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-10)
+[INFO] 2020-11-25 00:24:46,983 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:24:46,983 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:24:46,984 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:25:12,000 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:25:12,001 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-11)
+[INFO] 2020-11-25 00:25:12,001 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:25:12,001 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:25:12,001 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:25:20,206 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:25:20,207 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-12)
+[INFO] 2020-11-25 00:25:20,209 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:25:20,209 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:25:20,209 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:25:25,153 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:25:25,154 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-13)
+[INFO] 2020-11-25 00:25:25,154 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:25:25,154 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:25:25,154 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:25:50,871 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:25:50,871 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-14)
+[INFO] 2020-11-25 00:25:50,871 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:25:50,871 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:25:50,871 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:26:14,873 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:26:14,873 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-15)
+[INFO] 2020-11-25 00:26:14,873 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:26:14,873 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:26:14,873 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:26:39,066 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:26:39,067 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-16)
+[INFO] 2020-11-25 00:26:39,067 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:26:39,067 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:26:39,067 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:26:56,384 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:26:56,384 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-17)
+[INFO] 2020-11-25 00:26:56,384 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:26:56,384 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:26:56,385 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:27:17,421 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:27:17,422 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-18)
+[INFO] 2020-11-25 00:27:17,422 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:27:17,422 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:27:17,422 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:27:21,855 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:27:21,855 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-19)
+[INFO] 2020-11-25 00:27:21,855 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:27:21,855 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:27:21,855 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:27:26,711 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:27:26,712 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-20)
+[INFO] 2020-11-25 00:27:26,712 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:27:26,712 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:27:26,712 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:27:53,949 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:27:53,949 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-21)
+[INFO] 2020-11-25 00:27:53,949 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:27:53,950 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:27:53,950 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:28:15,832 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:28:15,832 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-22)
+[INFO] 2020-11-25 00:28:15,832 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:28:15,832 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:28:15,832 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:28:39,575 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:28:39,575 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-23)
+[INFO] 2020-11-25 00:28:39,576 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:28:39,576 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:28:39,576 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:29:01,017 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:29:01,017 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-24)
+[INFO] 2020-11-25 00:29:01,017 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:29:01,018 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:29:01,018 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:29:28,433 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:29:28,434 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-25)
+[INFO] 2020-11-25 00:29:28,434 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:29:28,434 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:29:28,434 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:29:33,371 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:29:33,371 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-26)
+[INFO] 2020-11-25 00:29:33,371 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:29:33,371 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:29:33,372 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:29:38,347 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:29:38,348 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-27)
+[INFO] 2020-11-25 00:29:38,348 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:29:38,348 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:29:38,348 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:30:00,172 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:30:00,172 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-28)
+[INFO] 2020-11-25 00:30:00,172 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:30:00,172 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:30:00,173 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:30:16,386 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:30:16,386 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-29)
+[INFO] 2020-11-25 00:30:16,387 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:30:16,387 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:30:16,387 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:30:36,000 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:30:36,000 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-09-30)
+[INFO] 2020-11-25 00:30:36,000 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:30:36,000 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:30:36,000 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:30:51,332 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:30:51,332 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-01)
+[INFO] 2020-11-25 00:30:51,332 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:30:51,332 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:30:51,333 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:31:08,161 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:31:08,161 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-02)
+[INFO] 2020-11-25 00:31:08,162 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:31:08,162 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:31:08,162 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:31:12,870 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:31:12,870 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-03)
+[INFO] 2020-11-25 00:31:12,870 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:31:12,870 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:31:12,871 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:31:18,297 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:31:18,297 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-04)
+[INFO] 2020-11-25 00:31:18,297 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:31:18,298 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:31:18,298 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:31:43,895 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:31:43,895 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-05)
+[INFO] 2020-11-25 00:31:43,896 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:31:43,896 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:31:43,896 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:32:07,752 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:32:07,753 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-06)
+[INFO] 2020-11-25 00:32:07,753 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2020-11-25 00:32:07,753 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:32:07,753 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:32:35,889 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:32:35,890 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-07)
+[INFO] 2020-11-25 00:32:35,891 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:32:35,891 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:32:35,891 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:32:56,220 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:32:56,220 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-08)
+[INFO] 2020-11-25 00:32:56,220 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:32:56,220 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:32:56,220 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:33:22,378 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:33:22,378 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-09)
+[INFO] 2020-11-25 00:33:22,378 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2020-11-25 00:33:22,379 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:33:22,379 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:33:35,626 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:33:35,626 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-10)
+[INFO] 2020-11-25 00:33:35,627 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:33:35,627 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:33:35,627 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:33:43,486 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:33:43,486 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-11)
+[INFO] 2020-11-25 00:33:43,486 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:33:43,486 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:33:43,487 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:33:49,460 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:33:49,460 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-12)
+[INFO] 2020-11-25 00:33:49,460 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:33:49,460 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:33:49,460 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:34:16,128 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:34:16,129 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-13)
+[INFO] 2020-11-25 00:34:16,129 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:34:16,129 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:34:16,129 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:34:43,164 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:34:43,164 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-14)
+[INFO] 2020-11-25 00:34:43,164 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:34:43,164 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:34:43,164 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:35:00,053 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:35:00,053 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-15)
+[INFO] 2020-11-25 00:35:00,053 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:35:00,053 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:35:00,053 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:35:27,691 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:35:27,692 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-16)
+[INFO] 2020-11-25 00:35:27,692 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2020-11-25 00:35:27,692 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:35:27,692 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:35:32,781 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:35:32,782 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-17)
+[INFO] 2020-11-25 00:35:32,782 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:35:32,782 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:35:32,782 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:35:38,576 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:35:38,576 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-18)
+[INFO] 2020-11-25 00:35:38,576 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:35:38,576 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:35:38,577 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:36:08,243 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:36:08,243 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-19)
+[INFO] 2020-11-25 00:36:08,243 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:36:08,243 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:36:08,243 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:36:35,042 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:36:35,042 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-20)
+[INFO] 2020-11-25 00:36:35,042 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2020-11-25 00:36:35,042 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:36:35,043 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:37:09,347 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:37:09,347 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-21)
+[INFO] 2020-11-25 00:37:09,347 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:37:09,348 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:37:09,348 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:37:30,489 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:37:30,489 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-22)
+[INFO] 2020-11-25 00:37:30,490 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:37:30,490 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:37:30,490 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:37:54,323 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:37:54,323 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-23)
+[INFO] 2020-11-25 00:37:54,324 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 4
+[INFO] 2020-11-25 00:37:54,324 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:37:54,324 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:38:04,413 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:38:04,414 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-24)
+[INFO] 2020-11-25 00:38:04,414 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:38:04,414 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:38:04,414 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:38:09,095 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:38:09,095 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-25)
+[INFO] 2020-11-25 00:38:09,095 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:38:09,095 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:38:09,095 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:38:34,486 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:38:34,487 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-26)
+[INFO] 2020-11-25 00:38:34,487 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 9
+[INFO] 2020-11-25 00:38:34,487 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:38:34,487 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:38:56,058 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:38:56,058 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-27)
+[INFO] 2020-11-25 00:38:56,058 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2020-11-25 00:38:56,059 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:38:56,059 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:39:23,916 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:39:23,916 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-28)
+[INFO] 2020-11-25 00:39:23,916 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:39:23,916 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:39:23,917 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:39:43,313 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:39:43,313 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-29)
+[INFO] 2020-11-25 00:39:43,313 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:39:43,314 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:39:43,314 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:40:09,660 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:40:09,660 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-30)
+[INFO] 2020-11-25 00:40:09,660 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:40:09,660 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:40:09,660 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:40:18,791 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:40:18,791 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-10-31)
+[INFO] 2020-11-25 00:40:18,791 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:40:18,791 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:40:18,792 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:40:22,652 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:40:22,652 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-01)
+[INFO] 2020-11-25 00:40:22,652 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:40:22,654 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:40:22,654 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:40:48,789 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:40:48,789 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-02)
+[INFO] 2020-11-25 00:40:48,789 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 4
+[INFO] 2020-11-25 00:40:48,789 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:40:48,789 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:41:11,272 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:41:11,273 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-03)
+[INFO] 2020-11-25 00:41:11,273 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2020-11-25 00:41:11,273 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:41:11,273 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:41:44,086 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:41:44,086 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-04)
+[INFO] 2020-11-25 00:41:44,087 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:41:44,087 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:41:44,087 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:42:08,429 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:42:08,429 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-05)
+[INFO] 2020-11-25 00:42:08,429 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 5
+[INFO] 2020-11-25 00:42:08,429 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:42:08,429 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:42:35,810 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:42:35,810 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-06)
+[INFO] 2020-11-25 00:42:35,811 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:42:35,811 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:42:35,811 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:42:44,304 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:42:44,305 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-07)
+[INFO] 2020-11-25 00:42:44,305 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 3
+[INFO] 2020-11-25 00:42:44,305 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:42:44,305 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:42:47,942 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:42:47,943 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-08)
+[INFO] 2020-11-25 00:42:47,943 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:42:47,943 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:42:47,943 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:43:15,951 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:43:15,952 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-09)
+[INFO] 2020-11-25 00:43:15,952 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:43:15,952 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:43:15,952 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:43:39,718 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:43:39,718 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-10)
+[INFO] 2020-11-25 00:43:39,718 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:43:39,718 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:43:39,718 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:44:10,646 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:44:10,647 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-11)
+[INFO] 2020-11-25 00:44:10,647 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:44:10,647 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:44:10,647 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:44:32,209 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:44:32,209 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-12)
+[INFO] 2020-11-25 00:44:32,209 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:44:32,209 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:44:32,209 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:44:57,119 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:44:57,120 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-13)
+[INFO] 2020-11-25 00:44:57,120 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:44:57,120 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:44:57,120 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:45:08,461 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:45:08,461 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-14)
+[INFO] 2020-11-25 00:45:08,461 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:45:08,462 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:45:08,462 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:45:13,824 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:45:13,824 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-15)
+[INFO] 2020-11-25 00:45:13,824 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:45:13,824 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:45:13,824 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:45:40,450 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:45:40,450 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-16)
+[INFO] 2020-11-25 00:45:40,450 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:45:40,450 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:45:40,450 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:46:05,584 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:46:05,585 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-17)
+[INFO] 2020-11-25 00:46:05,585 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 2
+[INFO] 2020-11-25 00:46:05,585 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:46:05,585 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:46:34,778 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:46:34,778 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-18)
+[INFO] 2020-11-25 00:46:34,778 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2020-11-25 00:46:34,778 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:46:34,778 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:46:55,525 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-11-25 00:46:55,525 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-11-19)
+[INFO] 2020-11-25 00:46:55,525 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2020-11-25 00:46:55,525 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-11-25 00:46:55,525 ComparativoMarcaje.resumen leerListas - ************************************

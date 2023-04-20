@@ -1,0 +1,26 @@
+[INFO] 2023-04-15 00:00:02,334 clases.Checkinout imprimirEnLog - 		Comieza registro de Access_A_Simone: 2023-04-15 00:00:02
+
+[INFO] 2023-04-15 00:00:02,354 clases.Checkinout imprimirEnLog - --------- INICIA leerDatosAccess() ---------
+
+[INFO] 2023-04-15 00:00:03,971 clases.Checkinout imprimirEnLog - 
+
+_ Cantida de elementos leidos: 0 registros
+_ Cantida de elementos procesados correctamente: (0)
+_ Id de elementos NO procesados (0): 
+   _Con problemas en Asignar SEDE : -
+   _Con problemas en Insertar en smn_transacciones :
+   _Con problemas en Cambiar estado de CHECKED en ACCESS : -
+   _Con problemas en buscar en tabla estado de 'smn_control_acceso'.'smn_personal': -
+
+_ =========================================
+_ Id's de personal que se le asigno 'SIN SEDE' en smn_transacciones.trn_sede :  -
+_ =========================================
+
+_ =========================================
+_ UsersId's de Personal no registrados en 'smn_control_acceso'.'smn_personal' :  -
+_ =========================================
+
+[INFO] 2023-04-15 00:00:03,971 clases.Checkinout imprimirEnLog - --------- FINALIZA leerDatosAccess() ---------
+[INFO] 2023-04-15 00:00:03,974 clases.Checkinout imprimirEnLog - 	Finaliza registro de Access_A_Simone: 2023-04-15 00:00:03
+
+

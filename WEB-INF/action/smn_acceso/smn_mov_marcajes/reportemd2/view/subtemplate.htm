@@ -1,0 +1,81 @@
+		<!-- cotización 
+		<table class="record" style="width:600px;">
+			<tr>
+				<td width="40%">${lbl:b_auxiliary}</td>
+				<td style="background-color: white">${fld:mrk_auxiliar_rf}</td>
+			</tr>
+			<tr>
+				<td width="40%">${lbl:b_transaction_date}</td>
+				<td style="background-color: white">${fld:mrk_marcaje_fecha}</td>
+			</tr>
+			<tr>
+				<td width="40%">${lbl:b_device_type}</td>
+				<td style="background-color: white">${fld:mrk_marcaje_tipo_rf_combo}</td>
+			</tr>
+			<tr>
+				<td width="40%">${lbl:b_transaction_time}</td>
+				<td style="background-color: white">${fld:mrk_marcaje_hora}</td>
+			</tr>
+			
+		</table>
+		
+		<br>-->
+
+		
+
+		<!--items con total-->
+		<table class="datagrid" width="600px" style="display:items.sql.display">
+		
+			
+			
+	
+		
+			<rows-query-smnmovmarcajes.sql>	
+			
+				<td align="center"  width="25%">${fld:mrk_auxiliar_rf}</td>
+				<td align="center"  width="25%">${fld:mrk_marcaje_fecha}</td>
+				<td align="left"  width="25%">${fld:hora_entrada}</td>
+				<td align="left"  width="25%">${fld:hora_salida}</td>
+				<td align="left"  width="25%">${fld:horas_efectivas}</td>
+			
+			
+			</rows-query-smnmovmarcajes.sql>	
+
+
+		</table>
+		
+		<!--items con total--
+		<table class="datagrid" width="600px" style="display:items.sql.display">
+		
+			<!--toolbar--
+			<tr>
+				<th colspan="4" style="font-weight:bold;font-size:10pt;">
+					${lbl:b_marking_movement}
+				</th>
+			</tr>
+		
+			<!--encabezados--
+			<tr>
+				<th width="25%">${lbl:b_auxiliary}</th>
+				<th width="25%">${lbl:b_transaction_date}</th>
+				<th width="25%">${lbl:b_device_type}</th>
+				<th width="25%">${lbl:b_transaction_time}</th>
+			
+			</tr>
+		
+			<!--data--
+			<rows-query-smnmovmarcajeshist.sql>
+			<tr>
+				<td align="center">${fld:mrk_auxiliar_rf}</td>
+				<td align="center">${fld:mrk_marcaje_fecha}</td>
+				<td align="left">${fld:mrk_marcaje_tipo_rf_combo}</td>
+				<td align="left">${fld:mrk_marcaje_hora}</td>
+			
+			</tr>
+			</rows-query-smnmovmarcajeshist.sql>
+			
+
+
+		</table>
+		<br>-->
+

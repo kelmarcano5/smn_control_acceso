@@ -1,0 +1,64 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<!-- col width='3%'/> -->
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="12" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<!-- <th>GE</th> -->
+		<th class='sortable' onclick='sortBy("smn_entidad_rf","query-smnpersonalvisitantes.sql")'>${lbl:b_entity}</th>
+		<th class='sortable' onclick='sortBy("smn_sucursal_rf","query-smnpersonalvisitantes.sql")'>${lbl:b_subsidiary}</th>
+		<th class='sortable' onclick='sortBy("smn_personal_id","query-smnpersonalvisitantes.sql")'>${lbl:b_personal}</th>
+		<th class='sortable' onclick='sortBy("smn_cedula_rf","query-smnpersonalvisitantes.sql")'>${lbl:b_cedula}</th>
+		<th class='sortable' onclick='sortBy("smn_estructura_organizacional_rf","query-smnpersonalvisitantes.sql")'>${lbl:b_departamento}</th>
+		<th class='sortable' onclick='sortBy("rpv_fecha_evento","query-smnpersonalvisitantes.sql")'>${lbl:b_event_date}</th>
+		<th class='sortable' onclick='sortBy("rpv_autorizador","query-smnpersonalvisitantes.sql")'>${lbl:b_autorizador}</th>
+		<th class='sortable' onclick='sortBy("rpv_estatus","query-smnpersonalvisitantes.sql")'>${lbl:b_status}</th>
+		<th class='sortable' onclick='sortBy("rpv_fecha_registro","query-smnpersonalvisitantes.sql")'>${lbl:b_store_date}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_personal_visitantes_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_personal_visitantes_id}','${fld:rpv_estatus}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_personal_visitantes_id}','${fld:rpv_estatus}')" title="${lbl:b_edit_button}"></td>
+		<!-- <td><img src="${def:context}/images/icongrid/Generar.png"  onclick="changeStatus('${fld:smn_personal_visitantes_id}')" title="${lbl:b_generado}"></td> -->
+		<td>${fld:smn_entidad_rf}</td>
+		<td>${fld:smn_sucursal_rf}</td>
+		<td>${fld:smn_personal_id}</td>
+		<td>${fld:smn_cedula_rf}</td>
+		<td>${fld:smn_estructura_organizacional_rf}</td>
+		<td>${fld:rpv_fecha_evento@dd-MM-yyyy}</td>
+		<td>${fld:rpv_autorizador}</td>
+		<td align='center'>${fld:rpv_estatus}</td>
+		<td>${fld:rpv_fecha_registro@dd-MM-yyyy}</td>
+
+	</tr>
+	</rows>
+
+</table>

@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnmovmarcajes.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="4" cellStep="0" name="Listado Resumen Marcaje"/>
+	
+	<excel 
+		recordset='query-smnmovmarcajes.sql' 
+		sheetname='Lista Resumen Marcaje' 
+		filename='Listado Resumen Marcaje.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='smn_entidad_rf' label='${lbl:b_entity}'/>
+		<col id='smn_sucursal_rf' label='${lbl:b_subsidiary}'/>
+		<col id='departamento' label='Departamento' align='left'/>
+		<col id='smn_horarios_id' label='Horario' align='left'/>
+		<col id='smn_cargo_rf' label='${lbl:b_positions}' align='left'/>
+		<col id='fecha_marcaje' label='${lbl:b_date}' align='left'/>
+		<col id='nombre' label='${lbl:b_name}' align='left'/>
+		<col id='cedula' label='Cedula' align='left'/>
+		<col id='rmk_tiempo_asistencia' label='${lbl:b_turno}' align='left'/>
+		<col id='rmk_tiempo_ausencias' label='Tiempo Ausencias' align='left'/>
+		<col id='rmk_tiempo_extras' label='Tiempo Extras' align='left'/>
+		<col id='rmk_tiempo_descanso' label='Tiempo Descansos' align='left'/>
+		<col id='rmk_tiempo_permisos' label='Tiempo Permisos' align='left'/>
+		<col id='rmk_tiempo_retrasos' label='Tiempo Retrasos' align='left'/>
+		<col id='rmk_fecha_registro' label='${lbl:b_store_date}' align='left'/>
+	</excel>
+
+</config>

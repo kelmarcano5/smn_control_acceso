@@ -1,0 +1,15 @@
+select
+		smn_control_acceso.smn_justificaciones.smn_personal_id,
+	smn_control_acceso.smn_justificaciones.jus_tipo_actividad_rf,
+	smn_control_acceso.smn_justificaciones.jus_documento_rf,
+	smn_control_acceso.smn_justificaciones.jus_fecha_incidencia,
+	smn_control_acceso.smn_justificaciones.jus_tiempo_a_justificar,
+	smn_control_acceso.smn_justificaciones.jus_estatus_rf,
+	smn_control_acceso.smn_justificaciones.jus_jefe_inmediato_rf,
+	smn_control_acceso.smn_justificaciones.jus_descripcion,
+	smn_control_acceso.smn_justificaciones.jus_causa,
+	smn_control_acceso.smn_justificaciones.jus_fecha_registro
+from
+	smn_control_acceso.smn_justificaciones 
+where
+	smn_control_acceso.smn_justificaciones.smn_justificaciones_id = ${fld:id}

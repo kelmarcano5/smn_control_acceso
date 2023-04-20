@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="${def:context}/dinamica.css" />
+	
+	<script type="text/javascript" src="${def:context}/action/script">
+	</script>
+
+	<script type="text/javascript">
+		//invoca la generacion de un PDF en un popup
+		function openPDF()
+		{
+			var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+			var url = "${def:context}${def:actionroot}/pdf?random=" + Math.random();
+			var w = window.open(url, null, features);
+		}
+		
+		//exportar a excel
+		function openExcel() {
+			var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+			var url = "${def:context}${def:actionroot}/excel?random=" + Math.random();
+			var w = window.open(url, null, features);
+		}
+		
+		//exportar a xml
+		function openXml(id) {
+			var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+			var url = "${def:context}${def:actionroot}/xml?id=" + id;
+			var w = window.open(url, null, features);
+		}
+		
+		//exportar a texto
+		function openTxt(id) {
+			var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+			var url = "${def:context}${def:actionroot}/txt?id=" + id;
+			var w = window.open(url, null, features);
+		}
+		
+		//envio de emails
+		function openEmails() {
+			var uri = "${def:context}${def:actionroot}/email/form";					
+			openDialog("editor0", uri, 980, 600);	
+		}
+		
+	</script>
+
+</head>
+
+<body>
+
+	<!--banner-->
+	<div class="bannerDialog">
+		${lbl:b_requests_permissions}
+		<img src="${def:context}/images/pdf.png" onclick="openPDF()" title="${lbl:b_export_pdf}" style="cursor:pointer; margin-left:3px;"/>
+		<img src="${def:context}/images/excel.png" onclick="openExcel()" title="${lbl:b_export_excel}" style="cursor:pointer; margin-left:3px;"/>
+		<img src="${def:context}/images/file-xml4.png" onclick="openXml('${fld:smn_solicitud_permisos_id}')" title="${lbl:b_export_xml}" style="cursor:pointer; margin-left:3px;"/>
+		<img src="${def:context}/images/file-text.png" onclick="openTxt('${fld:smn_solicitud_permisos_id}')" title="${lbl:b_export_txt}" style="cursor:pointer; margin-left:3px;"/>
+		<img src="${def:context}/images/emails.png" onclick="openEmails()" title="${lbl:s_profile_email}" style="cursor:pointer; margin-left:3px;"/>
+		<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog()" title="${lbl:b_close_button}" style="float:right; cursor:pointer;"/>
+	</div>
+
+<!--parametros de busqueda-->
+<table class="record" style="width:400px;">
+
+	<!--ancho de columna de etiquetas-->
+	<col width="50%">
+	<col width="50%">
+
+	<!--campos-->
+			<tr>
+		<td>${lbl:b_documento}</td>
+		<td>
+			<select name="dcm_nombre" id="dcm_nombre" onchange="chgCombo(dcm_nombre.options[dcm_nombre.selectedIndex].text,'dcm_nombre_name');" disabled >
+				<option value="">[Cualquiera]</option>
+				<spe_documento_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</spe_documento_rf_rows>
+			</select> 
+			<input id="dcm_nombre_name" name="dcm_nombre_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_activity_category}</td>
+		<td>
+			<select name="cju_nombre" id="cju_nombre" onchange="chgCombo(cju_nombre.options[cju_nombre.selectedIndex].text,'cju_nombre_name');" disabled >
+				<option value="">[Cualquiera]</option>
+				<spe_categoria_justif_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</spe_categoria_justif_rf_rows>
+			</select> 
+			<input id="cju_nombre_name" name="cju_nombre_name" type="hidden" disabled >
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_inicial_date}</td>
+		<td>
+			<input id="spe_fecha_desde" name="spe_fecha_desde" type="text" class="date" maxlength="10" disabled >
+			<img src="${def:context}/images/dropdown.png" title="${lbl:b_deploy_calendar}" onclick="calendarOpen('spe_fecha_desde')">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_end_date}</td>
+		<td>
+			<input id="spe_fecha_hasta" name="spe_fecha_hasta" type="text" class="date" maxlength="10" disabled >
+			<img src="${def:context}/images/dropdown.png" title="${lbl:b_deploy_calendar}" onclick="calendarOpen('spe_fecha_hasta')">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_status}</td>
+		<td>
+			<select name="spe_estatus_rf" id="spe_estatus_rf" disabled >
+				<option value="">[Cualquiera]</option>
+				<option value="APR">${lbl:b_approved}</option>
+				<option value="NAP">${lbl:b_not_approved}</option>
+				<option value="PEN">${lbl:b_pending}</option>
+
+			</select> 
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_direct_boss}</td>
+		<td>
+			<select name="psl_id_control_acceso" id="psl_id_control_acceso" onchange="chgCombo(psl_id_control_acceso.options[psl_id_control_acceso.selectedIndex].text,'psl_id_control_acceso_name');" disabled >
+				<option value="">[Cualquiera]</option>
+				<spe_jefe_inmediato_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</spe_jefe_inmediato_rf_rows>
+			</select> 
+			<input id="psl_id_control_acceso_name" name="psl_id_control_acceso_name" type="hidden" disabled >
+		</td>
+	</tr>
+	
+	
+	<tr>
+		<td width="40%">${lbl:b_store_date_grater_than}:</td>
+		<td style="background-color: white">${fld:fdesde@dd-MM-yyyy}</td>
+	</tr>
+	<tr>
+		<td width="40%">${lbl:b_store_date_less_than}:</td>
+		<td style="background-color: white">${fld:fhasta@dd-MM-yyyy}</td>
+	</tr>
+
+</table>
+
+<br>
+
+<!--data grid-->
+<table class="datagrid" width="${fld:width_total}" style="width:80%;">
+
+	<!--data-->
+	<rows>
+
+		<cols>		
+		<tr>	
+			<td width="40%" align="${fld:align}">${fld:alias}</td>
+			<td style="background-color: white" align="${fld:align}">${fld:market}}</td>
+		</tr>
+		</cols>
+	
+	</rows>
+
+</table>
+
+	<br>
+	<div  align="center">
+		<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog()" class="button">
+	</div>
+
+</body>
+
+</html>

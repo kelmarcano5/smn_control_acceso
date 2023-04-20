@@ -1,0 +1,33 @@
+[INFO] 2020-07-06 00:01:01,648 ComparativoMarcaje.main main - --INICIO DE PROCESO: --
+[INFO] 2020-07-06 00:01:01,711 ComparativoMarcaje.horarios listaHorarios - *** Lista de Horarios No disponible ***
+
+[ERROR] 2020-07-06 00:01:01,711 ComparativoMarcaje.horarios listaHorarios - ERROR: org.postgresql.util.PSQLException: The column name hor_minutos_tolerancia was not found in this ResultSet.
+[INFO] 2020-07-06 00:01:01,711 ComparativoMarcaje.main main - No encontro horarios en la tabla 'smn_gip.smn_horarios'
+[INFO] 2020-07-06 00:01:01,712 ComparativoMarcaje.main main - --FIN DE PROCESO: --
+
+[INFO] 2020-07-06 11:16:38,355 ComparativoMarcaje.main main - --INICIO DE PROCESO: --
+[INFO] 2020-07-06 11:16:38,867 ComparativoMarcaje.main main - Cantida de Asistencias programadas =1548
+[INFO] 2020-07-06 11:16:38,868 ComparativoMarcaje.main main - Cantida de Movimientos de marcaje =1023
+[INFO] 2020-07-06 11:16:38,868 ComparativoMarcaje.main main - Cantida de PERSONAL asignados a las Asistencias programadas =181
+[INFO] 2020-07-06 11:16:40,941 ComparativoMarcaje.resumen updateAsistencia - ERROR UPDATE ASISTENCIA
+[ERROR] 2020-07-06 11:16:40,942 ComparativoMarcaje.resumen updateAsistencia - org.postgresql.util.PSQLException: ERROR: el valor es demasiado largo para el tipo character(5)
+[INFO] 2020-07-06 11:16:45,152 ComparativoMarcaje.resumen updateAsistencia - ERROR UPDATE ASISTENCIA
+[ERROR] 2020-07-06 11:16:45,152 ComparativoMarcaje.resumen updateAsistencia - org.postgresql.util.PSQLException: ERROR: el valor es demasiado largo para el tipo character(5)
+[INFO] 2020-07-06 11:16:48,069 ComparativoMarcaje.resumen updateAsistencia - ERROR UPDATE ASISTENCIA
+[ERROR] 2020-07-06 11:16:48,070 ComparativoMarcaje.resumen updateAsistencia - org.postgresql.util.PSQLException: ERROR: el valor es demasiado largo para el tipo character(5)
+[INFO] 2020-07-06 11:16:52,363 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-07-06 11:16:52,364 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-15)
+[INFO] 2020-07-06 11:16:52,364 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 114
+[INFO] 2020-07-06 11:16:52,364 ComparativoMarcaje.resumen leerListas - 	OTROS ERRORES: 3
+[INFO] 2020-07-06 11:16:52,365 ComparativoMarcaje.resumen leerListas - 		INFORMACÓN:  52098 51970 52102
+[INFO] 2020-07-06 11:16:52,365 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-07-06 11:16:52,366 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-07-06 11:16:53,880 ComparativoMarcaje.resumen updateAsistencia - ERROR UPDATE ASISTENCIA
+[ERROR] 2020-07-06 11:16:53,881 ComparativoMarcaje.resumen updateAsistencia - org.postgresql.util.PSQLException: ERROR: el valor es demasiado largo para el tipo character(5)
+[INFO] 2020-07-06 11:17:07,159 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2020-07-06 11:17:07,159 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2020-06-16)
+[INFO] 2020-07-06 11:17:07,160 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 133
+[INFO] 2020-07-06 11:17:07,160 ComparativoMarcaje.resumen leerListas - 	OTROS ERRORES: 1
+[INFO] 2020-07-06 11:17:07,160 ComparativoMarcaje.resumen leerListas - 		INFORMACÓN:  52226
+[INFO] 2020-07-06 11:17:07,160 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2020-07-06 11:17:07,161 ComparativoMarcaje.resumen leerListas - ************************************

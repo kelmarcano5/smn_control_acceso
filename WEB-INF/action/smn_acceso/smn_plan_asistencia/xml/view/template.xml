@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_plan_asistencia>
+	<detail>
+		<rows>		
+		<record cpa_fecha_registro="${fld:cpa_fecha_registro}"    cpa_fecha_vigencia="${fld:cpa_fecha_vigencia}"    cpa_status="${fld:cpa_status}"    cpa_num_semana_fin="${fld:cpa_num_semana_fin}"    cpa_num_semana_ini="${fld:cpa_num_semana_ini}"    cpa_ano="${fld:cpa_ano}"    smn_esquema_rotacion_id="${fld:smn_esquema_rotacion_id}"    cpa_fecha_generado="${fld:cpa_fecha_generado}"    cpa_fecha_hasta_cal="${fld:cpa_fecha_hasta_cal}"    cpa_fecha_desde_cal="${fld:cpa_fecha_desde_cal}"    smn_estructura_organizacional_rf="${fld:smn_estructura_organizacional_rf}"    smn_sucursal_rf="${fld:smn_sucursal_rf}"    smn_empresa_rf="${fld:smn_empresa_rf}"    pas_fecha_registro="${fld:pas_fecha_registro}"    pas_fecha="${fld:pas_fecha}"    smn_esquema_rotacion_id="${fld:smn_esquema_rotacion_id}"    smn_personal_rf="${fld:smn_personal_rf}"    smn_estructura_organizacional_rf="${fld:smn_estructura_organizacional_rf}"    smn_sucursal_rf="${fld:smn_sucursal_rf}"    smn_empresa_rf="${fld:smn_empresa_rf}"    pas_fecha_registro="${fld:pas_fecha_registro}"    pas_fecha="${fld:pas_fecha}"    smn_esquema_rotacion_id="${fld:smn_esquema_rotacion_id}"    smn_personal_rf="${fld:smn_personal_rf}"    smn_estructura_organizacional_rf="${fld:smn_estructura_organizacional_rf}"    smn_sucursal_rf="${fld:smn_sucursal_rf}"    smn_empresa_rf="${fld:smn_empresa_rf}"    />
+		</rows>
+	</detail>
+</smn_plan_asistencia>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query.sql" source="session" scope="transaction" />
+		
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_marking_movement}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+
+	<pdf-report pageSize="letter" rotate="false">
+		<record recordset='query.sql' title='${lbl:b_marking_movement}' width='60' spacingBefore='40'>
+			<col name='igs_auxiliar_combo' title='${lbl:b_auxiliary}' align='left' format='######' />
+			<col name='igs_clase_auxiliar_combo' title='${lbl:b_auxiliary_class}' align='left' format='######' />
+			<col name='igs_control_acceso_id' title='${lbl:b_id_access_control}' align='left' />
+			<col name='igs_actividad_combo' title='${lbl:b_activity_type}' align='left' format='######' />
+			<col name='igs_tiempo_efectivo' title='${lbl:b_effective_time}' align='left' format='#,###,##0.00' />
+			<col name='igs_fecha' title='${lbl:s_loginhist_col1}' align='left' format='dd-MM-yyyy' />
+			<col name='igs_fecha_registro' title='${lbl:b_store_date}' align='left' format='dd-MM-yyyy' />
+		</record>
+
+	</pdf-report>
+</config>

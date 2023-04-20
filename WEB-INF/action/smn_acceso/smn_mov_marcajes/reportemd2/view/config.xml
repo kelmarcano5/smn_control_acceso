@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		Ver resultado de consulta
+	</summary>
+
+	<log>false</log>
+	
+	<set-request-attribute id="progress" value="file:/WEB-INF/action/progress/progress.htm"/>
+	
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnmovmarcajes.sql" source="session" scope="transaction" />
+		<!--<recordset id="gran-total.sql" source="session" scope="transaction"/>-->
+	</transaction>
+
+	<output>
+		<classname>dinamica.MasterDetailOutput</classname>
+		<template>template.htm</template>
+		<set-http-headers>true</set-http-headers>
+		<content-type>text/plain; charset=iso-8859-1</content-type>
+		<expiration>0</expiration>
+		<!--<print mode="form" recordset="gran-total.sql"/>-->
+	</output>
+	
+	<repmd>
+		<master recordset="query-smnmovmarcajes.sql">
+			<detail recordset="query-smnmovmarcajeshist.sql" mode="table" tag="rows-query-smnmovmarcajeshist.sql"/>
+
+		</master>
+	</repmd>
+
+
+</config>

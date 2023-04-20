@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='trd_sede' type='varchar' required='true' maxlen='48'/>
+	<parameter id='trd_dispositivo' type='varchar' required='true' maxlen='48'/>
+	<parameter id='trd_identificacion' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trd_tipo_marcaje' type='varchar' required='true' maxlen='512'/>
+	<parameter id='trd_fecha_transaccion' type='varchar' required='true' maxlen='2048'/>
+	<parameter id='trd_hora_transaccion' type='varchar' required='true' maxlen='2048'/>
+	<parameter id='trd_tiempo_efectivo' type='varchar' required='true' maxlen='512'/>
+	<parameter id='trd_tiempo_efectivo_total' type='double' required='true' maxlen='10'/>
+	<parameter id='trd_status' type='varchar' required='true' maxlen='3'/>
+
+
+
+</validator>

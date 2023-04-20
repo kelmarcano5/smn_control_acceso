@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<model>
+	<summary>${lbl:b_justifications}</summary>
+	<filter>
+		<row field='smn_personal_id' id='smn_personal_id' label='${lbl:b_personal}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || &apos; - &apos; || smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' required='NO' fk='psl_num_control' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_justificaciones' len='10'/>
+		<row field='jus_descripcion' id='jus_descripcion' label='${lbl:b_description}' required='NO' fk='' mSelection='' condiction='Contiene' type='varchar' tableName='smn_justificaciones' len='5000'/>
+		<row field='jus_fecha_incidencia' id='jus_fecha_incidencia_ini' label='${lbl:b_incidence_date_from}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='date' tableName='smn_justificaciones' len='10'/>
+		<row field='jus_fecha_incidencia' id='jus_fecha_incidencia_fin' label='${lbl:b_incidence_date_until}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='date' tableName='smn_justificaciones' len='10'/>
+		<row field='jus_aprobado_por' id='jus_aprobado_por' label='${lbl:b_approved_by}' required='NO' fk='' mSelection='' condiction='Contiene' type='varchar' tableName='smn_justificaciones' len='60'/>
+		<row field='jus_fecha_registro' id='jus_fecha_registro_ini' label='${lbl:b_store_date_grater_than}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='date' tableName='smn_justificaciones' len='10'/>
+		<row field='jus_fecha_registro' id='jus_fecha_registro_fin' label='${lbl:b_store_date_less_than}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='date' tableName='smn_justificaciones' len='10'/>
+	</filter>
+	<detail>SI</detail>
+	<insert>SI</insert>
+	<edit>SI</edit>
+	<delete>SI</delete>
+	<audit>Consulta</audit>
+	<grid>
+		<row field='smn_personal_id' label='${lbl:b_personal}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || &apos; - &apos; || smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' fk='psl_num_control' tableName='smn_justificaciones' len='10' type='integer' align='left'/>
+		<row field='jus_descripcion' label='${lbl:b_description}' fk='' tableName='smn_justificaciones' len='5000' type='varchar' align='left'/>
+		<row field='jus_fecha_incidencia' label='${lbl:b_incidence_date}' fk='' tableName='smn_justificaciones' len='10' type='date' align='center'/>
+		<row field='jus_hora_incidencia' label='${lbl:b_time_incident}' fk='' tableName='smn_justificaciones' len='5' type='varchar' align='left'/>
+		<row field='jus_tiempo_a_justificar' label='${lbl:b_time_to_justify}' fk='' tableName='smn_justificaciones' len='10' type='double' align='right'/>
+		<row field='jus_aprobado_por' label='${lbl:b_approved_by}' fk='' tableName='smn_justificaciones' len='60' type='varchar' align='left'/>
+		<row field='jus_fecha_registro' label='${lbl:b_store_date}@{${def:date}}' fk='' tableName='smn_justificaciones' len='10' type='date' align='center'/>
+	</grid>
+	<mobile>false</mobile>
+</model>

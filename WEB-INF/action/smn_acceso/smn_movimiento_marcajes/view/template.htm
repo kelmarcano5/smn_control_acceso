@@ -1,0 +1,55 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='14%'/>
+	<col width='10%'/>
+	<col width='11%'/>
+	<col width='20%'/>
+	<col width='12%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="10" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_item","query-smnmovimientomarcajes.sql")'>${lbl:b_auxiliary}</th>
+		<th class='sortable' onclick='sortBy("mrk_control_acceso_id","query-smnmovimientomarcajes.sql")'>${lbl:b_id_access_control}
+		<th class='sortable' onclick='sortBy("mrk_marcaje_fecha","query-smnmovimientomarcajes.sql")'>${lbl:b_transaction_date}</th>
+		<th class='sortable' onclick='sortBy("mrk_marcaje_dia_combo","query-smnmovimientomarcajes.sql")'>${lbl:b_day_name}</th>
+		<th class='sortable' onclick='sortBy("mrk_marcaje_tipo_combo","query-smnmovimientomarcajes.sql")'>${lbl:b_device_type}</th>
+		<th class='sortable' onclick='sortBy("mrk_tiempo_efectivo","query-smnmovimientomarcajes.sql")'>${lbl:b_effective_time}</th>
+		<th class='sortable' onclick='sortBy("mrk_fecha_registro","query-smnmovimientomarcajes.sql")'>${lbl:b_store_date}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_movimiento_marcajes_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_movimiento_marcajes_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_movimiento_marcajes_id}')" title="${lbl:b_edit_button}"></td>
+		<td align='left'>${fld:smn_item}</td>
+		<td align='left'>${fld:mrk_control_acceso_id}</td>
+		<td>${fld:mrk_marcaje_fecha@dd-MM-yyyy}</td>
+		<td align='left'>${fld:mrk_marcaje_dia_combo}</td>
+		<td align='left'>${fld:mrk_marcaje_tipo_combo}</td>
+		<td align='right'>${fld:mrk_tiempo_efectivo@#,###,##0.00}</td>
+		<td>${fld:mrk_fecha_registro@dd-MM-yyyy}</td>
+
+	</tr>
+	</rows>
+
+</table>

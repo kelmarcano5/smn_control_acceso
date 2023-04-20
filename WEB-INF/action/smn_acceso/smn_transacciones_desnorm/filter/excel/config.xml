@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smntransaccionesdesnorm.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="5" cellStep="0" name="${lbl:b_transactions_denormalize}"/>
+	
+	<excel 
+		recordset='query-smntransaccionesdesnorm.sql' 
+		sheetname='${lbl:b_transactions_denormalize}' 
+		filename='${lbl:b_transactions_denormalize}.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='trd_sede' label='${lbl:b_headquarters}' />
+		<col id='trd_dispositivo' label='${lbl:b_device_code}' />
+		<col id='trd_identificacion' label='${lbl:b_indentification} ' />
+		<col id='trd_tipo_marcaje' label='${lbl:b_check_type}' />
+		<col id='trd_fecha_transaccion' label='${lbl:b_transaction_date}' />
+		<col id='trd_hora_transaccion' label='${lbl:b_transaction_time}' />
+		<col id='trd_tiempo_efectivo' label='${lbl:b_effective_time}' />
+		<col id='trd_tiempo_efectivo_total' label='${lbl:b_effective_time_total}' />
+		<col id='trd_status' label='${lbl:b_status}' />
+		<col id='trd_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

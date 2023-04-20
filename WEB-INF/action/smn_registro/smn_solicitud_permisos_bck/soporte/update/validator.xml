@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_solicitud_permisos_id' type='integer' required='true' label='${lbl:b_requests_permissions}' maxlen='10'/>
+	<parameter id='smn_persona_rf' type='integer' required='true' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='pma_description' type='varchar' required='true' label='${lbl:b_description}' maxlen='250'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_load_permission_file}' maxlen='10'/>
+</validator>
+

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror="/action/error/validation/alert">
+	
+	<parameter id='idPlanAsistencia' type='varchar' required='true' label='ID PLAN ASISTENCIA' maxlen='10'/>
+	<parameter id='codigoPadre' type='varchar' required='false' label="CODIGO ESQUEMA ROTACION PREFIJO" maxlen='50'/>
+
+</validator>

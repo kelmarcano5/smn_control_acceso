@@ -1,0 +1,1 @@
+select smn_control_acceso.smn_justificaciones.smn_justificaciones_id as id, smn_control_acceso.smn_justificaciones.smn_justificaciones_id as item from smn_control_acceso.smn_justificaciones

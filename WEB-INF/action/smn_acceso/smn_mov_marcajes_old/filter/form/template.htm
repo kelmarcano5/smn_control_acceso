@@ -1,0 +1,351 @@
+<!doctype html>
+<html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" href="${def:context}/dinamica_bkp.css" />
+<link rel="stylesheet" type="text/css" href="${def:context}/main.css" />
+
+<!--biblioteca generica JS/Dinamica-->
+<script type="text/javascript" src="${def:context}/action/script">
+</script>
+
+</head>
+
+<body>
+
+<!--banner-->
+<div class="banner" id="encabezado_tabla">
+	${lbl:b_marking_movement}
+	<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog(); parent.search();" title="${lbl:b_close_button}" style="float:right; cursor:pointer;">
+	${req:progress}
+</div>
+
+<!--formulario de filtro-->
+<form name="form1" onsubmit="return search()" style="width:650px;">
+
+	<!--titulo-->
+	<h1>${lbl:b_filter_find}</h1>
+
+	<table>
+	
+	<!--ancho de la columna de etiquetas-->
+	<col style="width:40%">
+
+	<!--campos-->
+		<tr>
+		<td>${lbl:b_personal_category}*</td>
+		<td>
+			<select name="mrk_categoria_personal_rf" id="mrk_categoria_personal_rf" onchange="chgCombo(mrk_categoria_personal_rf.options[mrk_categoria_personal_rf.selectedIndex].text,'mrk_categoria_personal_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_categoria_personal_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_categoria_personal_rf_rows>
+			</select> 
+			<input id="mrk_categoria_personal_rf_name" name="mrk_categoria_personal_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_personal}*</td>
+		<td>
+			<select name="personal" id="personal" onchange="chgCombo(personal.options[personal.selectedIndex].text,'personal_name');">
+				<option value="">[Cualquiera]</option>
+				<personal_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</personal_rows>
+			</select> 
+			<input id="personal_name" name="personal_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_entity}*</td>
+		<td>
+			<select name="mrk_empresa_rf" id="mrk_empresa_rf" onchange="chgCombo1(mrk_empresa_rf.options[mrk_empresa_rf.selectedIndex].text,'mrk_empresa_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_empresa_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_empresa_rf_rows>
+			</select> 
+			<input id="mrk_empresa_rf_name" name="mrk_empresa_rf_name" type="hidden">
+		</td>
+		<!-- Incorporado manualmente para mostrar icono de inclusion de elementos al combo -->
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="entidades()" title="${lbl:b_entities}" >
+		</td>
+		<td>
+			&nbsp;&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_subsidiary}</td>
+		<td>
+			<select name="mrk_sucursal_rf" id="mrk_sucursal_rf" onchange="chgCombo2(mrk_sucursal_rf.options[mrk_sucursal_rf.selectedIndex].text,'mrk_sucursal_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_sucursal_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_sucursal_rf_rows>
+			</select> 
+			<input id="mrk_sucursal_rf_name" name="mrk_sucursal_rf_name" type="hidden">
+		</td>
+		<!-- Incorporado manualmente para mostrar icono de inclusion de elementos al combo -->
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="sucursales()" title="${lbl:b_subsidiaries}" >
+		</td>
+		<td>
+			&nbsp;&nbsp;
+		</td>
+	</tr>
+	<tr style="display: none">
+		<td>${lbl:b_service_area}</td>
+		<td>
+			<select name="mrk_area_servicio_rf" id="mrk_area_servicio_rf" onchange="chgCombo3(mrk_area_servicio_rf.options[mrk_area_servicio_rf.selectedIndex].text,'mrk_area_servicio_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_area_servicio_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_area_servicio_rf_rows>
+			</select> 
+			<input id="mrk_area_servicio_rf_name" name="mrk_area_servicio_rf_name" type="hidden">
+		</td>
+		<!-- Incorporado manualmente para mostrar icono de inclusion de elementos al combo -->
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="areaservicio()" title="${lbl:b_area_service}" >
+		</td>
+		<td>
+			&nbsp;&nbsp;
+		</td>
+	</tr>
+	<tr style="display: none">
+		<td>${lbl:b_service_unit}</td>
+		<td>
+			<select name="mrk_unidad_servicio_rf" id="mrk_unidad_servicio_rf" onchange="chgCombo4(mrk_unidad_servicio_rf.options[mrk_unidad_servicio_rf.selectedIndex].text,'mrk_unidad_servicio_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_unidad_servicio_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_unidad_servicio_rf_rows>
+			</select> 
+			<input id="mrk_unidad_servicio_rf_name" name="mrk_unidad_servicio_rf_name" type="hidden">
+		</td>
+		<!-- Incorporado manualmente para mostrar icono de inclusion de elementos al combo -->
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="unidadservicio()" title="${lbl:b_subsidiary}" >
+		</td>
+		<td>
+			&nbsp;&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_cost_centers}</td>
+		<td>
+			<select name="mrk_centro_costo_rf" id="mrk_centro_costo_rf" onchange="chgCombo(mrk_centro_costo_rf.options[mrk_centro_costo_rf.selectedIndex].text,'mrk_centro_costo_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<mrk_centro_costo_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</mrk_centro_costo_rf_rows>
+			</select> 
+			<input id="mrk_centro_costo_rf_name" name="mrk_centro_costo_rf_name" type="hidden">
+		</td>
+		<!-- Incorporado manualmente para mostrar icono de inclusion de elementos al combo -->
+		<td>
+			<img src="${def:context}/images/list-add2.png" align="left" class="button" onclick="centrocosto()" title="${lbl:b_cost_centers}" >
+		</td>
+		<td>
+			&nbsp;&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_device}</td>
+		<td>
+			<select name="smn_dispositivos_rf" id="smn_dispositivos_rf" onchange="chgCombo0(smn_dispositivos_rf.options[smn_dispositivos_rf.selectedIndex].text,'smn_dispositivos_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<smn_dispositivos_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</smn_dispositivos_rf_rows>
+			</select> 
+			<input id="smn_dispositivos_rf_name" name="smn_dispositivos_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>Fecha Inicio Transacción</td>
+		<td>
+			<input id="mrk_marcaje_fecha_ini" name="mrk_marcaje_fecha_ini" type="text" class="date" maxlength="10">
+			<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('mrk_marcaje_fecha_ini')">
+		</td>
+	</tr>
+	<tr>
+		<td>Fecha Fin Transacción</td>
+		<td>
+			<input id="mrk_marcaje_fecha_fin" name="mrk_marcaje_fecha_fin" type="text" class="date" maxlength="10">
+			<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('mrk_marcaje_fecha_fin')">
+		</td>
+	</tr>
+
+	
+	</table>
+
+	
+	<!--botones-->	
+	<input type="submit" value="${lbl:b_find_button}" class="button">
+	<input id="grabar" type="submit" value="${lbl:b_add_button}"  onclick="showEditor()" class="button">
+	<input type="button" value="${lbl:b_clean_button}" class="button" onclick="clearForm('form1')">	
+	<input id="copiar" type="button" value="${lbl:b_copy_button}" onclick="getFormValuesToCopy('form1')" class="button">
+	<input id="pegar" type="button" value="${lbl:b_paste_button}" onclick="getFormValuesToPaste('form1')" class="button">
+	<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog(); parent.search();" class="button">
+	
+</form>
+
+<!--panel de respuesta AJAX #1-->
+<div id="response" style="display:none; width:100%; margin-top:10px;"></div>
+	
+</body>
+
+<!--codigo de soporte del template-->
+<script type="text/javascript">
+
+	//inicializacion de la pagina cuando carga
+	onload = function()
+	{ 
+		showFilter();
+		
+		search();
+	} 
+	
+	
+		
+	//mostrar filtro de busqueda
+	function showFilter()
+	{
+		document.getElementById("response").style.display='none';
+		setFocusOnForm("form1");
+	}
+	
+	//ejecutar consulta
+	function search()
+	{
+		var url = "${def:actionroot}/search";
+		
+		//determina si refresca y se para en la pagina actual o en la pagina 1
+		if (currentPage > 0)
+			url = "${def:actionroot}/search?currentpage=" + currentPage;
+
+		//definir funcion goBack()
+		_goBackFn = showFilter;
+		
+		clearErrorMessages();
+
+		//llamada Ajax...
+		return ajaxCall(	httpMethod="POST", 
+							uri=url, 
+							divResponse="response", 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=showFilter);
+
+	}
+
+	//mostrar una pagina del grid
+	function viewPage()
+	{
+		var url = "${def:actionroot}/view";
+		//llama a la funcion para ir a la pagina indicada 
+		gotoPage(url);
+	}		
+	
+	//retorna al estado previo que corresponde
+	//al estado actual de la pagina, cada llamada Ajax
+	//se encarga de definir cual es la funcion de goBack() que aplica
+	function goBack() 
+	{
+		_goBackFn()			
+	}
+	
+	//invoca la generacion de un PDF en un popup
+	function openPDF()
+	{
+		var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+		var url = "${def:context}${def:actionroot}/pdf?random=" + Math.random();
+		var w = window.open(url, null, features);
+	}
+
+	//invoca la generacion de un Excel en un popup
+	function openExcel()
+	{
+		var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+		var url = "${def:context}${def:actionroot}/excel?random=" + Math.random();
+		var w = window.open(url, null, features);
+	}
+	
+	//exportar a xml
+	function openXml() {
+		var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+		var url = "${def:context}${def:actionroot}/xml/search?random=" + Math.random();
+		var w = window.open(url, null, features);
+	}
+	
+	//exportar a texto
+	function openTxt() {
+		var features = "height=500,width=800,status=no,toolbar=no,menubar=no,location=no,scrollbars=yes,resizable=yes";
+		var url = "${def:context}${def:actionroot}/txt/search?random=" + Math.random();
+		var w = window.open(url, null, features);
+	}
+	
+	//envio de emails
+	function openEmails() {
+		var uri = "${def:context}${def:actionroot}/email/form";					
+		openDialog("editor0", uri, 950, 600);	
+	}
+	
+	//mostrar el detalle de un registro
+	function getDetail(id)
+	{
+//		//alert('Colocar su código aquí.')
+		
+		var uri = "${def:context}${def:actionroot}/detail/form?id=" + id;
+		openDialog("dialog", uri, 650, 600);
+		
+	}
+	
+	//muestra un DIV+IFRAME con el formulario de CRUD
+	function showEditor(id)
+	{
+//		//alert('Colocar su código aquí.')
+		/*
+		var uri = "";
+		if (id==null)
+		 	uri = "${def:context}${def:actionroot}/editor/form";
+		else
+			uri = "${def:context}${def:actionroot}/editor/form?id=" + id;
+			
+		openDialog("editor", uri, 650, 600);
+		*/
+	}
+			
+	function deleteRecord(id) {
+//		//alert('Colocar su código aquí.')
+	
+		alertBox('${lbl:b_delete_record_button}', '${lbl:b_delete_button}', '${lbl:b_cancel_button}', 'deleteRecordOK(' + id + ')')				
+	}
+		
+	//eliminar un registro
+	function deleteRecordOK(id) {
+			ajaxCall(httpMethod="GET", 
+							uri="${def:actionroot}/delete?id=" + id,
+							divResponse=null, 
+							divProgress="status", 
+							formName=null, 
+							afterResponseFn=null, 
+							onErrorFn=null);	
+	}
+
+			
+</script>
+
+</html>

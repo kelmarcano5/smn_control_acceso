@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='vis_documento_identidad' type='integer' required='false' label='${lbl:b_identity_document}' maxlen='10'/>
+	<parameter id='smn_estructura_organizativa_rf' type='integer' required='false' label='${lbl:b_organizational_structure}' maxlen='10'/>
+	<parameter id='smn_sucursal_rf' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='smn_entidad_rf' type='integer' required='false' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='vis_fecha_registro_ini' type='date' required='false' label='${lbl:b_store_date}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_store_date}@{${def:date}} mayor o igual que] no puede ser mayor que [${lbl:b_store_date}@{${def:date}} menor o igual que].' date1='vis_fecha_registro_ini' date2='vis_fecha_registro_fin' id='vis_fecha_registro_ini' />
+	<parameter id='smn_numero_carnet_asignado_id' type='integer' required='false' label='${lbl:b_assigned_card_number}' maxlen='10'/>
+	<parameter id='vis_empresa' type='varchar' required='false' label='${lbl:b_visiting_company}' maxlen='60'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='vis_empresa' rule='like' />
+	<parameter id='vis_nombre' type='varchar' required='false' label='${lbl:b_first_name}' maxlen='48'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='vis_nombre' rule='like' />
+	<parameter id='vis_fecha_registro_fin' type='date' required='false' label='${lbl:b_store_date}' maxlen='10'/>
+</validator>

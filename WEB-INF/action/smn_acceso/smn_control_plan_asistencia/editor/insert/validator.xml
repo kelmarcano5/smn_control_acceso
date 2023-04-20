@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_empresa_rf' type='integer' required='true' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='smn_sucursal_rf' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='smn_estructura_organizacional_rf' type='integer' required='false' label='${lbl:b_organizational_structure}' maxlen='10'/>
+	<parameter id='smn_personal_id' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='cpa_ano' type='integer' required='true' label='${lbl:b_year}' maxlen='4'/>
+	<parameter id='cpa_num_semana_ini_id' type='integer' required='true' label='${lbl:b_num_semana_ini}' maxlen='10'/>
+	<parameter id='cpa_num_semana_fin_id' type='integer' required='true' label='${lbl:b_num_semana_fin}' maxlen='10'/>
+	<parameter id='cpa_fecha_desde_calc' type='date' required='true' label='${lbl:b_date_init}' maxlen='10'/>
+	<parameter id='cpa_fecha_hasta_calc' type='date' required='true' label='${lbl:b_date_end}' maxlen='10'/>
+	<parameter id='cpa_fecha_generado' type='date' required='true' label='${lbl:b_date_generate}' maxlen='10'/>
+	<parameter id='cpa_status' type='varchar' required='true' label='${lbl:b_status}' maxlen='2'/>
+	<parameter id='cpa_fecha_vigencia' type='date' required='true' label='${lbl:b_date_vigency}' maxlen='10'/>
+
+
+</validator>

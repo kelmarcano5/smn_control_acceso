@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='trm_sede' type='varchar' required='true' maxlen='48'/>
+	<parameter id='trm_dispositivo' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trm_identificacion' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trm_marcaje' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trm_tipo_marcaje_desc' type='varchar' required='true' maxlen='24'/>
+	<parameter id='trm_fecha_transaccion' type='date' required='true' maxlen='10'/>
+	<parameter id='trm_hora_transaccion' type='varchar' required='true' maxlen='5'/>
+	<parameter id='trm_jutificacion' type='varchar' required='true' maxlen='256'/>
+	
+	<parameter id='trm_tipo_marcaje_ref' type='varchar' required='false' maxlen='3'/>
+
+	<custom-validator 
+		classname='domain.dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: trm_tipo_marcaje' 
+		parameter='trm_tipo_marcaje_ref' 
+		sql='trm_tipo_marcaje.sql' 
+		id='trm_tipo_marcaje_ref'/>
+
+</validator>

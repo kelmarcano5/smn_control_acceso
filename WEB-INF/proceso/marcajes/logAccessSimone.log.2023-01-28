@@ -1,0 +1,12 @@
+[INFO] 2023-01-30 14:00:08,304 clases.Checkinout imprimirEnLog - 		Comieza registro de Access_A_Simone: 2023-01-30 14:00:08
+
+[INFO] 2023-01-30 14:00:08,395 clases.Checkinout imprimirEnLog - --------- INICIA leerDatosAccess() ---------
+
+[INFO] 2023-01-30 14:00:26,518 clases.Checkinout imprimirEnLog - _ *** Conexion NO establecida con SQL Server ***
+
+[INFO] 2023-01-30 14:00:26,519 clases.Checkinout imprimirEnLog - ERROR AL CONECTARCE A BASE DE DATOS EN: jdbc:sqlserver://10.110.10.90:1433;databaseName=att2003;user=sa;password=Att2003**/ncom.microsoft.sqlserver.jdbc.SQLServerException: Conexión reinicializada por la máquina remota ClientConnectionId:5fadc424-aaea-449d-b920-d3b6537a9ffc
+[INFO] 2023-01-30 14:00:26,519 clases.Checkinout imprimirEnLog - 
+[INFO] 2023-01-30 14:00:26,520 clases.Checkinout imprimirEnLog - --------- FINALIZA leerDatosAccess() ---------
+[INFO] 2023-01-30 14:00:26,520 clases.Checkinout imprimirEnLog - 	Finaliza registro de Access_A_Simone: 2023-01-30 14:00:26
+
+

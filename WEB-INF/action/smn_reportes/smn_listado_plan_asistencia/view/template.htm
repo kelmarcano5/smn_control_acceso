@@ -1,0 +1,56 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+	<col width="19%"/>
+	<col width="12%"/> 
+<col width="12%"/>
+	<col width="12%"/>
+	<col width="12%"/>
+	<col width="12%"/>
+	<col width="12%"/>
+	<col width="12%"/>
+	<col width="12%"/>
+	<col width="12%"/>
+	<col width="12%"/>
+	<col width="12%"/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="12" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th class='sortable' onclick='sortBy("asi_personal_rf","query-smnasistencia.sql")'>Personal</th>
+		<th class='sortable' onclick='sortBy("cedula","query-smnasistencia.sql")'>Cedula</th>
+		<th class='sortable' onclick='sortBy("fecha","query-smnasistencia.sql")'>Fecha</th>
+		<th class='sortable' onclick='sortBy("tipo_movimiento","query-smnasistencia.sql")'>Tipo Movimiento</th>
+		<th class='sortable' onclick='sortBy("hora_tope_evento","query-smnasistencia.sql")'>Hora Tope Evento</th>
+		<th class='sortable' onclick='sortBy("hora_marcaje","query-smnasistencia.sql")'>Hora Marcaje</th>
+		<th class='sortable' onclick='sortBy("estatus","query-smnasistencia.sql")'>${lbl:b_estatus}</th>
+		<th class='sortable' onclick='sortBy("reposo","query-smnasistencia.sql")'>Reposo</th>
+		<th class='sortable' onclick='sortBy("categoria","query-smnasistencia.sql")'>Descripcion Reposo</th>
+		<th class='sortable' onclick='sortBy("justificacion","query-smnasistencia.sql")'>${lbl:b_justification}</th>
+		<th class='sortable' onclick='sortBy("estatus_jus","query-smnasistencia.sql")'>${lbl:b_estatus} ${lbl:b_justification}</th>
+		<th class='sortable' onclick='sortBy("asi_fecha_registro","query-smnasistencia.sql")'>${lbl:b_store_date}</th>	
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td align="left">${fld:asi_personal_rf}</td>
+		<td align="left">${fld:cedula}</td>
+		<td align="center">${fld:fecha@dd-MM-yyyy}</td>
+		<td align="center">${fld:tipo_movimiento}</td>
+		<td align="center">${fld:hora_tope_evento}</td>
+		<td align="center">${fld:hora_marcaje}</td>
+		<td align="center">${fld:estatus}</td>
+		<td align="center">${fld:reposo}</td>
+		<td align="left">${fld:categoria}</td>
+		<td align="left">${fld:justificacion}</td>
+		<td align="center">${fld:estatus_jus}</td>
+		<td align="center">${fld:asi_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+</table>

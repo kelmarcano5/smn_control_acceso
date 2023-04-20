@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_plan_asistencia_id' type='integer' required='true' label='${lbl:b_plan_asistency}' maxlen='10'/>
+	<parameter id='asi_id_control_acceso' type='varchar' required='true' label='${lbl:b_id_access_control}' maxlen='16'/>
+	<parameter id='asi_personal_rf' type='integer' required='true' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='asi_fecha_evento' type='date' required='true' label='${lbl:b_event_date}' maxlen='13'/>
+	<parameter id='asi_dia_evento' type='varchar' required='true' label='${lbl:b_event_day}' maxlen='2'/>
+	<parameter id='asi_turno_rf' type='integer' required='false' label='${lbl:b_turno}' maxlen='10'/>
+	<parameter id='asi_esquema_rotacion_rf' type='integer' required='true' label='${lbl:b_rotation_scheme}' maxlen='10'/>
+	<parameter id='asi_tipo_marcaje' type='varchar' required='true' label='${lbl:b_check_type}' maxlen='3'/>
+	<parameter id='asi_hora_tope_evento' type='varchar' required='true' label='${lbl:b_hora_tope}' maxlen='5'/>
+	<parameter id='asi_estatus_permiso_rf' type='varchar' required='true' label='${lbl:b_permission_status}' maxlen='1'/>
+	<parameter id='asi_estatus_asistencia_rf' type='varchar' required='true' label='${lbl:b_assistance_status}' maxlen='3'/>
+	<parameter id='asi_hora_marcaje' type='varchar' required='false' label='${lbl:b_transaction_time}' maxlen='5'/>
+	<parameter id='asi_estatus_marcaje' type='varchar' required='false' label='${lbl:b_estatus_marcaje}' maxlen='2'/>
+	<parameter id='asi_secuencia_tipo_marcaje' type='integer' required='false' label='${lbl:b_secuence_device_type}' maxlen='10'/>
+	<parameter id='smn_codigo_variable_1' type='integer' required='false' label='${lbl:b_code_variable}' maxlen='10'/>
+	<parameter id='asi_variable_1' type='double' required='false' label='${lbl:b_variable}' maxlen='10'/>
+	<parameter id='smn_codigo_variable_2' type='integer' required='false' label='${lbl:b_code_variable}' maxlen='10'/>
+	<parameter id='asi_variable_2' type='double' required='false' label='${lbl:b_variable}' maxlen='10'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_attendance}' maxlen='10'/>
+
+
+</validator>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_personal_id_name' type='varchar' required='false' label='${lbl:b_personal}'/>
+	<parameter id='smn_personal_id' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='spe_documento_rf' type='integer' required='false' label='${lbl:b_documento}' maxlen='16'/>
+	<parameter id='spe_categoria_justif_rf' type='integer' required='false' label='${lbl:b_activity_category}' maxlen='64'/>
+	<parameter id='spe_fecha_desde' type='date' required='false' label='${lbl:b_inicial_date}' maxlen='10'/>
+	<parameter id='spe_fecha_hasta' type='date' required='false' label='${lbl:b_end_date}' maxlen='10'/>
+	<parameter id='spe_cantidad_horas' type='double' required='false' label='${lbl:b_nro_horas}' maxlen='10'/>
+	<parameter id='spe_estatus_rf' type='varchar' required='false' label='${lbl:b_status}' maxlen='3'/>
+	<parameter id='spe_jefe_inmediato_rf' type='integer' required='false' label='${lbl:b_direct_boss}' maxlen='60'/>
+	<parameter id='spe_detalles' type='varchar' required='false' label='${lbl:b_details}' maxlen='4000'/>
+	<parameter id='spe_causa' type='varchar' required='false' label='${lbl:b_cause_not_approved}' maxlen='1024'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_requests_permissions}' maxlen='10'/>
+
+
+
+</validator>

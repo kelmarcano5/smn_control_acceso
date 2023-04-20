@@ -1,0 +1,15 @@
+select
+	smn_control_acceso.smn_carnet_identificacion.cid_fecha_vigente,
+	smn_control_acceso.smn_carnet_identificacion.cid_estatus,
+	smn_control_acceso.smn_carnet_identificacion.cid_descripcion,
+	smn_control_acceso.smn_carnet_identificacion.cid_codigo,
+	smn_control_acceso.smn_carnet_identificacion.cid_fecha_registro,
+		smn_control_acceso.smn_carnet_identificacion.smn_carnet_identificacion_id
+	
+from
+	smn_control_acceso.smn_carnet_identificacion
+where
+	smn_carnet_identificacion_id is not null
+	${filter}
+order by
+		smn_carnet_identificacion_id

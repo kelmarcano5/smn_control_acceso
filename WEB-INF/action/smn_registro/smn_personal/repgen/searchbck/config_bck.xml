@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		${lbl:b_personal}
+	</summary>
+
+	<log>false</log>
+	
+	<set-request-attribute id="progress" value="file:/WEB-INF/action/progress/progress.htm"/>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id='query-psl_clase_auxiliar_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_auxiliar_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_empresa_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_sucursal_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_area_servicio_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_unidad_servicio_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_centro_costo.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_estructura_organizacional_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_cargo_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-psl_categoria_cargo_rf.sql' source='sql' scope='transaction'/><recordset id='query-psl_categoria_cargo_rf.sql' source='sql' scope='transaction'/>
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericOutput</classname>
+		<template>template.htm</template>
+		<set-http-headers>true</set-http-headers>
+		<content-type>text/html</content-type>
+		<print mode='table' recordset='query-psl_clase_auxiliar_rf.sql' tag='psl_clase_auxiliar_rf_rows'/>
+		<print mode='table' recordset='query-psl_auxiliar_rf.sql' tag='psl_auxiliar_rf_rows'/>
+		<print mode='table' recordset='query-psl_empresa_rf.sql' tag='psl_empresa_rf_rows'/>
+		<print mode='table' recordset='query-psl_sucursal_rf.sql' tag='psl_sucursal_rf_rows'/>
+		<print mode='table' recordset='query-psl_area_servicio_rf.sql' tag='psl_area_servicio_rf_rows'/>
+		<print mode='table' recordset='query-psl_unidad_servicio_rf.sql' tag='psl_unidad_servicio_rf_rows'/>
+		<print mode='table' recordset='query-psl_centro_costo.sql' tag='psl_centro_costo_rf_rows'/>
+		<print mode='table' recordset='query-psl_estructura_organizacional_rf.sql' tag='psl_estructura_organizacional_rf_rows'/>
+		<print mode='table' recordset='query-psl_cargo_rf.sql' tag='psl_cargo_rf_rows'/>
+		<print mode='table' recordset='query-psl_categoria_cargo_rf.sql' tag='psl_categoria_cargo_rf_rows'/>
+	</output>
+
+</config>

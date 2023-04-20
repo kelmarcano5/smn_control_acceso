@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<model>
+	<summary>${lbl:b_transactions_denormalize}</summary>
+	<filter>
+		<row field='trd_sede' id='trd_sede' label='${lbl:b_subsidiary} ' required='NO' fk='' mSelection='' condiction='Contiene' type='varchar' tableName='smn_transacciones_desnorm' len='48'/>
+		<row field='trd_identificacion' id='trd_identificacion' label='${lbl:b_indentification} ' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='varchar' tableName='smn_transacciones_desnorm' len='16'/>
+		<row field='trd_fecha_transaccion' id='trd_fecha_transaccion_ini' label='${lbl:b_transaction_date_grater_than}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='varchar' tableName='smn_transacciones_desnorm' len='2048'/>
+		<row field='trd_fecha_transaccion' id='trd_fecha_transaccion_fin' label='${lbl:b_transaction_date_less_than}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='varchar' tableName='smn_transacciones_desnorm' len='2048'/>
+		<row field='trd_fecha_registro' id='trd_fecha_registro_ini' label='${lbl:b_store_date_grater_than}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='date' tableName='smn_transacciones_desnorm' len='10'/>
+		<row field='trd_fecha_registro' id='trd_fecha_registro_fin' label='${lbl:b_store_date_less_than}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='date' tableName='smn_transacciones_desnorm' len='10'/>
+	</filter>
+	<detail>SI</detail>
+	<insert>SI</insert>
+	<edit>SI</edit>
+	<delete>SI</delete>
+	<audit>Consulta</audit>
+	<grid>
+		<row field='trd_sede' label='${lbl:b_subsidiary} ' fk='' tableName='smn_transacciones_desnorm' len='48' type='varchar' align='left'/>
+		<row field='trd_dispositivo' label='${lbl:b_device_code}' fk='' tableName='smn_transacciones_desnorm' len='48' type='varchar' align='left'/>
+		<row field='trd_identificacion' label='${lbl:b_indentification} ' fk='' tableName='smn_transacciones_desnorm' len='16' type='varchar' align='left'/>
+		<row field='trd_fecha_transaccion' label='${lbl:b_transaction_date}' fk='' tableName='smn_transacciones_desnorm' len='2048' type='varchar' align='left'/>
+		<row field='trd_tiempo_efectivo_total' label='${lbl:b_effective_time_total}' fk='' tableName='smn_transacciones_desnorm' len='10' type='double' align='right'/>
+		<row field='trd_status' label='${lbl:b_status}' fk='' tableName='smn_transacciones_desnorm' len='3' type='varchar' align='left'/>
+		<row field='trd_fecha_registro' label='${lbl:b_store_date}@{${def:date}}' fk='' tableName='smn_transacciones_desnorm' len='10' type='date' align='center'/>
+	</grid>
+	<mobile>false</mobile>
+</model>

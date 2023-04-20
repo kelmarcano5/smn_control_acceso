@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnpersonal.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="7" cellStep="0" name="${lbl:b_personal}"/>
+	
+	<excel 
+		recordset='query-smnpersonal.sql' 
+		sheetname='${lbl:b_personal}' 
+		filename='${lbl:b_personal}.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='psl_num_control' label='${lbl:b_number_of_control}' />
+		<col id='cla_nombre' label='${lbl:b_auxiliary_class}' />
+		<col id='smn_item' label='${lbl:b_auxiliary}' />
+		<col id='ent_descripcion_corta' label='${lbl:b_entity}' />
+		<col id='suc_nombre' label='${lbl:b_subsidiary}' />
+		<col id='ase_descripcion' label='${lbl:b_service_area}' />
+		<col id='uns_descripcion' label='${lbl:b_service_unit}' />
+		<col id='cco_descripcion_corta' label='${lbl:b_cost_centers}' />
+		<col id='eor_nombre' label='${lbl:b_organizational_structure}' />
+		<col id='job_nombre' label='${lbl:b_positions}' />
+		<col id='cac_nombre' label='${lbl:b_position_category}' />
+		<col id='psl_habilita_acceso_combo' label='${lbl:b_enables_access_control}' />
+		<col id='psl_id_control_acceso' label='${lbl:b_id_access_control}' />
+		<col id='psl_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

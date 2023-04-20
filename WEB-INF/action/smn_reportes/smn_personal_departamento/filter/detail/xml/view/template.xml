@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_personal>
+	<detail>
+		<rows>		
+		<record psl_fecha_registro="${fld:psl_fecha_registro}"    psl_id_control_acceso="${fld:psl_id_control_acceso}"    psl_habilita_acceso_rf="${fld:psl_habilita_acceso_rf}"    cac_nombre="${fld:cac_nombre}"    job_nombre="${fld:job_nombre}"    eor_nombre="${fld:eor_nombre}"    cco_descripcion_corta="${fld:cco_descripcion_corta}"    uns_descripcion="${fld:uns_descripcion}"    ase_descripcion="${fld:ase_descripcion}"    suc_nombre="${fld:suc_nombre}"    ent_descripcion_corta="${fld:ent_descripcion_corta}"    smn_auxiliar="${fld:smn_auxiliar}"    cla_nombre="${fld:cla_nombre}"    cap_nombre="${fld:cap_nombre}"    psl_fecha_inicio_calculo="${fld:psl_fecha_inicio_calculo}"    tur_nombre="${fld:tur_nombre}"    psl_num_control="${fld:psl_num_control}"    />
+		</rows>
+	</detail>
+</smn_personal>

@@ -1,0 +1,12 @@
+[INFO] 2022-04-25 07:48:10,717 clases.Checkinout imprimirEnLog - 		Comieza registro de Access_A_Simone: 2022-04-25 07:48:10
+
+[INFO] 2022-04-25 07:48:10,804 clases.Checkinout imprimirEnLog - --------- INICIA leerDatosAccess() ---------
+
+[INFO] 2022-04-25 07:48:28,939 clases.Checkinout imprimirEnLog - _ *** Conexion NO establecida con SQL Server ***
+
+[INFO] 2022-04-25 07:48:28,939 clases.Checkinout imprimirEnLog - ERROR AL CONECTARCE A BASE DE DATOS EN: jdbc:sqlserver://10.110.10.90:1433;databaseName=att2003;user=sa;password=Att2003**/ncom.microsoft.sqlserver.jdbc.SQLServerException: No se pudo realizar la conexión TCP/IP al host 10.110.10.90, puerto 1433. Error: "Conexión rehusada. Verifique las propiedades de conexión, compruebe que hay una instancia de SQL Server ejecutándose en el host y aceptando las conexiones TCP/IP en el puerto y compruebe que no hay ningún firewall bloqueando las conexiones TCP en el puerto.".
+[INFO] 2022-04-25 07:48:28,940 clases.Checkinout imprimirEnLog - 
+[INFO] 2022-04-25 07:48:28,940 clases.Checkinout imprimirEnLog - --------- FINALIZA leerDatosAccess() ---------
+[INFO] 2022-04-25 07:48:28,941 clases.Checkinout imprimirEnLog - 	Finaliza registro de Access_A_Simone: 2022-04-25 07:48:28
+
+

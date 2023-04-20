@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query.sql" source="session" scope="transaction" />
+
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_marking_movement}</pdf-title>
+	<pdf-logo url='/images/logo-simone-pdf.png' scale='100' />
+	<pdf-file-name>${lbl:b_marking_movement}.pdf</pdf-file-name>
+
+	<pdf-report pageSize="letter" rotate="false" footer="true" header="true">
+		<record recordset='query.sql' title='${lbl:b_marking_movement}' width='60' spacingBefore='40'>
+			<col name='smn_item' title='${lbl:b_auxiliary}' width='5' align='left'  />
+			<col name='cla_nombre' title='${lbl:b_auxiliary_class}' width='5' align='left'  />
+			<col name='mrk_control_acceso_id' title='${lbl:b_id_access_control}' width='5' align='left' />
+			<col name='ent_descripcion_corta' title='${lbl:b_entity}' width='5' align='left'  />
+			<col name='suc_nombre' title='${lbl:b_subsidiary}' width='5' align='left'  />
+			<col name='ase_descripcion' title='${lbl:b_service_area}' width='5' align='left'  />
+			<col name='uns_descripcion' title='${lbl:b_service_unit}' width='5' align='left'  />
+			<col name='cco_descripcion_corta' title='${lbl:b_cost_lefts}' width='5' align='left'  />
+			<col name='job_nombre' title='${lbl:b_positions}' width='5' align='left'  />
+			<col name='cac_nombre' title='${lbl:b_position_category}' width='5' align='left'  />
+			<col name='mrk_marcaje_id' title='${lbl:b_check}' width='5' align='left' />
+			<col name='mrk_dispositivo_codigo' title='${lbl:b_device}' width='5' align='left' />
+			<col name='mrk_marcaje_fecha' title='${lbl:b_transaction_date}' width='5' align='left' format='dd-MM-yyyy' />
+			<col name='mrk_marcaje_hora' title='${lbl:b_transaction_time}' width='5' align='left' />
+			<col name='mrk_marcaje_dia_combo' title='${lbl:b_day_name}' width='5' align='left' />
+			<col name='mrk_marcaje_tipo_combo' title='${lbl:b_device_type}' width='5' align='left' />
+			<col name='mrk_tiempo_efectivo' title='${lbl:b_effective_time}' width='5' align='left' format='#,###,##0.00' />
+			<col name='mrk_turno' title='${lbl:b_turno}' width='5' align='left'  />
+			<col name='mrk_consecutivo' title='${lbl:b_consecutivo} ' width='5' align='left' />
+			<col name='mrk_fecha_registro' title='${lbl:b_store_date}' width='5' align='left' format='dd-MM-yyyy' />
+		</record>
+
+
+	</pdf-report>
+</config>

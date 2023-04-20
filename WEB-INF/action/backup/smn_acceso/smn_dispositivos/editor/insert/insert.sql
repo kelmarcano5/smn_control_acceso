@@ -1,0 +1,34 @@
+INSERT INTO smn_control_acceso.smn_dispositivos
+(
+	smn_dispositivos_id,
+	dis_codigo,
+	dis_nombre,
+	dis_empresa,
+	dis_sucursal,
+	dis_area_servicio,
+	dis_unidad_servicio,
+	dis_tipo_dispositivo,
+	dis_serial,
+	dis_ip_address,
+	dis_idioma,
+	dis_usuario,
+	dis_fecha_registro,
+	dis_hora
+)
+VALUES
+(
+	${seq:currval@smn_control_acceso.seq_smn_dispositivos},
+	${fld:dis_codigo},
+	${fld:dis_nombre},
+	${fld:dis_empresa},
+	${fld:dis_sucursal},
+	${fld:dis_area_servicio},
+	${fld:dis_unidad_servicio},
+	${fld:dis_tipo_dispositivo},
+	${fld:dis_serial},
+	${fld:dis_ip_address},
+	'${def:locale}',
+	'${def:user}',
+	{d '${def:date}'},
+	'${def:time}'
+)

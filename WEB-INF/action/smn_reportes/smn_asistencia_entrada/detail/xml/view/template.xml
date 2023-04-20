@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_asistencia>
+	<detail>
+		<rows>		
+		<record asi_secuencia_tipo_marcaje="${fld:asi_secuencia_tipo_marcaje}"    asi_estatus_marcaje="${fld:asi_estatus_marcaje}"    asi_fecha_registro="${fld:asi_fecha_registro}"    asi_estatus_asistencia_rf="${fld:asi_estatus_asistencia_rf}"    asi_estatus_permiso_rf="${fld:asi_estatus_permiso_rf}"    asi_tipo_marcaje="${fld:asi_tipo_marcaje}"    asi_esquema_rotacion_rf="${fld:asi_esquema_rotacion_rf}"    asi_turno_rf="${fld:asi_turno_rf}"    asi_dia_evento="${fld:asi_dia_evento}"    asi_fecha_evento="${fld:asi_fecha_evento}"    psl_id_control_acceso="${fld:psl_id_control_acceso}"    asi_id_control_acceso="${fld:asi_id_control_acceso}"    smn_plan_asistencia_id="${fld:smn_plan_asistencia_id}"    />
+		</rows>
+	</detail>
+</smn_asistencia>

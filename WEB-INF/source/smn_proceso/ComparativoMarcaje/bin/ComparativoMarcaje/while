@@ -1,0 +1,83 @@
+/*
+ *********************************************************************************** 
+ */
+		    			int cantidadDias=0,contadorDias=0;
+		    			
+		    			SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");    
+				        Calendar cini = Calendar.getInstance();
+				        try {
+				            cini.setTime(formatter.parse(fechaIni));
+
+				            Calendar cfin = Calendar.getInstance();
+				            cfin.setTime(formatter.parse(fechaFin));
+				            while (cfin.after(cini) || cfin.equals(cini)) {
+				            	cantidadDias++;
+				            	
+				               	//FECHA CONSECUTIVA FORTAMRO SEGÚN SO => AAAA-MM-DD o AAAA/MM/DD
+				            	System.out.println(1+".) "+formatter.format(cini.getTime()));
+				            	String fechaEvento = formatter.format(cini.getTime());
+
+				            	//LA VARIBLE array: DIVIDIR LA FECHA QUE SE ESTA RECORRIENDO , PERO EN FORMATO Calendar
+				            	// EJEMPLO DE FORMATO => Sun Jun 09 00:00:00 VET 2019
+				            	// POS 0 => NOMBRE DE DIA EN INGLES "Sun"
+				            	// POS 1 => NOMBRE DE MES EN INGLES "Jun"
+				            	// POS 2 => NUMERO DE DIA EN 09
+				            	// POS 3 => HORA COMPLETA "00:00:00"
+				            	// POS 4 => NO SE QUE ES "VET". SUPONGO QUE ES EL PAIS O ALGO ASI
+				            	// POS 5 => AÑO COMPLETO 2019
+				            	String[] array = cini.getTime().toString().split(" ");
+				            	System.out.println("Fecha: "+fechaEvento);
+				            	System.out.println("Dia en INGLES: "+array[0]);
+				            	System.out.println("Dia en ESPAÑOL: "+traducirDia(array[0]));
+
+				            	String diaEvento =main.traducirDia(array[0]);
+			        			String diaEvento_2 = diaEvento.substring(0, 2);
+			        			
+
+/*			        			
+			        			
+			        			horarios horasAus = new horarios();
+			        			horarios HorarioDia_N = horasAus.buscarHorario(dias,rs.getInt(diaEvento));
+			        			String sentenciasDia_N = main.GenerarSentencia(HorarioDia_N,diaEvento,idPlanAsistencia,rs.getString("psl_id_control_acceso"),rs.getString("smn_personal_id"),fechaEvento,diaEvento_2,permisoL,estructuraId,esquemaId);
+*/
+			        		
+				    			resumen resumenes = new resumen();
+				            	resumenes.leerListas(asistencias, movimientosMarcajes, listaIndividual, fechaIniH,fechaFinH,fechaActual);
+
+				
+			        			
+				                cini.add(Calendar.DATE, 1);
+				            
+				            
+				            }//DEL WHILE
+
+				            /*
+				            //ESTO QUIERE DECIR QUE EN CASO DE QUE AL MENOS UNO DE LOS "DIAS" CORRESPONDIENTE AL PERSONAL ------> OSEA LAS ASISTENCIAS
+				            //OBTENIDO DEL PLAN_ASISTENCIA
+				            // NO SE INSERTO CORRECTAMENTE
+				            if((cantidadDias-contadorDias)!=0) {
+				            	System.out.println(timestamp+":No se inserto completamente las asistencias en smn_plan_asistencia ID:("+idPlanAsistencia+") al personal con el ID ("+rs.getString("smn_personal_id")+")");
+				            	System.out.println(timestamp+":Cantidad DIAS del plan: "+cantidadDias);
+				            	System.out.println(timestamp+":Cantidad DIAS del plan NO insertados: "+(cantidadDias-contadorDias));
+			                	
+				            }else { // SI SE EJECUTARON TODOS LOS "INSERT" (OSEA LAS ASISTENCIAS) DEL PERSONAL CORRECTAMENTE
+				            	contadorPersonal++;
+				            	
+				            }
+				            */
+				            
+				            
+				            
+				        } 
+				        catch (ParseException e2) {
+				            e2.printStackTrace();
+				            System.out.println(":Error al recorrer las fechas de smn_plan_asistencia ID:");
+				            System.out.println(":"+e2);
+		                	
+				        }
+
+			
+/*
+ *********************************************************************************** 
+ */			        			
+	

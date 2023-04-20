@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="false">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smntransaccionesmanuales-template.sql" source="sql" scope="transaction" />
+		<recordset id="query-trmtipomarcaje.sql" source="sql" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.repgen.smn_acceso.smn_transacciones_manuales.ExcelReportOutput</classname>
+	</output>
+		
+	<excel 
+		filename='${lbl:b_manual_transactions}.xls'
+		header-background='true'  >
+		
+	<sheet recordset="query-smntransaccionesmanuales-template.sql" sheetname="${lbl:b_manual_transactions}">
+		
+		<col id='trm_sede' label='${lbl:b_subsidiary}*' />
+		<col id='trm_dispositivo' label='${lbl:b_device_code}*' />
+		<col id='trm_identificacion' label='${lbl:b_indentification}*' />
+		<col id='trm_marcaje' label='${lbl:b_check}*' />
+		<col id='trm_tipo_marcaje' label='${lbl:b_check_type}*' />
+		<col id='trm_fecha_transaccion' label='${lbl:b_transaction_date}*' />
+		<col id='trm_hora_transaccion' label='${lbl:b_transaction_time}*' />
+		<col id='trm_jutificacion' label='${lbl:b_justification}*' />
+		
+		<col id='trm_tipo_marcaje_reference' label='${lbl:b_check_type}*' />
+
+	</sheet>
+	
+	<sheet recordset='query-trmtipomarcaje.sql' sheetname='${lbl:b_check_type}'>
+		<col id='tipo_marcaje' label='${lbl:b_check_type}' />
+	</sheet>
+	
+	</excel>
+
+</config>

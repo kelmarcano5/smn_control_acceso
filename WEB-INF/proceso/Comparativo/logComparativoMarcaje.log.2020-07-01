@@ -1,0 +1,7 @@
+[INFO] 2020-07-01 00:01:01,500 ComparativoMarcaje.main main - --INICIO DE PROCESO: --
+[INFO] 2020-07-01 00:01:01,551 ComparativoMarcaje.horarios listaHorarios - *** Lista de Horarios No disponible ***
+
+[ERROR] 2020-07-01 00:01:01,551 ComparativoMarcaje.horarios listaHorarios - ERROR: org.postgresql.util.PSQLException: The column name hor_minutos_tolerancia was not found in this ResultSet.
+[INFO] 2020-07-01 00:01:01,551 ComparativoMarcaje.main main - No encontro horarios en la tabla 'smn_gip.smn_horarios'
+[INFO] 2020-07-01 00:01:01,551 ComparativoMarcaje.main main - --FIN DE PROCESO: --
+

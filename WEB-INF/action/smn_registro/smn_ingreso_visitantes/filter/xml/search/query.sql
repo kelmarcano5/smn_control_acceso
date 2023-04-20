@@ -1,0 +1,29 @@
+select
+		smn_control_acceso.smn_visitantes.smn_visitantes_id,
+select
+		smn_control_acceso.smn_visitantes.smn_visitantes_id,
+select
+		smn_control_acceso.smn_visitantes.smn_visitantes_id,
+select
+		smn_control_acceso.smn_visitantes.smn_visitantes_id,
+select
+		smn_control_acceso.smn_visitantes.smn_visitantes_id,
+	smn_control_acceso.smn_visitantes.smn_entidad_rf,
+	smn_control_acceso.smn_visitantes.smn_sucursal_rf,
+	smn_control_acceso.smn_visitantes.smn_estructura_organizativa_rf,
+	smn_control_acceso.smn_visitantes.smn_tipo_documento_identidad_rf,
+	smn_control_acceso.smn_visitantes.vis_documento_identidad,
+	smn_control_acceso.smn_visitantes.vis_nombre,
+	smn_control_acceso.smn_visitantes.vis_apellido,
+	smn_control_acceso.smn_visitantes.vis_empresa,
+	smn_control_acceso.smn_visitantes.smn_numero_carnet_asignado_id,
+	smn_control_acceso.smn_visitantes.vis_hora_entrada,
+	smn_control_acceso.smn_visitantes.vis_hora_estimada_salida,
+	smn_control_acceso.smn_visitantes.vis_invitado_almuerzo,
+	smn_control_acceso.smn_visitantes.vis_estatus,
+	smn_control_acceso.smn_visitantes.smn_personal_id,
+	smn_control_acceso.smn_visitantes.vis_fecha_vigencia,
+	smn_control_acceso.smn_visitantes.vis_fecha_registro
+	
+from
+	smn_control_acceso.smn_visitantes

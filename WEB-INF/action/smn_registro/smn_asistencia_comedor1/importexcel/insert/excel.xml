@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='smn_asistencia_id' type='integer' required='false' maxlen='10'/>
+	<parameter id='smn_movimiento_marcaje_id' type='integer' required='false' maxlen='10'/>
+	<parameter id='smn_personal_id' type='integer' required='true' maxlen='10'/>
+	<parameter id='com_fecha_generada' type='date' required='true' maxlen='10'/>
+	<parameter id='com_hora_generada' type='varchar' required='true' maxlen='8'/>
+	<parameter id='com_hora_marcaje' type='varchar' required='false' maxlen='8'/>
+	<parameter id='com_hora_entregada' type='varchar' required='false' maxlen='8'/>
+	<parameter id='com_estatus' type='varchar' required='true' maxlen='2'/>
+
+
+
+</validator>

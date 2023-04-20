@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnsolicitudpermisos.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+	
+	<excel recordset='query-smnsolicitudpermisos.sql' sheetname='${lbl:b_requests_permissions}' filename='filter.xls'>
+		<col id='smn_personal_id_combo' label='${lbl:b_personal}' />
+		<col id='spe_documento_rf_combo' label='${lbl:b_documento}' />
+		<col id='spe_categoria_justif_rf_combo' label='${lbl:b_activity_category}' />
+		<col id='spe_fecha_desde' label='${lbl:b_inicial_date}' />
+		<col id='spe_fecha_hasta' label='${lbl:b_end_date}' />
+		<col id='spe_cantidad_horas' label='${lbl:b_nro_horas}' />
+		<col id='spe_estatus_rf_combo' label='${lbl:b_status}' />
+		<col id='spe_jefe_inmediato_rf_combo' label='${lbl:b_direct_boss}' />
+		<col id='spe_detalles' label='${lbl:b_details}' />
+		<col id='spe_causa' label='${lbl:b_cause_not_approved}' />
+		<col id='spe_fecha_registro' label='${lbl:b_store_date}' />
+	</excel>
+
+</config>

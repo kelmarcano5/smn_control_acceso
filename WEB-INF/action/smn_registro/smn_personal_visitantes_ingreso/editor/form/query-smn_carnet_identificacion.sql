@@ -1,0 +1,1 @@
+select smn_control_acceso.smn_carnet_identificacion.smn_carnet_identificacion_id as id,  smn_control_acceso.smn_carnet_identificacion.cid_codigo ||' - '||  smn_control_acceso.smn_carnet_identificacion.cid_descripcion as item from  smn_control_acceso.smn_carnet_identificacion

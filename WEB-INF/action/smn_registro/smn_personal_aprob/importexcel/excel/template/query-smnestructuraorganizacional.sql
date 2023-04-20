@@ -1,0 +1,4 @@
+select 
+	smn_base.smn_estructura_organizacional.eor_nombre
+from
+	smn_base.smn_estructura_organizacional

@@ -1,0 +1,14 @@
+--select * from smn_control_acceso.smn_personal inner join smn_base.smn_auxiliar on smn_control_acceso.smn_personal.psl_auxiliar_rf = smn_base.smn_auxiliar.smn_auxiliar_id
+
+select smn_seguridad.s_user.userLogin , smn_base.smn_auxiliar.smn_auxiliar_id from smn_control_acceso.smn_personal  inner join  (
+	smn_base.smn_auxiliar inner join (
+	  smn_base.smn_usuarios inner join smn_seguridad.s_user on ( smn_base.smn_usuarios.smn_user_rf = smn_seguridad.s_user.user_id )
+	) on smn_base.smn_auxiliar.smn_auxiliar_id = smn_base.smn_usuarios.smn_auxiliar_rf 
+ )  on smn_control_acceso.smn_personal.psl_auxiliar_rf = smn_base.smn_auxiliar.smn_auxiliar_id
+
+
+--  smn_seguridad.s_user 
+--	inner join (
+--		smn_base.smn_usuarios inner join smn_base.smn_auxiliar on smn_base.smn_auxiliar.smn_auxiliar_id = smn_base.smn_usuarios.smn_auxiliar_rf
+--	) on smn_base.smn_usuarios.smn_user_rf = smn_seguridad.s_user.user_id
+--) 

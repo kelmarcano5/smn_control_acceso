@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='trm_sede' type='varchar' required='true' maxlen='48'/>
+	<parameter id='trm_dispositivo' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trm_identificacion' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trm_marcaje' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trm_tipo_marcaje' type='varchar' required='true' maxlen='3'/>
+	<parameter id='trm_fecha_transaccion' type='date' required='true' maxlen='10'/>
+	<parameter id='trm_hora_transaccion' type='varchar' required='true' maxlen='5'/>
+	<parameter id='trm_jutificacion' type='varchar' required='true' maxlen='256'/>
+</validator>

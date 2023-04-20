@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='repgen.filter' onerror='/action/error/validation/ajax'>
+
+	<parameter id='fdesde' type='date' required='false' label='Fecha desde'/>
+	<parameter id='fhasta' type='date' required='false' label='Fecha hasta'/>
+	
+	<parameter id='dis_codigo' type='varchar' required='false' label='${lbl:b_code}' maxlen='16'/>
+	<parameter id='dis_nombre' type='varchar' required='false' label='${lbl:b_name}' maxlen='48'/>
+	<parameter id='dis_empresa' type='integer' required='false' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='dis_sucursal' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='dis_area_servicio' type='integer' required='false' label='${lbl:b_service_area}' maxlen='10'/>
+	<parameter id='dis_unidad_servicio' type='integer' required='false' label='${lbl:b_service_unit}' maxlen='10'/>
+	<parameter id='dis_tipo_dispositivo' type='varchar' required='false' label='${lbl:b_device_type}' maxlen='2'/>
+	<parameter id='dis_serial' type='varchar' required='false' label='${lbl:b_serial}' maxlen='32'/>
+	<parameter id='dis_ip_address' type='varchar' required='false' label='${lbl:b_direccion_ip}' maxlen='16'/>
+	
+	<parameter id='dis_codigo_filter' type='varchar' required='false' label='${lbl:b_code}' maxlen='16'/>
+	<parameter id='dis_nombre_filter' type='varchar' required='false' label='${lbl:b_name}' maxlen='48'/>
+	<parameter id='dis_empresa_filter' type='integer' required='false' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='dis_sucursal_filter' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='dis_area_servicio_filter' type='integer' required='false' label='${lbl:b_service_area}' maxlen='10'/>
+	<parameter id='dis_serial_filter' type='varchar' required='false' label='${lbl:b_serial}' maxlen='32'/>
+	
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='dis_codigo_filter'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='dis_nombre_filter'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='dis_serial_filter'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='dis_codigo'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='dis_nombre'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='dis_tipo_dispositivo'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='dis_serial'
+		rule='contains' />
+
+	<custom-validator
+		classname='dinamica.validators.SQLPatternTransformer'
+		parameter='dis_ip_address'
+		rule='contains' />
+
+
+	<custom-validator
+		classname='dinamica.validators.DuplicatedKeyValidator'
+			on-error-label='${lbl:b_record_not_duplicated}.'
+			sql='buscarCodigo.sql'
+			id='dis_codigo'/>
+
+	<custom-validator
+		classname='dinamica.validators.DuplicatedKeyValidator'
+			on-error-label='${lbl:b_record_not_duplicated}.'
+			sql='buscarNombre.sql'
+			id='dis_nombre'/>
+
+
+	<custom-validator
+			classname='dinamica.validators.ArrayNotEmptyValidator'
+			on-error-label='Seleccione al menos un campo para la generación del reporte.'
+			parameter-name='field_id' 
+			id='field_id' />
+
+	<custom-validator 
+			classname='dinamica.validators.ArrayToRecordset'
+			paramName='field_id' 
+			recordsetId='fields' 
+			colName='field_id' 
+			colType='integer' />
+				
+</validator>

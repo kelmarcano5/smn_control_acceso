@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='smn_plan_asistencia_id' type='integer' required='false' label='${lbl:b_plan_asistency}' maxlen='10'/>
+	<parameter id='smn_estructura_organizacional_id' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='asi_personal_rf' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<!-- <parameter id='asi_fecha_evento' type='date' required='false' label='${lbl:b_event_date}' maxlen='10'/> -->
+	<parameter id='asi_tipo_marcaje' type='varchar' required='false' label='${lbl:b_check_type}' maxlen='3'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='asi_tipo_marcaje' rule='like' />
+	<parameter id='asi_estatus_entrada' type='varchar' required='false' label='Estatus Entrada' maxlen='3'/>
+	<!-- <custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='asi_estatus_entrada' rule='like' /> -->
+
+	<parameter id='asi_fecha_evento_ini' type='date' required='false' label='${lbl:b_event_date}' maxlen='10'/>
+	
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_event_date} mayor o igual que] no puede ser mayor que [${lbl:b_event_date} menor o igual que].' date1='asi_fecha_evento_ini' date2='asi_fecha_evento_fin' id='asi_fecha_evento_ini' />
+	<parameter id='asi_fecha_evento_fin' type='date' required='false' label='${lbl:b_event_date}' maxlen='10'/>
+</validator>

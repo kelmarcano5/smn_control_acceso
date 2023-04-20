@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnasistencias.sql" source="session" scope="transaction" />
+		<recordset id='query-smnvauxiliar.sql' source='sql' scope='transaction' />
+	<recordset id='query-smnclaseauxiliar.sql' source='sql' scope='transaction' />
+	<recordset id='query-smnesquemarotacion.sql' source='sql' scope='transaction' />
+	<recordset id='query-smnturnos.sql' source='sql' scope='transaction' />
+	
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+		
+	<excel 
+		filename='${lbl:b_attendance}.xls' >
+		
+	<sheet recordset="query-table_stuck}.sql" sheetname="${lbl:b_attendance}">
+				<col id='asi_id_control_acceso' label='${lbl:b_id_access_control}' />
+		<col id='asi_clase_auxiliar_rf' label='${lbl:b_auxiliary_class}' />
+		<col id='asi_auxiliar_rf' label='${lbl:b_auxiliary}' />
+		<col id='asi_fecha' label='${lbl:s_loginhist_col1}' />
+		<col id='asi_estatus_permiso_rf' label='${lbl:b_requests_permissions}' />
+		<col id='asi_turno_rf' label='${lbl:b_turnos}' />
+		<col id='asi_esquema_rotacion_rf' label='${lbl:b_rotation_scheme}' />
+		<col id='asi_hora_ent_turno1' label='${lbl:b_hour_in_expected_am}' />
+		<col id='asi_hora_sal_turno1' label='${lbl:b_hour_out_expected_am}' />
+		<col id='asi_hora_ent_turno2' label='${lbl:b_hour_in_expected_pm}' />
+		<col id='asi_hora_sal_turno2' label='${lbl:b_hour_out_expected_pm}' />
+		<col id='asi_horas_trabajadas' label='${lbl:b_amount_hours}' />
+		<col id='asi_horas_descansos' label='${lbl:b_rest_hours}' />
+		<col id='asi_estatus_asistencia_rf' label='${lbl:b_status}' />
+		<col id='asi_fecha_registro' label='${lbl:b_store_date}' />
+
+	</sheet>
+		<sheet recordset='query-smnvauxiliar.sql' sheetname=''>
+		<col id='smn_item' label='${lbl:}' />
+	</sheet>
+
+	<sheet recordset='query-smnclaseauxiliar.sql' sheetname=''>
+		<col id='cla_nombre' label='${lbl:b_name}' />
+	</sheet>
+
+	<sheet recordset='query-smnesquemarotacion.sql' sheetname=''>
+		<col id='ero_nombre' label='${lbl:b_name}' />
+	</sheet>
+
+	<sheet recordset='query-smnturnos.sql' sheetname=''>
+		<col id='tur_nombre' label='${lbl:b_name}' />
+	</sheet>
+
+
+	</excel>
+
+</config>

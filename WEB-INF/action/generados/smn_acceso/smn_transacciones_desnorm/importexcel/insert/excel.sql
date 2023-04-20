@@ -1,0 +1,34 @@
+INSERT INTO smn_control_acceso.smn_transacciones_desnorm
+(
+	smn_transacciones_desnorm_id,
+	trd_sede,
+	trd_dispositivo,
+	trd_identificacion,
+	trd_tipo_marcaje,
+	trd_fecha_transaccion,
+	trd_hora_transaccion,
+	trd_tiempo_efectivo,
+	trd_tiempo_efectivo_total,
+	trd_status,
+	trd_idioma,
+	trd_usuario,
+	trd_fecha_registro,
+	trd_hora
+)
+VALUES
+(
+	${seq:nextval@smn_control_acceso.seq_smn_transacciones_desnorm},
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	'${def:locale}',
+	'${def:user}',
+	{d '${def:date}'},
+	'${def:time}'
+)

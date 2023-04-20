@@ -1,0 +1,52 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="11" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th colspan="4"></th>
+		<th class='sortable' onclick="sortBy('smn_solicitud_permisos_id','query-smnpermisossoporte.sql')" >${lbl:b_requests_permissions}</th>
+		<th class='sortable' onclick="sortBy('smn_persona_rf_combo','query-smnpermisossoporte.sql')" >${lbl:b_personal}</th>
+		<th class='sortable' onclick="sortBy('pma_description','query-smnpermisossoporte.sql')" >${lbl:b_description}</th>
+		<th class='sortable' onclick="sortBy('pma_imagen_size','query-smnpermisossoporte.sql')" >${lbl:b_image_data}</th>
+		<th class='sortable' onclick="sortBy('filename','query-smnpermisossoporte.sql')" >${lbl:b_filename}</th>
+		<th class='sortable' onclick="sortBy('content_type','query-smnpermisossoporte.sql')" >${lbl:b_type_content}</th>
+		<th class='sortable' onclick="sortBy('pma_fecha_registro','query-smnpermisossoporte.sql')" >${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/download.png" onclick="downloadBlob('${fld:smn_permisos_soporte_id}')" title="Descargar" ></td>
+		<td><img src="${def:context}/images/search.png" onclick="getImage('${fld:smn_permisos_soporte_id}', '${fld:content_type}')" title="Ver documento" ></td>
+		<td><img src="${def:context}/images/delete.png" onclick="deleteRecord('${fld:smn_permisos_soporte_id}')" title="Eliminar"></td>
+		<td><img src="${def:context}/images/edit.png" onclick="edit('${fld:smn_permisos_soporte_id}')" title="Editar"></td>
+		<td align="center">${fld:smn_solicitud_permisos_id}</td>
+		<td>${fld:smn_persona_rf_combo}</td>
+		<td align="left">${fld:pma_description}</td>
+		<td align="center">${fld:pma_imagen_size}</td>
+		<td align="left">${fld:filename}</td>
+		<td align="left">${fld:content_type}</td>
+		<td align="center">${fld:pma_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

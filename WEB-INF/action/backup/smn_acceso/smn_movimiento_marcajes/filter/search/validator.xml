@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='mrk_auxiliar' type='integer' required='false' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='mrk_control_acceso_id' type='varchar' required='false' label='${lbl:b_id_access_control}' maxlen='16'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='mrk_control_acceso_id' rule='contains' />
+	<parameter id='mrk_marcaje_fecha_ini' type='date' required='false' label='${lbl:b_transaction_date_grater_than}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_transaction_date_grater_than} mayor o igual que] no puede ser mayor que [${lbl:b_transaction_date_less_than} menor o igual que].' date1='mrk_marcaje_fecha_ini' date2='mrk_marcaje_fecha_fin' id='mrk_marcaje_fecha_ini' />
+	<parameter id='mrk_marcaje_fecha_fin' type='date' required='false' label='${lbl:b_transaction_date_less_than}' maxlen='10'/>
+	<parameter id='mrk_marcaje_dia' type='varchar' required='false' label='${lbl:b_day_name}' maxlen='2'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='mrk_marcaje_dia' rule='contains' />
+	<parameter id='mrk_marcaje_tipo' type='varchar' required='false' label='${lbl:b_device_type}' maxlen='3'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='mrk_marcaje_tipo' rule='contains' />
+	<parameter id='mrk_marcaje_hora_ini' type='varchar' required='false' label='${lbl:b_transaction_time_grater_than}' maxlen='5'/>
+	<custom-validator classname='dinamica.validators.IntegerRangeValidator' on-error-label='[${lbl:b_transaction_time_grater_than} mayor o igual que] no puede ser mayor que [${lbl:b_transaction_time_less_than} menor o igual que].' value1='mrk_marcaje_hora_ini' value2='mrk_marcaje_hora_fin' id='mrk_marcaje_hora_ini' />
+	<parameter id='mrk_marcaje_hora_fin' type='varchar' required='false' label='${lbl:b_transaction_time_less_than}' maxlen='5'/>
+	<parameter id='mrk_fecha_registro_ini' type='date' required='false' label='${lbl:b_store_date_grater_than}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_store_date_grater_than} mayor o igual que] no puede ser mayor que [${lbl:b_store_date_less_than} menor o igual que].' date1='mrk_fecha_registro_ini' date2='mrk_fecha_registro_fin' id='mrk_fecha_registro_ini' />
+	<parameter id='mrk_fecha_registro_fin' type='date' required='false' label='${lbl:b_store_date_less_than}' maxlen='10'/>
+</validator>

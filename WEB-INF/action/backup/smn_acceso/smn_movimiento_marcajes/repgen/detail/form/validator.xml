@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id="view.record" onerror="/action/error/validation/dialog">
+	<parameter id="id" type="integer" required="true" label="ID" maxlen="10" />
+	<parameter id='mrk_auxiliar_filter' type='integer' required='false' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='mrk_control_acceso_id_filter' type='varchar' required='false' label='${lbl:b_id_access_control}' maxlen='16'/>
+	<parameter id='mrk_marcaje_dia_filter' type='varchar' required='false' label='${lbl:b_day_name}' maxlen='2'/>
+	<parameter id='mrk_marcaje_tipo_filter' type='varchar' required='false' label='${lbl:b_device_type}' maxlen='3'/>
+	<parameter id='mrk_marcaje_fecha_ini_filter' type='date' required='false' label='${lbl:b_transaction_date_grater_than}' maxlen='10'/>
+	<parameter id='mrk_marcaje_fecha_fin_filter' type='date' required='false' label='${lbl:b_transaction_date_less_than}' maxlen='10'/>
+	<parameter id='mrk_marcaje_hora_ini_filter' type='varchar' required='false' label='${lbl:b_transaction_time_grater_than}' maxlen='5'/>
+	<parameter id='mrk_marcaje_hora_fin_filter' type='varchar' required='false' label='${lbl:b_transaction_time_less_than}' maxlen='5'/>
+</validator>

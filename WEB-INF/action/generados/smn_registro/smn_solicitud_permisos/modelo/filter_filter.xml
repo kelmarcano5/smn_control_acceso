@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<model>
+	<summary>${lbl:b_requests_permissions}</summary>
+	<filter>
+		<row field='spe_documento_rf' id='spe_documento_rf' label='${lbl:b_documento}@{select smn_gip.smn_documentos.smn_documentos_id as id, smn_gip.smn_documentos.dcm_codigo|| &quot; - &quot; || smn_gip.smn_documentos.dcm_nombre as item from smn_gip.smn_documentos order by smn_gip.smn_documentos.dcm_nombre}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_solicitud_permisos' len='16'/>
+		<row field='spe_categoria_justif_rf' id='spe_categoria_justif_rf' label='${lbl:b_activity_category}@{select smn_gip.smn_categoria_justificaciones.smn_categoria_justificaciones_id as id, smn_gip.smn_categoria_justificaciones.cju_codigo || &quot; - &quot; || smn_gip.smn_categoria_justificaciones.cju_nombre as item from smn_gip.smn_categoria_justificaciones order by smn_gip.smn_categoria_justificaciones.cju_nombre}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_solicitud_permisos' len='64'/>
+		<row field='spe_fecha_desde' id='spe_fecha_desde' label='${lbl:b_inicial_date}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='date' tableName='smn_solicitud_permisos' len='10'/>
+		<row field='spe_fecha_hasta' id='spe_fecha_hasta' label='${lbl:b_end_date}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='date' tableName='smn_solicitud_permisos' len='10'/>
+		<row field='spe_estatus_rf' id='spe_estatus_rf' label='${lbl:b_status}@{APR=${lbl:b_approved}|NAP=${lbl:b_not_approved}|PEN=${lbl:b_pending}}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='varchar' tableName='smn_solicitud_permisos' len='3'/>
+		<row field='spe_jefe_inmediato_rf' id='spe_jefe_inmediato_rf' label='${lbl:b_direct_boss}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || &quot; - &quot; || smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_solicitud_permisos' len='60'/>
+		<row field='spe_fecha_registro' id='spe_fecha_registro_ini' label='${lbl:b_store_date_grater_than}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='date' tableName='smn_solicitud_permisos' len='10'/>
+		<row field='spe_fecha_registro' id='spe_fecha_registro_fin' label='${lbl:b_store_date_less_than}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='date' tableName='smn_solicitud_permisos' len='10'/>
+	</filter>
+	<detail>SI</detail>
+	<insert>SI</insert>
+	<edit>SI</edit>
+	<delete>SI</delete>
+	<audit>Consulta</audit>
+	<grid>
+		<row field='smn_personal_id' label='${lbl:b_personal}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || &quot; - &quot; || smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' fk='psl_num_control' tableName='smn_solicitud_permisos' len='10' type='integer' align='left'/>
+		<row field='spe_categoria_justif_rf' label='${lbl:b_activity_category}@{select smn_gip.smn_categoria_justificaciones.smn_categoria_justificaciones_id as id, smn_gip.smn_categoria_justificaciones.cju_codigo || &quot; - &quot; || smn_gip.smn_categoria_justificaciones.cju_nombre as item from smn_gip.smn_categoria_justificaciones order by smn_gip.smn_categoria_justificaciones.cju_nombre}' fk='' tableName='smn_solicitud_permisos' len='64' type='integer' align='left'/>
+		<row field='spe_fecha_desde' label='${lbl:b_inicial_date}' fk='' tableName='smn_solicitud_permisos' len='10' type='date' align='center'/>
+		<row field='spe_fecha_hasta' label='${lbl:b_end_date}' fk='' tableName='smn_solicitud_permisos' len='10' type='date' align='center'/>
+		<row field='spe_cantidad_horas' label='${lbl:b_nro_horas}' fk='' tableName='smn_solicitud_permisos' len='10' type='double' align='right'/>
+		<row field='spe_estatus_rf' label='${lbl:b_status}@{APR=${lbl:b_approved}|NAP=${lbl:b_not_approved}|PEN=${lbl:b_pending}}' fk='' tableName='smn_solicitud_permisos' len='3' type='varchar' align='left'/>
+		<row field='spe_fecha_registro' label='${lbl:b_store_date}@{${def:date}}' fk='' tableName='smn_solicitud_permisos' len='10' type='date' align='center'/>
+	</grid>
+	<mobile>false</mobile>
+</model>

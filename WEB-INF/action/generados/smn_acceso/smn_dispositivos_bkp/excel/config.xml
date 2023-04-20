@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smndispositivos.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+	
+	<excel recordset='query-smndispositivos.sql' sheetname='${lbl:b_device}' filename='smn_dispositivos.xls'>
+		<col id='dis_codigo' label='${lbl:b_code}' />
+		<col id='dis_nombre' label='${lbl:b_name}' />
+		<col id='dis_empresa_combo' label='${lbl:b_entity}' />
+		<col id='dis_sucursal_combo' label='${lbl:b_subsidiary}' />
+		<col id='dis_area_servicio_combo' label='${lbl:b_service_area}' />
+		<col id='dis_unidad_servicio_combo' label='${lbl:b_service_unit}' />
+		<col id='dis_tipo_dispositivo_combo' label='${lbl:b_device_type}' />
+		<col id='dis_serial' label='${lbl:b_serial}' />
+		<col id='dis_ip_address' label='${lbl:b_direccion_ip}' />
+		<col id='dis_fecha_registro' label='${lbl:b_store_date}' />
+	</excel>
+
+</config>

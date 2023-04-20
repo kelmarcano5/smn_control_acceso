@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnresumenmarcajes.sql" source="session" scope="transaction" />
+		<recordset id="filter.params" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_marking_movement}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+
+	<pdf-report pageSize="letter" rotate="false">
+		<record recordset='filter.params' title='Filtro de Búsqueda' noFilterMsg='-- Sin filtro de búsqueda --' width='55' spacingBefore='15'>
+			<col name='igs_auxiliar' title='${lbl:b_auxiliary}'  format='######' align='center' />
+			<col name='igs_clase_auxiliar' title='${lbl:b_auxiliary_class}'  format='######' align='center' />
+			<col name='igs_actividad' title='${lbl:b_activity_type}'  format='######' align='center' />
+			<col name='igs_fecha_ini' title='${lbl:s_loginhist_col1_grater_than}'  format='dd-MM-yyyy' align='center' />
+			<col name='igs_fecha_fin' title='${lbl:s_loginhist_col1_less_than}'  format='dd-MM-yyyy' align='center' />
+		</record>
+		<table recordset='query-smnresumenmarcajes.sql' width='100' spacingBefore='10'>
+			<col name='igs_auxiliar_combo' title='${lbl:b_auxiliary}' width='14' align='left' format='######' />
+			<col name='igs_clase_auxiliar_combo' title='${lbl:b_auxiliary_class}' width='14' align='left' format='######' />
+			<col name='igs_control_acceso_id' title='${lbl:b_id_access_control}' width='14' align='left' />
+			<col name='igs_actividad_combo' title='${lbl:b_activity_type}' width='14' align='left' format='######' />
+			<col name='igs_tiempo_efectivo' title='${lbl:b_effective_time}' width='14' align='right' format='#,###,##0.00' />
+			<col name='igs_fecha' title='${lbl:s_loginhist_col1}' width='14' align='center' format='dd-MM-yyyy' />
+			<col name='igs_fecha_registro' title='${lbl:b_store_date}' width='14' align='center' format='dd-MM-yyyy' />
+		</table>
+
+	</pdf-report>
+</config>

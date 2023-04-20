@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id="view.record" onerror="/action/error/validation/dialog">
+	<parameter id="id" type="integer" required="true" label="ID" maxlen="10" />
+	<parameter id='trm_sede_filter' type='varchar' required='false' label='${lbl:b_subsidiary} ' maxlen='48'/>
+	<parameter id='trm_identificacion_filter' type='varchar' required='false' label='${lbl:b_indentification} ' maxlen='16'/>
+	<parameter id='trm_fecha_transaccion_ini_filter' type='date' required='false' label='${lbl:b_transaction_date_from}' maxlen='10'/>
+	<parameter id='trm_fecha_transaccion_fin_filter' type='date' required='false' label='${lbl:b_transaction_date_until}' maxlen='10'/>
+	<parameter id='trm_hora_transaccion_ini_filter' type='varchar' required='false' label='${lbl:b_transaction_time_from}' maxlen='5'/>
+	<parameter id='trm_hora_transaccion_fin_filter' type='varchar' required='false' label='${lbl:b_transaction_time_until}' maxlen='5'/>
+</validator>

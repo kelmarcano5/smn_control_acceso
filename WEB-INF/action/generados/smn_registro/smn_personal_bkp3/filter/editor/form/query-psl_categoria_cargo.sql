@@ -1,0 +1,1 @@
+select smn_gip.smn_categoria_cargos.smn_categoria_cargos_id as id, smn_gip.smn_categoria_cargos.cat_codigo || ' - ' || smn_gip.smn_categoria_cargos.cat_nombre as item from smn_gip.smn_categoria_cargos order by smn_gip.smn_categoria_cargos.cat_nombre

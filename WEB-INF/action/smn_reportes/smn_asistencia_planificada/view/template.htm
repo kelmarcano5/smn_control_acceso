@@ -1,0 +1,65 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<!-- <col width='3%'/> -->
+	<col width="20%"/>
+	<col width="20%"/>
+
+
+
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="5" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<!-- <th></th> -->
+		<!-- <th></th>
+		<th></th> -->
+		<!-- <th class='sortable' onclick='sortBy("smn_empresa_rf","query-smnasistencia.sql")'>${lbl:b_company}</th> -->
+		<!-- <th class='sortable' onclick='sortBy("smn_sucursal_rf","query-smnasistencia.sql")'>${lbl:b_subsidiary}</th> -->
+		<th class='sortable' onclick='sortBy("smn_estructura_organizacional_rf","query-smnasistencia.sql")'>Departamento</th>
+		<th class='sortable' onclick='sortBy("numero_personal","query-smnasistencia.sql")'>Num. Personal</th>
+		<!-- <th class='sortable' onclick='sortBy("asi_fecha_registro","query-smnasistencia.sql")'>${lbl:b_store_date}</th> -->
+		
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<!-- <td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_asistencia_id}')" title="${lbl:b_view_detail}"></td> -->
+		<!-- <td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_plan_asistencia_id}')" title="${lbl:b_delete_button}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_plan_asistencia_id}')" title="Editar"></td> -->
+		<!-- <td><img src="${def:context}/images/icongrid/Generar.png" onclick="getGenerarAsistencia('${fld:smn_plan_asistencia_id}','${fld:cpa_status}')" title="Generar"></td>
+		<td><img src="${def:context}/images/accept.png" onclick="cambiarEstatus('${fld:smn_plan_asistencia_id}','${fld:cpa_status}')" title="Aprobar"></td> -->
+		<!-- <td>${fld:smn_empresa_rf}</td> -->
+		<td>${fld:smn_estructura_organizacional_rf}</td>
+		<td>${fld:numero_personal}</td>
+		<!-- <td>${fld:asi_fecha_registro@dd-MM-yyyy}</td> -->
+		
+
+	</tr>
+	</rows>
+</table>
+
+<table class="record" style="width:900px;">
+		<col width='7%'/>
+		<col width='16%'/>
+		<col width='8%'/>
+		<col width='8%'/>
+		<col width='8%'/>
+		<col width='8%'/>
+<!-- 		<col width='8%'/> -->
+		<col width='8%'/>
+	
+		<tr>
+			<td align="right">Total General</td>
+			<td></td>
+			<td align="right">${fld:total@######000}</td>
+		</tr>
+	</table>

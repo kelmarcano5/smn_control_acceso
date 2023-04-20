@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='igs_auxiliar' type='integer' required='true' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='igs_clase_auxiliar' type='integer' required='true' label='${lbl:b_auxiliary_class}' maxlen='10'/>
+	<parameter id='igs_control_acceso_id' type='varchar' required='true' label='${lbl:b_id_access_control}' maxlen='16'/>
+	<parameter id='igs_actividad' type='integer' required='true' label='${lbl:b_activity_type}' maxlen='48'/>
+	<parameter id='igs_tiempo_efectivo' type='double' required='true' label='${lbl:b_effective_time}' maxlen='10'/>
+	<parameter id='igs_fecha' type='date' required='true' label='${lbl:s_loginhist_col1}' maxlen='10'/>
+</validator>

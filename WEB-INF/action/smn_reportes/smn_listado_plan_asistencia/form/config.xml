@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		Listado de Asistencia
+	</summary>
+
+	<log>false</log>
+	
+	<set-request-attribute id="progress" value="file:/WEB-INF/action/progress/progress.htm"/>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id='query-smn_empresa_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-smn_sucursal_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-smn_estructura_organizacional_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-asi_personal_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-smn_plan_asistencia_id.sql' source='sql' scope='transaction'/>
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericOutput</classname>
+		<template>template.htm</template>
+		<set-http-headers>true</set-http-headers>
+		<content-type>text/html</content-type>
+		<print mode='table' recordset='query-smn_empresa_rf.sql' tag='smn_empresa_rf_rows'/>
+		<print mode='table' recordset='query-smn_sucursal_rf.sql' tag='smn_sucursal_rf_rows'/>
+		<print mode='table' recordset='query-smn_estructura_organizacional_rf.sql' tag='smn_estructura_organizacional_rf_rows'/>
+		<print mode='table' recordset='query-asi_personal_rf.sql' tag='asi_personal_rf_rows'/>
+		<print mode='table' recordset='query-smn_plan_asistencia_id.sql' tag='smn_plan_asistencia_id_rows'/>
+	</output>
+
+</config>

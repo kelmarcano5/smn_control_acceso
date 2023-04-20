@@ -1,0 +1,273 @@
+<!doctype html>
+<html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="${def:context}/dinamica.css" />
+	
+	<!--biblioteca generica JS/Dinamica-->
+	<script type="text/javascript" src="${def:context}/action/script">
+	</script>
+
+</head>
+
+<body>
+
+<!--banner-->
+<div class="bannerDialog">
+	${lbl:b_attendance}
+	<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog(); parent.search();" title="${lbl:b_close_button}" style="float:right; cursor:pointer;">
+	${req:progress}
+</div>
+
+<!--formulario addnew/edit-->
+<form name="form1" onsubmit="return save()" style="width:500px;">
+
+	<!-- titulo -->
+	<h1 id="formTitle">${lbl:b_add_record}</h1>
+
+	<table>
+
+		<!--ancho de la columna de etiquetas-->
+		<col width="30%">
+
+		<!--campos-->
+				<tr>
+			<td>${lbl:b_id_access_control}*</td>
+			<td>
+				<input id="asi_id_control_acceso" name="asi_id_control_acceso" type="text" maxlength="16" >
+			</td>
+		</tr>
+	<tr>
+		<td>${lbl:b_auxiliary_class}*</td>
+		<td>
+			<select name="asi_clase_auxiliar_rf" id="asi_clase_auxiliar_rf" onchange="chgCombo(asi_clase_auxiliar_rf.options[asi_clase_auxiliar_rf.selectedIndex].text,'asi_clase_auxiliar_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<asi_clase_auxiliar_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</asi_clase_auxiliar_rf_rows>
+			</select> 
+			<input id="asi_clase_auxiliar_rf_name" name="asi_clase_auxiliar_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_auxiliary}*</td>
+		<td>
+			<select name="asi_auxiliar_rf" id="asi_auxiliar_rf" onchange="chgCombo(asi_auxiliar_rf.options[asi_auxiliar_rf.selectedIndex].text,'asi_auxiliar_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<asi_auxiliar_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</asi_auxiliar_rf_rows>
+			</select> 
+			<input id="asi_auxiliar_rf_name" name="asi_auxiliar_rf_name" type="hidden">
+		</td>
+	</tr>
+		<tr>
+			<td>${lbl:s_loginhist_col1}*</td>
+			<td>
+				<input id="asi_fecha" name="asi_fecha" type="text" class="date" maxlength="10">
+				<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('asi_fecha')">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_requests_permissions}*</td>
+			<td>
+				<select name="asi_estatus_permiso_rf" id="asi_estatus_permiso_rf">
+				<option value="S">${lbl:b_yes}</option>
+				<option value="N">${lbl:b_not}</option>
+
+				</select> 
+			</td>
+		</tr>
+	<tr>
+		<td>${lbl:b_turnos}*</td>
+		<td>
+			<select name="asi_turno_rf" id="asi_turno_rf" onchange="chgCombo(asi_turno_rf.options[asi_turno_rf.selectedIndex].text,'asi_turno_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<asi_turno_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</asi_turno_rf_rows>
+			</select> 
+			<input id="asi_turno_rf_name" name="asi_turno_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_rotation_scheme}*</td>
+		<td>
+			<select name="asi_esquema_rotacion_rf" id="asi_esquema_rotacion_rf" onchange="chgCombo(asi_esquema_rotacion_rf.options[asi_esquema_rotacion_rf.selectedIndex].text,'asi_esquema_rotacion_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<asi_esquema_rotacion_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</asi_esquema_rotacion_rf_rows>
+			</select> 
+			<input id="asi_esquema_rotacion_rf_name" name="asi_esquema_rotacion_rf_name" type="hidden">
+		</td>
+	</tr>
+		<tr>
+			<td>${lbl:b_hour_in_expected_am}*</td>
+			<td>
+				<input id="asi_hora_ent_turno1" name="asi_hora_ent_turno1" type="text" maxlength="5" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_hour_out_expected_am}*</td>
+			<td>
+				<input id="asi_hora_sal_turno1" name="asi_hora_sal_turno1" type="text" maxlength="5" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_hour_in_expected_pm}*</td>
+			<td>
+				<input id="asi_hora_ent_turno2" name="asi_hora_ent_turno2" type="text" maxlength="5" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_hour_out_expected_pm}*</td>
+			<td>
+				<input id="asi_hora_sal_turno2" name="asi_hora_sal_turno2" type="text" maxlength="5" >
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_amount_hours}*</td>
+			<td>
+				<input id="asi_horas_trabajadas" name="asi_horas_trabajadas" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_rest_hours}*</td>
+			<td>
+				<input id="asi_horas_descansos" name="asi_horas_descansos" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_status}*</td>
+			<td>
+				<select name="asi_estatus_asistencia_rf" id="asi_estatus_asistencia_rf">
+				<option value="GEN">${lbl:b_generated}</option>
+				<option value="NGE">${lbl:b_not_generated}</option>
+
+				</select> 
+			</td>
+		</tr>
+
+
+	</table>
+
+	<!--botones-->
+	<input id="grabar" type="submit" value="${lbl:b_save_button}" class="button">
+	<input id="limpiar" type="button" value="${lbl:b_clean_button}" onclick="addNew()" class="button">	
+	<input id="copiar" type="button" value="${lbl:b_copy_button}" onclick="getFormValuesToCopy('form1')" class="button">
+	<input id="pegar" type="button" value="${lbl:b_paste_button}" onclick="getFormValuesToPaste('form1')" class="button">
+	<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog(); parent.search();" class="button">	
+	
+	<!-- PK-->
+<input type="hidden" name="id" value="">
+
+</form>
+
+<!--codigo de soporte del template-->
+<script type="text/javascript">
+
+	onload = function()
+	{ 
+		addNew();
+
+		if (id!="")
+			edit(id);
+	} 
+	
+	function chgCombo(text,id)
+	{
+		document.getElementById(id).value = text;
+	}
+	
+	//configurar formulario para ingresar registro nuevo
+	function addNew()
+	{
+		document.getElementById("formTitle").innerHTML = "${lbl:b_add_record}";
+		document.getElementById("grabar").disabled=false;
+		clearForm("form1");
+		setFocusOnForm("form1");
+	}
+	
+	//retorna al estado previo que corresponde
+	//al estado actual de la pagina, cada llamada Ajax
+	//se encarga de definir cual es la funcion de goBack() que aplica
+	function goBack() 
+	{
+		_goBackFn()			
+	}
+	
+	//mostrar la actualizacion de un registro
+	function insert()
+	{		
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/insert", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+	
+	//restaurar el formulario en caso de error
+	function retryAddnewOrEdit() {
+		document.getElementById("grabar").disabled=false;
+		setFocusOnForm("form1");		
+	}
+	
+	var id = "${fld:id}"
+	
+	//grabar el formulario
+	function save()
+	{
+		//determina si es un insert o un update
+		if (document.form1.id.value=="")
+			return insert();
+		else
+			return update();
+	}
+	
+	//editar registro en formulario
+	function edit(id)
+	{
+			clearErrorMessages();
+
+			//llamada Ajax...
+			ajaxCall(httpMethod="GET", 
+							uri="${def:actionroot}/edit?id=" + id , 
+							divResponse=null, 
+							divProgress="status", 
+							formName=null, 
+							afterResponseFn=null, 
+							onErrorFn=null);	
+	}
+	
+	//actualizar registro en BD
+	function update()
+	{		
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/update", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+
+	
+</script>	
+</body>
+</html>

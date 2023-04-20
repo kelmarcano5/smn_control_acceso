@@ -1,0 +1,60 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width="8%"/>
+	<col width="10%"/>
+	<col width="16%"/>
+	<col width="10%"/>
+	<col width="10%"/>
+	<col width="6%"/>
+	<col width="8%"/>
+	<col width="8%"/>
+	<!-- <col width="8%"/> -->
+	<col width="8%"/>
+	<col width="10%"/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="11" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_empresa_rf","query-smnasistencia.sql")'>${lbl:b_company}</th>
+		<th class='sortable' onclick='sortBy("smn_sucursal_rf","query-smnasistencia.sql")'>${lbl:b_subsidiary}</th>
+		<!-- <th class='sortable' onclick='sortBy("smn_estructura_organizacional_rf","query-smnasistencia.sql")'>Departamento</th> -->
+		<th class='sortable' onclick='sortBy("asi_personal_rf","query-smnasistencia.sql")'>Personal</th>
+		<th class='sortable' onclick='sortBy("fecha","query-smnasistencia.sql")'>Fecha</th>
+		<th class='sortable' onclick='sortBy("tipo_movimiento","query-smnasistencia.sql")'>Tipo Movimiento</th>
+		<th class='sortable' onclick='sortBy("hora","query-smnasistencia.sql")'>Hora</th>
+		<th class='sortable' onclick='sortBy("laborando","query-smnasistencia.sql")'>Laborando</th>
+		<th class='sortable' onclick='sortBy("reposo","query-smnasistencia.sql")'>Reposo</th>
+		<!-- <th class='sortable' onclick='sortBy("causa","query-smnasistencia.sql")'>Causa</th> -->
+		<th class='sortable' onclick='sortBy("estatus","query-smnasistencia.sql")'>Estatus</th>
+		<th class='sortable' onclick='sortBy("asi_fecha_registro","query-smnasistencia.sql")'>${lbl:b_store_date}</th>
+		
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_asistencia_id}')" title="${lbl:b_view_detail}"></td>
+		<td>${fld:smn_empresa_rf}</td>
+		<td>${fld:smn_sucursal_rf}</td>
+		<td>${fld:asi_personal_rf}</td>
+		<td>${fld:fecha@dd-MM-yyyy}</td>
+		<td>${fld:tipo_movimiento}</td>
+		<td>${fld:hora}</td>
+		<td>${fld:laborando}</td>
+		<td>${fld:reposo}</td>
+		<!-- <td>${fld:causa}</td> -->
+		<td>${fld:estatus}</td>
+		<td>${fld:asi_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+</table>
+

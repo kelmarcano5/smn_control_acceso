@@ -1,0 +1,55 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+	<col width='11%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="11" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_entidad_rf","query-smnmovmarcajes.sql")'>${lbl:b_entity}</th>
+		<th class='sortable' onclick='sortBy("smn_sucursal_rf","query-smnmovmarcajes.sql")'>${lbl:b_subsidiary} </th>
+		<th class='sortable' onclick='sortBy("nombre","query-smnmovmarcajes.sql")'>${lbl:b_name} </th>
+		<th class='sortable' onclick='sortBy("departamento","query-smnmovmarcajes.sql")'>Departamento</th>
+		<th class='sortable' onclick='sortBy("fecha_marcaje","query-smnmovmarcajes.sql")'>${lbl:b_date}</th>
+		<th class='sortable' onclick='sortBy("rmk_tiempo_asistencia","query-smnmovmarcajes.sql")'>Minutos Asistencia</th>
+		<th class='sortable' onclick='sortBy("rmk_tiempo_ausencias","query-smnmovmarcajes.sql")'>Minutos Ausencias</th>
+		<th class='sortable' onclick='sortBy("rmk_tiempo_permisos","query-smnmovmarcajes.sql")'>Minutos Permisos</th>
+		<th class='sortable' onclick='sortBy("rmk_tiempo_retrasos","query-smnmovmarcajes.sql")'>Minutos Retrasos</th>
+		<th class='sortable' onclick='sortBy("rmk_fecha_registro","query-smnmovmarcajes.sql")'>${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+		<tr>
+			<td><img src="${def:context}/images/search.png" onclick="getDetail('${fld:smn_resumen_marcajes_id}')" title="${lbl:b_view_detail}"></td>
+			<td>${fld:smn_entidad_rf}</td>
+			<td>${fld:smn_sucursal_rf}</td>
+			<td>${fld:nombre}</td>
+			<td>${fld:departamento}</td>
+			<td align='center'>${fld:fecha_marcaje@dd-MM-yyyy}</td>
+			<td align='right'>${fld:rmk_tiempo_asistencia}</td>
+			<td align='right'>${fld:rmk_tiempo_ausencias}</td>
+			<td align='right'>${fld:rmk_tiempo_permisos}</td>
+			<td align='right'>${fld:rmk_tiempo_retrasos}</td>
+			<td align='center'>${fld:rmk_fecha_registro@dd-MM-yyyy}</td>
+		</tr>
+	</rows>
+
+</table>

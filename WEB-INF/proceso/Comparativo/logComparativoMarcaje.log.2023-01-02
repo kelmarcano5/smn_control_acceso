@@ -1,0 +1,22 @@
+[INFO] 2023-01-02 00:01:02,591 ComparativoMarcaje.main main - --INICIO DE PROCESO: --
+[INFO] 2023-01-02 00:01:27,481 ComparativoMarcaje.main main - Cantida de Asistencias programadas =276722
+[INFO] 2023-01-02 00:01:27,482 ComparativoMarcaje.main main - Cantida de Movimientos de marcaje =153312
+[INFO] 2023-01-02 00:01:27,482 ComparativoMarcaje.main main - Cantida de PERSONAL asignados a las Asistencias programadas =226
+[ERROR] 2023-01-02 00:02:16,214 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-29, Horas 2021-03-29 18:00 2021-03-29 06:00
+[ERROR] 2023-01-02 00:02:16,214 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-29 null:00"
+[ERROR] 2023-01-02 00:02:16,346 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-29, Horas 2021-03-29 18:00 2021-03-29 06:00
+[ERROR] 2023-01-02 00:02:16,347 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-29 null:00"
+[INFO] 2023-01-02 00:02:16,893 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-01-02 00:02:16,894 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-03-29)
+[INFO] 2023-01-02 00:02:16,894 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 1
+[INFO] 2023-01-02 00:02:16,895 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-01-02 00:02:16,895 ComparativoMarcaje.resumen leerListas - ************************************
+[ERROR] 2023-01-02 00:02:57,245 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-30, Horas 2021-03-30 18:00 2021-03-30 06:00
+[ERROR] 2023-01-02 00:02:57,248 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-30 null:00"
+[ERROR] 2023-01-02 00:02:57,376 ComparativoMarcaje.resumen leerListas - Error Con fecha 2021-03-30, Horas 2021-03-30 18:00 2021-03-30 06:00
+[ERROR] 2023-01-02 00:02:57,376 ComparativoMarcaje.resumen leerListas - java.text.ParseException: Unparseable date: "2021-03-30 null:00"
+[INFO] 2023-01-02 00:02:57,953 ComparativoMarcaje.resumen leerListas - ************************************
+[INFO] 2023-01-02 00:02:57,953 ComparativoMarcaje.resumen leerListas - **JUSTIFICACIONES DEL DIA (2021-03-30)
+[INFO] 2023-01-02 00:02:57,954 ComparativoMarcaje.resumen leerListas - 	GENERADAS: 0
+[INFO] 2023-01-02 00:02:57,955 ComparativoMarcaje.resumen leerListas - 	ASISTENCIAS COMEDOR GENERADAS: 0
+[INFO] 2023-01-02 00:02:57,955 ComparativoMarcaje.resumen leerListas - ************************************

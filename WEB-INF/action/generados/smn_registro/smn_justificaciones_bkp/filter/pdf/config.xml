@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnjustificaciones.sql" source="session" scope="transaction" />
+		<recordset id="filter.params" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+	
+	<pdf-title>${lbl:b_justifications}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+
+	<pdf-report pageSize="letter" rotate="false">
+		<record recordset='filter.params' title='Filtro de Búsqueda' noFilterMsg='-- Sin filtro de búsqueda --' width='55' spacingBefore='15'>
+			<col name='smn_personal_id_name' title='${lbl:b_personal}'  align='center' />
+			<col name='jus_descripcion' title='${lbl:b_description}'  align='center' />
+			<col name='jus_fecha_incidencia_ini' title='${lbl:b_incidence_date_from}'  format='dd-MM-yyyy' align='center' />
+			<col name='jus_fecha_incidencia_fin' title='${lbl:b_incidence_date_until}'  format='dd-MM-yyyy' align='center' />
+			<col name='jus_aprobado_por' title='${lbl:b_approved_by}'  align='center' />
+			<col name='jus_fecha_registro_ini' title='${lbl:b_store_date_grater_than}'  format='dd-MM-yyyy' align='center' />
+			<col name='jus_fecha_registro_fin' title='${lbl:b_store_date_less_than}'  format='dd-MM-yyyy' align='center' />
+		</record>
+		<table recordset='query-smnjustificaciones.sql' width='100' spacingBefore='10'>
+			<col name='smn_personal_id_combo' title='${lbl:b_personal}' width='14' align='left' format='######' />
+			<col name='jus_descripcion' title='${lbl:b_description}' width='14' align='left' />
+			<col name='jus_fecha_incidencia' title='${lbl:b_incidence_date}' width='14' align='center' format='dd-MM-yyyy' />
+			<col name='jus_hora_incidencia' title='${lbl:b_time_incident}' width='14' align='left' />
+			<col name='jus_tiempo_a_justificar' title='${lbl:b_time_to_justify}' width='14' align='right' format='#,###,##0.00' />
+			<col name='jus_aprobado_por' title='${lbl:b_approved_by}' width='14' align='left' />
+			<col name='jus_fecha_registro' title='${lbl:b_store_date}' width='14' align='center' format='dd-MM-yyyy' />
+		</table>
+
+	</pdf-report>
+</config>

@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_asistencias>
+	<detail>
+		<rows>		
+		<record asi_fecha_registro="${fld:asi_fecha_registro}"    asi_estatus_asistencia_rf="${fld:asi_estatus_asistencia_rf}"    asi_esquema_rotacion_rf="${fld:asi_esquema_rotacion_rf}"    asi_turno_rf="${fld:asi_turno_rf}"    asi_estatus_permiso_rf="${fld:asi_estatus_permiso_rf}"    asi_fecha="${fld:asi_fecha}"    asi_auxiliar_rf="${fld:asi_auxiliar_rf}"    asi_clase_auxiliar_rf="${fld:asi_clase_auxiliar_rf}"    asi_id_control_acceso="${fld:asi_id_control_acceso}"    />
+		</rows>
+	</detail>
+</smn_asistencias>

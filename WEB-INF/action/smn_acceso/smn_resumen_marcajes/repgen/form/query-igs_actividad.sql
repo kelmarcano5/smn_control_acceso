@@ -1,0 +1,1 @@
+select smn_gip.smn_tipo_actividades.smn_tipo_actividades_id as id, smn_gip.smn_tipo_actividades.tya_codigo || ' - ' || smn_gip.smn_tipo_actividades.tya_nombre as item from smn_gip.smn_tipo_actividades order by smn_gip.smn_tipo_actividades.tya_nombre

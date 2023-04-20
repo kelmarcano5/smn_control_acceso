@@ -1,0 +1,62 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='3%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+	<col width='12%'/>
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="12" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+		<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("smn_entidad_rf","query-smnmovmarcajes.sql")'>${lbl:b_entity}</th>
+		<th class='sortable' onclick='sortBy("smn_sucursal_rf","query-smnmovmarcajes.sql")'>${lbl:b_subsidiary} </th>
+		<th class='sortable' onclick='sortBy("nombre","query-smnmovmarcajes.sql")'>${lbl:b_name} </th>
+		<th class='sortable' onclick='sortBy("smn_cargo_rf","query-smnmovmarcajes.sql")'>${lbl:b_positions}</th>
+		<th class='sortable' onclick='sortBy("departamento","query-smnmovmarcajes.sql")'>Departamento</th>
+		<th class='sortable' onclick='sortBy("dispositivo","query-smnmovmarcajes.sql")'>${lbl:b_device}</th>
+		<th class='sortable' onclick='sortBy("hora_transaccion","query-smnmovmarcajes.sql")'>${lbl:b_transaction_time}</th>
+		<th class='sortable' onclick='sortBy("fecha_transaccion","query-smnmovmarcajes.sql")'>${lbl:b_transaction_date}</th>
+		<th class='sortable' onclick='sortBy("mrk_fecha_registro","query-smnmovmarcajes.sql")'>${lbl:b_store_date}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+	<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_mov_marcajes_id}')" title="${lbl:b_view_detail}"></td>
+	<!--<td><img src="${def:context}/images/delete.png"  onclick="deleteRecord('${fld:smn_mov_marcajes_id}')" title="${lbl:b_delete_button}"></td>-->
+	<td><img src="${def:context}/images/delete.png" title="${lbl:b_delete_button}"></td>
+	<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_mov_marcajes_id}')" title="${lbl:b_edit_button}"></td>
+	<td>${fld:smn_entidad_rf}</td>
+	<td>${fld:smn_sucursal_rf}</td>
+	<td>${fld:nombre}</td>
+	<td>${fld:smn_cargo_rf}</td>
+	<td>${fld:departamento}</td>
+	<td>${fld:dispositivo}</td>
+	<td align='center'>${fld:hora_transaccion}</td>
+	<td align='center'>${fld:fecha_transaccion@dd-MM-yyyy}</td>
+	<td align='center'>${fld:mrk_fecha_registro@dd-MM-yyyy}</td>
+
+	</tr>
+	</rows>
+
+</table>

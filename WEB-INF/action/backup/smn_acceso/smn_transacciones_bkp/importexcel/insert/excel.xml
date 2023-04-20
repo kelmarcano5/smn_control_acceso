@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='trn_dispositivo' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trn_identificacion' type='varchar' required='true' maxlen='16'/>
+	<parameter id='trn_fecha_transaccion' type='date' required='true' maxlen='10'/>
+	<parameter id='trn_hora_transaccion' type='varchar' required='true' maxlen='5'/>
+</validator>

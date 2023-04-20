@@ -1,0 +1,38 @@
+INSERT INTO smn_control_acceso.smn_asistencias
+(
+	smn_asistencias_id,
+	asi_id_control_acceso,
+	asi_clase_auxiliar_rf,
+	asi_auxiliar_rf,
+	asi_fecha,
+	asi_estatus_permiso_rf,
+	asi_turno_rf,
+	asi_esquema_rotacion_rf,
+	asi_hora_ent_turno1,
+	asi_hora_sal_turno1,
+	asi_hora_ent_turno2,
+	asi_hora_sal_turno2,
+	asi_horas_trabajadas,
+	asi_horas_descansos,
+	asi_estatus_asistencia_rf,
+	asi_fecha_registro
+)
+VALUES
+(
+	${seq:nextval@smn_control_acceso.seq_smn_asistencias},
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	?,
+	{d '${def:date}'}
+)

@@ -1,0 +1,32 @@
+		
+	<button onclick="openPDF()" class="exportPDF">
+		Exportar a PDF
+	</button>			
+
+		<table class="datagrid" width="600px" style="display:items.sql.display">
+				<!--toolbar-->
+			<tr>
+				<th colspan="5" style="font-weight:bold;font-size:10pt;">
+					${lbl:b_marking_movement}
+				</th>
+			</tr>
+					<!--encabezados-->
+			<tr >
+				<th width="25%">${lbl:b_auxiliary}</th>
+				<th width="25%">${lbl:b_transaction_date}</th>
+				<th width="25%">Hora Entrada</th>
+				<th width="25%">Hora Salida</th>
+				<th width="25%">Horas Efectivas</th>
+			
+			</tr>
+		</table>
+	${subtemplate}
+
+	<!--<table class="record" style="width:600px;">
+		<tr>
+			<td width="60%">GRAN TOTAL</td>
+			<td style="background-color: white; text-align:right">
+				${fld:gran_total@#,###,##0.00}
+			</td>
+		</tr>
+	</table>-->

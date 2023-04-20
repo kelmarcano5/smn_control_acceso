@@ -1,0 +1,1 @@
+select smn_control_acceso.smn_plan_asistencia.smn_plan_asistencia_id as id,  smn_control_acceso.smn_plan_asistencia.smn_plan_asistencia_id as item from  smn_control_acceso.smn_plan_asistencia

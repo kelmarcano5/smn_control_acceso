@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnjustificaciones.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="3" cellStep="0" name="${lbl:b_justifications}"/>
+	
+	<excel 
+		recordset='query-smnjustificaciones.sql' 
+		sheetname='${lbl:b_justifications}' 
+		filename='${lbl:b_justifications}.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='smn_personal_id' label='${lbl:b_personal}' />
+		<col id='tya_nombre' label='${lbl:b_activity_category}' />
+		<col id='jus_fecha_incidencia' label='${lbl:b_incidence_date}' />
+		<col id='jus_hora_incidencia' label='${lbl:b_time_incident}' />
+		<col id='jus_tiempo_a_justificar' label='${lbl:b_time_to_justify}' />
+		<col id='jus_estatus_rf' label='${lbl:b_status}' />
+		<col id='jus_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

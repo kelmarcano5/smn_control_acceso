@@ -1,0 +1,37 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width='20%'/>
+	<col width='20%'/>
+	<col width='20%'/>
+	<col width='20%'/>
+	<col width='20%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="5">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th class='sortable' onclick='sortBy("trn_dispositivo","query-smntransacciones.sql")'>${lbl:b_device_code}</th>
+		<th class='sortable' onclick='sortBy("trn_identificacion","query-smntransacciones.sql")'>${lbl:b_indentification} </th>
+		<th class='sortable' onclick='sortBy("trn_fecha_transaccion","query-smntransacciones.sql")'>${lbl:b_transaction_date}</th>
+		<th class='sortable' onclick='sortBy("trn_hora_transaccion","query-smntransacciones.sql")'>${lbl:b_transaction_time}</th>
+		<th class='sortable' onclick='sortBy("trn_fecha_registro","query-smntransacciones.sql")'>${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td align='left'>${fld:trn_dispositivo}</td>
+		<td align='left'>${fld:trn_identificacion}</td>
+		<td>${fld:trn_fecha_transaccion@dd-MM-yyyy}</td>
+		<td align='left'>${fld:trn_hora_transaccion}</td>
+		<td>${fld:trn_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

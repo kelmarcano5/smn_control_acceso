@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='spe_categoria_justif_rf' type='integer' required='true' label='${lbl:b_activity_category}' maxlen='64'/>
+</validator>

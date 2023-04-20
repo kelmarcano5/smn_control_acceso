@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_solicitud_permisos>
+	<detail>
+		<rows>		
+		<record spe_fecha_registro="${fld:spe_fecha_registro}"    spe_causa="${fld:spe_causa}"    spe_detalles="${fld:spe_detalles}"    spe_jefe_inmediato_rf="${fld:spe_jefe_inmediato_rf}"    spe_estatus_rf="${fld:spe_estatus_rf}"    spe_fecha_hasta="${fld:spe_fecha_hasta}"    spe_fecha_desde="${fld:spe_fecha_desde}"    cju_nombre="${fld:cju_nombre}"    dcm_nombre="${fld:dcm_nombre}"    smn_personal_id="${fld:smn_personal_id}"    />
+		</rows>
+	</detail>
+</smn_solicitud_permisos>

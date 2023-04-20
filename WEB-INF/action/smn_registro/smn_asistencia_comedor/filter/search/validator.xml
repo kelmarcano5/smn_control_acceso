@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='smn_personal_id' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='com_fecha_generada' type='date' required='false' label='${lbl:b_fecha_generada}' maxlen='10'/>
+	<parameter id='com_hora_generada' type='varchar' required='false' label='${lbl:b_hora_generada}' maxlen='8'/>
+		<parameter id='com_estatus' type='varchar' required='false' label='${lbl:b_status}' maxlen='8'/>
+</validator>

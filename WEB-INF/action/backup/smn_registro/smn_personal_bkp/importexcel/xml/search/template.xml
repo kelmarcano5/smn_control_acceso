@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_personal>
+	<detail>
+		<rows>		
+		<record psl_fecha_registro="${fld:psl_fecha_registro}"    psl_id_control_acceso="${fld:psl_id_control_acceso}"    psl_habilita_acceso="${fld:psl_habilita_acceso}"    psl_auxiliar="${fld:psl_auxiliar}"    psl_clase_auxiliar="${fld:psl_clase_auxiliar}"    psl_num_control="${fld:psl_num_control}"    />
+		</rows>
+	</detail>
+</smn_personal>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnpersonalvisitantes.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="6" cellStep="0" name="${lbl:b_personal_visitors}"/>
+	
+	<excel 
+		recordset='query-smnpersonalvisitantes.sql' 
+		sheetname='${lbl:b_personal_visitors}' 
+		filename='${lbl:b_personal_visitors}.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='smn_entidad_rf' label='${lbl:b_entity}' />
+		<col id='smn_sucursal_rf' label='${lbl:b_subsidiary}' />
+		<col id='smn_personal_id' label='${lbl:b_personal}' />
+		<col id='smn_cedula_rf' label='${lbl:b_cedula}' />
+		<col id='smn_estructura_organizacional_rf' label='${lbl:b_departamento}' />
+		<col id='rpv_fecha_evento' label='${lbl:b_event_date}' />
+		<col id='rpv_autorizador' label='${lbl:b_autorizador}' />
+		<col id='rpv_estatus' label='${lbl:b_status}' />
+		<col id='rpv_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

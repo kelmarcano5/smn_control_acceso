@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='asi_id_control_acceso' type='varchar' required='true' maxlen='16'/>
+	<parameter id='asi_clase_auxiliar_rf_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='asi_auxiliar_rf_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='asi_fecha' type='date' required='true' maxlen='10'/>
+	<parameter id='asi_estatus_permiso_rf' type='varchar' required='true' maxlen='1'/>
+	<parameter id='asi_turno_rf_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='asi_esquema_rotacion_rf_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='asi_hora_ent_turno1' type='varchar' required='true' maxlen='5'/>
+	<parameter id='asi_hora_sal_turno1' type='varchar' required='true' maxlen='5'/>
+	<parameter id='asi_hora_ent_turno2' type='varchar' required='true' maxlen='5'/>
+	<parameter id='asi_hora_sal_turno2' type='varchar' required='true' maxlen='5'/>
+	<parameter id='asi_horas_trabajadas' type='double' required='true' maxlen='10'/>
+	<parameter id='asi_horas_descansos' type='double' required='true' maxlen='10'/>
+	<parameter id='asi_estatus_asistencia_rf' type='varchar' required='true' maxlen='3'/>
+
+	<parameter id='asi_clase_auxiliar_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='asi_auxiliar_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='asi_turno_rf_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='asi_esquema_rotacion_rf_ref' type='integer' required='false' maxlen='10'/>
+
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: asi_clase_auxiliar_rf' 
+		parameter='asi_clase_auxiliar_rf_ref' 
+		sql='asi_clase_auxiliar_rf.sql' 
+		id='asi_clase_auxiliar_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: asi_auxiliar_rf' 
+		parameter='asi_auxiliar_rf_ref' 
+		sql='asi_auxiliar_rf.sql' 
+		id='asi_auxiliar_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: asi_turno_rf' 
+		parameter='asi_turno_rf_ref' 
+		sql='asi_turno_rf.sql' 
+		id='asi_turno_rf_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: asi_esquema_rotacion_rf' 
+		parameter='asi_esquema_rotacion_rf_ref' 
+		sql='asi_esquema_rotacion_rf.sql' 
+		id='asi_esquema_rotacion_rf_ref'/>
+
+</validator>

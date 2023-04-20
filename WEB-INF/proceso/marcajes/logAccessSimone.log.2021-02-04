@@ -1,0 +1,123 @@
+[INFO] 2021-02-05 00:00:02,236 clases.Checkinout imprimirEnLog - 		Comieza registro de Access_A_Simone: 2021-02-05 00:00:02
+
+[INFO] 2021-02-05 00:00:02,256 clases.Checkinout imprimirEnLog - --------- INICIA leerDatosAccess() ---------
+
+[DEBUG] 2021-02-05 00:00:02,998 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=MSysObjects;Index=0), making read-only
+[DEBUG] 2021-02-05 00:00:03,027 com.healthmarketscience.jackcess.impl.DatabaseImpl readSystemCatalog - Could not find expected index on table MSysObjects (Db=CrossChex.mdb)
+[DEBUG] 2021-02-05 00:00:03,068 com.healthmarketscience.jackcess.impl.DatabaseImpl readSystemCatalog - Finished reading system catalog.  Tables: [AccessGroup, AccessTime, BasePara, Checkinout, CheckLog, DefineField, Dept, FingerClient, Holiday, LeaveClass, MemStat, OPClient, OPDept, OPGroup, OPinfo, OPLog, OutProg, Schedule, SchTime, StatItems, Status, Switchboard Items, TimeTable, UserAutoClass, UserFinger, Userinfo, UserLeave, UserPower, UserShift, UserTempShift, WorkCode, Z_MemAbnor, Z_MemRecord, Z_MemUClass] (Db=CrossChex.mdb)
+[WARN] 2021-02-05 00:00:03,818 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=BasePara;Index=0), making read-only
+[WARN] 2021-02-05 00:00:03,861 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Checkinout;Index=0), making read-only
+[WARN] 2021-02-05 00:00:03,882 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=CheckLog;Index=1), making read-only
+[WARN] 2021-02-05 00:00:03,900 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Dept;Index=0), making read-only
+[WARN] 2021-02-05 00:00:03,923 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Holiday;Index=0), making read-only
+[WARN] 2021-02-05 00:00:03,929 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=LeaveClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:03,978 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=OPinfo;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,005 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Schedule;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,023 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=TimeTable;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,031 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserAutoClass;Index=1), making read-only
+[WARN] 2021-02-05 00:00:04,033 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserFinger;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,038 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Userinfo;Index=2), making read-only
+[WARN] 2021-02-05 00:00:04,038 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Userinfo;Index=3), making read-only
+[WARN] 2021-02-05 00:00:04,074 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserLeave;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,081 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserPower;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,085 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,086 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,086 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,091 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserTempShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,092 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserTempShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,095 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=WorkCode;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,098 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,098 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=1), making read-only
+[WARN] 2021-02-05 00:00:04,098 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=1), making read-only
+[WARN] 2021-02-05 00:00:04,126 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemRecord;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,126 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemRecord;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,137 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,138 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,138 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,660 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Schedule;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,672 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=TimeTable;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,672 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserAutoClass;Index=1), making read-only
+[WARN] 2021-02-05 00:00:04,673 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserFinger;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,785 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Userinfo;Index=2), making read-only
+[WARN] 2021-02-05 00:00:04,787 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Userinfo;Index=3), making read-only
+[WARN] 2021-02-05 00:00:04,829 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserLeave;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,830 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserPower;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,850 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,851 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,851 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,851 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserTempShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,851 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserTempShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,852 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=WorkCode;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,852 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,852 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=1), making read-only
+[WARN] 2021-02-05 00:00:04,853 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=1), making read-only
+[WARN] 2021-02-05 00:00:04,853 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemRecord;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,854 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemRecord;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,855 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,855 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,855 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:04,982 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=BasePara;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,009 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Checkinout;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,019 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=CheckLog;Index=1), making read-only
+[WARN] 2021-02-05 00:00:05,032 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Dept;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,050 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Holiday;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,053 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=LeaveClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,107 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=OPinfo;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,116 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Schedule;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,138 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=TimeTable;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,155 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserAutoClass;Index=1), making read-only
+[WARN] 2021-02-05 00:00:05,159 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserFinger;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,163 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Userinfo;Index=2), making read-only
+[WARN] 2021-02-05 00:00:05,164 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Userinfo;Index=3), making read-only
+[WARN] 2021-02-05 00:00:05,179 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserLeave;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,183 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserPower;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,197 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,198 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,198 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,210 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserTempShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,210 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserTempShift;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,220 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=WorkCode;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,228 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,229 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=1), making read-only
+[WARN] 2021-02-05 00:00:05,229 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemAbnor;Index=1), making read-only
+[WARN] 2021-02-05 00:00:05,235 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemRecord;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,235 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemRecord;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,244 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,244 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,244 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Z_MemUClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,260 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=BasePara;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,261 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Checkinout;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,262 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=CheckLog;Index=1), making read-only
+[WARN] 2021-02-05 00:00:05,263 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Dept;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,264 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Holiday;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,264 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=LeaveClass;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,265 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=OPinfo;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,266 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Schedule;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,269 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=TimeTable;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,270 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserAutoClass;Index=1), making read-only
+[WARN] 2021-02-05 00:00:05,270 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserFinger;Index=0), making read-only
+[WARN] 2021-02-05 00:00:05,271 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Userinfo;Index=2), making read-only
+[WARN] 2021-02-05 00:00:05,271 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=Userinfo;Index=3), making read-only
+[WARN] 2021-02-05 00:00:05,271 com.healthmarketscience.jackcess.Index setUnsupportedReason - unsupported collating sort order SortOrder[3082(0)] for text index (Db=CrossChex.mdb;Table=UserLeave;Index=0), making read-only
+[INFO] 2021-02-05 00:00:05,331 clases.Checkinout imprimirEnLog - 
+
+_ Cantida de elementos leidos: 0 registros
+_ Cantida de elementos procesados correctamente: (0)
+_ Id de elementos NO procesados (0): 
+   _Con problemas en Asignar SEDE : -
+   _Con problemas en Insertar en smn_transacciones :
+   _Con problemas en Cambiar estado de CHECKED en ACCESS : -
+   _Con problemas en buscar en tabla estado de 'smn_control_acceso'.'smn_personal': -
+
+_ =========================================
+_ Id's de personal que se le asigno 'SIN SEDE' en smn_transacciones.trn_sede :  -
+_ =========================================
+
+_ =========================================
+_ UsersId's de Personal no registrados en 'smn_control_acceso'.'smn_personal' :  -
+_ =========================================
+
+[INFO] 2021-02-05 00:00:05,332 clases.Checkinout imprimirEnLog - --------- FINALIZA leerDatosAccess() ---------
+[INFO] 2021-02-05 00:00:05,332 clases.Checkinout imprimirEnLog - 	Finaliza registro de Access_A_Simone: 2021-02-05 00:00:05
+
+

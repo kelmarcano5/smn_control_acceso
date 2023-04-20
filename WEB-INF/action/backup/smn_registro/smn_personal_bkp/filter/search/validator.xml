@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id='filter.params' onerror='/action/error/validation/ajax'>
+	<parameter id='psl_num_control' type='varchar' required='false' label='${lbl:b_number_of_control}' maxlen='16'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='psl_num_control' rule='contains' />
+	<parameter id='psl_clase_auxiliar' type='integer' required='false' label='${lbl:b_auxiliary_class}' maxlen='10'/>
+	<parameter id='psl_auxiliar' type='integer' required='false' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='psl_habilita_acceso' type='varchar' required='false' label='${lbl:b_enables_access_control}' maxlen='1'/>
+	<parameter id='psl_id_control_acceso' type='varchar' required='false' label='${lbl:b_id_access_control}' maxlen='16'/>
+	<custom-validator classname='dinamica.validators.SQLPatternTransformer' parameter='psl_id_control_acceso' rule='contains' />
+	<parameter id='psl_fecha_registro_ini' type='date' required='false' label='${lbl:b_store_date_grater_than}' maxlen='10'/>
+	<custom-validator classname='dinamica.validators.DateRangeValidator' on-error-label='[${lbl:b_store_date_grater_than} mayor o igual que] no puede ser mayor que [${lbl:b_store_date_grater_than} menor o igual que].' date1='psl_fecha_registro_ini' date2='psl_fecha_registro_fin' id='psl_fecha_registro_ini' />
+	<parameter id='psl_fecha_registro_fin' type='date' required='false' label='${lbl:b_store_date_grater_than}' maxlen='10'/>
+</validator>

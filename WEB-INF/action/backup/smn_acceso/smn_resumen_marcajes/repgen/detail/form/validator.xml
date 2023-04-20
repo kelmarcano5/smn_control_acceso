@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id="view.record" onerror="/action/error/validation/dialog">
+	<parameter id="id" type="integer" required="true" label="ID" maxlen="10" />
+	<parameter id='igs_auxiliar_filter' type='integer' required='false' label='${lbl:b_auxiliary}' maxlen='10'/>
+	<parameter id='igs_clase_auxiliar_filter' type='integer' required='false' label='${lbl:b_auxiliary_class}' maxlen='10'/>
+	<parameter id='igs_actividad_filter' type='integer' required='false' label='${lbl:b_activity_type}' maxlen='48'/>
+	<parameter id='igs_fecha_ini_filter' type='date' required='false' label='${lbl:s_loginhist_col1_grater_than}' maxlen='10'/>
+	<parameter id='igs_fecha_fin_filter' type='date' required='false' label='${lbl:s_loginhist_col1_less_than}' maxlen='10'/>
+</validator>

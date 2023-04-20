@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<smn_resumen_marcajes>
+	<detail>
+		<rows>		
+		<record igs_fecha_registro="${fld:igs_fecha_registro}"    igs_fecha="${fld:igs_fecha}"    igs_tiempo_efectivo="${fld:igs_tiempo_efectivo}"    tya_nombre item="${fld:tya_nombre item}"    igs_control_acceso_id="${fld:igs_control_acceso_id}"    cla_nombre="${fld:cla_nombre}"    smn_item="${fld:smn_item}"    />
+		</rows>
+	</detail>
+</smn_resumen_marcajes>

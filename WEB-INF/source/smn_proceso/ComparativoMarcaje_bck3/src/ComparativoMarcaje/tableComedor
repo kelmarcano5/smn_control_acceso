@@ -1,0 +1,17 @@
+CREATE TABLE smn_control_acceso.smn_asistencia_comedor
+(
+  smn_asistencia_comedor_id integer NOT NULL,
+  smn_asistencia_id integer NOT NULL,
+  smn_mov_marcaje_id integer NOT NULL,
+  smn_control_esquema_rotacion_id integer,
+  smn_personal_id integer,
+  asc_fecha_generada date NOT NULL,
+  asc_hora_generada character(5),
+  mrk_marcaje_hora character(5),
+  com_estatus character(2),
+  asc_idioma character(2) NOT NULL,
+  asc_usuario character varying(10) NOT NULL,
+  asc_fecha_registro date NOT NULL,
+  asc_hora character(8) NOT NULL,
+  CONSTRAINT smn_asistencia_comedor_pkey PRIMARY KEY (smn_asistencia_comedor_id)
+)

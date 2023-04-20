@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnvisitantes.sql" source="session" scope="transaction" />
+		
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+		
+	<excel 
+		filename='${lbl:b_visitors}.xls' >
+		
+	<sheet recordset="query-table_stuck}.sql" sheetname="${lbl:b_visitors}">
+				<col id='smn_entidad_rf' label='${lbl:b_entity}' />
+		<col id='smn_sucursal_rf' label='${lbl:b_subsidiary}' />
+		<col id='smn_estructura_organizativa_rf' label='${lbl:b_organizational_structure}' />
+		<col id='smn_tipo_documento_identidad_rf' label='${lbl:b_type_identity_document}' />
+		<col id='vis_documento_identidad' label='${lbl:b_identity_document}' />
+		<col id='vis_nombre' label='${lbl:b_first_name}' />
+		<col id='vis_apellido' label='${lbl:b_last_name}' />
+		<col id='vis_empresa' label='${lbl:b_visiting_company}' />
+		<col id='smn_numero_carnet_asignado_id' label='${lbl:b_assigned_card_number}' />
+		<col id='vis_hora_entrada' label='${lbl:b_entry_time}' />
+		<col id='vis_hora_estimada_salida' label='${lbl:b_estimated_time_of_departure}' />
+		<col id='vis_invitado_almuerzo' label='${lbl:b_lunch_guest}' />
+		<col id='vis_estatus' label='${lbl:b_status}' />
+		<col id='smn_personal_id' label='${lbl:b_personal}' />
+		<col id='vis_fecha_vigencia' label='${lbl:b_current_date}' />
+		<col id='vis_fecha_registro' label='${lbl:b_store_date}' />
+
+	</sheet>
+	
+	</excel>
+
+</config>

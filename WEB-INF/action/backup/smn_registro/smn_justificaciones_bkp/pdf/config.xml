@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Generar reporte generico PDF
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnjustificaciones.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.PDFGenericReport</classname>
+	</output>
+
+	<pdf-title>${lbl:b_justifications}</pdf-title>
+	<pdf-logo url='/images/logo-dinamica.png' scale='100' />
+
+	<pdf-report pageSize="letter" rotate="false">
+		<table recordset='query-smnjustificaciones.sql' width='100' spacingBefore='40'>
+			<col name='smn_personal_id_combo' title='${lbl:b_personal}' width='10' align='left' format='######' />
+			<col name='jus_descripcion' title='${lbl:b_description}' width='10' align='left' />
+			<col name='jus_fecha_incidencia' title='${lbl:b_incidence_date}' width='10' align='center' format='dd-MM-yyyy' />
+			<col name='jus_hora_incidencia' title='${lbl:b_time_incident}' width='10' align='left' />
+			<col name='jus_tiempo_a_justificar' title='${lbl:b_time_to_justify}' width='10' align='right' format='#,###,##0.00' />
+			<col name='jus_aprobado_por' title='${lbl:b_approved_by}' width='10' align='left' />
+			<col name='jus_archivo' title='${lbl:b_file}' width='10' align='left' />
+			<col name='jus_contenido' title='${lbl:b_content}' width='10' align='left' />
+			<col name='jus_tamano' title='${lbl:b_size}' width='10' align='center' format='######' />
+			<col name='jus_fecha_registro' title='${lbl:b_store_date}' width='10' align='center' format='dd-MM-yyyy' />
+		</table>
+
+	</pdf-report>
+</config>

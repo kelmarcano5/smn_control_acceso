@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='psl_num_control' type='varchar' required='true' maxlen='16'/>
+	<parameter id='psl_esquema_rotacion_rf' type='integer' required='true' maxlen='10'/>
+	<parameter id='psl_fecha_inicio_calculo' type='date' required='true' maxlen='10'/>
+	<parameter id='psl_categoria_personal_rf' type='integer' required='true' maxlen='10'/>
+	<parameter id='psl_clase_auxiliar_rf' type='integer' required='true' maxlen='10'/>
+	<parameter id='psl_auxiliar_rf' type='integer' required='true' maxlen='10'/>
+	<parameter id='psl_empresa_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_sucursal_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_area_servicio_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_unidad_servicio_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_centro_costo_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_estructura_organizacional_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_cargo_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_categoria_cargo_rf' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_habilita_acceso_rf' type='varchar' required='true' maxlen='1'/>
+	<parameter id='psl_id_control_acceso' type='varchar' required='false' maxlen='16'/>
+</validator>

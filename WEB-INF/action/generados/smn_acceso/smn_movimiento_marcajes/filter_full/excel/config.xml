@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnmovimientomarcajes.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericExcelOutput</classname>
+	</output>
+	
+	<excel recordset='query-smnmovimientomarcajes.sql' sheetname='${lbl:b_marking_movement}' filename='filter_full.xls'>
+		<col id='mrk_auxiliar_combo' label='${lbl:b_auxiliary}' />
+		<col id='mrk_clase_auxiliar_combo' label='${lbl:b_auxiliary_class}' />
+		<col id='mrk_control_acceso_id' label='${lbl:b_id_access_control}' />
+		<col id='mrk_empresa_combo' label='${lbl:b_entity}' />
+		<col id='mrk_sucursal_combo' label='${lbl:b_subsidiary}' />
+		<col id='mrk_area_servicio_combo' label='${lbl:b_service_area}' />
+		<col id='mrk_unidad_servicio_combo' label='${lbl:b_service_unit}' />
+		<col id='mrk_centro_costo_combo' label='${lbl:b_cost_centers}' />
+		<col id='mrk_cargo_combo' label='${lbl:b_positions}' />
+		<col id='mrk_categoria_cargo_combo' label='${lbl:b_position_category}' />
+		<col id='mrk_marcaje_id' label='${lbl:b_check}' />
+		<col id='mrk_dispositivo_codigo' label='${lbl:b_device}' />
+		<col id='mrk_marcaje_fecha' label='${lbl:b_transaction_date}' />
+		<col id='mrk_marcaje_hora' label='${lbl:b_transaction_time}' />
+		<col id='mrk_marcaje_dia_combo' label='${lbl:b_day_name}' />
+		<col id='mrk_marcaje_tipo_combo' label='${lbl:b_device_type}' />
+		<col id='mrk_tiempo_efectivo' label='${lbl:b_effective_time}' />
+		<col id='mrk_turno' label='${lbl:b_turno}' />
+		<col id='mrk_consecutivo' label='${lbl:b_consecutivo} ' />
+		<col id='mrk_fecha_registro' label='${lbl:b_store_date}' />
+	</excel>
+
+</config>

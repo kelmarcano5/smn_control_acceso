@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='psl_num_control' type='varchar' required='true' maxlen='16'/>
+	<parameter id='psl_grupo' type='integer' required='true' maxlen='10'/>
+	<parameter id='psl_grupo_fecha_inicio' type='date' required='true' maxlen='10'/>
+	<parameter id='psl_clase_auxiliar' type='integer' required='true' maxlen='10'/>
+	<parameter id='psl_auxiliar' type='integer' required='true' maxlen='10'/>
+	<parameter id='psl_empresa' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_sucursal' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_area_servicio' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_unidad_servicio' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_centro_costo' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_estructura_organiz' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_cargo' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_categoria_cargo' type='integer' required='false' maxlen='10'/>
+	<parameter id='psl_habilita_acceso' type='varchar' required='true' maxlen='1'/>
+	<parameter id='psl_id_control_acceso' type='varchar' required='false' maxlen='16'/>
+</validator>

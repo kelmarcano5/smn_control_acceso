@@ -1,0 +1,24 @@
+select	
+	smn_control_acceso.smn_justificaciones.smn_justificaciones_id, 
+	smn_control_acceso.smn_justificaciones.jus_estatus_rf as jus_estatus_rf_pl0,
+	(select smn_control_acceso.smn_personal.psl_num_control || ' - ' || smn_control_acceso.smn_personal.psl_id_control_acceso from  smn_control_acceso.smn_personal  where smn_control_acceso.smn_personal.smn_personal_id is not null  and smn_control_acceso.smn_personal.smn_personal_id=smn_control_acceso.smn_justificaciones_soporte.jsa_persona_rf  order by smn_control_acceso.smn_personal.psl_id_control_acceso ) as jsa_persona_rf_combo,
+	smn_control_acceso.smn_justificaciones_soporte.smn_justificaciones_soporte_id,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_persona_rf,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_archivo,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_contenido,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_tamano,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_idioma,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_usuario,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_fecha_registro,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_hora
+
+from
+	smn_control_acceso.smn_justificaciones,
+	smn_control_acceso.smn_justificaciones_soporte 
+where
+	smn_justificaciones_soporte_id is not null
+and 	smn_control_acceso.smn_justificaciones.smn_justificaciones_id=smn_control_acceso.smn_justificaciones_soporte.smn_justificaciones_id 
+
+${filter}
+order by 
+	smn_justificaciones_soporte_id

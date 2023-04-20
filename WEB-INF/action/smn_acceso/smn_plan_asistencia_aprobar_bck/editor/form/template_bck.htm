@@ -1,0 +1,767 @@
+<!doctype html>
+<html>
+
+<head>
+
+		<link rel="stylesheet" type="text/css" href="${def:context}/dinamica_bkp.css" />
+		<link rel="stylesheet" type="text/css" href="${def:context}/main.css" />
+	
+	<!--biblioteca generica JS/Dinamica-->
+	<script type="text/javascript" src="${def:context}/action/script">
+	</script>
+
+</head>
+
+<body>
+
+<!--banner-->
+<div class="bannerDialog" id="encabezado_tabla">
+	${lbl:b_plan_asistencia_bd}
+	<img src="${def:context}/images/close.png" class="button" onclick="parent.closeDialog(); parent.search();" title="${lbl:b_close_button}" style="float:right; cursor:pointer;">
+	${req:progress}
+</div>
+
+<!--formulario addnew/edit-->
+<form name="form1" onsubmit="return save()" style="width:500px;">
+
+	<!-- titulo -->
+	<h1 id="formTitle">${lbl:b_add_record}</h1>
+
+	<table>
+
+		<!--ancho de la columna de etiquetas-->
+		<col width="30%">
+
+		<!--campos-->
+	<tr>
+		<td>${lbl:b_company}*</td>
+		<td>
+			
+				<select name="smn_empresa_rf" id="smn_empresa_rf" onchange="chgCombo1(smn_empresa_rf.options[smn_empresa_rf.selectedIndex].text,'smn_empresa_rf_name'); chgCombo2(smn_empresa_rf.options[smn_empresa_rf.selectedIndex].text,'smn_empresa_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<smn_empresa_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</smn_empresa_rf_rows>
+			</select> 
+			<input id="smn_empresa_rf_name" name="smn_empresa_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_subsidiary}*</td>
+		<td>
+			<select name="smn_sucursal_rf" id="smn_sucursal_rf" onchange="chgCombo(smn_sucursal_rf.options[smn_sucursal_rf.selectedIndex].text,'smn_sucursal_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<smn_sucursal_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</smn_sucursal_rf_rows>
+			</select> 
+			<input id="smn_sucursal_rf_name" name="smn_sucursal_rf_name" type="hidden">
+		</td>
+	</tr>
+	<tr>
+		<td>${lbl:b_organizacional_structure}*</td>
+		<td>
+			<select name="smn_estructura_organizacional_rf" id="smn_estructura_organizacional_rf" onchange="chgCombo(smn_estructura_organizacional_rf.options[smn_estructura_organizacional_rf.selectedIndex].text,'smn_estructura_organizacional_rf_name');">
+				<option value="">[Cualquiera]</option>
+				<smn_estructura_organizacional_rf_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</smn_estructura_organizacional_rf_rows>
+			</select> 
+			<input id="smn_estructura_organizacional_rf_name" name="smn_estructura_organizacional_rf_name" type="hidden">
+		</td>
+	</tr>
+	
+	
+	<tr>
+		<td>${lbl:b_rotation_scheme}*</td>
+		<td>
+			<select name="smn_esquema_rotacion_id" id="smn_esquema_rotacion_id" onchange="chgCombo(smn_esquema_rotacion_id.options[smn_esquema_rotacion_id.selectedIndex].text,'smn_esquema_rotacion_id_name'); chgCombo3(smn_esquema_rotacion_id.options[smn_esquema_rotacion_id.selectedIndex].text,'smn_esquema_rotacion_id_name')">
+				<option value="">[Cualquiera]</option>
+				<smn_esquema_rotacion_id_rows>
+				<option value="${fld:id}">${fld:item}</option>
+
+				</smn_esquema_rotacion_id_rows>
+			</select> 
+			<input id="smn_esquema_rotacion_id_name" name="smn_esquema_rotacion_id_name" type="hidden">
+		</td>
+	</tr>
+	<tr id="chktd" style="display: none">
+			<td>Personal</td>
+			<td id="personal">
+			</td>
+	</tr>
+	
+		<tr style="display: none">
+			<td>${lbl:b_generate_date}*</td>
+			<td>
+				<input id="cpa_fecha_generado" name="cpa_fecha_generado" type="text" class="date" maxlength="10">
+				<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('cpa_fecha_generado')">
+			</td>
+		</tr>
+		<tr style="display: none">
+			<td>${lbl:b_inicial_date}*</td>
+			<td>
+				<input id="cpa_fecha_desde_cal" name="cpa_fecha_desde_cal" type="text" class="date" maxlength="10">
+				<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('cpa_fecha_desde_cal')">
+			</td>
+		</tr>
+		<tr style="display: none">
+			<td>${lbl:b_end_date}*</td>
+			<td>
+				<input id="cpa_fecha_hasta_cal" name="cpa_fecha_hasta_cal" type="text" class="date" maxlength="10">
+				<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('cpa_fecha_hasta_cal')">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_year}*</td>
+			<td>
+				<input id="cpa_ano" name="cpa_ano" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_num_week_ini}*</td>
+			<td>
+				<input id="cpa_num_semana_ini" name="cpa_num_semana_ini" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_num_week_end}*</td>
+			<td>
+				<input id="cpa_num_semana_fin" name="cpa_num_semana_fin" type="text" maxlength="10" class="numeric">
+			</td>
+		</tr>
+		<tr>
+			<td>${lbl:b_effectivity_date}*</td>
+			<td>
+				<input id="cpa_fecha_vigencia" name="cpa_fecha_vigencia" type="text" class="date" maxlength="10">
+				<img src="${def:context}/images/dropdown.png" title="Desplegar calendario" onclick="calendarOpen('cpa_fecha_vigencia')">
+			</td>
+		</tr>
+
+
+	</table>
+
+	<!--botones-->
+	<input id="grabar" type="submit" value="${lbl:b_save_button}" class="button">
+	<input id="limpiar" type="button" value="${lbl:b_clean_button}" onclick="addNew()" class="button">	
+	<input id="copiar" type="button" value="${lbl:b_copy_button}" onclick="getFormValuesToCopy('form1')" class="button">
+	<input id="pegar" type="button" value="${lbl:b_paste_button}" onclick="getFormValuesToPaste('form1')" class="button">
+	<input id="salir" type="button" value="${lbl:s_exit}" onclick="parent.closeDialog(); parent.search();" class="button">	
+	
+	<!-- PK-->
+<input type="hidden" id="id" name="id" value="">
+
+</form>
+
+<!--codigo de soporte del template-->
+<script type="text/javascript">
+	var fechas=[];
+	var semanas=[];
+
+
+	onload = function()
+	{ 
+		addNew();
+
+		if (id!="")
+			edit(id);
+
+		document.form1.smn_sucursal_rf.disabled=true;
+		setElementFirstIndex('smn_sucursal_rf');
+
+		document.form1.smn_estructura_organizacional_rf.disabled=true;
+		setElementFirstIndex('smn_estructura_organizacional_rf');
+
+	} 
+	
+	function chgCombo(text,id)
+	{
+		document.getElementById(id).value = text;
+	}
+	
+	//configurar formulario para ingresar registro nuevo
+	function addNew()
+	{
+		document.getElementById("formTitle").innerHTML = "${lbl:b_add_record}";
+		document.getElementById("grabar").disabled=false;
+		clearForm("form1");
+		setFocusOnForm("form1");
+	}
+	
+	//retorna al estado previo que corresponde
+	//al estado actual de la pagina, cada llamada Ajax
+	//se encarga de definir cual es la funcion de goBack() que aplica
+	function goBack() 
+	{
+		_goBackFn()			
+	}
+	
+	//mostrar la actualizacion de un registro
+	function insert()
+	{		
+		var dataCalculada = validar();
+		console.log(dataCalculada)
+
+			clearErrorMessages();
+
+		document.getElementById('cpa_fecha_desde_cal').value=dataCalculada.fechaInicio;
+		document.getElementById('cpa_fecha_hasta_cal').value=dataCalculada.fechaFinal;
+		
+		var dataActual = new Date();
+		var Y = dataActual.getFullYear();
+		var M = dataActual.getMonth();
+		var D = dataActual.getDate();
+
+		
+	 	document.getElementById('cpa_fecha_generado').value=D+"-"+(M+1)+"-"+Y;
+	
+		document.getElementById("grabar").disabled=true;
+
+		//llamada Ajax...
+		return ajaxCall(httpMethod="POST", 
+						uri="${def:actionroot}/insert",
+						divResponse=null, 
+						divProgress="status", 
+						formName="form1", 
+						afterResponseFn=null, 
+						onErrorFn=retryAddnewOrEdit);	
+	}
+	
+	//restaurar el formulario en caso de error
+	function retryAddnewOrEdit() {
+		document.getElementById("grabar").disabled=false;
+		setFocusOnForm("form1");		
+	}
+	
+	var id = "${fld:id}"
+	
+	//grabar el formulario
+	function save()
+	{
+		//determina si es un insert o un update
+		if (document.form1.id.value=="")
+			return insert();
+		else
+			return update();
+	}
+	
+	//editar registro en formulario
+	function edit(id)
+	{
+		var estructura = document.getElementById('smn_estructura_organizacional_rf').value;
+		var esquema = document.getElementById('smn_esquema_rotacion_id').value;
+		document.form1.smn_empresa_rf.disabled=true;
+		document.getElementById('chktd').style.display='';
+		var dataCalculada = validar();
+		console.log(dataCalculada)
+
+			clearErrorMessages();
+
+		document.getElementById('cpa_fecha_desde_cal').value=dataCalculada.fechaInicio;
+		document.getElementById('cpa_fecha_hasta_cal').value=dataCalculada.fechaFinal;
+	
+			//llamada Ajax...
+			ajaxCall(httpMethod="GET", 
+							uri="${def:actionroot}/edit?id=" + id, 
+							divResponse=null, 
+							divProgress="status", 
+							formName=null, 
+							afterResponseFn=null, 
+							onErrorFn=null);	
+	}
+	
+	//actualizar registro en BD
+	function update()
+	{		
+			var dataCalculada = validar();
+			console.log(dataCalculada)
+
+				clearErrorMessages();
+
+			document.getElementById('cpa_fecha_desde_cal').value=dataCalculada.fechaInicio;
+			document.getElementById('cpa_fecha_hasta_cal').value=dataCalculada.fechaFinal;
+		
+			document.getElementById("grabar").disabled=true;
+
+			clearErrorMessages();
+			document.getElementById("grabar").disabled=true;
+			
+			//llamada Ajax...
+			return ajaxCall(httpMethod="POST", 
+							uri="${def:actionroot}/update", 
+							divResponse=null, 
+							divProgress="status", 
+							formName="form1", 
+							afterResponseFn=null, 
+							onErrorFn=retryAddnewOrEdit);	
+	}
+
+	
+	/*PASO 2 */
+
+	var bdID;
+	function setID(id)
+	{
+		bdID = id;
+	}
+
+	//Author     : SIMONE
+	//Description: Set first element as selected value
+	//Return     : None
+	function setElementFirstIndex(id)
+	{
+		var combo = document.getElementById(id);
+		combo.selectedIndex = 0;
+	}
+
+	//Author     : SIMONE
+	//Description: Insert new value into combo box
+	//Return     : None
+	function insertComboBox(code, combo, description) {
+		var valueText = code;
+		if (description != null)
+		{
+			valueText = valueText + ' - ' + description;
+		}
+		//alert("Insert Combo: "+valueText);
+        combo.options[combo.options.length] = new Option(valueText);
+	}
+
+	//Author     : SIMONE
+	//Description: Add new value to combo box
+	//Return     : None
+	function addValueToCombo(code, description, field)
+	{
+	    var combo = document.getElementById(field);
+	    insertComboBox(code, combo, description);
+	}
+
+	//Author     : SIMONE
+	//Description: Set selected index into combo box
+	//Return     : None
+	function setSelectedIndex(code, combo, description)
+	{
+	    for (var i = 0; i < combo.options.length; i++)
+	    {
+			var valueText = code;
+			if (description != null)
+			{
+				valueText = valueText + ' - ' + description;
+			}
+	        if (combo.options[i].text == valueText)
+	        {
+	        	combo.options[i].selected = true;
+	            return;
+	        }
+	    }
+	}
+
+	//Author     : SIMONE
+	//Description: Get text valueof selected index
+	//Return     : Text associated to index
+	function getSelectedIndex(combo)
+	{
+	    for (var i = 0; i < combo.options.length; i++)
+	    {
+	        if (combo.options[i].selected == true)
+	        {
+	            return combo.options[i].text;
+	        }
+	    }
+	}
+	function getIDSelectedIndex(combo)
+	{
+	    for (var i = 0; i < combo.options.length; i++)
+	    {
+	        if (combo.options[i].selected == true)
+	        {
+	            return combo.options[i].value;
+	        }
+	    }
+	}
+	/*function armarvalores()
+	{
+		var estructura = document.getElementById("smn_estructura_organizacional_id_name");
+		var arreglo  = [];
+		for (var i = 0; i < estructura.options.length; i++)
+	    {
+	    		
+  				// if(i > 0 && i < estructura.options.length-1){
+	     //        arreglo[i] ="\""+estructura.options[i].value+"\"";
+	     //    	}else{
+	         		if(i == 0 ){
+	        			 arreglo[i] ="\("+estructura.options[i].value;
+	        		}
+	        		else{
+	        			arreglo[i] =estructura.options[i].value;
+	         		}
+
+	     }
+	     		arreglo[estructura.options.length-1] +="\)";
+	    		
+	    	    document.getElementById("valores").value=arreglo;
+	    
+	
+	}*/
+	//Author     : SIMONE
+	//Description: Set value to combo box
+	//Parameters : code - it is code associated into each database table
+	//             descripcion - it is description associated into each database table
+	//             field - name combo field
+	//             id - identifier retrieved after transaction
+	//             linked - flag indicates 'true' when combos are linked and 'false' otherwise
+	//Return     : None
+	function setValueComboBox(code, description, field, linked)
+	{
+		//add value text to combo
+		addValueToCombo(code,description,field);
+
+		//get select object
+		var combo = document.getElementById(field);
+
+		//set element selected to field referenced
+		setSelectedIndex(code,combo, description);
+
+		//set text value to combo field
+		var valueText = getSelectedIndex(combo);
+
+		//get hidden field in order to set any value
+		var combo = document.getElementById(field+'_name');
+
+		//alert("Text: "+valueText+" - bdID: "+bdID);
+
+		combo.text  = valueText;
+		combo.value = bdID;
+
+		//enable linked fields
+		if (linked)
+		{
+
+		}
+	}
+	/* FIN DE PASO 2*/
+
+	/* PASO 3 */
+	var geo_id0 = null;
+	function chgCombo1(text,id)
+	{
+		document.form1.smn_sucursal_rf.disabled=false;
+
+		var combo = document.getElementById('smn_empresa_rf');
+		var valueCombo = getIDSelectedIndex(combo);
+		var valueCombo = combo.selectedOptions[0].text
+		 geo_id0 = valueCombo.split("-").pop().trim();
+
+		//findLocation(geo_id0, '');
+
+		if (id!=null && id!="")
+		{
+			return ajaxCall(
+							httpMethod="GET",
+							uri="${def:actionroot}/getsucursales?id=" + geo_id0,
+							divResponse=null,
+							divProgress="status",
+							formName="form1",
+							afterResponseFn=setElementFirstIndex('smn_sucursal_rf'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);
+		}
+
+	}
+	function chgCombo3(text,id)
+	{
+		/*document.form1.personal_id.disabled=false;*/
+		document.getElementById('chktd').style.display='';
+
+		var estructura = document.getElementById('smn_estructura_organizacional_rf').value;
+		var esquema = document.getElementById('smn_esquema_rotacion_id').value;
+		
+		if (id!=null && id!="")
+		{
+			return ajaxCall(
+							httpMethod="GET",
+							uri="${def:actionroot}/getpersonal?estructura=" + estructura + "&esquema=" + esquema,
+							divResponse=null,
+							divProgress="status",
+							formName="form1",
+							afterResponseFn=setCheckBox('personal_id'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);
+		}
+
+	}
+	function setCheckBox(id)
+	{
+		
+		setCheckboxValue('personal_id','${fld:personal_id}','form1');
+		
+	}
+
+		/* PASO 3 */
+	var geo_id1 = null;
+	function chgCombo2(text,id)
+	{
+		document.form1.smn_estructura_organizacional_rf.disabled=false;
+
+		var combo = document.getElementById('smn_empresa_rf');
+		var valueCombo = getIDSelectedIndex(combo);
+		var valueCombo = combo.selectedOptions[0].text
+		/* geo_id1 = valueCombo.split("-").pop().trim();*/
+		 geo_id1 = document.getElementById('smn_empresa_rf').value;
+		
+		//findLocation(geo_id1, '');
+
+		if (id!=null && id!="")
+		{
+
+			return ajaxCall(
+							httpMethod="GET",
+							uri="${def:actionroot}/get?id=" + geo_id1,
+							divResponse=null,
+							divProgress="status",
+							formName="form1",
+							afterResponseFn=setElementFirstIndex('smn_estructura_organizacional_rf'), //function 'setElementFirstIndex' select first element of combo list
+							onErrorFn=null);
+		}
+
+	}
+	
+
+	/* FIN DE PASO 3*/
+
+	///////////////////////////////////////////////////////////////////////////////////////////
+	///////////////CALCULO DE FECHA
+	///////////////////////////////////////////////////////////////////////////////////////////
+	function validar() {
+	 	var anio = document.getElementById('cpa_ano').value;
+	 	var sm1 = document.getElementById('cpa_num_semana_ini').value;
+	 	var sm2 = document.getElementById('cpa_num_semana_fin').value;
+	 	console.log((anio))
+	 	console.log((sm1))
+	 	console.log((sm2))
+		var dataFinal = {
+			'fechaInicio': 0,
+			'fechaFinal': 0
+		} 
+
+	 	if((!isNaN(anio))&&(!isNaN(sm1))&&(!isNaN(sm2))){
+
+			 	if(anio<1900 || anio > 2100 || anio==""){
+//			 		alert('Año Incorrecto')
+			 	}else if((sm1<1) || (sm1>53) || (sm1=="")){
+//			 		alert('Semana de Inicio Incorrecta')
+			 	}else{
+					if((sm2<1) || (sm2>53) || (sm2=="")){
+//				 		alert('Semana de Final Incorrecta')
+					}else{
+						if((sm2<sm1)){
+//					 		alert('No puedes elegir esta semana como \'final\'')
+						}else{
+							ver(anio)
+							var Fecha_inicio = buscarFechaCorrespondiente(sm1)
+							var Fecha_final = buscarFechaCorrespondiente(sm2)
+							dataFinal.fechaInicio = Fecha_inicio.fechaInicio;
+							dataFinal.fechaFinal = Fecha_final.fechaFinal;
+
+						}
+
+
+					}
+			 	}
+		}else{
+			alert('Valores Incorrectos')
+		}
+
+		return dataFinal;
+
+	 }
+
+	function buscarFechaCorrespondiente(smn){
+		//INICIALIZO
+		var fechaDeSemana = {
+			'id': 0,
+			'fechaInicio': 0,
+			'fechaFinal': 0
+		};
+
+		if(smn>0){
+			var ex = semanas.filter((aux)=>aux.id==smn);
+			if(ex.length>0){
+				fechaDeSemana = ex[0];
+			}
+
+		}
+		console.log(fechaDeSemana)
+		return fechaDeSemana;
+
+	}
+
+	function agruparPorSemana(obj){
+	 	if(semanas.length==0){
+	 		semanas.push({
+	 			'id': obj.nunSemana,
+	 			'fechaInicio': obj.fecha,
+	 			'fechaFinal': obj.fecha,
+	 		})
+	 	}else{
+	 		if(buscarExistente(obj.nunSemana)){
+	 			for (var sem2 = 0; sem2 < semanas.length; sem2++) {
+	 				if(semanas[sem2].id==obj.nunSemana){
+
+	  				    var ar = obj.fecha.split('-');
+	 					if(obj.nunSemana==1 && (((ar[0]+"-"+ar[1])=='31-12') || ((ar[0]+"-"+ar[1])=='30-12'))) {
+
+	 					}else{
+		 					semanas[sem2].fechaFinal=obj.fecha;
+	 					}
+	 				}
+	 			}
+	 		}else{
+	 		semanas.push({
+	 			'id': obj.nunSemana,
+	 			'fechaInicio': obj.fecha,
+	 			'fechaFinal': obj.fecha
+	 			})
+
+	 		}
+	 	}
+
+
+	 }
+
+	function addUltimaFecha() {
+	 	var ultima = (semanas.length)-1;
+	 	console.log(semanas)
+	    var ar = semanas[ultima].fechaFinal.split('-');
+	 	semanas[ultima].fechaFinal = ("31-"+ar[1]+"-"+ar[2]);
+	 }
+
+
+	function buscarExistente(id){
+		var existe=false;
+		if(semanas.length>0){
+			var ex = semanas.filter((aux)=>aux.id==id);
+			if(ex.length>0){
+					existe=true;
+			}
+
+		}
+		return existe;
+	}
+	function ver(an) {
+	var msj="";
+	fechas=[];
+	semanas=[];
+
+
+	for (var mes = 1; mes <= 12; mes++) {
+		var dias = new Date(an,mes,0).getDate();
+		for (var dd = 1; dd <= dias; dd++) {
+			mesAux = mes - 1;
+			var dataFecha = new Date(an,mesAux,dd);
+			var nuSemana = calculateISO8601WeekNumber(dataFecha)
+			var obj = {
+				'nunSemana': nuSemana,
+				'fecha': +dd+'-'+(mes)+'-'+(an)
+				}
+			agruparPorSemana(obj);
+			}	
+		}
+		addUltimaFecha()
+	}	
+
+	/*///////////////////////////////////
+	CODIGO DE INTERNER
+	///////////////////////////////////*/
+	function calculateISO8601WeekNumber(d) {
+	// 1) Convert date to Y M D
+	var Y = d.getFullYear();
+	var M = d.getMonth();
+	var D = d.getDate();
+	
+	// 2) Find out if Y is a leap year
+	var isLeapYear = (Y % 4 == 0  &&  Y % 100 != 0) || Y % 400 == 0;
+	if (isLeapYear)
+	{
+//		console.log('Is a leap year');
+	}
+	
+	// 3) Find out if Y-1 is a leap year
+	var lastYear = Y - 1;
+	var lastYearIsLeap = (lastYear % 4 == 0  &&  lastYear % 100 != 0) || lastYear % 400 == 0;
+	if(lastYearIsLeap)
+	{
+//		console.log('Is year after a leap year');
+	}
+	
+	// 4) Find the Day of Year Number for Y M D
+	var month = [0,31,59,90,120,151,181,212,243,273,304,334];
+	var DayOfYearNumber = D + month[M];
+	if(isLeapYear && M > 1)
+		DayOfYearNumber++;
+//	console.log('Day of the year: ' + DayOfYearNumber);
+	
+	// 5) Find the weekday for Jan 1 (monday = 1, sunday = 7)
+	var YY = (Y-1) % 100; // ...
+	var C = (Y-1) - YY; // get century
+	var G = YY + YY/4; // ...
+   	var Jan1Weekday = Math.floor(1 + (((((C / 100) % 4) * 5) + G) % 7));
+//	console.log('Day of the week for Jan 1 (1 = monday, 7 = sunday): ' + Jan1Weekday);
+	
+	// 6) Find the weekday for Y M D
+	var H = DayOfYearNumber + (Jan1Weekday - 1);
+   	var Weekday = Math.floor(1 + ((H -1) % 7));
+//	console.log('Day of the week for date (1 = monday, 7 = sunday): ' + Weekday);
+	
+	var YearNumber = Y;
+	var WeekNumber;
+	// 7) Find if Y M D falls in YearNumber Y-1, WeekNumber 52 or 53
+	if (DayOfYearNumber <= (8-Jan1Weekday) && Jan1Weekday > 4)
+	{
+//		console.log('Date is within the last week of the previous year.');
+		YearNumber = Y - 1;
+		if (Jan1Weekday == 5 || (Jan1Weekday == 6 && isLeapYear))
+		{
+			WeekNumber = 53;
+		} else
+		{ 
+			WeekNumber = 52;
+		}
+	}
+	
+	// 8) Find if Y M D falls in YearNumber Y+1, WeekNumber 1
+	if (YearNumber == Y)
+	{
+		var I = 365;
+		if (isLeapYear)
+		{ 
+			I = 366;
+		}
+		if (I - DayOfYearNumber < 4 - Weekday)
+		{
+//			console.log('Date is within the first week of the next year.'+DayOfYearNumber,I,Weekday);
+			YearNumber = Y + 1;
+			WeekNumber = 1;
+		}
+	}
+	
+	// 9) Find if Y M D falls in YearNumber Y, WeekNumber 1 through 53
+	if (YearNumber == Y)
+	{
+//		console.log('Date is within it\'s current year.');
+		var J = DayOfYearNumber + (7 - Weekday) + (Jan1Weekday -1);
+		WeekNumber = J / 7;
+		if (Jan1Weekday > 4)
+		{
+			WeekNumber--;
+		}
+	}
+	
+	return WeekNumber;
+};
+
+
+</script>	
+</body>
+</html>

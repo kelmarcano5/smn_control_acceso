@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='smn_personal_id_name' type='varchar' required='true' label='${lbl:b_personal}'/>
+	<parameter id='smn_personal_id' type='integer' required='false' label='${lbl:b_personal}' maxlen='10'/>
+	<parameter id='jus_tipo_actividad_rf' type='integer' required='true' label='${lbl:b_activity_category}' maxlen='10'/>
+	<parameter id='jus_documento_rf' type='integer' required='true' label='${lbl:b_documento}' maxlen='10'/>
+	<parameter id='jus_fecha_incidencia' type='date' required='true' label='${lbl:b_incidence_date}' maxlen='10'/>
+	<parameter id='jus_hora_incidencia' type='varchar' required='true' label='${lbl:b_time_incident}' maxlen='5'/>
+	<parameter id='jus_tiempo_a_justificar' type='double' required='true' label='${lbl:b_time_to_justify}' maxlen='10'/>
+	<parameter id='jus_estatus_rf' type='varchar' required='true' label='${lbl:b_status}' maxlen='3'/>
+	<parameter id='jus_jefe_inmediato_rf' type='integer' required='true' label='${lbl:b_direct_boss}' maxlen='60'/>
+	<parameter id='jus_descripcion' type='varchar' required='false' label='${lbl:b_description}' maxlen='4000'/>
+	<parameter id='jus_causa' type='varchar' required='false' label='${lbl:b_cause_not_approved}' maxlen='1024'/>
+</validator>

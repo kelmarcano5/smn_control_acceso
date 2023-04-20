@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		${lbl:b_marking_movement}
+	</summary>
+
+	<log>false</log>
+	
+	<set-request-attribute id="progress" value="file:/WEB-INF/action/progress/progress.htm"/>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<!-- <recordset id='query-mrk_documento_rf.sql' source='sql' scope='transaction'/> -->
+		<recordset id='query-mrk_empresa_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-mrk_sucursal_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-mrk_area_servicio_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-mrk_unidad_servicio_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-mrk_centro_costo_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-personal.sql' source='sql' scope='transaction'/>
+		<recordset id='query-smn_dispositivos_rf.sql' source='sql' scope='transaction'/>
+		<recordset id='query-mrk_categoria_personal_rf.sql' source='sql' scope='transaction'/>
+	</transaction>
+
+	<output>
+		<classname>dinamica.GenericOutput</classname>
+		<template>template.htm</template>
+		<set-http-headers>true</set-http-headers>
+		<content-type>text/html</content-type>
+		<!-- <print mode='table' recordset='query-mrk_documento_rf.sql' tag='mrk_documento_rf_rows'/> -->
+		<print mode='table' recordset='query-mrk_empresa_rf.sql' tag='mrk_empresa_rf_rows'/>
+		<print mode='table' recordset='query-mrk_sucursal_rf.sql' tag='mrk_sucursal_rf_rows'/>
+		<print mode='table' recordset='query-mrk_area_servicio_rf.sql' tag='mrk_area_servicio_rf_rows'/>
+		<print mode='table' recordset='query-mrk_unidad_servicio_rf.sql' tag='mrk_unidad_servicio_rf_rows'/>
+		<print mode='table' recordset='query-mrk_centro_costo_rf.sql' tag='mrk_centro_costo_rf_rows'/>
+		<print mode='table' recordset='query-personal.sql' tag='personal_rows'/>
+		<print mode='table' recordset='query-smn_dispositivos_rf.sql' tag='smn_dispositivos_rf_rows'/>
+		<print mode='table' recordset='query-mrk_categoria_personal_rf.sql' tag='mrk_categoria_personal_rf_rows'/>
+	</output>
+
+</config>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='igs_auxiliar_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='igs_clase_auxiliar_desc_ref' type='varchar' required='true' maxlen='10'/>
+	<parameter id='igs_control_acceso_id' type='varchar' required='true' maxlen='16'/>
+	<parameter id='igs_actividad_desc_ref' type='varchar' required='true' maxlen='48'/>
+	<parameter id='igs_tiempo_efectivo' type='double' required='true' maxlen='10'/>
+	<parameter id='igs_fecha' type='date' required='true' maxlen='10'/>
+
+	<parameter id='igs_auxiliar_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='igs_clase_auxiliar_ref' type='integer' required='false' maxlen='10'/>
+	<parameter id='igs_actividad_ref' type='integer' required='false' maxlen='48'/>
+
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: igs_auxiliar' 
+		parameter='igs_auxiliar_ref' 
+		sql='igs_auxiliar.sql' 
+		id='igs_auxiliar_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: igs_clase_auxiliar' 
+		parameter='igs_clase_auxiliar_ref' 
+		sql='igs_clase_auxiliar.sql' 
+		id='igs_clase_auxiliar_ref'/>
+
+	<custom-validator 
+		classname='dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: igs_actividad' 
+		parameter='igs_actividad_ref' 
+		sql='igs_actividad.sql' 
+		id='igs_actividad_ref'/>
+
+</validator>

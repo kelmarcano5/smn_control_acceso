@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator id="view.record" onerror="/action/error/validation/dialog">
+	<parameter id="id" type="integer" required="true" label="ID" maxlen="10" />
+	<parameter id='dis_codigo_filter' type='varchar' required='false' label='${lbl:b_code}' maxlen='16'/>
+	<parameter id='dis_nombre_filter' type='varchar' required='false' label='${lbl:b_name}' maxlen='48'/>
+	<parameter id='dis_empresa_filter' type='integer' required='false' label='${lbl:b_entity}' maxlen='10'/>
+	<parameter id='dis_sucursal_filter' type='integer' required='false' label='${lbl:b_subsidiary}' maxlen='10'/>
+	<parameter id='dis_area_servicio_filter' type='integer' required='false' label='${lbl:b_service_area}' maxlen='10'/>
+	<parameter id='dis_serial_filter' type='varchar' required='false' label='${lbl:b_serial}' maxlen='32'/>
+</validator>

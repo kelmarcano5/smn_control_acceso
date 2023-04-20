@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		Ejecutar consulta y enrutar dependiendo de que un recordset
+		tenga o no registros
+	</summary>
+
+	<log>false</log>
+
+	<!--configura el control de paginacion-->
+	<set-request-attribute id="paging.recordset" value="query-base.sql" />
+	<set-request-attribute id="paging.pagesize" value="10" />
+
+	
+	<transaction>
+		<classname>dinamica.GenericSearch</classname>
+		<validator>true</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-base.sql" source="session" scope="session"/>
+		<recordset id="query-total.sql" source="session" scope="session"/>
+	</transaction>
+	
+	<searchCols id="query-base.sql">smn_empresa_rf;smn_sucursal_rf;smn_estructura_organizacional_rf;asi_personal_rf;asi_tipo_marcaje;asi_secuencia_tipo_marcaje;asi_fecha_registro_ini;
+asi_fecha_registro_fin;</searchCols>
+	<searchCols id="query-total.sql">smn_empresa_rf;smn_sucursal_rf;smn_estructura_organizacional_rf;asi_personal_rf;asi_tipo_marcaje;asi_secuencia_tipo_marcaje;asi_fecha_registro_ini;
+asi_fecha_registro_fin;</searchCols>	
+	
+
+	<on-exit return-code="0" forward-to="/action/initview" />
+	<on-exit return-code="1" forward-to="${def:actionroot}/notfound" />
+
+</config>

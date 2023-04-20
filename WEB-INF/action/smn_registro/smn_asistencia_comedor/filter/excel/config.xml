@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnasistenciacomedor.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="4" cellStep="0" name="${lbl:b_asistencia_comedor}"/>
+	
+	<excel 
+		recordset='query-smnasistenciacomedor.sql' 
+		sheetname='${lbl:b_asistencia_comedor}' 
+		filename='${lbl:b_asistencia_comedor}.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='smn_asistencia_id' label='${lbl:b_attendance}' />
+		<col id='smn_movimiento_marcaje_id' label='${lbl:b_marking_movement}' />
+		<col id='cedula' label='Cedula' />
+		<col id='smn_personal_id' label='${lbl:b_personal}' />
+		<col id='com_fecha_generada' label='${lbl:b_fecha_generada}' />
+		<col id='com_hora_generada' label='${lbl:b_hora_generada}' />
+		<col id='com_hora_marcaje' label='${lbl:b_hora_marcaje}' />
+		<col id='com_hora_entregada' label='${lbl:b_hora_entregada}' />
+		<col id='com_estatus' label='${lbl:b_estatus}' />
+		<col id='com_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

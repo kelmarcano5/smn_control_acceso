@@ -1,0 +1,26 @@
+select
+		smn_control_acceso.smn_mov_marcajes.mrk_documento_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_sede,
+	smn_control_acceso.smn_mov_marcajes.mrk_empresa_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_sucursal_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_area_servicio_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_unidad_servicio_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_centro_costo_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_clase_auxiliar_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_auxiliar_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_cargo_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_categoria_cargo_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_control_acceso_id,
+	smn_control_acceso.smn_mov_marcajes.mrk_dispositivo_codigo,
+	smn_control_acceso.smn_mov_marcajes.mrk_marcaje_id,
+	smn_control_acceso.smn_mov_marcajes.mrk_marcaje_fecha,
+	smn_control_acceso.smn_mov_marcajes.mrk_marcaje_dia_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_marcaje_tipo_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_turno_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_consecutivo,
+	smn_control_acceso.smn_mov_marcajes.mrk_transaccion_rf,
+	smn_control_acceso.smn_mov_marcajes.mrk_fecha_registro
+from
+	smn_control_acceso.smn_mov_marcajes 
+where
+	smn_control_acceso.smn_mov_marcajes.smn_mov_marcajes_id = ${fld:id}

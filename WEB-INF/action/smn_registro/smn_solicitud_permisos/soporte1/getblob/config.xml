@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		Descargar un documento desde la base de datos
+	</summary>
+	
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>true</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-info.sql" source="sql" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>dinamica.BlobOutputFS</classname>
+	</output>
+
+	<!--custom element for THIS Action only-->
+	<!--
+		set to true if you want to force a "Save as" dialog
+		when the browser downloads the BLOB.
+	-->
+	<attach>false</attach>
+	
+	<folder>C:\smn_simone\smn_stored</folder>
+
+</config>

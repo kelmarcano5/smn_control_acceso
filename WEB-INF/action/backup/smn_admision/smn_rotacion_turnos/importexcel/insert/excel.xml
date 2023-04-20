@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator maxErrors='20'>
+	<parameter id='rot_turno' type='varchar' required='true' maxlen='16'/>
+	<parameter id='rot_consecutivo' type='varchar' required='true' maxlen='48'/>
+	<parameter id='rot_dia_desc' type='varchar' required='true' maxlen='24'/>
+	<parameter id='rot_horario' type='varchar' required='true' maxlen='5'/>
+	
+	<parameter id='rot_dia_ref' type='varchar' required='false' maxlen='2'/>
+
+	<custom-validator 
+		classname='domain.dinamica.validators.GetColValueValidator' 
+		on-error-label='${lbl:b_field_does_not_registered}: rot_dia' 
+		parameter='rot_dia_ref' 
+		sql='rotdia.sql' 
+		id='rot_dia_ref'/>
+
+</validator>

@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config>
+
+	<summary>
+		Insertar registro 
+	</summary>
+
+	<log>false</log>
+
+	<!--soporte de auditoria-->
+	<audit>
+		<!--de donde saca los datos, por defecto es "_request"-->
+		<recordset></recordset>
+		<!--que campos extrae para el registro descriptivo-->
+		<cols>
+			<colname>smn_plan_asistencia_id</colname>
+			<colname>asi_id_control_acceso</colname>
+			<colname>asi_personal_rf</colname>
+			<colname>asi_fecha_evento</colname>
+			<colname>asi_dia_evento</colname>
+			<colname>asi_turno_rf</colname>
+			<colname>asi_esquema_rotacion_rf</colname>
+			<colname>asi_tipo_marcaje</colname>
+			<colname>asi_hora_tope_evento</colname>
+			<colname>asi_estatus_permiso_rf</colname>
+			<colname>asi_estatus_asistencia_rf</colname>
+			<colname>asi_hora_marcaje</colname>
+			<colname>asi_estatus_marcaje</colname>
+			<colname>asi_secuencia_tipo_marcaje</colname>
+			<colname>smn_codigo_variable_1</colname>
+			<colname>asi_variable_1</colname>
+			<colname>smn_codigo_variable_2</colname>
+			<colname>asi_variable_1</colname>
+		
+		</cols>
+		<table>smn_control_acceso.smn_asistencia</table>
+		<oper>AÑADIR</oper>
+		<area>Carga de datos</area>
+		<!--
+			query para obtener el ID generado o nombre de 
+			la columna que contiene el pkey, si es query, 
+			el alias del campo debe ser "id"
+		-->
+		<pkey>select ${seq:currval@smn_control_acceso.seq_smn_asistencia} as id</pkey>
+	</audit>
+
+	<transaction>
+		<classname>dinamica.audit.AuditableTransaction</classname>
+		<validator>true</validator>
+		<transaction>true</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="nextval.sql" source="sql" scope="transaction" />
+	</transaction>
+
+	<query>insert.sql</query>
+
+	<output>
+		<classname>dinamica.GenericOutput</classname>
+		<template>script.js</template>
+		<set-http-headers>true</set-http-headers>
+		<content-type>text/javascript</content-type>
+		<expiration>0</expiration>
+		<print mode="form" recordset="_request" />
+		<print mode="form" recordset="nextval.sql" />
+	</output>
+	
+	<!-- Envio de email declarativo -->
+	<mail enabled="false">
+		<subject>Subject</subject>
+		<mail-to>martin.cordova@gmail.com</mail-to>
+		<body>body.txt</body>
+	</mail>
+
+</config>

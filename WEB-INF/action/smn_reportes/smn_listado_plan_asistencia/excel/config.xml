@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnasistencia.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="8" cellStep="0" name="${lbl:b_planned_assistance}"/>
+	
+	<excel 
+		recordset='query-smnasistencia.sql' 
+		sheetname='Listado de Asistencia' 
+		filename='Listado de Asistencia.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='asi_personal_rf' label='${lbl:b_personal}' />
+		<col id='cedula' label='Cedula' />
+		<col id='fecha' label='Fecha' />
+		<col id='tipo_movimiento' label='Tipo Movimiento' />
+		<col id='hora_tope_evento' label='Hora Tope Evento' />
+		<col id='hora_marcaje' label='Hora Marcaje' />
+		<col id='smn_categoria_justificacion_rf' label='Permiso' />
+		<col id='justificacion' label='${lbl:b_justification}' />
+		<col id='asi_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

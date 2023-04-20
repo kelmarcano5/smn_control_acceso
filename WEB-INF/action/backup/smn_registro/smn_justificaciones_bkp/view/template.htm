@@ -1,0 +1,61 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+	<col width='8%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="14">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th colspan="4"></th>
+		<th class='sortable' onclick="sortBy('smn_personal_id_combo','query-smnjustificaciones.sql')" >${lbl:b_personal}</th>
+		<th class='sortable' onclick="sortBy('jus_descripcion','query-smnjustificaciones.sql')" >${lbl:b_description}</th>
+		<th class='sortable' onclick="sortBy('jus_fecha_incidencia','query-smnjustificaciones.sql')" >${lbl:b_incidence_date}</th>
+		<th class='sortable' onclick="sortBy('jus_hora_incidencia','query-smnjustificaciones.sql')" >${lbl:b_time_incident}</th>
+		<th class='sortable' onclick="sortBy('jus_tiempo_a_justificar','query-smnjustificaciones.sql')" >${lbl:b_time_to_justify}</th>
+		<th class='sortable' onclick="sortBy('jus_aprobado_por','query-smnjustificaciones.sql')" >${lbl:b_approved_by}</th>
+		<th class='sortable' onclick="sortBy('jus_archivo','query-smnjustificaciones.sql')" >${lbl:b_file}</th>
+		<th class='sortable' onclick="sortBy('jus_contenido','query-smnjustificaciones.sql')" >${lbl:b_content}</th>
+		<th class='sortable' onclick="sortBy('jus_tamano','query-smnjustificaciones.sql')" >${lbl:b_size}</th>
+		<th class='sortable' onclick="sortBy('jus_fecha_registro','query-smnjustificaciones.sql')" >${lbl:b_store_date}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/download.png" onclick="downloadBlob('${fld:smn_justificaciones_id}')" title="Descargar" ></td>
+		<td><img src="${def:context}/images/search.png" onclick="getImage('${fld:smn_justificaciones_id}', '${fld:jus_contenido}')" title="Ver documento" ></td>
+		<td><img src="${def:context}/images/delete.png" onclick="deleteRecord('${fld:smn_justificaciones_id}')" title="Eliminar"></td>
+		<td><img src="${def:context}/images/edit.png" onclick="edit('${fld:smn_justificaciones_id}')" title="Editar"></td>
+		<td>${fld:smn_personal_id_combo}</td>
+		<td align="left">${fld:jus_descripcion}</td>
+		<td align="center">${fld:jus_fecha_incidencia@dd-MM-yyyy}</td>
+		<td align="left">${fld:jus_hora_incidencia}</td>
+		<td align="right">${fld:jus_tiempo_a_justificar@#,###,##0.00}</td>
+		<td align="left">${fld:jus_aprobado_por}</td>
+		<td align="left">${fld:jus_archivo}</td>
+		<td align="left">${fld:jus_contenido}</td>
+		<td align="center">${fld:jus_tamano}</td>
+		<td align="center">${fld:jus_fecha_registro@dd-MM-yyyy}</td>
+	</tr>
+	</rows>
+
+</table>

@@ -1,0 +1,32 @@
+select
+		smn_base.smn_plan_asistencia.smn_empresa_rf,
+	smn_base.smn_plan_asistencia.smn_sucursal_rf,
+	smn_base.smn_plan_asistencia.smn_estructura_organizacional_rf,
+	smn_base.smn_plan_asistencia.smn_personal_rf,
+	smn_base.smn_plan_asistencia.smn_esquema_rotacion_id,
+	smn_base.smn_plan_asistencia.pas_fecha,
+	smn_base.smn_plan_asistencia.pas_fecha_registro,
+	smn_base.smn_plan_asistencia.smn_empresa_rf,
+	smn_base.smn_plan_asistencia.smn_sucursal_rf,
+	smn_base.smn_plan_asistencia.smn_estructura_organizacional_rf,
+	smn_base.smn_plan_asistencia.smn_personal_rf,
+	smn_base.smn_plan_asistencia.smn_esquema_rotacion_id,
+	smn_base.smn_plan_asistencia.pas_fecha,
+	smn_base.smn_plan_asistencia.pas_fecha_registro,
+	smn_base.smn_plan_asistencia.smn_empresa_rf,
+	smn_base.smn_plan_asistencia.smn_sucursal_rf,
+	smn_base.smn_plan_asistencia.smn_estructura_organizacional_rf,
+	smn_base.smn_plan_asistencia.cpa_fecha_desde_cal,
+	smn_base.smn_plan_asistencia.cpa_fecha_hasta_cal,
+	smn_base.smn_plan_asistencia.cpa_fecha_generado,
+	smn_base.smn_plan_asistencia.smn_esquema_rotacion_id,
+	smn_base.smn_plan_asistencia.cpa_ano,
+	smn_base.smn_plan_asistencia.cpa_num_semana_ini,
+	smn_base.smn_plan_asistencia.cpa_num_semana_fin,
+	smn_base.smn_plan_asistencia.cpa_status,
+	smn_base.smn_plan_asistencia.cpa_fecha_vigencia,
+	smn_base.smn_plan_asistencia.cpa_fecha_registro
+from
+	smn_base.smn_plan_asistencia 
+where
+	smn_base.smn_plan_asistencia.smn_plan_asistencia_id = ${fld:id}

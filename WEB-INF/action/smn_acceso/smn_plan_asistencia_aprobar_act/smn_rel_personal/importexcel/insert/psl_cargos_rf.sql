@@ -1,0 +1,6 @@
+select 
+	smn_gip.smn_cargos.smn_cargos_id as psl_cargos_rf_ref 
+from   
+	smn_gip.smn_cargos 
+where  
+	upper(smn_gip.smn_cargos.job_nombre) = upper(${fld:psl_cargos_rf_desc})

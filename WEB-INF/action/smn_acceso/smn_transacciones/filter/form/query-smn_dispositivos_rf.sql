@@ -1,0 +1,2 @@
+select smn_gip.smn_dispositivos.dis_codigo as id, smn_gip.smn_dispositivos.dis_codigo||' - '|| smn_gip.smn_dispositivos.dis_descripcion as item from smn_gip.smn_dispositivos
+where smn_gip.smn_dispositivos.dis_descripcion is not null

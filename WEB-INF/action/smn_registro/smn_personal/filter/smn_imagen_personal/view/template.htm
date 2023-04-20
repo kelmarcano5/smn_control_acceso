@@ -1,0 +1,49 @@
+<!--data grid-->
+<table class="datagrid" style="width:90%;">
+
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width="3%"/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+	<col width='14%'/>
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="10">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th colspan="4"></th>
+		<th class='sortable' onclick="sortBy('smn_personal_id_combo','query-smnimagenpersonal.sql')" >${lbl:b_personal}</th>
+		<th class='sortable' onclick="sortBy('imp_descripcion','query-smnimagenpersonal.sql')" >${lbl:b_description}</th>
+		<th class='sortable' onclick="sortBy('cca_imagen_size','query-smnimagenpersonal.sql')" >${lbl:b_image_size}</th>
+		<th class='sortable' onclick="sortBy('filename','query-smnimagenpersonal.sql')" >${lbl:b_name}</th>
+		<th class='sortable' onclick="sortBy('content_type','query-smnimagenpersonal.sql')" >${lbl:b_type_content}</th>
+		<th class='sortable' onclick="sortBy('filenametemp','query-smnimagenpersonal.sql')" >${lbl:b_filename_temp}</th>
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/download.png" onclick="downloadBlob('${fld:smn_imagen_personal_id}')" title="Descargar" ></td>
+		<td><img src="${def:context}/images/search.png" onclick="getImage('${fld:smn_imagen_personal_id}', '${fld:content_type}')" title="Ver documento" ></td>
+		<td><img src="${def:context}/images/delete.png" onclick="deleteRecord('${fld:smn_imagen_personal_id}')" title="Eliminar"></td>
+		<td><img src="${def:context}/images/edit.png" onclick="edit('${fld:smn_imagen_personal_id}')" title="Editar"></td>
+		<td>${fld:smn_personal_id_combo}</td>
+		<td align="left">${fld:imp_descripcion}</td>
+		<td align="center">${fld:cca_imagen_size}</td>
+		<td align="left">${fld:filename}</td>
+		<td align="left">${fld:content_type}</td>
+		<td align="left">${fld:filenametemp}</td>
+	</tr>
+	</rows>
+
+</table>

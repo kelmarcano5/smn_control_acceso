@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="true">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smntransaccionesmanuales.sql" source="session" scope="transaction" />
+	</transaction>
+
+	<output>
+		<classname>domain.ExcelReportOutput</classname>
+	</output>
+	
+	<excel-logo scale="60" url="/images/logo-simone-pdf.png"/>
+	<title cellPosY="1" cellPosX="3" cellStep="0" name="${lbl:b_manual_transactions}"/>
+	
+	<excel 
+		recordset='query-smntransaccionesmanuales.sql' 
+		sheetname='${lbl:b_manual_transactions}' 
+		filename='${lbl:b_manual_transactions}.xls' 
+		date-format='dd-MM-yyyy'
+		header-background='true'>
+		<col id='trm_sede' label='${lbl:b_subsidiary} ' />
+		<col id='trm_identificacion' label='${lbl:b_indentification} ' />
+		<col id='trm_tipo_marcaje_combo' label='${lbl:b_check_type}' />
+		<col id='trm_jutificacion' label='${lbl:b_justification}' />
+		<col id='trm_fecha_transaccion' label='${lbl:b_transaction_date}' />
+		<col id='trm_hora_transaccion' label='${lbl:b_transaction_time}' />
+		<col id='trm_fecha_registro' label='${lbl:b_store_date}' />
+
+	</excel>
+
+</config>

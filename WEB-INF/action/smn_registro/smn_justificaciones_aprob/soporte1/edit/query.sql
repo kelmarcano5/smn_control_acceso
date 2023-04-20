@@ -1,0 +1,15 @@
+select	
+	smn_control_acceso.smn_justificaciones.smn_justificaciones_id, 
+	smn_control_acceso.smn_justificaciones.jus_estatus_rf as jus_estatus_rf_pl0,
+	smn_control_acceso.smn_justificaciones_soporte.jsa_persona_rf,
+	smn_control_acceso.smn_justificaciones_soporte.smn_justificaciones_soporte_id
+
+from
+	smn_control_acceso.smn_justificaciones,
+	smn_control_acceso.smn_justificaciones_soporte 
+where
+	smn_control_acceso.smn_justificaciones.smn_justificaciones_id=smn_control_acceso.smn_justificaciones_soporte.smn_justificaciones_id and
+	smn_justificaciones_soporte_id = ${fld:id} 
+	
+
+

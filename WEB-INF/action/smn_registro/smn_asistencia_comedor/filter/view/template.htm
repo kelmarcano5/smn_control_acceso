@@ -1,0 +1,57 @@
+<!--data grid-->
+<table class="datagrid" style="width:95%;">
+
+	<col width='3%'/>
+	<col width='3%'/> 
+	<col width='3%'/>
+	<col width='10%'/>
+	<col width='16%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+	<col width='10%'/>
+
+
+
+	<!--toolbar-->
+	<tr>
+		<th colspan="11" id="encabezado_tabla">
+			${req:controls} 
+		</th>
+	</tr>
+
+	<!--encabezados-->
+	<tr>
+		<th></th>
+	 	<th></th>
+		<th></th>
+		<th class='sortable' onclick='sortBy("cedula","query-smnasistenciacomedor.sql")'>Cedula</th>
+		<th class='sortable' onclick='sortBy("smn_personal_id","query-smnasistenciacomedor.sql")'>${lbl:b_personal}</th>
+		<th class='sortable' onclick='sortBy("com_fecha_generada","query-smnasistenciacomedor.sql")'>${lbl:b_fecha_generada}</th>
+		<th class='sortable' onclick='sortBy("com_hora_generada","query-smnasistenciacomedor.sql")'>${lbl:b_hora_generada}</th>
+		<th class='sortable' onclick='sortBy("com_hora_marcaje","query-smnasistenciacomedor.sql")'>${lbl:b_hora_marcaje}</th>
+		<th class='sortable' onclick='sortBy("com_hora_entregada","query-smnasistenciacomedor.sql")'>${lbl:b_hora_entregada}</th>
+		<th class='sortable' onclick='sortBy("com_estatus","query-smnasistenciacomedor.sql")'>${lbl:b_estatus}</th>
+		<th class='sortable' onclick='sortBy("com_fecha_registro","query-smnasistenciacomedor.sql")'>${lbl:b_store_date}</th>
+
+	</tr>
+
+	<!--data-->
+	<rows>
+	<tr>
+		<td><img src="${def:context}/images/search.png"  onclick="getDetail('${fld:smn_asistencia_comedor_id}')" title="${lbl:b_view_detail}"></td>
+		<td><img src="${def:context}/images/edit.png"  onclick="showEditor('${fld:smn_asistencia_comedor_id}')" title="${lbl:b_edit_button}"></td> -->
+		<td><img src="${def:context}/images/icongrid/Generar.png"  onclick="cambiar_estatus('${fld:smn_asistencia_comedor_id}','${fld:com_estatus}')" title="Generar"></td>
+		<td>${fld:cedula}</td>
+		<td>${fld:smn_personal_id}</td>
+		<td>${fld:com_fecha_generada@dd-MM-yyyy}</td>
+		<td align='left'>${fld:com_hora_generada}</td>
+		<td align='left'>${fld:com_hora_marcaje}</td>
+		<td align='left'>${fld:com_hora_entregada}</td>
+		<td align='left'>${fld:com_estatus}</td>
+		<td>${fld:com_fecha_registro@dd-MM-yyyy}</td>
+
+	</tr>
+	</rows>
+
+</table>

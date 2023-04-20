@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<model>
+	<summary>${lbl:b_justifications}</summary>
+	<filter>
+		<row field='smn_personal_id' id='smn_personal_id' label='${lbl:b_personal}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || &quot; - &quot;|| smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' required='NO' fk='psl_num_control' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_justificaciones' len='10'/>
+		<row field='jus_tipo_actividad_rf' id='jus_tipo_actividad_rf' label='${lbl:b_activity_category}@{select smn_gip.smn_tipo_actividades.smn_tipo_actividades_id as id, smn_gip.smn_tipo_actividades.tya_codigo || &quot; - &quot;|| smn_gip.smn_tipo_actividades.tya_nombre as item from smn_gip.smn_tipo_actividades order by smn_gip.smn_tipo_actividades.tya_nombre}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_justificaciones' len='10'/>
+		<row field='jus_fecha_incidencia' id='jus_fecha_incidencia' label='${lbl:b_incidence_date}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='date' tableName='smn_justificaciones' len='10'/>
+		<row field='jus_hora_incidencia' id='jus_hora_incidencia' label='${lbl:b_time_incident}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='varchar' tableName='smn_justificaciones' len='5'/>
+		<row field='jus_estatus_rf' id='jus_estatus_rf' label='${lbl:b_status}@{APR=${lbl:b_approved}|NAP=${lbl:b_not_approved}|PEN=${lbl:b_pending}}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='varchar' tableName='smn_justificaciones' len='3'/>
+		<row field='jus_jefe_inmediato_rf' id='jus_jefe_inmediato_rf' label='${lbl:b_direct_boss}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || &quot; - &quot; || smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' required='NO' fk='' mSelection='' condiction='Igual que (=)' type='integer' tableName='smn_justificaciones' len='60'/>
+		<row field='jus_fecha_registro' id='jus_fecha_registro_ini' label='${lbl:b_store_date_grater_than}' required='NO' fk='' mSelection='' condiction='Mayor o igual que (&gt;=)' type='date' tableName='smn_justificaciones' len='10'/>
+		<row field='jus_fecha_registro' id='jus_fecha_registro_fin' label='${lbl:b_store_date_less_than}' required='NO' fk='' mSelection='' condiction='Menor o igual que (&lt;=)' type='date' tableName='smn_justificaciones' len='10'/>
+	</filter>
+	<detail>SI</detail>
+	<insert>SI</insert>
+	<edit>SI</edit>
+	<delete>SI</delete>
+	<audit>Consulta</audit>
+	<grid>
+		<row field='smn_personal_id' label='${lbl:b_personal}@{select smn_control_acceso.smn_personal.smn_personal_id as id, smn_control_acceso.smn_personal.psl_num_control || &quot; - &quot;|| smn_control_acceso.smn_personal.psl_id_control_acceso as item from smn_control_acceso.smn_personal order by smn_control_acceso.smn_personal.psl_id_control_acceso}' fk='psl_num_control' tableName='smn_justificaciones' len='10' type='integer' align='left'/>
+		<row field='jus_tipo_actividad_rf' label='${lbl:b_activity_category}@{select smn_gip.smn_tipo_actividades.smn_tipo_actividades_id as id, smn_gip.smn_tipo_actividades.tya_codigo || &quot; - &quot;|| smn_gip.smn_tipo_actividades.tya_nombre as item from smn_gip.smn_tipo_actividades order by smn_gip.smn_tipo_actividades.tya_nombre}' fk='' tableName='smn_justificaciones' len='10' type='integer' align='left'/>
+		<row field='jus_fecha_incidencia' label='${lbl:b_incidence_date}' fk='' tableName='smn_justificaciones' len='10' type='date' align='center'/>
+		<row field='jus_hora_incidencia' label='${lbl:b_time_incident}' fk='' tableName='smn_justificaciones' len='5' type='varchar' align='left'/>
+		<row field='jus_tiempo_a_justificar' label='${lbl:b_time_to_justify}' fk='' tableName='smn_justificaciones' len='10' type='double' align='right'/>
+		<row field='jus_estatus_rf' label='${lbl:b_status}@{APR=${lbl:b_approved}|NAP=${lbl:b_not_approved}|PEN=${lbl:b_pending}}' fk='' tableName='smn_justificaciones' len='3' type='varchar' align='left'/>
+		<row field='jus_fecha_registro' label='${lbl:b_store_date}@{${def:date}}' fk='' tableName='smn_justificaciones' len='10' type='date' align='center'/>
+	</grid>
+	<mobile>false</mobile>
+</model>

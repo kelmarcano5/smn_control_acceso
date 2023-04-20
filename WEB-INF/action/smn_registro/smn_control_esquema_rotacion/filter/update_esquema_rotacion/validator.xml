@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<validator onerror='/action/error/validation/ajax'>
+	<parameter id='psl_esquema_rotacion_rf' type='integer' required='false' label='${lbl:b_rotation_scheme}' maxlen='10'/>
+	<parameter id='esquema_rotacion_nuevo' type='integer' required='true' label='${lbl:b_rotation_scheme}' maxlen='10'/>
+	<parameter id='id' type='integer' required='true' label='${lbl:b_personal}' maxlen='10'/>
+
+
+
+</validator>

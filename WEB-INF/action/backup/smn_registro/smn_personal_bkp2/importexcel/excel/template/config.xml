@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<config nodb="false">
+
+	<summary>
+		Exportar documento excel directo al browser
+	</summary>
+
+	<log>false</log>
+
+	<transaction>
+		<classname>dinamica.GenericTransaction</classname>
+		<validator>false</validator>
+		<transaction>false</transaction>
+		<jdbc-log>false</jdbc-log>
+		<recordset id="query-smnpersonal-template.sql" source="sql" scope="transaction" />
+		<recordset id='query-smnareasservicios.sql' source='sql' scope='transaction' />
+		<recordset id='query-smnvauxiliar.sql' source='sql' scope='transaction' />
+		<recordset id='query-smncargos.sql' source='sql' scope='transaction' />
+		<recordset id='query-smncategoriacargos.sql' source='sql' scope='transaction' />
+		<recordset id='query-smncentrocosto.sql' source='sql' scope='transaction' />
+		<recordset id='query-smnclaseauxiliar.sql' source='sql' scope='transaction' />
+		<recordset id='query-smnentidades.sql' source='sql' scope='transaction' />
+		<recordset id='query-smnestructuraorganizacional.sql' source='sql' scope='transaction' />
+		<recordset id='query-smnsucursales.sql' source='sql' scope='transaction' />
+		<recordset id='query-smnunidadesservicios.sql' source='sql' scope='transaction' />
+		<recordset id='query-habilitacontrolacceso.sql' source='sql' scope='transaction' />
+	</transaction>
+
+	<output>
+		<classname>domain.repgen.smn_registro.smn_personal.ExcelReportOutput</classname>
+	</output>
+		
+	<excel 
+		filename='${lbl:b_personal}.xls'
+		header-background='true' >
+		
+	<sheet recordset="query-smnpersonal-template.sql" sheetname="${lbl:b_personal}">
+	    
+		<col id='psl_num_control' label='${lbl:b_number_of_control}*' />
+		<col id='psl_clase_auxiliar' label='${lbl:b_auxiliary_class}*' />
+		<col id='psl_auxiliar' label='${lbl:b_auxiliary}*' />
+		<col id='psl_empresa' label='${lbl:b_entity}' />
+		<col id='psl_sucursal' label='${lbl:b_subsidiary}' />
+		<col id='psl_area_servicio' label='${lbl:b_service_area}' />
+		<col id='psl_unidad_servicio' label='${lbl:b_service_unit}' />
+		<col id='psl_centro_costo' label='${lbl:b_cost_centers}' />
+		<col id='psl_estructura_organiz' label='${lbl:b_organizational_structure}' />
+		<col id='psl_cargo' label='${lbl:b_positions}' />
+		<col id='psl_categoria_cargo' label='${lbl:b_position_category}' />
+		<col id='psl_habilita_acceso' label='${lbl:b_enables_access_control}*' />
+		<col id='psl_id_control_acceso' label='${lbl:b_id_access_control}' />
+		
+		<col id='psl_clase_auxiliar_reference' label='${lbl:b_auxiliary_class}*' />
+		<col id='psl_auxiliar_reference' label='${lbl:b_auxiliary}*' />
+		<col id='psl_empresa_reference' label='${lbl:b_entity}' />
+		<col id='psl_sucursal_reference' label='${lbl:b_subsidiary}' />
+		<col id='psl_area_servicio_reference' label='${lbl:b_service_area}' />
+		<col id='psl_unidad_servicio_reference' label='${lbl:b_service_unit}' />
+		<col id='psl_centro_costo_reference' label='${lbl:b_cost_centers}' />
+		<col id='psl_estructura_organiz_reference' label='${lbl:b_organizational_structure}' />
+		<col id='psl_cargo_reference' label='${lbl:b_positions}' />
+		<col id='psl_categoria_cargo_reference' label='${lbl:b_position_category}' />
+		<col id='psl_habilita_acceso_reference' label='${lbl:b_enables_access_control}*' />
+	</sheet>
+	
+	<sheet recordset='query-smnclaseauxiliar.sql' sheetname='${lbl:b_auxiliary_class}'>
+		<col id='cla_nombre' label='${lbl:b_name}' />
+	</sheet>
+	
+	<sheet recordset='query-smnvauxiliar.sql' sheetname='${lbl:b_auxiliary}'>
+		<col id='smn_item' label='${lbl:b_auxiliary}' />
+	</sheet>
+
+	<sheet recordset='query-smnentidades.sql' sheetname='${lbl:b_entity}'>
+		<col id='ent_descripcion_corta' label='${lbl:b_description}' />
+	</sheet>
+		
+	<sheet recordset='query-smnsucursales.sql' sheetname='${lbl:b_subsidiary}'>
+		<col id='suc_nombre' label='${lbl:b_name}' />
+	</sheet>
+
+	<sheet recordset='query-smnareasservicios.sql' sheetname='${lbl:b_service_area}'>
+		<col id='ase_descripcion' label='${lbl:b_description}' />
+	</sheet>
+		
+	<sheet recordset='query-smnunidadesservicios.sql' sheetname='${lbl:b_service_unit}'>
+		<col id='uns_descripcion' label='${lbl:b_description}' />
+	</sheet>
+		
+	<sheet recordset='query-smncentrocosto.sql' sheetname='${lbl:b_cost_centers}'>
+		<col id='cco_descripcion_corta' label='${lbl:b_description}' />
+	</sheet>
+	
+	<sheet recordset='query-smnestructuraorganizacional.sql' sheetname='${lbl:b_organizational_structure}'>
+		<col id='eor_nombre' label='${lbl:b_name}' />
+	</sheet>
+	
+	<sheet recordset='query-smncargos.sql' sheetname='${lbl:b_positions}'>
+		<col id='job_nombre' label='${lbl:b_name}' />
+	</sheet>
+	
+	<sheet recordset='query-smncategoriacargos.sql' sheetname='${lbl:b_position_category}'>
+		<col id='cac_nombre' label='${lbl:b_name}' />
+	</sheet>
+			
+	<sheet recordset='query-habilitacontrolacceso.sql' sheetname='${lbl:b_enables_access_control}'>
+		<col id='habilita_acceso' label='${lbl:b_enables_access_control}' />
+	</sheet>
+
+	</excel>
+
+</config>

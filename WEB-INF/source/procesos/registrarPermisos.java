@@ -72,7 +72,6 @@ public class registrarPermisos extends GenericTransaction{
 //			fw.write(timestamp+"--INICIO DE PROCESO: --");	                	
 	    	System.out.println("--INICIO DE PROCESO: --");
 
-	    	
 			//get db channel
 			Db db = getDb();
 			int permiso_id=0;
@@ -126,10 +125,6 @@ public class registrarPermisos extends GenericTransaction{
 //    			fw.write(timestamp+"Cantidad de planes de asistencia leidos : "+(c));
 				System.out.println("Cantidad de planes de asistencia leidos :"+c);
 
-    			
-        	
-            		
-		
 		} 
 		catch (Throwable e)
 		{
